@@ -15,6 +15,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Rust Cache
+      uses: Swatinem/rust-cache@v2.7.0    
     - name: Run
       run: cargo run --verbose
     # - name: Run tests
