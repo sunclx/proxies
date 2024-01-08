@@ -112,6 +112,6 @@ async fn get_yaml(url: &str, filename: &str) -> Result<()> {
     }
     let config = serde_yaml::to_string(&templ).unwrap();
 
-    fs::write("./config.yaml", &config).await?;
+    fs::write(format!("config_{filename}"), &config).await?;
     Ok(())
 }
