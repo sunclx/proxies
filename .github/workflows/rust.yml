@@ -1,12 +1,9 @@
 name: Rust
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  watch:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '30 5 * * *'
 
 env:
   CARGO_TERM_COLOR: always
