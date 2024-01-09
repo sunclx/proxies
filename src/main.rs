@@ -11,12 +11,18 @@ use types::Config;
 #[tokio::main]
 async fn main() -> Result<()> {
     get().await?;
-    let filename1 = "free.yaml";
-    let filename2 = "rx.yaml";
-    let filename3 = "srx.yaml";
+
     let url1 = "https://raw.githubusercontent.com/rxsweet/proxies/main/sub/free.yaml";
     let url2 = "https://raw.githubusercontent.com/rxsweet/proxies/main/sub/rx.yaml";
     let url3 = "https://raw.githubusercontent.com/rxsweet/proxies/main/sub/srx.yaml";
+    // 获取url1文件名
+    let filename1 = url1.split("/").last().unwrap();
+    let filename2 = url2.split("/").last().unwrap();
+    let filename3 = url3.split("/").last().unwrap();
+
+    // let filename1 = "free.yaml";
+    // let filename2 = "rx.yaml";
+    // let filename3 = "srx.yaml";
 
     let (r1, r2, r3) = tokio::join!(
         get_yaml(url1, filename2),
@@ -73,33 +79,81 @@ async fn get_yaml(url: &str, filename: &str) -> Result<()> {
             continue;
         }
         let group = group.as_mapping_mut().unwrap();
-        let name = group["name"].as_str().unwrap().to_owned();
+        let name = group["name"].as_str().unwrap_or("").to_owned();
 
         if let Some(proxies) = group["proxies"].as_sequence_mut() {
             match name.as_str() {
                 "🔰 节点选择" => {
-                    proxies.extend(groups["手动切换"].as_sequence().unwrap().iter().cloned());
+                    proxies.extend(
+                        groups["手动切换"]
+                            .as_sequence()
+                            .unwrap_or(&vec![])
+                            .iter()
+                            .cloned(),
+                    );
                 }
                 "♻️ 自动选择" => {
-                    proxies.extend(groups["自动选择"].as_sequence().unwrap().iter().cloned());
+                    proxies.extend(
+                        groups["自动选择"]
+                            .as_sequence()
+                            .unwrap_or(&vec![])
+                            .iter()
+                            .cloned(),
+                    );
                 }
                 "负载均衡" => {
-                    proxies.extend(groups["负载均衡"].as_sequence().unwrap().iter().cloned());
+                    proxies.extend(
+                        groups["负载均衡"]
+                            .as_sequence()
+                            .unwrap_or(&vec![])
+                            .iter()
+                            .cloned(),
+                    );
                 }
                 "🌍 国外媒体" => {
-                    proxies.extend(groups["负载均衡"].as_sequence().unwrap().iter().cloned());
+                    proxies.extend(
+                        groups["负载均衡"]
+                            .as_sequence()
+                            .unwrap_or(&vec![])
+                            .iter()
+                            .cloned(),
+                    );
                 }
                 "🌏 国内媒体" => {
-                    proxies.extend(groups["中国节点"].as_sequence().unwrap().iter().cloned());
+                    proxies.extend(
+                        groups["中国节点"]
+                            .as_sequence()
+                            .unwrap_or(&vec![])
+                            .iter()
+                            .cloned(),
+                    );
                 }
                 "Ⓜ️ 微软服务" => {
-                    proxies.extend(groups["手动切换"].as_sequence().unwrap().iter().cloned());
+                    proxies.extend(
+                        groups["手动切换"]
+                            .as_sequence()
+                            .unwrap_or(&vec![])
+                            .iter()
+                            .cloned(),
+                    );
                 }
                 "📲 电报信息" => {
-                    proxies.extend(groups["手动切换"].as_sequence().unwrap().iter().cloned());
+                    proxies.extend(
+                        groups["手动切换"]
+                            .as_sequence()
+                            .unwrap_or(&vec![])
+                            .iter()
+                            .cloned(),
+                    );
                 }
                 "🍎 苹果服务" => {
-                    proxies.extend(groups["手动切换"].as_sequence().unwrap().iter().cloned());
+                    proxies.extend(
+                        groups["手动切换"]
+                            .as_sequence()
+                            .unwrap_or(&vec![])
+                            .iter()
+                            .cloned(),
+                    );
                 }
                 "🎯 全球直连" => {}
                 "🛑 全球拦截" => {}
