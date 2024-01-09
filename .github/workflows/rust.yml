@@ -28,6 +28,6 @@ jobs:
         git config --global user.email sunclx@gmail.com
         git config --global user.name sunclx
         git add .
-        git status | grep -q "nothing to commit" && echo "没有更新内容，无需commit" || git commit -m "cargo run auto" && echo "已提交更新内容，注释为：cargo run auto"
+        git status | grep -q "nothing to commit" && echo "没有更新内容，无需commit" || git commit -m "cargo run auto" 
         git push
     # git commit --allow-empty -m "cargo run auto" -a
