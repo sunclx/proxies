@@ -13,6 +13,8 @@ pub struct Config {
     pub proxies: Vec<Value>,
     pub proxy_groups: Vec<Value>,
     pub rules: Value,
+    #[serde(flatten)]
+    pub value: Value,
 }
 
 // #[derive(Debug, Serialize, Deserialize)]
