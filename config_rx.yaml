@@ -10,56 +10,56 @@ proxies:
   port: 20032
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 9647f2fe-687a-49ad-b47e-8557451ff1b0
+  password: 83cb1337-25ce-4615-a56e-325b9f514d1b
   udp: true
 - name: 美国（用前更新订阅） - vip666.xyz
   server: node.websitea.xyz
   port: 20031
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 9647f2fe-687a-49ad-b47e-8557451ff1b0
+  password: 83cb1337-25ce-4615-a56e-325b9f514d1b
   udp: true
 - name: 新加坡 - vip666.xyz
   server: node.websitea.xyz
   port: 20035
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 9647f2fe-687a-49ad-b47e-8557451ff1b0
+  password: 83cb1337-25ce-4615-a56e-325b9f514d1b
   udp: true
 - name: 香港-https://vip666.xyz - vip666.xyz
   server: node.websitea.xyz
   port: 20036
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 9647f2fe-687a-49ad-b47e-8557451ff1b0
+  password: 83cb1337-25ce-4615-a56e-325b9f514d1b
   udp: true
 - name: 荷兰 - vip666.xyz
   server: node.websitea.xyz
   port: 20037
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 9647f2fe-687a-49ad-b47e-8557451ff1b0
+  password: 83cb1337-25ce-4615-a56e-325b9f514d1b
   udp: true
 - name: 美国-VIP - vip666.xyz
   server: node.websitea.xyz
   port: 20038
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 9647f2fe-687a-49ad-b47e-8557451ff1b0
+  password: 83cb1337-25ce-4615-a56e-325b9f514d1b
   udp: true
 - name: 韩国（最新地址：help.vip666.xyz） - vip666.xyz
   server: node.websitea.xyz
   port: 20039
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 9647f2fe-687a-49ad-b47e-8557451ff1b0
+  password: 83cb1337-25ce-4615-a56e-325b9f514d1b
   udp: true
 - name: 中国香港2 - vip666.xyz
   server: node.websitea.xyz
   port: 20041
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 9647f2fe-687a-49ad-b47e-8557451ff1b0
+  password: 83cb1337-25ce-4615-a56e-325b9f514d1b
   udp: true
 - name: Hongkong-香港 - 一机场
   server: frontend.yijianlian.app
@@ -181,7 +181,7 @@ proxies:
   server: us-west-anycast.lnaspiring.com
   port: 80
   type: vmess
-  uuid: 07daf48b-1cca-4a96-98f5-2607a7d67e40
+  uuid: fce9d0cd-8f62-4fc6-8d0f-f1905af672a4
   alterId: 0
   cipher: auto
   tls: false
@@ -196,7 +196,7 @@ proxies:
   server: ap-northeast-anycast.lnaspiring.com
   port: 80
   type: vmess
-  uuid: 07daf48b-1cca-4a96-98f5-2607a7d67e40
+  uuid: fce9d0cd-8f62-4fc6-8d0f-f1905af672a4
   alterId: 0
   cipher: auto
   tls: false
@@ -301,532 +301,532 @@ proxies:
   port: 18979
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 香港2 | 1x - Free Cloud
   server: sh.2s.lol
   port: 41947
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 香港3 | 1x - Free Cloud
   server: gd.2s.lol
   port: 11513
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 香港4 | 0.1x - Free Cloud
   server: shdx.2s.lol
   port: 44023
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 香港5 | 0.1x - Free Cloud
   server: shdx.2s.lol
   port: 53250
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 台湾1 | 1x - Free Cloud
   server: gd.2s.lol
   port: 39821
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 日本1 | 1x - Free Cloud
   server: js.2s.lol
   port: 41877
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 日本2 | 1x - Free Cloud
   server: gd.2s.lol
   port: 40577
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 日本3 | 1x - Free Cloud
   server: sh.2s.lol
   port: 32407
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 日本4 | 1.5x - Free Cloud
   server: gd.2s.lol
   port: 23281
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 日本5 | 1.5x - Free Cloud
   server: gd.2s.lol
   port: 19183
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 韩国1 | 1x - Free Cloud
   server: sh.2s.lol
   port: 19297
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 韩国2 | 1x - Free Cloud
   server: sh.2s.lol
   port: 36521
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 韩国3 | 1x - Free Cloud
   server: js.2s.lol
   port: 32443
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 韩国4 | 1x - Free Cloud
   server: sh.2s.lol
   port: 33391
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 澳大利亚1 | 1x - Free Cloud
   server: sh.2s.lol
   port: 20767
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 澳大利亚2 | 1x - Free Cloud
   server: sh.2s.lol
   port: 15753
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 澳大利亚3 | 1x - Free Cloud
   server: gd.2s.lol
   port: 40587
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 澳大利亚4 | 1x - Free Cloud
   server: gd.2s.lol
   port: 44625
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 新加坡1 | 1x - Free Cloud
   server: shdx.2s.lol
   port: 46237
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 新加坡2 | 1.5x - Free Cloud
   server: gd.2s.lol
   port: 16773
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 印度1 | 1x - Free Cloud
-  server: shdx.2s.lol
+  server: js.2s.lol
   port: 22387
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 印度2 | 1x - Free Cloud
-  server: shdx.2s.lol
+  server: gd.2s.lol
   port: 36203
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 印度3 | 1x - Free Cloud
-  server: shdx.2s.lol
+  server: sh.2s.lol
   port: 17349
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 印度4 | 1x - Free Cloud
   server: gd.2s.lol
   port: 42987
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 印度5 | 1x - Free Cloud
   server: gd.2s.lol
   port: 47587
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 印度6 | 1x - Free Cloud
   server: gd.2s.lol
   port: 29977
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 印度7 | 1x - Free Cloud
   server: gd.2s.lol
   port: 43191
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 印度8 | 1x - Free Cloud
   server: sh.2s.lol
   port: 11065
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 印度9 | 1x - Free Cloud
   server: js.2s.lol
   port: 41245
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 美国1 | 1x - Free Cloud
   server: js.2s.lol
   port: 43823
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 美国2 | 1x - Free Cloud
   server: sh.2s.lol
   port: 24083
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 美国3 | 1x - Free Cloud
   server: sh.2s.lol
   port: 44530
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 加拿大1 | 1x - Free Cloud
   server: js.2s.lol
   port: 36871
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 加拿大2 | 1x - Free Cloud
   server: sh.2s.lol
   port: 32537
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 英国1 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 13324
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 英国2 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 12431
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 英国3 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 39950
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 德国1 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 19917
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 德国2 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 15438
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 德国3 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 33251
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 德国4 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 23419
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 法国1 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 58602
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 法国2 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 19841
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 法国3 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 12798
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 法国4 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 26859
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 墨西哥1 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 10273
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 墨西哥2 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 16461
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 墨西哥3 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 57592
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 荷兰1 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 46303
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 荷兰2 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 24273
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 荷兰3 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 53245
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 荷兰4 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 55675
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 荷兰5 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 19464
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 荷兰6 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 24896
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 智利1 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 47375
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 智利2 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 52826
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 巴西1 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 48036
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 巴西2 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 42873
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 巴西3 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 23173
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 巴西4 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 42877
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 巴西5 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 54135
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 巴西6 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 53136
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 南非1 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 38266
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 南非2 | 0.5x - Free Cloud
   server: shdx.2s.lol
   port: 14788
   type: ss
   cipher: aes-128-gcm
-  password: e5b7ed4a-da53-4942-b1e2-5f7387c634d6
+  password: 12a30f43-5613-4015-9d66-319d7b108c49
   udp: true
 - name: 香港1 - 花呀～
   server: cu1.guguyun.xyz
   port: 43007
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 香港2 - 花呀～
   server: cm1.ggy.app
   port: 28389
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 新加坡1 - 花呀～
   server: cu1.guguyun.xyz
   port: 46683
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 新加坡2 - 花呀～
   server: cm1.ggy.app
   port: 24509
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 美国1 - 花呀～
   server: cu1.guguyun.xyz
   port: 38867
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 美国2 - 花呀～
   server: cu1.guguyun.xyz
   port: 37088
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 日本1 - 花呀～
   server: cu1.guguyun.xyz
   port: 51713
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 日本2 - 花呀～
   server: cu1.guguyun.xyz
   port: 16505
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 香港3 - 花呀～
   server: cu1.guguyun.xyz
   port: 49144
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 香港4 - 花呀～
   server: cu1.guguyun.xyz
   port: 52671
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: 香港5 - 花呀～
   server: cm1.ggy.app
   port: 18570
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5c764a69-eccb-451d-aa23-e38512233f9b
+  password: 16b525f9-abd1-4d01-8ce3-ccd2048fc452
   udp: true
 - name: USBGP-Nano - 闪极云
   server: 165.3.122.145
@@ -890,34 +890,34 @@ proxies:
   port: 51310
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: bcc25fb9-0157-440a-b69d-c58d8d1936cb
+  password: db5fd733-332b-4f74-8499-218bea4b4f72
   udp: true
 - name: US美国 A - 可乐云
   server: us.colacloud.site
   port: 20552
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: bcc25fb9-0157-440a-b69d-c58d8d1936cb
+  password: db5fd733-332b-4f74-8499-218bea4b4f72
   udp: true
 - name: SG新加坡 A - 可乐云
   server: sg.colacloud.site
   port: 20152
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: bcc25fb9-0157-440a-b69d-c58d8d1936cb
+  password: db5fd733-332b-4f74-8499-218bea4b4f72
   udp: true
 - name: KR韩国 A - 可乐云
   server: kr.colacloud.site
   port: 20352
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: bcc25fb9-0157-440a-b69d-c58d8d1936cb
+  password: db5fd733-332b-4f74-8499-218bea4b4f72
   udp: true
 - name: 01新加坡节点Trojan - 星舰基地 | xStarship
   server: sg01.xstarship.com
   port: 56789
   type: trojan
-  password: 395c83ac-15a7-4e60-9bc1-82c54fa1e156
+  password: 60c887c2-a7fe-4ece-b5f2-ab4c18f8c13b
   sni: sg01.xstarship.com
   skip-cert-verify: true
   udp: true
@@ -925,7 +925,7 @@ proxies:
   server: us01.xstarship.com
   port: 56789
   type: trojan
-  password: 395c83ac-15a7-4e60-9bc1-82c54fa1e156
+  password: 60c887c2-a7fe-4ece-b5f2-ab4c18f8c13b
   sni: us01.xstarship.com
   skip-cert-verify: true
   udp: true
@@ -934,20 +934,20 @@ proxies:
   port: 56789
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 395c83ac-15a7-4e60-9bc1-82c54fa1e156
+  password: 60c887c2-a7fe-4ece-b5f2-ab4c18f8c13b
   udp: true
 - name: 01美国洛杉机节点Shadowsocks - 星舰基地 | xStarship
   server: us01.xstarship.com
   port: 56789
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 395c83ac-15a7-4e60-9bc1-82c54fa1e156
+  password: 60c887c2-a7fe-4ece-b5f2-ab4c18f8c13b
   udp: true
 - name: 01新加坡节点Vmess - 星舰基地 | xStarship
   server: sg01.xstarship.com
   port: 56789
   type: vmess
-  uuid: 395c83ac-15a7-4e60-9bc1-82c54fa1e156
+  uuid: 60c887c2-a7fe-4ece-b5f2-ab4c18f8c13b
   alterId: 0
   cipher: auto
   tls: true
@@ -962,7 +962,7 @@ proxies:
   server: us01.xstarship.com
   port: 56789
   type: vmess
-  uuid: 395c83ac-15a7-4e60-9bc1-82c54fa1e156
+  uuid: 60c887c2-a7fe-4ece-b5f2-ab4c18f8c13b
   alterId: 0
   cipher: auto
   tls: true
@@ -1278,273 +1278,273 @@ proxies:
   port: 21881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 香港 / 华东｜HK - 小白云
   server: hk2.iepl.cooc.icu
   port: 22881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 香港 / 备用｜HK - 小白云
   server: hk3.iepl.cooc.icu
   port: 23881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 日本 / 华东｜JP - 小白云
   server: jp1.iepl.cooc.icu
   port: 47100
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 日本 / 华南｜JP - 小白云
   server: jp2.iepl.cooc.icu
   port: 47101
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 日本 / 备用｜JP - 小白云
   server: jp3.iepl.cooc.icu
   port: 19881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 美国 / 华东｜US - 小白云
   server: usa1.iepl.cooc.icu
   port: 31881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 美国 / 华南｜US - 小白云
   server: usa2.iepl.cooc.icu
   port: 32881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 美国 / 备用｜US - 小白云
   server: usa3.iepl.cooc.icu
   port: 33881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 美国 / 华东 | 家宽 - 小白云
   server: usa4.iepl.cooc.icu
   port: 34881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 美国 / 华南 | 家宽 - 小白云
   server: usa5.iepl.cooc.icu
   port: 35881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 韩国 / 华东｜KR - 小白云
   server: kr1.iepl.cooc.icu
   port: 35101
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 韩国 / 华南｜KR - 小白云
   server: kr2.iepl.cooc.icu
   port: 35102
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 新加坡 / 华南｜SG - 小白云
   server: sg1.iepl.cooc.icu
   port: 35105
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 新加坡 / 华东｜SG - 小白云
   server: sg2.iepl.cooc.icu
   port: 35106
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 台湾 / 华东｜TW - 小白云
   server: tw1.iepl.cooc.icu
   port: 35109
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 台湾 / 华南｜TW - 小白云
   server: tw2.iepl.cooc.icu
   port: 35110
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 越南 / 华东 | 原生 - 小白云
   server: vn1.iepl.cooc.icu
   port: 35601
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 越南 / 华南 | 原生 - 小白云
   server: vn2.iepl.cooc.icu
   port: 35602
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 马来 / 华南 | 原生 - 小白云
   server: mas1.iepl.cooc.icu
   port: 35603
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 马来 / 华东 | 原生 - 小白云
   server: mas2.iepl.cooc.icu
   port: 35604
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 英国 / 华东 | 原生 - 小白云
   server: uk1.iepl.cooc.icu
   port: 35605
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 英国 / 华南 | 原生 - 小白云
   server: uk2.iepl.cooc.icu
   port: 35606
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 德国 / 华南 | 原生 - 小白云
   server: ger1.iepl.cooc.icu
   port: 35607
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 德国 / 华东 | 原生 - 小白云
   server: ger2.iepl.cooc.icu
   port: 35608
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 法国 / 华南 | 原生 - 小白云
   server: fr1.iepl.cooc.icu
   port: 35611
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 法国 / 华东 | 原生 - 小白云
   server: fr2.iepl.cooc.icu
   port: 35612
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 1HK｜Overseas users - 小白云
   server: hk.cooc.icu
   port: 31511
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: JP｜Overseas users - 小白云
   server: jp.cooc.icu
   port: 33881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: US｜Overseas users - 小白云
   server: 154.9.249.29
   port: 35881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: KR｜Overseas users - 小白云
   server: kr.cooc.icu
   port: 37882
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: SG｜Overseas users - 小白云
   server: sg.cooc.icu
   port: 34881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: TW｜Overseas users - 小白云
   server: tw.cooc.icu
   port: 36881
   type: ss
   cipher: aes-256-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: MO｜Overseas users - 小白云
   server: mo.cooc.icu
   port: 31511
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: VN｜Overseas users - 小白云
   server: vn.cooc.icu
   port: 31511
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: MAS｜Overseas users - 小白云
   server: mas.cooc.icu
   port: 31511
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: UK｜Overseas users - 小白云
   server: uk.cooc.icu
   port: 31511
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: GER｜Overseas users - 小白云
   server: 185.39.51.197
   port: 31511
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: FR｜Overseas users - 小白云
   server: fr.cooc.icu
   port: 31511
   type: ss
   cipher: aes-128-gcm
-  password: 39bc544b-5e69-4335-a3f8-227e127865f8
+  password: 28e12519-f131-4ea6-a59e-9d11987ce6d8
   udp: true
 - name: 中转•香港301•高速 - 飞翔吧
   server: gy.58n.net
@@ -1967,7 +1967,7 @@ proxies:
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -1982,7 +1982,7 @@ proxies:
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -1997,7 +1997,7 @@ proxies:
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -2012,7 +2012,7 @@ proxies:
   server: 17.v2-ray.cyou
   port: 23617
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -2027,7 +2027,7 @@ proxies:
   server: 8.v2-ray.cyou
   port: 23608
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -2037,7 +2037,7 @@ proxies:
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -2052,7 +2052,7 @@ proxies:
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -2067,7 +2067,7 @@ proxies:
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -2082,7 +2082,7 @@ proxies:
   server: 5.v2-ray.cyou
   port: 23605
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -2097,7 +2097,7 @@ proxies:
   server: 13.v2-ray.cyou
   port: 23613
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -2112,7 +2112,7 @@ proxies:
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: 9d6328b3-7480-3c80-a3e2-6688344cce40
+  uuid: e1423a7b-5e1b-3cbe-8014-3d836c4a5d6e
   alterId: 2
   cipher: auto
   tls: false
@@ -2319,7 +2319,7 @@ proxies:
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: ca05008a-62c1-4383-ba1c-16fb13f41562
+  uuid: 3c2c08a4-2d1b-4a45-a34b-879013bd4c7b
   alterId: 0
   cipher: auto
   tls: false
@@ -2334,7 +2334,7 @@ proxies:
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: ca05008a-62c1-4383-ba1c-16fb13f41562
+  uuid: 3c2c08a4-2d1b-4a45-a34b-879013bd4c7b
   alterId: 0
   cipher: auto
   tls: false
@@ -2349,7 +2349,7 @@ proxies:
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: ca05008a-62c1-4383-ba1c-16fb13f41562
+  uuid: 3c2c08a4-2d1b-4a45-a34b-879013bd4c7b
   alterId: 0
   cipher: auto
   tls: false
@@ -2495,7 +2495,7 @@ proxies:
   server: mffdallroad.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2510,7 +2510,7 @@ proxies:
   server: mffdallroad.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2525,7 +2525,7 @@ proxies:
   server: v2.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2540,7 +2540,7 @@ proxies:
   server: v2.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2555,7 +2555,7 @@ proxies:
   server: v2.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2570,7 +2570,7 @@ proxies:
   server: v2.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2585,7 +2585,7 @@ proxies:
   server: v2.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2600,7 +2600,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2615,7 +2615,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2630,7 +2630,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2645,7 +2645,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2660,7 +2660,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2675,7 +2675,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2690,7 +2690,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20020
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: true
@@ -2705,7 +2705,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20020
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: true
@@ -2720,7 +2720,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20020
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: true
@@ -2735,7 +2735,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2750,7 +2750,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2765,7 +2765,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2780,7 +2780,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2795,7 +2795,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2810,7 +2810,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2825,7 +2825,7 @@ proxies:
   server: v2-zz.996699.top
   port: 20021
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2841,55 +2841,55 @@ proxies:
   port: 20023
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ad35699c-3deb-4e29-b90c-239686e5139f
+  password: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   udp: true
 - name: 【中转】🇺🇸 美国 | ss - 魔法の小屋
   server: ss.996699.top
   port: 20024
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ad35699c-3deb-4e29-b90c-239686e5139f
+  password: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   udp: true
 - name: 【中转】🇰🇷 韩国 | ss - 魔法の小屋
   server: ss.996699.top
   port: 20025
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ad35699c-3deb-4e29-b90c-239686e5139f
+  password: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   udp: true
 - name: 【中转】🇭🇰 香港2 | ss - 魔法の小屋
   server: ss.996699.top
   port: 20027
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ad35699c-3deb-4e29-b90c-239686e5139f
+  password: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   udp: true
 - name: 【中转】🇸🇬 新加坡 | ss - 魔法の小屋
   server: ss.996699.top
   port: 20028
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ad35699c-3deb-4e29-b90c-239686e5139f
+  password: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   udp: true
 - name: 【中转】🇬🇧 英国 | ss - 魔法の小屋
   server: ss.996699.top
   port: 20029
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ad35699c-3deb-4e29-b90c-239686e5139f
+  password: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   udp: true
 - name: 【中转】🇹🇼 台湾 | ss - 魔法の小屋
   server: ss.996699.top
   port: 20022
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ad35699c-3deb-4e29-b90c-239686e5139f
+  password: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   udp: true
 - name: 【直连】英国|路线1 - 魔法の小屋
   server: cfcdn.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2904,7 +2904,7 @@ proxies:
   server: cfcdn.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2919,7 +2919,7 @@ proxies:
   server: cfcdn.996699.top
   port: 80
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2934,7 +2934,7 @@ proxies:
   server: cfcdn.996699.top
   port: 80
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2949,7 +2949,7 @@ proxies:
   server: cfcdn.996699.top
   port: 80
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2964,7 +2964,7 @@ proxies:
   server: cfcdn.996699.top
   port: 80
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2979,7 +2979,7 @@ proxies:
   server: cfcdn.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -2994,7 +2994,7 @@ proxies:
   server: cfcdn.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -3009,7 +3009,7 @@ proxies:
   server: cfcdn.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -3024,7 +3024,7 @@ proxies:
   server: cfcdn.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -3039,7 +3039,7 @@ proxies:
   server: cfcdn.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -3054,7 +3054,7 @@ proxies:
   server: cfcdn.996699.top
   port: 2086
   type: vmess
-  uuid: ad35699c-3deb-4e29-b90c-239686e5139f
+  uuid: b0986c6a-5a3b-49a6-bca1-43c0a7da31db
   alterId: 0
   cipher: auto
   tls: false
@@ -3232,7 +3232,7 @@ proxies:
   udp: true
 - name: 香港|流量訂多了80TB白天給你們隨便用|公益 - 大白
   server: 112.26.46.139
-  port: 61092
+  port: 63004
   type: vmess
   uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e
   alterId: 0
@@ -3246,8 +3246,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
-  server: 112.26.46.139
-  port: 64006
+  server: 112.26.46.141
+  port: 63011
   type: vmess
   uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e
   alterId: 0
@@ -3261,8 +3261,8 @@ proxies:
       Host: data-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-  server: 112.26.46.139
-  port: 64082
+  server: 112.26.46.129
+  port: 64006
   type: vmess
   uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e
   alterId: 0
@@ -3276,8 +3276,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
-  server: 112.26.46.139
-  port: 61002
+  server: 112.26.46.129
+  port: 62011
   type: vmess
   uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e
   alterId: 0
@@ -3292,7 +3292,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
   server: 112.26.46.139
-  port: 63092
+  port: 62004
   type: vmess
   uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e
   alterId: 0
@@ -3307,7 +3307,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
   server: 112.26.46.129
-  port: 62011
+  port: 61002
   type: vmess
   uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e
   alterId: 0
@@ -3336,8 +3336,8 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-  server: 112.26.46.139
-  port: 64092
+  server: 112.26.46.129
+  port: 61005
   type: vmess
   uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e
   alterId: 0
@@ -3578,7 +3578,7 @@ proxies:
   server: us01.h.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 998fe242-bb11-4f2c-854b-4e58edc3ab88
+  uuid: b49c74b7-027f-49f5-8e66-ff168ea7a9e0
   alterId: 0
   cipher: auto
   tls: true
@@ -3593,7 +3593,7 @@ proxies:
   server: hk01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 998fe242-bb11-4f2c-854b-4e58edc3ab88
+  uuid: b49c74b7-027f-49f5-8e66-ff168ea7a9e0
   alterId: 0
   cipher: auto
   tls: true
@@ -3608,7 +3608,7 @@ proxies:
   server: tr01.h.csznet.eu.org
   port: 40660
   type: vmess
-  uuid: 998fe242-bb11-4f2c-854b-4e58edc3ab88
+  uuid: b49c74b7-027f-49f5-8e66-ff168ea7a9e0
   alterId: 0
   cipher: auto
   tls: true
@@ -3623,7 +3623,7 @@ proxies:
   server: cera.feedcc.workers.dev
   port: 443
   type: vmess
-  uuid: 998fe242-bb11-4f2c-854b-4e58edc3ab88
+  uuid: b49c74b7-027f-49f5-8e66-ff168ea7a9e0
   alterId: 0
   cipher: auto
   tls: true
@@ -3638,7 +3638,7 @@ proxies:
   server: iij2.csznet.eu.org
   port: 3306
   type: vmess
-  uuid: 998fe242-bb11-4f2c-854b-4e58edc3ab88
+  uuid: b49c74b7-027f-49f5-8e66-ff168ea7a9e0
   alterId: 0
   cipher: auto
   tls: true
@@ -3653,7 +3653,7 @@ proxies:
   server: kr01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 998fe242-bb11-4f2c-854b-4e58edc3ab88
+  uuid: b49c74b7-027f-49f5-8e66-ff168ea7a9e0
   alterId: 0
   cipher: auto
   tls: true
