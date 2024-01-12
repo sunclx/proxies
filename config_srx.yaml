@@ -5,36 +5,21 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 1.--_US_美国+1
-  server: 212.102.47.198
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-  udp: true
-- name: 2.--_ES_西班牙
+- name: 1.--_ES_西班牙
   server: 92.38.171.89
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 3.--|US|美国|@wxgqlfx|18
-  server: 172.233.198.228
-  port: 80
-  type: vmess
-  uuid: 9523e097-9fb0-4f2a-ad9d-8d7dcc392a1f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 172.233.198.228
+- name: 2.--speednode_00%�
+  server: 185.180.12.81
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 4.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
+- name: 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
   server: 95.164.84.131
   port: 80
   type: vmess
@@ -49,556 +34,116 @@ proxies:
     headers:
       Host: 95.164.84.131
   udp: true
-- name: 5.--US美国(mibei77.com 米贝节点分享)
-  server: mehdi18.mehdimoghaddam.fun
-  port: 2086
+- name: 4.--@Hope_Net-join-us-on-Telegram
+  server: 94.130.168.175
+  port: 52203
   type: vmess
-  uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: mehdi18.mehdimoghaddam.fun
-  udp: true
-- name: 6.--NL_youtube@资源分享师_172
-  server: 93.123.17.139
-  port: 80
-  type: vmess
-  uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: sazgar.serveirc.com
-  udp: true
-- name: 7.--US_youtube@资源分享师_189
-  server: high.forwardv2raytelegramchannel.fun
-  port: 2095
-  type: vmess
-  uuid: 703d8835-9973-4354-ad63-936b8e797106
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: high.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 8.--US_youtube@资源分享师_142
-  server: arvancloud14.forwardv2raytelegramchannel.fun
-  port: 2095
-  type: vmess
-  uuid: 703d8835-9973-4354-ad63-936b8e797106
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud14.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 9.--US_youtube@资源分享师_177
-  server: active.forwardv2raytelegramchannel.fun
-  port: 8880
-  type: vmess
-  uuid: af251e6e-69d8-49d0-8144-77ba0284a0dc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: active.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 10.--US_youtube@资源分享师_176
-  server: arvancloud16.forwardv2raytelegramchannel.fun
-  port: 2095
-  type: vmess
-  uuid: 703d8835-9973-4354-ad63-936b8e797106
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud16.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 11.--US_youtube@资源分享师_144
-  server: arvancloud103.forwardv2raytelegramchannel.fun
-  port: 2082
-  type: vmess
-  uuid: b7bd0edc-19c7-47f6-b2da-973f54449357
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud103.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 12.--US_youtube@资源分享师_257
-  server: arvancloud15.forwardv2raytelegramchannel.fun
-  port: 2095
-  type: vmess
-  uuid: 703d8835-9973-4354-ad63-936b8e797106
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud15.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 13.--US_youtube@资源分享师_102
-  server: xyz.forwardv2raytelegramchannel.fun
-  port: 2052
-  type: vmess
-  uuid: e3132161-e4a1-40ea-96ce-afb5c3f95600
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: xyz.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 14.--VPN招代理电报联系@xiaoying229
-  server: 217.160.45.31
-  port: 8880
-  type: vmess
-  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 217.160.45.31
-  udp: true
-- name: 15.--US_youtube@资源分享师_199
-  server: xxx.forwardv2raytelegramchannel.fun
-  port: 8880
-  type: vmess
-  uuid: af251e6e-69d8-49d0-8144-77ba0284a0dc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: xxx.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 16.--US_youtube@资源分享师_171
-  server: arvancloud15.forwardv2raytelegramchannel.fun
-  port: 2052
-  type: vmess
-  uuid: e3132161-e4a1-40ea-96ce-afb5c3f95600
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud15.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 17.--荷兰(yudou66.com 玉豆免费节点)
-  server: 93.123.17.139
-  port: 443
-  type: vmess
-  uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: sazgar.serveirc.com
-  udp: true
-- name: 18.--US_youtube@资源分享师_185
-  server: arvancloud3.forwardv2raytelegramchannel.fun
-  port: 2082
-  type: vmess
-  uuid: b7bd0edc-19c7-47f6-b2da-973f54449357
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud3.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 19.--US_youtube@资源分享师_181
-  server: arvancloud6.forwardv2raytelegramchannel.fun
-  port: 8080
-  type: vmess
-  uuid: 36e449db-a3a1-456c-a579-0695df979682
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud6.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 20.--US_youtube@资源分享师_183
-  server: arvancloud15.forwardv2raytelegramchannel.fun
-  port: 8080
-  type: vmess
-  uuid: 36e449db-a3a1-456c-a579-0695df979682
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud15.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 21.--US_youtube@资源分享师_201
-  server: arvancloud14.forwardv2raytelegramchannel.fun
-  port: 2052
-  type: vmess
-  uuid: e3132161-e4a1-40ea-96ce-afb5c3f95600
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud14.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 22.--US_youtube@资源分享师_254
-  server: arvancloud16.forwardv2raytelegramchannel.fun
-  port: 8880
-  type: vmess
-  uuid: af251e6e-69d8-49d0-8144-77ba0284a0dc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud16.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 23.--US美国6
-  server: 38.180.33.136
-  port: 50104
-  type: vmess
-  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
+  uuid: 0d3766e5-3a61-4a8b-bf34-7e48beab2e88
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 24.--US_youtube@资源分享师_122
-  server: xyz.forwardv2raytelegramchannel.fun
-  port: 2086
-  type: vmess
-  uuid: e8d9c3cf-4df8-4b02-a011-85a42ca6069a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: xyz.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 25.--US_youtube@资源分享师_165
-  server: arvan.forwardv2raytelegramchannel.fun
-  port: 2095
-  type: vmess
-  uuid: 703d8835-9973-4354-ad63-936b8e797106
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvan.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 26.---2149-RELAY【ccbaohe.com〗 永久免费节点机场
-  server: mehdi14.mehdimoghaddam.fun
-  port: 2082
-  type: vmess
-  uuid: 089b3e45-1be5-4dad-8754-6cec4ccb3ae9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: mehdi14.mehdimoghaddam.fun
-  udp: true
-- name: 27.--US_youtube@资源分享师_202
-  server: arvancloud3.forwardv2raytelegramchannel.fun
-  port: 8880
-  type: vmess
-  uuid: af251e6e-69d8-49d0-8144-77ba0284a0dc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud3.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 28.--日本【TG：@ccbaohe】定时更新节点订阅
-  server: 167.179.111.237
-  port: 14935
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 29.--US_youtube@资源分享师_231
-  server: 92.223.118.15
-  port: 443
-  type: vmess
-  uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: sazgar.serveirc.com
-  udp: true
-- name: 30.--德国(yudou66.com 玉豆免费节点)+4
-  server: 92.223.124.48
-  port: 80
-  type: vmess
-  uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: sazgar.serveirc.com
-  udp: true
-- name: 31.--德国(yudou66.com 玉豆免费节点)
-  server: 92.223.124.48
-  port: 443
-  type: vmess
-  uuid: 932e7399-2e7b-4642-b7d5-d2af283c7f86
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud.servehttp.com
-  udp: true
-- name: 32.--US_youtube@资源分享师_137
-  server: active.forwardv2raytelegramchannel.fun
-  port: 2082
-  type: vmess
-  uuid: b7bd0edc-19c7-47f6-b2da-973f54449357
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: active.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 33.--_FR_法国_1
-  server: 145.239.6.202
-  port: 4444
+- name: 5.--speednode_00%�+1
+  server: 103.172.116.79
+  port: 9042
   type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
+  cipher: aes-256-cfb
+  password: S7KwUu7yBy58S3Ga
   udp: true
-- name: 34.--US_youtube@资源分享师_149
-  server: m3hdi.forwardv2raytelegramchannel.fun
-  port: 2052
+- name: 6.--_US_美国+17
+  server: 212.102.47.198
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
+  udp: true
+- name: 7.--speednode_00%�+2
+  server: 103.172.116.90
+  port: 9041
+  type: ss
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+  udp: true
+- name: 8.--英国 伦敦Amazon数据中心
+  server: series-a1.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 9.--美国+1
+  server: 94.131.10.135
+  port: 80
   type: vmess
-  uuid: e3132161-e4a1-40ea-96ce-afb5c3f95600
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /@forwardv2ray
+    path: /vmess
     headers:
-      Host: m3hdi.forwardv2raytelegramchannel.fun
+      Host: 94.131.10.135
   udp: true
-- name: 35.--US_youtube@资源分享师_105
-  server: mehdi.forwardv2raytelegramchannel.fun
-  port: 2052
-  type: vmess
-  uuid: e3132161-e4a1-40ea-96ce-afb5c3f95600
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: mehdi.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 36.--_FR_法国_2
-  server: 195.154.169.198
+- name: 10.--_NL_荷兰
+  server: 51.15.27.48
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 37.--_AT_奥地利
-  server: 185.180.12.81
-  port: 989
+- name: 11.--美国【TG：@ccbaohe】定时更新节点订阅
+  server: hms182.glweidf.sbs
+  port: 443
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: glweidf.sbs
+  udp: true
+- name: 12.--@Hope_Net-join-us-on-Telegram+1
+  server: 104.21.91.73
+  port: 443
+  type: vmess
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: adenc35.fixedlfoat.top
+  udp: true
+- name: 13.--speednode_00%�+3
+  server: 103.172.116.90
+  port: 9031
   type: ss
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
+  password: BwcAUZk8hUFAkDGN
   udp: true
-- name: 38.--US_youtube@资源分享师_132
-  server: xxx.forwardv2raytelegramchannel.fun
-  port: 2086
-  type: vmess
-  uuid: e8d9c3cf-4df8-4b02-a011-85a42ca6069a
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 14.--JP日本001 两元店.com\r
+  server: jp.liangyuandiancloud.com
+  port: 443
+  type: trojan
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: xxx.forwardv2raytelegramchannel.fun
   udp: true
-- name: 39.--US_youtube@资源分享师_168
-  server: arvancloud6.forwardv2raytelegramchannel.fun
-  port: 8880
-  type: vmess
-  uuid: af251e6e-69d8-49d0-8144-77ba0284a0dc
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 15.--HK香港流媒体节点002\r
+  server: hkjs.liangyuandiancloud.com
+  port: 443
+  type: trojan
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud6.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 40.--US_youtube@资源分享师_150
-  server: arvancloud3.forwardv2raytelegramchannel.fun
-  port: 2086
-  type: vmess
-  uuid: e8d9c3cf-4df8-4b02-a011-85a42ca6069a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud3.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 41.--US_youtube@资源分享师_139
-  server: arvancloud16.forwardv2raytelegramchannel.fun
-  port: 2082
-  type: vmess
-  uuid: b7bd0edc-19c7-47f6-b2da-973f54449357
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud16.forwardv2raytelegramchannel.fun
-  udp: true
-- name: 42.--LU_youtube@资源分享师_236
-  server: 80.93.223.4
-  port: 80
-  type: vmess
-  uuid: 22aa72b1-605b-4807-8a81-fb414cbb409c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: mizban888.servecounterstrike.com
-  udp: true
-- name: 43.--US_youtube@资源分享师_138
-  server: arvancloud101.forwardv2raytelegramchannel.fun
-  port: 2052
-  type: vmess
-  uuid: e3132161-e4a1-40ea-96ce-afb5c3f95600
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: arvancloud101.forwardv2raytelegramchannel.fun
   udp: true
 proxy-groups:
 - name: 🔰 节点选择
@@ -607,97 +152,41 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 负载均衡
-  - 1.--_US_美国+1
-  - 2.--_ES_西班牙
-  - 3.--|US|美国|@wxgqlfx|18
-  - 4.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-  - 5.--US美国(mibei77.com 米贝节点分享)
-  - 6.--NL_youtube@资源分享师_172
-  - 7.--US_youtube@资源分享师_189
-  - 8.--US_youtube@资源分享师_142
-  - 9.--US_youtube@资源分享师_177
-  - 10.--US_youtube@资源分享师_176
-  - 11.--US_youtube@资源分享师_144
-  - 12.--US_youtube@资源分享师_257
-  - 13.--US_youtube@资源分享师_102
-  - 14.--VPN招代理电报联系@xiaoying229
-  - 15.--US_youtube@资源分享师_199
-  - 16.--US_youtube@资源分享师_171
-  - 17.--荷兰(yudou66.com 玉豆免费节点)
-  - 18.--US_youtube@资源分享师_185
-  - 19.--US_youtube@资源分享师_181
-  - 20.--US_youtube@资源分享师_183
-  - 21.--US_youtube@资源分享师_201
-  - 22.--US_youtube@资源分享师_254
-  - 23.--US美国6
-  - 24.--US_youtube@资源分享师_122
-  - 25.--US_youtube@资源分享师_165
-  - 26.---2149-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 27.--US_youtube@资源分享师_202
-  - 28.--日本【TG：@ccbaohe】定时更新节点订阅
-  - 29.--US_youtube@资源分享师_231
-  - 30.--德国(yudou66.com 玉豆免费节点)+4
-  - 31.--德国(yudou66.com 玉豆免费节点)
-  - 32.--US_youtube@资源分享师_137
-  - 33.--_FR_法国_1
-  - 34.--US_youtube@资源分享师_149
-  - 35.--US_youtube@资源分享师_105
-  - 36.--_FR_法国_2
-  - 37.--_AT_奥地利
-  - 38.--US_youtube@资源分享师_132
-  - 39.--US_youtube@资源分享师_168
-  - 40.--US_youtube@资源分享师_150
-  - 41.--US_youtube@资源分享师_139
-  - 42.--LU_youtube@资源分享师_236
-  - 43.--US_youtube@资源分享师_138
+  - 1.--_ES_西班牙
+  - 2.--speednode_00%�
+  - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
+  - 4.--@Hope_Net-join-us-on-Telegram
+  - 5.--speednode_00%�+1
+  - 6.--_US_美国+17
+  - 7.--speednode_00%�+2
+  - 8.--英国 伦敦Amazon数据中心
+  - 9.--美国+1
+  - 10.--_NL_荷兰
+  - 11.--美国【TG：@ccbaohe】定时更新节点订阅
+  - 12.--@Hope_Net-join-us-on-Telegram+1
+  - 13.--speednode_00%�+3
+  - 14.--JP日本001 两元店.com\r
+  - 15.--HK香港流媒体节点002\r
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 1.--_US_美国+1
-  - 2.--_ES_西班牙
-  - 3.--|US|美国|@wxgqlfx|18
-  - 4.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-  - 5.--US美国(mibei77.com 米贝节点分享)
-  - 6.--NL_youtube@资源分享师_172
-  - 7.--US_youtube@资源分享师_189
-  - 8.--US_youtube@资源分享师_142
-  - 9.--US_youtube@资源分享师_177
-  - 10.--US_youtube@资源分享师_176
-  - 11.--US_youtube@资源分享师_144
-  - 12.--US_youtube@资源分享师_257
-  - 13.--US_youtube@资源分享师_102
-  - 14.--VPN招代理电报联系@xiaoying229
-  - 15.--US_youtube@资源分享师_199
-  - 16.--US_youtube@资源分享师_171
-  - 17.--荷兰(yudou66.com 玉豆免费节点)
-  - 18.--US_youtube@资源分享师_185
-  - 19.--US_youtube@资源分享师_181
-  - 20.--US_youtube@资源分享师_183
-  - 21.--US_youtube@资源分享师_201
-  - 22.--US_youtube@资源分享师_254
-  - 23.--US美国6
-  - 24.--US_youtube@资源分享师_122
-  - 25.--US_youtube@资源分享师_165
-  - 26.---2149-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 27.--US_youtube@资源分享师_202
-  - 28.--日本【TG：@ccbaohe】定时更新节点订阅
-  - 29.--US_youtube@资源分享师_231
-  - 30.--德国(yudou66.com 玉豆免费节点)+4
-  - 31.--德国(yudou66.com 玉豆免费节点)
-  - 32.--US_youtube@资源分享师_137
-  - 33.--_FR_法国_1
-  - 34.--US_youtube@资源分享师_149
-  - 35.--US_youtube@资源分享师_105
-  - 36.--_FR_法国_2
-  - 37.--_AT_奥地利
-  - 38.--US_youtube@资源分享师_132
-  - 39.--US_youtube@资源分享师_168
-  - 40.--US_youtube@资源分享师_150
-  - 41.--US_youtube@资源分享师_139
-  - 42.--LU_youtube@资源分享师_236
-  - 43.--US_youtube@资源分享师_138
+  - 1.--_ES_西班牙
+  - 2.--speednode_00%�
+  - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
+  - 4.--@Hope_Net-join-us-on-Telegram
+  - 5.--speednode_00%�+1
+  - 6.--_US_美国+17
+  - 7.--speednode_00%�+2
+  - 8.--英国 伦敦Amazon数据中心
+  - 9.--美国+1
+  - 10.--_NL_荷兰
+  - 11.--美国【TG：@ccbaohe】定时更新节点订阅
+  - 12.--@Hope_Net-join-us-on-Telegram+1
+  - 13.--speednode_00%�+3
+  - 14.--JP日本001 两元店.com\r
+  - 15.--HK香港流媒体节点002\r
 - name: 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -705,249 +194,109 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 1.--_US_美国+1
-  - 2.--_ES_西班牙
-  - 3.--|US|美国|@wxgqlfx|18
-  - 4.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-  - 5.--US美国(mibei77.com 米贝节点分享)
-  - 6.--NL_youtube@资源分享师_172
-  - 7.--US_youtube@资源分享师_189
-  - 8.--US_youtube@资源分享师_142
-  - 9.--US_youtube@资源分享师_177
-  - 10.--US_youtube@资源分享师_176
-  - 11.--US_youtube@资源分享师_144
-  - 12.--US_youtube@资源分享师_257
-  - 13.--US_youtube@资源分享师_102
-  - 14.--VPN招代理电报联系@xiaoying229
-  - 15.--US_youtube@资源分享师_199
-  - 16.--US_youtube@资源分享师_171
-  - 17.--荷兰(yudou66.com 玉豆免费节点)
-  - 18.--US_youtube@资源分享师_185
-  - 19.--US_youtube@资源分享师_181
-  - 20.--US_youtube@资源分享师_183
-  - 21.--US_youtube@资源分享师_201
-  - 22.--US_youtube@资源分享师_254
-  - 23.--US美国6
-  - 24.--US_youtube@资源分享师_122
-  - 25.--US_youtube@资源分享师_165
-  - 26.---2149-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 27.--US_youtube@资源分享师_202
-  - 28.--日本【TG：@ccbaohe】定时更新节点订阅
-  - 29.--US_youtube@资源分享师_231
-  - 30.--德国(yudou66.com 玉豆免费节点)+4
-  - 31.--德国(yudou66.com 玉豆免费节点)
-  - 32.--US_youtube@资源分享师_137
-  - 33.--_FR_法国_1
-  - 34.--US_youtube@资源分享师_149
-  - 35.--US_youtube@资源分享师_105
-  - 36.--_FR_法国_2
-  - 37.--_AT_奥地利
-  - 38.--US_youtube@资源分享师_132
-  - 39.--US_youtube@资源分享师_168
-  - 40.--US_youtube@资源分享师_150
-  - 41.--US_youtube@资源分享师_139
-  - 42.--LU_youtube@资源分享师_236
-  - 43.--US_youtube@资源分享师_138
+  - 1.--_ES_西班牙
+  - 2.--speednode_00%�
+  - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
+  - 4.--@Hope_Net-join-us-on-Telegram
+  - 5.--speednode_00%�+1
+  - 6.--_US_美国+17
+  - 7.--speednode_00%�+2
+  - 8.--英国 伦敦Amazon数据中心
+  - 9.--美国+1
+  - 10.--_NL_荷兰
+  - 11.--美国【TG：@ccbaohe】定时更新节点订阅
+  - 12.--@Hope_Net-join-us-on-Telegram+1
+  - 13.--speednode_00%�+3
+  - 14.--JP日本001 两元店.com\r
+  - 15.--HK香港流媒体节点002\r
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 1.--_US_美国+1
-  - 2.--_ES_西班牙
-  - 3.--|US|美国|@wxgqlfx|18
-  - 4.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-  - 5.--US美国(mibei77.com 米贝节点分享)
-  - 6.--NL_youtube@资源分享师_172
-  - 7.--US_youtube@资源分享师_189
-  - 8.--US_youtube@资源分享师_142
-  - 9.--US_youtube@资源分享师_177
-  - 10.--US_youtube@资源分享师_176
-  - 11.--US_youtube@资源分享师_144
-  - 12.--US_youtube@资源分享师_257
-  - 13.--US_youtube@资源分享师_102
-  - 14.--VPN招代理电报联系@xiaoying229
-  - 15.--US_youtube@资源分享师_199
-  - 16.--US_youtube@资源分享师_171
-  - 17.--荷兰(yudou66.com 玉豆免费节点)
-  - 18.--US_youtube@资源分享师_185
-  - 19.--US_youtube@资源分享师_181
-  - 20.--US_youtube@资源分享师_183
-  - 21.--US_youtube@资源分享师_201
-  - 22.--US_youtube@资源分享师_254
-  - 23.--US美国6
-  - 24.--US_youtube@资源分享师_122
-  - 25.--US_youtube@资源分享师_165
-  - 26.---2149-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 27.--US_youtube@资源分享师_202
-  - 28.--日本【TG：@ccbaohe】定时更新节点订阅
-  - 29.--US_youtube@资源分享师_231
-  - 30.--德国(yudou66.com 玉豆免费节点)+4
-  - 31.--德国(yudou66.com 玉豆免费节点)
-  - 32.--US_youtube@资源分享师_137
-  - 33.--_FR_法国_1
-  - 34.--US_youtube@资源分享师_149
-  - 35.--US_youtube@资源分享师_105
-  - 36.--_FR_法国_2
-  - 37.--_AT_奥地利
-  - 38.--US_youtube@资源分享师_132
-  - 39.--US_youtube@资源分享师_168
-  - 40.--US_youtube@资源分享师_150
-  - 41.--US_youtube@资源分享师_139
-  - 42.--LU_youtube@资源分享师_236
-  - 43.--US_youtube@资源分享师_138
+  - 1.--_ES_西班牙
+  - 2.--speednode_00%�
+  - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
+  - 4.--@Hope_Net-join-us-on-Telegram
+  - 5.--speednode_00%�+1
+  - 6.--_US_美国+17
+  - 7.--speednode_00%�+2
+  - 8.--英国 伦敦Amazon数据中心
+  - 9.--美国+1
+  - 10.--_NL_荷兰
+  - 11.--美国【TG：@ccbaohe】定时更新节点订阅
+  - 12.--@Hope_Net-join-us-on-Telegram+1
+  - 13.--speednode_00%�+3
+  - 14.--JP日本001 两元店.com\r
+  - 15.--HK香港流媒体节点002\r
 - name: 🌏 国内媒体
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - DIRECT
+  - 15.--HK香港流媒体节点002\r
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 1.--_US_美国+1
-  - 2.--_ES_西班牙
-  - 3.--|US|美国|@wxgqlfx|18
-  - 4.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-  - 5.--US美国(mibei77.com 米贝节点分享)
-  - 6.--NL_youtube@资源分享师_172
-  - 7.--US_youtube@资源分享师_189
-  - 8.--US_youtube@资源分享师_142
-  - 9.--US_youtube@资源分享师_177
-  - 10.--US_youtube@资源分享师_176
-  - 11.--US_youtube@资源分享师_144
-  - 12.--US_youtube@资源分享师_257
-  - 13.--US_youtube@资源分享师_102
-  - 14.--VPN招代理电报联系@xiaoying229
-  - 15.--US_youtube@资源分享师_199
-  - 16.--US_youtube@资源分享师_171
-  - 17.--荷兰(yudou66.com 玉豆免费节点)
-  - 18.--US_youtube@资源分享师_185
-  - 19.--US_youtube@资源分享师_181
-  - 20.--US_youtube@资源分享师_183
-  - 21.--US_youtube@资源分享师_201
-  - 22.--US_youtube@资源分享师_254
-  - 23.--US美国6
-  - 24.--US_youtube@资源分享师_122
-  - 25.--US_youtube@资源分享师_165
-  - 26.---2149-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 27.--US_youtube@资源分享师_202
-  - 28.--日本【TG：@ccbaohe】定时更新节点订阅
-  - 29.--US_youtube@资源分享师_231
-  - 30.--德国(yudou66.com 玉豆免费节点)+4
-  - 31.--德国(yudou66.com 玉豆免费节点)
-  - 32.--US_youtube@资源分享师_137
-  - 33.--_FR_法国_1
-  - 34.--US_youtube@资源分享师_149
-  - 35.--US_youtube@资源分享师_105
-  - 36.--_FR_法国_2
-  - 37.--_AT_奥地利
-  - 38.--US_youtube@资源分享师_132
-  - 39.--US_youtube@资源分享师_168
-  - 40.--US_youtube@资源分享师_150
-  - 41.--US_youtube@资源分享师_139
-  - 42.--LU_youtube@资源分享师_236
-  - 43.--US_youtube@资源分享师_138
+  - 1.--_ES_西班牙
+  - 2.--speednode_00%�
+  - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
+  - 4.--@Hope_Net-join-us-on-Telegram
+  - 5.--speednode_00%�+1
+  - 6.--_US_美国+17
+  - 7.--speednode_00%�+2
+  - 8.--英国 伦敦Amazon数据中心
+  - 9.--美国+1
+  - 10.--_NL_荷兰
+  - 11.--美国【TG：@ccbaohe】定时更新节点订阅
+  - 12.--@Hope_Net-join-us-on-Telegram+1
+  - 13.--speednode_00%�+3
+  - 14.--JP日本001 两元店.com\r
+  - 15.--HK香港流媒体节点002\r
 - name: 📲 电报信息
   type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 1.--_US_美国+1
-  - 2.--_ES_西班牙
-  - 3.--|US|美国|@wxgqlfx|18
-  - 4.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-  - 5.--US美国(mibei77.com 米贝节点分享)
-  - 6.--NL_youtube@资源分享师_172
-  - 7.--US_youtube@资源分享师_189
-  - 8.--US_youtube@资源分享师_142
-  - 9.--US_youtube@资源分享师_177
-  - 10.--US_youtube@资源分享师_176
-  - 11.--US_youtube@资源分享师_144
-  - 12.--US_youtube@资源分享师_257
-  - 13.--US_youtube@资源分享师_102
-  - 14.--VPN招代理电报联系@xiaoying229
-  - 15.--US_youtube@资源分享师_199
-  - 16.--US_youtube@资源分享师_171
-  - 17.--荷兰(yudou66.com 玉豆免费节点)
-  - 18.--US_youtube@资源分享师_185
-  - 19.--US_youtube@资源分享师_181
-  - 20.--US_youtube@资源分享师_183
-  - 21.--US_youtube@资源分享师_201
-  - 22.--US_youtube@资源分享师_254
-  - 23.--US美国6
-  - 24.--US_youtube@资源分享师_122
-  - 25.--US_youtube@资源分享师_165
-  - 26.---2149-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 27.--US_youtube@资源分享师_202
-  - 28.--日本【TG：@ccbaohe】定时更新节点订阅
-  - 29.--US_youtube@资源分享师_231
-  - 30.--德国(yudou66.com 玉豆免费节点)+4
-  - 31.--德国(yudou66.com 玉豆免费节点)
-  - 32.--US_youtube@资源分享师_137
-  - 33.--_FR_法国_1
-  - 34.--US_youtube@资源分享师_149
-  - 35.--US_youtube@资源分享师_105
-  - 36.--_FR_法国_2
-  - 37.--_AT_奥地利
-  - 38.--US_youtube@资源分享师_132
-  - 39.--US_youtube@资源分享师_168
-  - 40.--US_youtube@资源分享师_150
-  - 41.--US_youtube@资源分享师_139
-  - 42.--LU_youtube@资源分享师_236
-  - 43.--US_youtube@资源分享师_138
+  - 1.--_ES_西班牙
+  - 2.--speednode_00%�
+  - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
+  - 4.--@Hope_Net-join-us-on-Telegram
+  - 5.--speednode_00%�+1
+  - 6.--_US_美国+17
+  - 7.--speednode_00%�+2
+  - 8.--英国 伦敦Amazon数据中心
+  - 9.--美国+1
+  - 10.--_NL_荷兰
+  - 11.--美国【TG：@ccbaohe】定时更新节点订阅
+  - 12.--@Hope_Net-join-us-on-Telegram+1
+  - 13.--speednode_00%�+3
+  - 14.--JP日本001 两元店.com\r
+  - 15.--HK香港流媒体节点002\r
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - ♻️ 自动选择
-  - 1.--_US_美国+1
-  - 2.--_ES_西班牙
-  - 3.--|US|美国|@wxgqlfx|18
-  - 4.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-  - 5.--US美国(mibei77.com 米贝节点分享)
-  - 6.--NL_youtube@资源分享师_172
-  - 7.--US_youtube@资源分享师_189
-  - 8.--US_youtube@资源分享师_142
-  - 9.--US_youtube@资源分享师_177
-  - 10.--US_youtube@资源分享师_176
-  - 11.--US_youtube@资源分享师_144
-  - 12.--US_youtube@资源分享师_257
-  - 13.--US_youtube@资源分享师_102
-  - 14.--VPN招代理电报联系@xiaoying229
-  - 15.--US_youtube@资源分享师_199
-  - 16.--US_youtube@资源分享师_171
-  - 17.--荷兰(yudou66.com 玉豆免费节点)
-  - 18.--US_youtube@资源分享师_185
-  - 19.--US_youtube@资源分享师_181
-  - 20.--US_youtube@资源分享师_183
-  - 21.--US_youtube@资源分享师_201
-  - 22.--US_youtube@资源分享师_254
-  - 23.--US美国6
-  - 24.--US_youtube@资源分享师_122
-  - 25.--US_youtube@资源分享师_165
-  - 26.---2149-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 27.--US_youtube@资源分享师_202
-  - 28.--日本【TG：@ccbaohe】定时更新节点订阅
-  - 29.--US_youtube@资源分享师_231
-  - 30.--德国(yudou66.com 玉豆免费节点)+4
-  - 31.--德国(yudou66.com 玉豆免费节点)
-  - 32.--US_youtube@资源分享师_137
-  - 33.--_FR_法国_1
-  - 34.--US_youtube@资源分享师_149
-  - 35.--US_youtube@资源分享师_105
-  - 36.--_FR_法国_2
-  - 37.--_AT_奥地利
-  - 38.--US_youtube@资源分享师_132
-  - 39.--US_youtube@资源分享师_168
-  - 40.--US_youtube@资源分享师_150
-  - 41.--US_youtube@资源分享师_139
-  - 42.--LU_youtube@资源分享师_236
-  - 43.--US_youtube@资源分享师_138
+  - 1.--_ES_西班牙
+  - 2.--speednode_00%�
+  - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
+  - 4.--@Hope_Net-join-us-on-Telegram
+  - 5.--speednode_00%�+1
+  - 6.--_US_美国+17
+  - 7.--speednode_00%�+2
+  - 8.--英国 伦敦Amazon数据中心
+  - 9.--美国+1
+  - 10.--_NL_荷兰
+  - 11.--美国【TG：@ccbaohe】定时更新节点订阅
+  - 12.--@Hope_Net-join-us-on-Telegram+1
+  - 13.--speednode_00%�+3
+  - 14.--JP日本001 两元店.com\r
+  - 15.--HK香港流媒体节点002\r
 - name: 🎯 全球直连
   type: select
   proxies:
