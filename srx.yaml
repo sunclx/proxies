@@ -5,61 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1.--_ES_西班牙, server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 2.--speednode_00%�, server: 185.180.12.81, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124, server: 95.164.84.131, port: 80, type: vmess, uuid: c62693b0-547f-4028-8f46-544cc8d46a01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 95.164.84.131}}, udp: true}
-  - {name: 4.--@Hope_Net-join-us-on-Telegram, server: 94.130.168.175, port: 52203, type: vmess, uuid: 0d3766e5-3a61-4a8b-bf34-7e48beab2e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5.--speednode_00%�+1, server: 103.172.116.79, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: 6.--_US_美国+17, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 7.--speednode_00%�+2, server: 103.172.116.90, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: 8.--英国 伦敦Amazon数据中心, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: 9.--美国+1, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.10.135}}, udp: true}
-  - {name: 10.--_NL_荷兰, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 11.--美国【TG：@ccbaohe】定时更新节点订阅, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.sbs}}, udp: true}
-  - {name: 12.--@Hope_Net-join-us-on-Telegram+1, server: 104.21.91.73, port: 443, type: vmess, uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: adenc35.fixedlfoat.top}}, udp: true}
-  - {name: 13.--speednode_00%�+3, server: 103.172.116.90, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: 14.--JP日本001 两元店.com\r, server: jp.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: true, udp: true}
-  - {name: 15.--HK香港流媒体节点002\r, server: hkjs.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: true, udp: true}
+  - {name: 1.--_US_美国+11, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 2.--_US_美国->🇨🇦_CA_加拿大, server: 162.159.200.3, port: 80, type: vmess, uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}, udp: true}
+  - {name: 3.--_US_美国->🇨🇦_CA_加拿大+1, server: 162.159.200.4, port: 80, type: vmess, uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}, udp: true}
+  - {name: 4.--_US_美国+7, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
+  - {name: 5.--|US|美国|@wxgqlfx|17, server: los16.ttddd.xyz, port: 443, type: trojan, password: 27876_t7d7f4e3f, sni: los16.ttddd.xyz, skip-cert-verify: true, udp: true}
+  - {name: 6.--美国 - Reston - OVH US LLC - 19, server: 15.204.240.119, port: 443, type: trojan, password: c470f140-a993-11ee-aa04-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 7.--_DE_德国, server: 213.202.216.14, port: 443, type: trojan, password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9, sni: downloadde.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: 8.--_ES_西班牙, server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 9.--speednode_0050, server: 94.130.168.175, port: 52203, type: vmess, uuid: 0d3766e5-3a61-4a8b-bf34-7e48beab2e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 10.--日本 - 东京 - Amazon Technologies Inc. - 12, server: jp1.djjsvip.cfd, port: 443, type: trojan, password: 02e2ac12-e4eb-4082-958f-9f007938bc44, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: 11.--乌克兰(mibei77.com 米贝节点分享), server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.10.135}}, udp: true}
+  - {name: 12.--日本 - 东京 - Amazon Technologies Inc. - 13, server: jp2.djjsvip.cfd, port: 443, type: trojan, password: 02e2ac12-e4eb-4082-958f-9f007938bc44, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: 13.--_CH_瑞士, server: 94.131.99.8, port: 47182, type: vmess, uuid: 81b2b630-8b6a-404f-b996-b12f13db5786, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 14.--德国 - 兰河畔林堡 - OVH SAS - 4, server: 54.38.156.210, port: 443, type: trojan, password: 8464b1a0-a993-11ee-8944-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 15.--|US|美国|@wxgqlfx|38, server: 146.190.111.121, port: 54642, type: vmess, uuid: 97e9c42a-69fe-44ef-917c-80d941d1114a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.xbox.com}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 1.--_ES_西班牙
-      - 2.--speednode_00%�
-      - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-      - 4.--@Hope_Net-join-us-on-Telegram
-      - 5.--speednode_00%�+1
-      - 6.--_US_美国+17
-      - 7.--speednode_00%�+2
-      - 8.--英国 伦敦Amazon数据中心
-      - 9.--美国+1
-      - 10.--_NL_荷兰
-      - 11.--美国【TG：@ccbaohe】定时更新节点订阅
-      - 12.--@Hope_Net-join-us-on-Telegram+1
-      - 13.--speednode_00%�+3
-      - 14.--JP日本001 两元店.com\r
-      - 15.--HK香港流媒体节点002\r
+      - 1.--_US_美国+11
+      - 2.--_US_美国->🇨🇦_CA_加拿大
+      - 3.--_US_美国->🇨🇦_CA_加拿大+1
+      - 4.--_US_美国+7
+      - 5.--|US|美国|@wxgqlfx|17
+      - 6.--美国 - Reston - OVH US LLC - 19
+      - 7.--_DE_德国
+      - 8.--_ES_西班牙
+      - 9.--speednode_0050
+      - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
+      - 11.--乌克兰(mibei77.com 米贝节点分享)
+      - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
+      - 13.--_CH_瑞士
+      - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
+      - 15.--|US|美国|@wxgqlfx|38
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_ES_西班牙
-      - 2.--speednode_00%�
-      - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-      - 4.--@Hope_Net-join-us-on-Telegram
-      - 5.--speednode_00%�+1
-      - 6.--_US_美国+17
-      - 7.--speednode_00%�+2
-      - 8.--英国 伦敦Amazon数据中心
-      - 9.--美国+1
-      - 10.--_NL_荷兰
-      - 11.--美国【TG：@ccbaohe】定时更新节点订阅
-      - 12.--@Hope_Net-join-us-on-Telegram+1
-      - 13.--speednode_00%�+3
-      - 14.--JP日本001 两元店.com\r
-      - 15.--HK香港流媒体节点002\r
+      - 1.--_US_美国+11
+      - 2.--_US_美国->🇨🇦_CA_加拿大
+      - 3.--_US_美国->🇨🇦_CA_加拿大+1
+      - 4.--_US_美国+7
+      - 5.--|US|美国|@wxgqlfx|17
+      - 6.--美国 - Reston - OVH US LLC - 19
+      - 7.--_DE_德国
+      - 8.--_ES_西班牙
+      - 9.--speednode_0050
+      - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
+      - 11.--乌克兰(mibei77.com 米贝节点分享)
+      - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
+      - 13.--_CH_瑞士
+      - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
+      - 15.--|US|美国|@wxgqlfx|38
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -67,29 +67,30 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_ES_西班牙
-      - 2.--speednode_00%�
-      - 3.--【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_124
-      - 4.--@Hope_Net-join-us-on-Telegram
-      - 5.--speednode_00%�+1
-      - 6.--_US_美国+17
-      - 7.--speednode_00%�+2
-      - 8.--英国 伦敦Amazon数据中心
-      - 9.--美国+1
-      - 10.--_NL_荷兰
-      - 11.--美国【TG：@ccbaohe】定时更新节点订阅
-      - 12.--@Hope_Net-join-us-on-Telegram+1
-      - 13.--speednode_00%�+3
-      - 14.--JP日本001 两元店.com\r
-      - 15.--HK香港流媒体节点002\r
+      - 1.--_US_美国+11
+      - 2.--_US_美国->🇨🇦_CA_加拿大
+      - 3.--_US_美国->🇨🇦_CA_加拿大+1
+      - 4.--_US_美国+7
+      - 5.--|US|美国|@wxgqlfx|17
+      - 6.--美国 - Reston - OVH US LLC - 19
+      - 7.--_DE_德国
+      - 8.--_ES_西班牙
+      - 9.--speednode_0050
+      - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
+      - 11.--乌克兰(mibei77.com 米贝节点分享)
+      - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
+      - 13.--_CH_瑞士
+      - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
+      - 15.--|US|美国|@wxgqlfx|38
   - name: 中国节点
     type: select
     proxies:
-      - 15.--HK香港流媒体节点002\r
+      - DIRECT
   - name: 日本节点
     type: select
     proxies:
-      - 14.--JP日本001 两元店.com\r
+      - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
+      - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
   - name: 新加坡节点
     type: select
     proxies:
@@ -100,8 +101,12 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 6.--_US_美国+17
-      - 9.--美国+1
-      - 11.--美国【TG：@ccbaohe】定时更新节点订阅
+      - 1.--_US_美国+11
+      - 2.--_US_美国->🇨🇦_CA_加拿大
+      - 3.--_US_美国->🇨🇦_CA_加拿大+1
+      - 4.--_US_美国+7
+      - 5.--|US|美国|@wxgqlfx|17
+      - 6.--美国 - Reston - OVH US LLC - 19
+      - 15.--|US|美国|@wxgqlfx|38
 rules:
   - MATCH,手动切换
