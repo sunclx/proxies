@@ -5,160 +5,117 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 1.--_US_美国+11
+- name: 1.--_US_美国
   server: 212.102.47.198
   port: 443
   type: ss
   cipher: aes-128-cfb
   password: shadowsocks
   udp: true
-- name: 2.--_US_美国->🇨🇦_CA_加拿大
-  server: 162.159.200.3
-  port: 80
+- name: 2.--_CA_加拿大
+  server: 142.171.237.214
+  port: 443
   type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /path/221312281009
     headers:
-      Host: ca3.889611.com
+      Host: www.23168499.xyz
   udp: true
-- name: 3.--_US_美国->🇨🇦_CA_加拿大+1
-  server: 162.159.200.4
-  port: 80
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ca3.889611.com
-  udp: true
-- name: 4.--_US_美国+7
-  server: cfcdn1.sanfencdn9.com
-  port: 8880
-  type: vmess
-  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /video/bYdJ7Vc2We
-    headers:
-      Host: us6gzxQRrE4.fzbqfrse.xyz
-  udp: true
-- name: 5.--|US|美国|@wxgqlfx|17
-  server: los16.ttddd.xyz
-  port: 443
-  type: trojan
-  password: 27876_t7d7f4e3f
-  sni: los16.ttddd.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 6.--美国 - Reston - OVH US LLC - 19
-  server: 15.204.240.119
-  port: 443
-  type: trojan
-  password: c470f140-a993-11ee-aa04-1239d0255272
-  skip-cert-verify: true
-  udp: true
-- name: 7.--_DE_德国
-  server: 213.202.216.14
-  port: 443
-  type: trojan
-  password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9
-  sni: downloadde.xn--mes358acgm99l.com
-  skip-cert-verify: true
-  udp: true
-- name: 8.--_ES_西班牙
+- name: 3.--_ES_西班牙
   server: 92.38.171.89
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 9.--speednode_0050
-  server: 94.130.168.175
-  port: 52203
-  type: vmess
-  uuid: 0d3766e5-3a61-4a8b-bf34-7e48beab2e88
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 10.--日本 - 东京 - Amazon Technologies Inc. - 12
-  server: jp1.djjsvip.cfd
+- name: 4.--意大利 V2CROSS.COM
+  server: 212.102.53.196
   port: 443
-  type: trojan
-  password: 02e2ac12-e4eb-4082-958f-9f007938bc44
-  sni: download.xn--mes358acgm99l.com
-  skip-cert-verify: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: 11.--乌克兰(mibei77.com 米贝节点分享)
-  server: 94.131.10.135
+- name: 5.--美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  server: series-a2.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mps3FwmDjLrWaOVg
+  udp: true
+- name: 6.--Fardian0142🛡️_🇬🇧_GB_23
+  server: series-a1.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 7.--Fardian0142🛡️_🇬🇧_GB_3
+  server: series-a2-me.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+  udp: true
+- name: 8.--|US|美国|@wxgqlfx|3
+  server: udemy.com
   port: 80
   type: vmess
-  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+  uuid: 45ce0dfa-fb29-3c65-b761-f585965f6302
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vmess
+    path: /xiaodao?ed=2048
     headers:
-      Host: 94.131.10.135
+      Host: px-001.xiaoxiaobujidao.xyz
   udp: true
-- name: 12.--日本 - 东京 - Amazon Technologies Inc. - 13
-  server: jp2.djjsvip.cfd
-  port: 443
-  type: trojan
-  password: 02e2ac12-e4eb-4082-958f-9f007938bc44
-  sni: download.xn--mes358acgm99l.com
-  skip-cert-verify: true
-  udp: true
-- name: 13.--_CH_瑞士
-  server: 94.131.99.8
-  port: 47182
+- name: 9.--|US|美国|@wxgqlfx|10
+  server: stackoverflow.com
+  port: 80
   type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 14.--德国 - 兰河畔林堡 - OVH SAS - 4
-  server: 54.38.156.210
-  port: 443
-  type: trojan
-  password: 8464b1a0-a993-11ee-8944-1239d0255272
-  skip-cert-verify: true
-  udp: true
-- name: 15.--|US|美国|@wxgqlfx|38
-  server: 146.190.111.121
-  port: 54642
-  type: vmess
-  uuid: 97e9c42a-69fe-44ef-917c-80d941d1114a
+  uuid: 45ce0dfa-fb29-3c65-b761-f585965f6302
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /xiaodao?ed=2048
     headers:
-      Host: www.xbox.com
+      Host: px-000.xiaoxiaobujidao.xyz
+  udp: true
+- name: 10.--|HK|香港|@wxgqlfx|6
+  server: 34.92.50.99
+  port: 26389
+  type: vmess
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 11.--|US|美国|@wxgqlfx|16
+  server: bujidao.cloud
+  port: 80
+  type: vmess
+  uuid: 45ce0dfa-fb29-3c65-b761-f585965f6302
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xiaodao?ed=2048
+    headers:
+      Host: px-002.xiaoxiaobujidao.xyz
   udp: true
 proxy-groups:
 - name: 🔰 节点选择
@@ -167,41 +124,33 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 负载均衡
-  - 1.--_US_美国+11
-  - 2.--_US_美国->🇨🇦_CA_加拿大
-  - 3.--_US_美国->🇨🇦_CA_加拿大+1
-  - 4.--_US_美国+7
-  - 5.--|US|美国|@wxgqlfx|17
-  - 6.--美国 - Reston - OVH US LLC - 19
-  - 7.--_DE_德国
-  - 8.--_ES_西班牙
-  - 9.--speednode_0050
-  - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
-  - 11.--乌克兰(mibei77.com 米贝节点分享)
-  - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
-  - 13.--_CH_瑞士
-  - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
-  - 15.--|US|美国|@wxgqlfx|38
+  - 1.--_US_美国
+  - 2.--_CA_加拿大
+  - 3.--_ES_西班牙
+  - 4.--意大利 V2CROSS.COM
+  - 5.--美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - 6.--Fardian0142🛡️_🇬🇧_GB_23
+  - 7.--Fardian0142🛡️_🇬🇧_GB_3
+  - 8.--|US|美国|@wxgqlfx|3
+  - 9.--|US|美国|@wxgqlfx|10
+  - 10.--|HK|香港|@wxgqlfx|6
+  - 11.--|US|美国|@wxgqlfx|16
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 1.--_US_美国+11
-  - 2.--_US_美国->🇨🇦_CA_加拿大
-  - 3.--_US_美国->🇨🇦_CA_加拿大+1
-  - 4.--_US_美国+7
-  - 5.--|US|美国|@wxgqlfx|17
-  - 6.--美国 - Reston - OVH US LLC - 19
-  - 7.--_DE_德国
-  - 8.--_ES_西班牙
-  - 9.--speednode_0050
-  - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
-  - 11.--乌克兰(mibei77.com 米贝节点分享)
-  - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
-  - 13.--_CH_瑞士
-  - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
-  - 15.--|US|美国|@wxgqlfx|38
+  - 1.--_US_美国
+  - 2.--_CA_加拿大
+  - 3.--_ES_西班牙
+  - 4.--意大利 V2CROSS.COM
+  - 5.--美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - 6.--Fardian0142🛡️_🇬🇧_GB_23
+  - 7.--Fardian0142🛡️_🇬🇧_GB_3
+  - 8.--|US|美国|@wxgqlfx|3
+  - 9.--|US|美国|@wxgqlfx|10
+  - 10.--|HK|香港|@wxgqlfx|6
+  - 11.--|US|美国|@wxgqlfx|16
 - name: 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -209,109 +158,89 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 1.--_US_美国+11
-  - 2.--_US_美国->🇨🇦_CA_加拿大
-  - 3.--_US_美国->🇨🇦_CA_加拿大+1
-  - 4.--_US_美国+7
-  - 5.--|US|美国|@wxgqlfx|17
-  - 6.--美国 - Reston - OVH US LLC - 19
-  - 7.--_DE_德国
-  - 8.--_ES_西班牙
-  - 9.--speednode_0050
-  - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
-  - 11.--乌克兰(mibei77.com 米贝节点分享)
-  - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
-  - 13.--_CH_瑞士
-  - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
-  - 15.--|US|美国|@wxgqlfx|38
+  - 1.--_US_美国
+  - 2.--_CA_加拿大
+  - 3.--_ES_西班牙
+  - 4.--意大利 V2CROSS.COM
+  - 5.--美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - 6.--Fardian0142🛡️_🇬🇧_GB_23
+  - 7.--Fardian0142🛡️_🇬🇧_GB_3
+  - 8.--|US|美国|@wxgqlfx|3
+  - 9.--|US|美国|@wxgqlfx|10
+  - 10.--|HK|香港|@wxgqlfx|6
+  - 11.--|US|美国|@wxgqlfx|16
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 1.--_US_美国+11
-  - 2.--_US_美国->🇨🇦_CA_加拿大
-  - 3.--_US_美国->🇨🇦_CA_加拿大+1
-  - 4.--_US_美国+7
-  - 5.--|US|美国|@wxgqlfx|17
-  - 6.--美国 - Reston - OVH US LLC - 19
-  - 7.--_DE_德国
-  - 8.--_ES_西班牙
-  - 9.--speednode_0050
-  - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
-  - 11.--乌克兰(mibei77.com 米贝节点分享)
-  - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
-  - 13.--_CH_瑞士
-  - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
-  - 15.--|US|美国|@wxgqlfx|38
+  - 1.--_US_美国
+  - 2.--_CA_加拿大
+  - 3.--_ES_西班牙
+  - 4.--意大利 V2CROSS.COM
+  - 5.--美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - 6.--Fardian0142🛡️_🇬🇧_GB_23
+  - 7.--Fardian0142🛡️_🇬🇧_GB_3
+  - 8.--|US|美国|@wxgqlfx|3
+  - 9.--|US|美国|@wxgqlfx|10
+  - 10.--|HK|香港|@wxgqlfx|6
+  - 11.--|US|美国|@wxgqlfx|16
 - name: 🌏 国内媒体
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - DIRECT
+  - 10.--|HK|香港|@wxgqlfx|6
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 1.--_US_美国+11
-  - 2.--_US_美国->🇨🇦_CA_加拿大
-  - 3.--_US_美国->🇨🇦_CA_加拿大+1
-  - 4.--_US_美国+7
-  - 5.--|US|美国|@wxgqlfx|17
-  - 6.--美国 - Reston - OVH US LLC - 19
-  - 7.--_DE_德国
-  - 8.--_ES_西班牙
-  - 9.--speednode_0050
-  - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
-  - 11.--乌克兰(mibei77.com 米贝节点分享)
-  - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
-  - 13.--_CH_瑞士
-  - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
-  - 15.--|US|美国|@wxgqlfx|38
+  - 1.--_US_美国
+  - 2.--_CA_加拿大
+  - 3.--_ES_西班牙
+  - 4.--意大利 V2CROSS.COM
+  - 5.--美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - 6.--Fardian0142🛡️_🇬🇧_GB_23
+  - 7.--Fardian0142🛡️_🇬🇧_GB_3
+  - 8.--|US|美国|@wxgqlfx|3
+  - 9.--|US|美国|@wxgqlfx|10
+  - 10.--|HK|香港|@wxgqlfx|6
+  - 11.--|US|美国|@wxgqlfx|16
 - name: 📲 电报信息
   type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 1.--_US_美国+11
-  - 2.--_US_美国->🇨🇦_CA_加拿大
-  - 3.--_US_美国->🇨🇦_CA_加拿大+1
-  - 4.--_US_美国+7
-  - 5.--|US|美国|@wxgqlfx|17
-  - 6.--美国 - Reston - OVH US LLC - 19
-  - 7.--_DE_德国
-  - 8.--_ES_西班牙
-  - 9.--speednode_0050
-  - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
-  - 11.--乌克兰(mibei77.com 米贝节点分享)
-  - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
-  - 13.--_CH_瑞士
-  - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
-  - 15.--|US|美国|@wxgqlfx|38
+  - 1.--_US_美国
+  - 2.--_CA_加拿大
+  - 3.--_ES_西班牙
+  - 4.--意大利 V2CROSS.COM
+  - 5.--美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - 6.--Fardian0142🛡️_🇬🇧_GB_23
+  - 7.--Fardian0142🛡️_🇬🇧_GB_3
+  - 8.--|US|美国|@wxgqlfx|3
+  - 9.--|US|美国|@wxgqlfx|10
+  - 10.--|HK|香港|@wxgqlfx|6
+  - 11.--|US|美国|@wxgqlfx|16
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - ♻️ 自动选择
-  - 1.--_US_美国+11
-  - 2.--_US_美国->🇨🇦_CA_加拿大
-  - 3.--_US_美国->🇨🇦_CA_加拿大+1
-  - 4.--_US_美国+7
-  - 5.--|US|美国|@wxgqlfx|17
-  - 6.--美国 - Reston - OVH US LLC - 19
-  - 7.--_DE_德国
-  - 8.--_ES_西班牙
-  - 9.--speednode_0050
-  - 10.--日本 - 东京 - Amazon Technologies Inc. - 12
-  - 11.--乌克兰(mibei77.com 米贝节点分享)
-  - 12.--日本 - 东京 - Amazon Technologies Inc. - 13
-  - 13.--_CH_瑞士
-  - 14.--德国 - 兰河畔林堡 - OVH SAS - 4
-  - 15.--|US|美国|@wxgqlfx|38
+  - 1.--_US_美国
+  - 2.--_CA_加拿大
+  - 3.--_ES_西班牙
+  - 4.--意大利 V2CROSS.COM
+  - 5.--美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - 6.--Fardian0142🛡️_🇬🇧_GB_23
+  - 7.--Fardian0142🛡️_🇬🇧_GB_3
+  - 8.--|US|美国|@wxgqlfx|3
+  - 9.--|US|美国|@wxgqlfx|10
+  - 10.--|HK|香港|@wxgqlfx|6
+  - 11.--|US|美国|@wxgqlfx|16
 - name: 🎯 全球直连
   type: select
   proxies:
