@@ -12,76 +12,73 @@ proxies:
   cipher: aes-128-cfb
   password: shadowsocks
   udp: true
-- name: 2.--⬆️j@oneclickvpnkeys
-  server: 80.92.205.112
-  port: 443
-  type: vmess
-  uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 80.92.205.112
+- name: 2.--_US_美国+11
+  server: 167.88.62.104
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
   udp: true
-- name: 3.--_ES_西班牙
-  server: 92.38.171.89
+- name: 3.--US_690
+  server: 45.55.2.232
+  port: 14293
+  type: ss
+  cipher: aes-256-cfb
+  password: 2170f8
+  udp: true
+- name: 4.--_GB_英国
+  server: 77.72.5.150
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 4.--speednode_0047
-  server: 51.210.182.170
-  port: 443
-  type: trojan
-  password: ad6d9620-b058-11ee-bd3c-1239d0255272
-  skip-cert-verify: true
+- name: 5.--_CL_智利
+  server: 190.120.230.9
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 5.--speednode_0022
-  server: 209.141.52.163
-  port: 80
-  type: vmess
-  uuid: 3de6b0ba-339a-475d-868d-1f0c72392aa1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.apple.com
+- name: 6.--_NL_荷兰
+  server: 109.107.177.244
+  port: 1165
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ENi-aO7DAppEy5q1Oqpucg
   udp: true
-- name: 6.--VPN招代理电报联系@xiaoying229+1
-  server: 94.131.99.8
-  port: 47182
+- name: 7.--|86.47Mb
+  server: 38.75.137.27
+  port: 22324
   type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 7.--|US|美国|@wxgqlfx|34
-  server: be1-vmess.sshmax.xyz
-  port: 80
-  type: vmess
-  uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: be1-vmess.sshmax.xyz
+- name: 8.--_AR_阿根廷
+  server: 190.103.176.29
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 8.--VPN招代理电报联系@xiaoying229
+- name: 9.--|30.48Mb
+  server: 103.172.116.79
+  port: 9097
+  type: ss
+  cipher: aes-256-cfb
+  password: Sn5B7jTqr76aCJT8
+  udp: true
+- name: 10.--|30.17Mb
+  server: 103.172.116.79
+  port: 9032
+  type: ss
+  cipher: aes-256-cfb
+  password: UWZQeLRWnkqgkseq
+  udp: true
+- name: 11.--VPN招代理电报联系@xiaoying229+1
   server: 142.171.237.214
   port: 443
   type: vmess
@@ -96,35 +93,388 @@ proxies:
     headers:
       Host: www.23168499.xyz
   udp: true
-- name: 9.--⬆️17@oneclickvpnkeys
-  server: 89.23.86.189
-  port: 59492
-  type: vmess
-  uuid: 3cd1a2f0-499f-4eb0-862a-cdd0ecd821c7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /imzcc
-    headers:
-      Host: dm.imzcc.com
+- name: 12.--|30.23Mb
+  server: 103.172.116.79
+  port: 9033
+  type: ss
+  cipher: aes-256-cfb
+  password: UTJA57ypk2XKQpnm
   udp: true
-- name: 10.--⬆️4@oneclickvpnkeys
-  server: 104.21.44.200
-  port: 8880
+- name: 13.--|30.28Mb
+  server: 103.172.116.79
+  port: 9064
+  type: ss
+  cipher: aes-256-cfb
+  password: cp8pRSUAyLhTfVWH
+  udp: true
+- name: 14.--YouTube面具人哈乐_台湾_26
+  server: c12.twtc.dynu.net
+  port: 6122
   type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 15.--|30.15Mb
+  server: 103.172.116.79
+  port: 9043
+  type: ss
+  cipher: aes-256-cfb
+  password: HSZuyJQcWe8dxNdF
+  udp: true
+- name: 16.--|30.00Mb
+  server: 103.172.116.79
+  port: 9042
+  type: ss
+  cipher: aes-256-cfb
+  password: S7KwUu7yBy58S3Ga
+  udp: true
+- name: 17.--|30.04Mb
+  server: 103.172.116.79
+  port: 9003
+  type: ss
+  cipher: aes-256-cfb
+  password: JdmRK9gMEqFgs8nP
+  udp: true
+- name: 18.--|29.97Mb
+  server: 103.172.116.79
+  port: 9008
+  type: ss
+  cipher: aes-256-cfb
+  password: y9VURyNzJWNRYEGQ
+  udp: true
+- name: 19.--|30.20Mb
+  server: 103.172.116.79
+  port: 9020
+  type: ss
+  cipher: aes-256-cfb
+  password: BNmAXXxAHYpTRdzu
+  udp: true
+- name: 20.--|29.63Mb
+  server: 103.172.116.79
+  port: 9056
+  type: ss
+  cipher: aes-256-cfb
+  password: rNBfNuuANFCAk7KB
+  udp: true
+- name: 21.--|29.97Mb+1
+  server: 103.172.116.79
+  port: 9019
+  type: ss
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+  udp: true
+- name: 22.--Relay_🇺🇸US-🇺🇸US_725
+  server: fr-full.privateip.net
+  port: 443
+  type: trojan
+  password: 4bbbb975-f2ff-4c1f-b69e-e3831504f7d3
+  skip-cert-verify: true
+  udp: true
+- name: 23.--Relay_ |31.96Mb
+  server: it-full.privateip.net
+  port: 443
+  type: trojan
+  password: 3d442d21-4351-49b3-ab82-1107ec28124e
+  skip-cert-verify: true
+  udp: true
+- name: 24.--长期更新节点@mftizi
+  server: hk02.duckulaolga.online
+  port: 80
+  type: vmess
+  uuid: 5f373214-b955-4467-a582-62be14c59bce
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /r8ykwif5rffiqJeJ49zLQtAUESmka7PbhWz3wiHs8cSeiRyZL
+    path: /
     headers:
-      Host: pla.yj2022.gq
+      Host: hk02.xpoti.online
+  udp: true
+- name: 25.--|29.50Mb
+  server: 103.172.116.79
+  port: 9024
+  type: ss
+  cipher: aes-256-cfb
+  password: BejrQvtu9sqUeNuZ
+  udp: true
+- name: 26.--|14.23Mb
+  server: 198.57.27.212
+  port: 22324
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 27.--|30.22Mb
+  server: 103.172.116.79
+  port: 9005
+  type: ss
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
+  udp: true
+- name: 28.--|30.02Mb
+  server: 103.172.116.79
+  port: 9058
+  type: ss
+  cipher: aes-256-cfb
+  password: dML2sfhbVwvtfNPe
+  udp: true
+- name: 29.--_238
+  server: 154.90.39.63
+  port: 45343
+  type: vmess
+  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 30.--|46.13Mb
+  server: 167.179.111.237
+  port: 14935
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 31.--_764 |352.10Mb
+  server: 159.223.207.182
+  port: 34428
+  type: trojan
+  password: zIvR7ryOXv
+  skip-cert-verify: true
+  udp: true
+- name: 32.--|30.06Mb
+  server: 103.172.116.79
+  port: 9015
+  type: ss
+  cipher: aes-256-cfb
+  password: ZpNDDKRu9MagNvaf
+  udp: true
+- name: 33.--FR法国(mibei77.com 米贝节点分享)
+  server: 51.75.170.141
+  port: 10000
+  type: vmess
+  uuid: d86d8aac-b037-11ee-ad74-63ccc3c46a17
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vpnjantit
+    headers:
+      Host: 51.75.170.141
+  udp: true
+- name: 34.--|28.99Mb
+  server: 103.172.116.90
+  port: 9031
+  type: ss
+  cipher: aes-256-cfb
+  password: BwcAUZk8hUFAkDGN
+  udp: true
+- name: 35.--|29.24Mb
+  server: 103.172.116.90
+  port: 9041
+  type: ss
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+  udp: true
+- name: 36.--|30.22Mb+1
+  server: 103.172.116.79
+  port: 9093
+  type: ss
+  cipher: aes-256-cfb
+  password: wfLC2y7rzZyCmuyt
+  udp: true
+- name: 37.--|30.28Mb+1
+  server: 103.172.116.79
+  port: 9000
+  type: ss
+  cipher: aes-256-cfb
+  password: a3GFYt36Sm82Vys9
+  udp: true
+- name: 38.--US | 7.75Mb
+  server: 15.204.240.119
+  port: 443
+  type: trojan
+  password: c470f140-a993-11ee-aa04-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: 39.--VPN招代理电报联系@xiaoying229+2
+  server: 94.131.99.8
+  port: 47182
+  type: vmess
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 40.--|36.46Mb
+  server: 138.2.44.211
+  port: 20081
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 41.--|23.75Mb
+  server: 172.99.190.12
+  port: 22324
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 42.--|29.84Mb
+  server: 103.172.116.79
+  port: 9041
+  type: ss
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+  udp: true
+- name: 43.--|34.01Mb
+  server: 172.232.147.80
+  port: 443
+  type: trojan
+  password: ca373cf6-cd08-4189-816d-9480474036dd
+  sni: ru-full.privateip.net
+  skip-cert-verify: true
+  udp: true
+- name: 44.--|30.36Mb
+  server: 103.172.116.79
+  port: 9059
+  type: ss
+  cipher: aes-256-cfb
+  password: 9XwYyZsK8SNzQDtY
+  udp: true
+- name: 45.--|32.66Mb
+  server: 167.71.79.61
+  port: 443
+  type: trojan
+  password: b9f3ff1a-9c85-48e1-9809-7a6431c4329f
+  sni: nl2-full.privateip.net
+  skip-cert-verify: true
+  udp: true
+- name: 46.--|30.06Mb+1
+  server: 103.172.116.79
+  port: 9031
+  type: ss
+  cipher: aes-256-cfb
+  password: BwcAUZk8hUFAkDGN
+  udp: true
+- name: 47.--|30.09Mb
+  server: 103.172.116.79
+  port: 9073
+  type: ss
+  cipher: aes-256-cfb
+  password: daFYagqDdBdA6VTX
+  udp: true
+- name: 48.--|30.16Mb
+  server: 103.172.116.79
+  port: 9040
+  type: ss
+  cipher: aes-256-cfb
+  password: p9z5BVADH2YFs3MN
+  udp: true
+- name: 49.--|30.07Mb
+  server: 103.172.116.79
+  port: 9057
+  type: ss
+  cipher: aes-256-cfb
+  password: wjTugX3ZtHMB9c3Z
+  udp: true
+- name: 50.--|30.56Mb
+  server: 103.172.116.79
+  port: 9014
+  type: ss
+  cipher: aes-256-cfb
+  password: KnJGad3FqTvjqbaX
+  udp: true
+- name: 51.--美国 Microsoft公司
+  server: 13.87.82.188
+  port: 49603
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: sdXEwtFoS5cAhg1ZBZqRBQ
+  udp: true
+- name: 52.--|30.31Mb
+  server: 103.172.116.79
+  port: 9094
+  type: ss
+  cipher: aes-256-cfb
+  password: rpgbNnU9rDDU4aWZ
+  udp: true
+- name: 53.--美国 Amazon数据中心
+  server: series-a2-mec.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
+  udp: true
+- name: 54.--|30.02Mb+1
+  server: 103.172.116.79
+  port: 9030
+  type: ss
+  cipher: aes-256-cfb
+  password: GeregetR8cvQHzYr
+  udp: true
+- name: 55.--|30.38Mb
+  server: 103.172.116.79
+  port: 9046
+  type: ss
+  cipher: aes-256-cfb
+  password: NvS8N4Vf8qAGPSCL
+  udp: true
+- name: 56.--|30.61Mb
+  server: 103.172.116.79
+  port: 9053
+  type: ss
+  cipher: aes-256-cfb
+  password: SBM7R883jBmnqe6C
+  udp: true
+- name: 57.--|30.27Mb
+  server: 103.172.116.79
+  port: 9088
+  type: ss
+  cipher: aes-256-cfb
+  password: f8npKgNzdkss2ytn
+  udp: true
+- name: 58.--_FR_法国
+  server: 145.239.6.202
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 59.--|US|美国|@wxgqlfx|28
+  server: 104.21.20.16
+  port: 443
+  type: vmess
+  uuid: 802c1068-ee2b-4c87-b49d-e7f3043e75d2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: se2-vmess.sshmax.xyz
   udp: true
 proxy-groups:
 - name: 🔰 节点选择
@@ -134,30 +484,128 @@ proxy-groups:
   - 🎯 全球直连
   - 负载均衡
   - 1.--_US_美国
-  - 2.--⬆️j@oneclickvpnkeys
-  - 3.--_ES_西班牙
-  - 4.--speednode_0047
-  - 5.--speednode_0022
-  - 6.--VPN招代理电报联系@xiaoying229+1
-  - 7.--|US|美国|@wxgqlfx|34
-  - 8.--VPN招代理电报联系@xiaoying229
-  - 9.--⬆️17@oneclickvpnkeys
-  - 10.--⬆️4@oneclickvpnkeys
+  - 2.--_US_美国+11
+  - 3.--US_690
+  - 4.--_GB_英国
+  - 5.--_CL_智利
+  - 6.--_NL_荷兰
+  - 7.--|86.47Mb
+  - 8.--_AR_阿根廷
+  - 9.--|30.48Mb
+  - 10.--|30.17Mb
+  - 11.--VPN招代理电报联系@xiaoying229+1
+  - 12.--|30.23Mb
+  - 13.--|30.28Mb
+  - 14.--YouTube面具人哈乐_台湾_26
+  - 15.--|30.15Mb
+  - 16.--|30.00Mb
+  - 17.--|30.04Mb
+  - 18.--|29.97Mb
+  - 19.--|30.20Mb
+  - 20.--|29.63Mb
+  - 21.--|29.97Mb+1
+  - 22.--Relay_🇺🇸US-🇺🇸US_725
+  - 23.--Relay_ |31.96Mb
+  - 24.--长期更新节点@mftizi
+  - 25.--|29.50Mb
+  - 26.--|14.23Mb
+  - 27.--|30.22Mb
+  - 28.--|30.02Mb
+  - 29.--_238
+  - 30.--|46.13Mb
+  - 31.--_764 |352.10Mb
+  - 32.--|30.06Mb
+  - 33.--FR法国(mibei77.com 米贝节点分享)
+  - 34.--|28.99Mb
+  - 35.--|29.24Mb
+  - 36.--|30.22Mb+1
+  - 37.--|30.28Mb+1
+  - 38.--US | 7.75Mb
+  - 39.--VPN招代理电报联系@xiaoying229+2
+  - 40.--|36.46Mb
+  - 41.--|23.75Mb
+  - 42.--|29.84Mb
+  - 43.--|34.01Mb
+  - 44.--|30.36Mb
+  - 45.--|32.66Mb
+  - 46.--|30.06Mb+1
+  - 47.--|30.09Mb
+  - 48.--|30.16Mb
+  - 49.--|30.07Mb
+  - 50.--|30.56Mb
+  - 51.--美国 Microsoft公司
+  - 52.--|30.31Mb
+  - 53.--美国 Amazon数据中心
+  - 54.--|30.02Mb+1
+  - 55.--|30.38Mb
+  - 56.--|30.61Mb
+  - 57.--|30.27Mb
+  - 58.--_FR_法国
+  - 59.--|US|美国|@wxgqlfx|28
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 1.--_US_美国
-  - 2.--⬆️j@oneclickvpnkeys
-  - 3.--_ES_西班牙
-  - 4.--speednode_0047
-  - 5.--speednode_0022
-  - 6.--VPN招代理电报联系@xiaoying229+1
-  - 7.--|US|美国|@wxgqlfx|34
-  - 8.--VPN招代理电报联系@xiaoying229
-  - 9.--⬆️17@oneclickvpnkeys
-  - 10.--⬆️4@oneclickvpnkeys
+  - 2.--_US_美国+11
+  - 3.--US_690
+  - 4.--_GB_英国
+  - 5.--_CL_智利
+  - 6.--_NL_荷兰
+  - 7.--|86.47Mb
+  - 8.--_AR_阿根廷
+  - 9.--|30.48Mb
+  - 10.--|30.17Mb
+  - 11.--VPN招代理电报联系@xiaoying229+1
+  - 12.--|30.23Mb
+  - 13.--|30.28Mb
+  - 14.--YouTube面具人哈乐_台湾_26
+  - 15.--|30.15Mb
+  - 16.--|30.00Mb
+  - 17.--|30.04Mb
+  - 18.--|29.97Mb
+  - 19.--|30.20Mb
+  - 20.--|29.63Mb
+  - 21.--|29.97Mb+1
+  - 22.--Relay_🇺🇸US-🇺🇸US_725
+  - 23.--Relay_ |31.96Mb
+  - 24.--长期更新节点@mftizi
+  - 25.--|29.50Mb
+  - 26.--|14.23Mb
+  - 27.--|30.22Mb
+  - 28.--|30.02Mb
+  - 29.--_238
+  - 30.--|46.13Mb
+  - 31.--_764 |352.10Mb
+  - 32.--|30.06Mb
+  - 33.--FR法国(mibei77.com 米贝节点分享)
+  - 34.--|28.99Mb
+  - 35.--|29.24Mb
+  - 36.--|30.22Mb+1
+  - 37.--|30.28Mb+1
+  - 38.--US | 7.75Mb
+  - 39.--VPN招代理电报联系@xiaoying229+2
+  - 40.--|36.46Mb
+  - 41.--|23.75Mb
+  - 42.--|29.84Mb
+  - 43.--|34.01Mb
+  - 44.--|30.36Mb
+  - 45.--|32.66Mb
+  - 46.--|30.06Mb+1
+  - 47.--|30.09Mb
+  - 48.--|30.16Mb
+  - 49.--|30.07Mb
+  - 50.--|30.56Mb
+  - 51.--美国 Microsoft公司
+  - 52.--|30.31Mb
+  - 53.--美国 Amazon数据中心
+  - 54.--|30.02Mb+1
+  - 55.--|30.38Mb
+  - 56.--|30.61Mb
+  - 57.--|30.27Mb
+  - 58.--_FR_法国
+  - 59.--|US|美国|@wxgqlfx|28
 - name: 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -166,15 +614,64 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 1.--_US_美国
-  - 2.--⬆️j@oneclickvpnkeys
-  - 3.--_ES_西班牙
-  - 4.--speednode_0047
-  - 5.--speednode_0022
-  - 6.--VPN招代理电报联系@xiaoying229+1
-  - 7.--|US|美国|@wxgqlfx|34
-  - 8.--VPN招代理电报联系@xiaoying229
-  - 9.--⬆️17@oneclickvpnkeys
-  - 10.--⬆️4@oneclickvpnkeys
+  - 2.--_US_美国+11
+  - 3.--US_690
+  - 4.--_GB_英国
+  - 5.--_CL_智利
+  - 6.--_NL_荷兰
+  - 7.--|86.47Mb
+  - 8.--_AR_阿根廷
+  - 9.--|30.48Mb
+  - 10.--|30.17Mb
+  - 11.--VPN招代理电报联系@xiaoying229+1
+  - 12.--|30.23Mb
+  - 13.--|30.28Mb
+  - 14.--YouTube面具人哈乐_台湾_26
+  - 15.--|30.15Mb
+  - 16.--|30.00Mb
+  - 17.--|30.04Mb
+  - 18.--|29.97Mb
+  - 19.--|30.20Mb
+  - 20.--|29.63Mb
+  - 21.--|29.97Mb+1
+  - 22.--Relay_🇺🇸US-🇺🇸US_725
+  - 23.--Relay_ |31.96Mb
+  - 24.--长期更新节点@mftizi
+  - 25.--|29.50Mb
+  - 26.--|14.23Mb
+  - 27.--|30.22Mb
+  - 28.--|30.02Mb
+  - 29.--_238
+  - 30.--|46.13Mb
+  - 31.--_764 |352.10Mb
+  - 32.--|30.06Mb
+  - 33.--FR法国(mibei77.com 米贝节点分享)
+  - 34.--|28.99Mb
+  - 35.--|29.24Mb
+  - 36.--|30.22Mb+1
+  - 37.--|30.28Mb+1
+  - 38.--US | 7.75Mb
+  - 39.--VPN招代理电报联系@xiaoying229+2
+  - 40.--|36.46Mb
+  - 41.--|23.75Mb
+  - 42.--|29.84Mb
+  - 43.--|34.01Mb
+  - 44.--|30.36Mb
+  - 45.--|32.66Mb
+  - 46.--|30.06Mb+1
+  - 47.--|30.09Mb
+  - 48.--|30.16Mb
+  - 49.--|30.07Mb
+  - 50.--|30.56Mb
+  - 51.--美国 Microsoft公司
+  - 52.--|30.31Mb
+  - 53.--美国 Amazon数据中心
+  - 54.--|30.02Mb+1
+  - 55.--|30.38Mb
+  - 56.--|30.61Mb
+  - 57.--|30.27Mb
+  - 58.--_FR_法国
+  - 59.--|US|美国|@wxgqlfx|28
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -182,51 +679,198 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 1.--_US_美国
-  - 2.--⬆️j@oneclickvpnkeys
-  - 3.--_ES_西班牙
-  - 4.--speednode_0047
-  - 5.--speednode_0022
-  - 6.--VPN招代理电报联系@xiaoying229+1
-  - 7.--|US|美国|@wxgqlfx|34
-  - 8.--VPN招代理电报联系@xiaoying229
-  - 9.--⬆️17@oneclickvpnkeys
-  - 10.--⬆️4@oneclickvpnkeys
+  - 2.--_US_美国+11
+  - 3.--US_690
+  - 4.--_GB_英国
+  - 5.--_CL_智利
+  - 6.--_NL_荷兰
+  - 7.--|86.47Mb
+  - 8.--_AR_阿根廷
+  - 9.--|30.48Mb
+  - 10.--|30.17Mb
+  - 11.--VPN招代理电报联系@xiaoying229+1
+  - 12.--|30.23Mb
+  - 13.--|30.28Mb
+  - 14.--YouTube面具人哈乐_台湾_26
+  - 15.--|30.15Mb
+  - 16.--|30.00Mb
+  - 17.--|30.04Mb
+  - 18.--|29.97Mb
+  - 19.--|30.20Mb
+  - 20.--|29.63Mb
+  - 21.--|29.97Mb+1
+  - 22.--Relay_🇺🇸US-🇺🇸US_725
+  - 23.--Relay_ |31.96Mb
+  - 24.--长期更新节点@mftizi
+  - 25.--|29.50Mb
+  - 26.--|14.23Mb
+  - 27.--|30.22Mb
+  - 28.--|30.02Mb
+  - 29.--_238
+  - 30.--|46.13Mb
+  - 31.--_764 |352.10Mb
+  - 32.--|30.06Mb
+  - 33.--FR法国(mibei77.com 米贝节点分享)
+  - 34.--|28.99Mb
+  - 35.--|29.24Mb
+  - 36.--|30.22Mb+1
+  - 37.--|30.28Mb+1
+  - 38.--US | 7.75Mb
+  - 39.--VPN招代理电报联系@xiaoying229+2
+  - 40.--|36.46Mb
+  - 41.--|23.75Mb
+  - 42.--|29.84Mb
+  - 43.--|34.01Mb
+  - 44.--|30.36Mb
+  - 45.--|32.66Mb
+  - 46.--|30.06Mb+1
+  - 47.--|30.09Mb
+  - 48.--|30.16Mb
+  - 49.--|30.07Mb
+  - 50.--|30.56Mb
+  - 51.--美国 Microsoft公司
+  - 52.--|30.31Mb
+  - 53.--美国 Amazon数据中心
+  - 54.--|30.02Mb+1
+  - 55.--|30.38Mb
+  - 56.--|30.61Mb
+  - 57.--|30.27Mb
+  - 58.--_FR_法国
+  - 59.--|US|美国|@wxgqlfx|28
 - name: 🌏 国内媒体
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - DIRECT
+  - 14.--YouTube面具人哈乐_台湾_26
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - 1.--_US_美国
-  - 2.--⬆️j@oneclickvpnkeys
-  - 3.--_ES_西班牙
-  - 4.--speednode_0047
-  - 5.--speednode_0022
-  - 6.--VPN招代理电报联系@xiaoying229+1
-  - 7.--|US|美国|@wxgqlfx|34
-  - 8.--VPN招代理电报联系@xiaoying229
-  - 9.--⬆️17@oneclickvpnkeys
-  - 10.--⬆️4@oneclickvpnkeys
+  - 2.--_US_美国+11
+  - 3.--US_690
+  - 4.--_GB_英国
+  - 5.--_CL_智利
+  - 6.--_NL_荷兰
+  - 7.--|86.47Mb
+  - 8.--_AR_阿根廷
+  - 9.--|30.48Mb
+  - 10.--|30.17Mb
+  - 11.--VPN招代理电报联系@xiaoying229+1
+  - 12.--|30.23Mb
+  - 13.--|30.28Mb
+  - 14.--YouTube面具人哈乐_台湾_26
+  - 15.--|30.15Mb
+  - 16.--|30.00Mb
+  - 17.--|30.04Mb
+  - 18.--|29.97Mb
+  - 19.--|30.20Mb
+  - 20.--|29.63Mb
+  - 21.--|29.97Mb+1
+  - 22.--Relay_🇺🇸US-🇺🇸US_725
+  - 23.--Relay_ |31.96Mb
+  - 24.--长期更新节点@mftizi
+  - 25.--|29.50Mb
+  - 26.--|14.23Mb
+  - 27.--|30.22Mb
+  - 28.--|30.02Mb
+  - 29.--_238
+  - 30.--|46.13Mb
+  - 31.--_764 |352.10Mb
+  - 32.--|30.06Mb
+  - 33.--FR法国(mibei77.com 米贝节点分享)
+  - 34.--|28.99Mb
+  - 35.--|29.24Mb
+  - 36.--|30.22Mb+1
+  - 37.--|30.28Mb+1
+  - 38.--US | 7.75Mb
+  - 39.--VPN招代理电报联系@xiaoying229+2
+  - 40.--|36.46Mb
+  - 41.--|23.75Mb
+  - 42.--|29.84Mb
+  - 43.--|34.01Mb
+  - 44.--|30.36Mb
+  - 45.--|32.66Mb
+  - 46.--|30.06Mb+1
+  - 47.--|30.09Mb
+  - 48.--|30.16Mb
+  - 49.--|30.07Mb
+  - 50.--|30.56Mb
+  - 51.--美国 Microsoft公司
+  - 52.--|30.31Mb
+  - 53.--美国 Amazon数据中心
+  - 54.--|30.02Mb+1
+  - 55.--|30.38Mb
+  - 56.--|30.61Mb
+  - 57.--|30.27Mb
+  - 58.--_FR_法国
+  - 59.--|US|美国|@wxgqlfx|28
 - name: 📲 电报信息
   type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - 1.--_US_美国
-  - 2.--⬆️j@oneclickvpnkeys
-  - 3.--_ES_西班牙
-  - 4.--speednode_0047
-  - 5.--speednode_0022
-  - 6.--VPN招代理电报联系@xiaoying229+1
-  - 7.--|US|美国|@wxgqlfx|34
-  - 8.--VPN招代理电报联系@xiaoying229
-  - 9.--⬆️17@oneclickvpnkeys
-  - 10.--⬆️4@oneclickvpnkeys
+  - 2.--_US_美国+11
+  - 3.--US_690
+  - 4.--_GB_英国
+  - 5.--_CL_智利
+  - 6.--_NL_荷兰
+  - 7.--|86.47Mb
+  - 8.--_AR_阿根廷
+  - 9.--|30.48Mb
+  - 10.--|30.17Mb
+  - 11.--VPN招代理电报联系@xiaoying229+1
+  - 12.--|30.23Mb
+  - 13.--|30.28Mb
+  - 14.--YouTube面具人哈乐_台湾_26
+  - 15.--|30.15Mb
+  - 16.--|30.00Mb
+  - 17.--|30.04Mb
+  - 18.--|29.97Mb
+  - 19.--|30.20Mb
+  - 20.--|29.63Mb
+  - 21.--|29.97Mb+1
+  - 22.--Relay_🇺🇸US-🇺🇸US_725
+  - 23.--Relay_ |31.96Mb
+  - 24.--长期更新节点@mftizi
+  - 25.--|29.50Mb
+  - 26.--|14.23Mb
+  - 27.--|30.22Mb
+  - 28.--|30.02Mb
+  - 29.--_238
+  - 30.--|46.13Mb
+  - 31.--_764 |352.10Mb
+  - 32.--|30.06Mb
+  - 33.--FR法国(mibei77.com 米贝节点分享)
+  - 34.--|28.99Mb
+  - 35.--|29.24Mb
+  - 36.--|30.22Mb+1
+  - 37.--|30.28Mb+1
+  - 38.--US | 7.75Mb
+  - 39.--VPN招代理电报联系@xiaoying229+2
+  - 40.--|36.46Mb
+  - 41.--|23.75Mb
+  - 42.--|29.84Mb
+  - 43.--|34.01Mb
+  - 44.--|30.36Mb
+  - 45.--|32.66Mb
+  - 46.--|30.06Mb+1
+  - 47.--|30.09Mb
+  - 48.--|30.16Mb
+  - 49.--|30.07Mb
+  - 50.--|30.56Mb
+  - 51.--美国 Microsoft公司
+  - 52.--|30.31Mb
+  - 53.--美国 Amazon数据中心
+  - 54.--|30.02Mb+1
+  - 55.--|30.38Mb
+  - 56.--|30.61Mb
+  - 57.--|30.27Mb
+  - 58.--_FR_法国
+  - 59.--|US|美国|@wxgqlfx|28
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -234,15 +878,64 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 1.--_US_美国
-  - 2.--⬆️j@oneclickvpnkeys
-  - 3.--_ES_西班牙
-  - 4.--speednode_0047
-  - 5.--speednode_0022
-  - 6.--VPN招代理电报联系@xiaoying229+1
-  - 7.--|US|美国|@wxgqlfx|34
-  - 8.--VPN招代理电报联系@xiaoying229
-  - 9.--⬆️17@oneclickvpnkeys
-  - 10.--⬆️4@oneclickvpnkeys
+  - 2.--_US_美国+11
+  - 3.--US_690
+  - 4.--_GB_英国
+  - 5.--_CL_智利
+  - 6.--_NL_荷兰
+  - 7.--|86.47Mb
+  - 8.--_AR_阿根廷
+  - 9.--|30.48Mb
+  - 10.--|30.17Mb
+  - 11.--VPN招代理电报联系@xiaoying229+1
+  - 12.--|30.23Mb
+  - 13.--|30.28Mb
+  - 14.--YouTube面具人哈乐_台湾_26
+  - 15.--|30.15Mb
+  - 16.--|30.00Mb
+  - 17.--|30.04Mb
+  - 18.--|29.97Mb
+  - 19.--|30.20Mb
+  - 20.--|29.63Mb
+  - 21.--|29.97Mb+1
+  - 22.--Relay_🇺🇸US-🇺🇸US_725
+  - 23.--Relay_ |31.96Mb
+  - 24.--长期更新节点@mftizi
+  - 25.--|29.50Mb
+  - 26.--|14.23Mb
+  - 27.--|30.22Mb
+  - 28.--|30.02Mb
+  - 29.--_238
+  - 30.--|46.13Mb
+  - 31.--_764 |352.10Mb
+  - 32.--|30.06Mb
+  - 33.--FR法国(mibei77.com 米贝节点分享)
+  - 34.--|28.99Mb
+  - 35.--|29.24Mb
+  - 36.--|30.22Mb+1
+  - 37.--|30.28Mb+1
+  - 38.--US | 7.75Mb
+  - 39.--VPN招代理电报联系@xiaoying229+2
+  - 40.--|36.46Mb
+  - 41.--|23.75Mb
+  - 42.--|29.84Mb
+  - 43.--|34.01Mb
+  - 44.--|30.36Mb
+  - 45.--|32.66Mb
+  - 46.--|30.06Mb+1
+  - 47.--|30.09Mb
+  - 48.--|30.16Mb
+  - 49.--|30.07Mb
+  - 50.--|30.56Mb
+  - 51.--美国 Microsoft公司
+  - 52.--|30.31Mb
+  - 53.--美国 Amazon数据中心
+  - 54.--|30.02Mb+1
+  - 55.--|30.38Mb
+  - 56.--|30.61Mb
+  - 57.--|30.27Mb
+  - 58.--_FR_法国
+  - 59.--|US|美国|@wxgqlfx|28
 - name: 🎯 全球直连
   type: select
   proxies:
