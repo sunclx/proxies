@@ -5,22 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国2 - vip666.xyz, server: node.websitea.xyz, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 1421e627-5015-4c54-910f-029009e11024, udp: true}
-  - {name: 美国（用前更新订阅） - vip666.xyz, server: node.websitea.xyz, port: 20031, type: ss, cipher: chacha20-ietf-poly1305, password: 1421e627-5015-4c54-910f-029009e11024, udp: true}
-  - {name: 新加坡 - vip666.xyz, server: node.websitea.xyz, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 1421e627-5015-4c54-910f-029009e11024, udp: true}
-  - {name: 香港-https://new.vip666.xyz - vip666.xyz, server: node.websitea.xyz, port: 20036, type: ss, cipher: chacha20-ietf-poly1305, password: 1421e627-5015-4c54-910f-029009e11024, udp: true}
-  - {name: 荷兰 - vip666.xyz, server: node.websitea.xyz, port: 20037, type: ss, cipher: chacha20-ietf-poly1305, password: 1421e627-5015-4c54-910f-029009e11024, udp: true}
-  - {name: 美国-VIP - vip666.xyz, server: node.websitea.xyz, port: 20038, type: ss, cipher: chacha20-ietf-poly1305, password: 1421e627-5015-4c54-910f-029009e11024, udp: true}
-  - {name: 韩国（最新地址：help.vip666.xyz） - vip666.xyz, server: node.websitea.xyz, port: 20039, type: ss, cipher: chacha20-ietf-poly1305, password: 1421e627-5015-4c54-910f-029009e11024, udp: true}
-  - {name: 中国香港2 - vip666.xyz, server: node.websitea.xyz, port: 20041, type: ss, cipher: chacha20-ietf-poly1305, password: 1421e627-5015-4c54-910f-029009e11024, udp: true}
-  - {name: 台湾A丨Hinet丨流媒体 - Tannel中继网络服务, server: www.zztannel.com, port: 62012, type: vmess, uuid: 665478bc-4f7c-3790-a150-1216f6672706, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本A丨Lin丨流媒体 - Tannel中继网络服务, server: www.zztannel.com, port: 62001, type: vmess, uuid: 665478bc-4f7c-3790-a150-1216f6672706, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国丨波特兰 - Tannel中继网络服务, server: www.zztannel.com, port: 62014, type: vmess, uuid: 665478bc-4f7c-3790-a150-1216f6672706, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港A丨HKBN丨流媒体 - Tannel中继网络服务, server: www.zztannel.com, port: 62016, type: vmess, uuid: 665478bc-4f7c-3790-a150-1216f6672706, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港B丨BGP丨流媒体 - Tannel中继网络服务, server: www.zztannel.com, port: 62003, type: vmess, uuid: 665478bc-4f7c-3790-a150-1216f6672706, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港福利BGP丨流媒体 - Tannel中继网络服务, server: iepl.zztannel.com, port: 62015, type: vmess, uuid: 665478bc-4f7c-3790-a150-1216f6672706, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 公益免费 🇺🇸美国 - Gegeth极迅游, server: us-west-anycast.lnaspiring.com, port: 80, type: vmess, uuid: a0b63317-33b5-4197-8ea0-f11e96d19767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/geg/44?ed=2048", headers: {Host: uspz.edge.233.tw}}, udp: true}
-  - {name: 公益免费 🇯🇵日本 - Gegeth极迅游, server: ap-northeast-anycast.lnaspiring.com, port: 80, type: vmess, uuid: a0b63317-33b5-4197-8ea0-f11e96d19767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/geg/45?ed=2048", headers: {Host: jpli.edge.233.tw}}, udp: true}
+  - {name: Hongkong-香港 - 一机场, server: frontend.yijianlian.app, port: 54570, type: trojan, password: fd119d80-5029-45bf-85c6-bd0b3080cb25, skip-cert-verify: true, udp: true}
+  - {name: Korea-韩国 - 一机场, server: frontend.yijianlian.app, port: 54540, type: trojan, password: fd119d80-5029-45bf-85c6-bd0b3080cb25, skip-cert-verify: true, udp: true}
+  - {name: Japan-日本 - 一机场, server: frontend.yijianlian.app, port: 54530, type: trojan, password: fd119d80-5029-45bf-85c6-bd0b3080cb25, skip-cert-verify: true, udp: true}
+  - {name: Singapore-新加坡 - 一机场, server: frontend.yijianlian.app, port: 54420, type: trojan, password: fd119d80-5029-45bf-85c6-bd0b3080cb25, skip-cert-verify: true, udp: true}
+  - {name: Singapore2-新加坡2 - 一机场, server: frontend.yijianlian.app, port: 54591, type: trojan, password: fd119d80-5029-45bf-85c6-bd0b3080cb25, skip-cert-verify: true, udp: true}
+  - {name: Australia-澳大利亚 - 一机场, server: frontend.yijianlian.app, port: 54590, type: trojan, password: fd119d80-5029-45bf-85c6-bd0b3080cb25, skip-cert-verify: true, udp: true}
+  - {name: UK-英国 - 一机场, server: frontend.yijianlian.app, port: 54000, type: trojan, password: fd119d80-5029-45bf-85c6-bd0b3080cb25, skip-cert-verify: true, udp: true}
+  - {name: Canada-加拿大 - 一机场, server: frontend.yijianlian.app, port: 54001, type: trojan, password: fd119d80-5029-45bf-85c6-bd0b3080cb25, skip-cert-verify: true, udp: true}
+  - {name: 台湾A丨Hinet丨流媒体 - Tannel中继网络服务, server: www.zztannel.com, port: 62012, type: vmess, uuid: 5bccb505-84ba-398b-bb8d-79852ae26d39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本A丨Lin丨流媒体 - Tannel中继网络服务, server: www.zztannel.com, port: 62001, type: vmess, uuid: 5bccb505-84ba-398b-bb8d-79852ae26d39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国丨波特兰 - Tannel中继网络服务, server: www.zztannel.com, port: 62014, type: vmess, uuid: 5bccb505-84ba-398b-bb8d-79852ae26d39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港A丨HKBN丨流媒体 - Tannel中继网络服务, server: www.zztannel.com, port: 62016, type: vmess, uuid: 5bccb505-84ba-398b-bb8d-79852ae26d39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港B丨BGP丨流媒体 - Tannel中继网络服务, server: www.zztannel.com, port: 62003, type: vmess, uuid: 5bccb505-84ba-398b-bb8d-79852ae26d39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港福利BGP丨流媒体 - Tannel中继网络服务, server: iepl.zztannel.com, port: 62015, type: vmess, uuid: 5bccb505-84ba-398b-bb8d-79852ae26d39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 公益免费 🇺🇸美国 - Gegeth极迅游, server: us-west-anycast.lnaspiring.com, port: 80, type: vmess, uuid: b69211d8-42b8-46d9-8fdc-730053f2e76c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/geg/44?ed=2048", headers: {Host: uspz.edge.233.tw}}, udp: true}
+  - {name: 公益免费 🇯🇵日本 - Gegeth极迅游, server: ap-northeast-anycast.lnaspiring.com, port: 80, type: vmess, uuid: b69211d8-42b8-46d9-8fdc-730053f2e76c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/geg/45?ed=2048", headers: {Host: jpli.edge.233.tw}}, udp: true}
   - {name: TW-板桥1-1(SS) - 麻雀加速器 Sparrow, server: b11.ntbq.dynu.net, port: 6543, type: ss, cipher: chacha20-ietf-poly1305, password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, udp: true}
   - {name: TW-板桥1-2(SS) - 麻雀加速器 Sparrow, server: b12.ntbq.dynu.net, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, udp: true}
   - {name: TW-板桥1-3(SS) - 麻雀加速器 Sparrow, server: b13.ntbq.dynu.net, port: 7773, type: ss, cipher: chacha20-ietf-poly1305, password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, udp: true}
@@ -32,23 +32,31 @@ proxies:
   - {name: TW-桃园1-2(SS) - 麻雀加速器 Sparrow, server: ty12.twty.dynu.net, port: 4303, type: ss, cipher: chacha20-ietf-poly1305, password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, udp: true}
   - {name: TW-台中1-1(SS) - 麻雀加速器 Sparrow, server: c11.twtc.dynu.net, port: 3234, type: ss, cipher: chacha20-ietf-poly1305, password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, udp: true}
   - {name: TW-台中1-2(TCP) - 麻雀加速器 Sparrow, server: c12.twtc.dynu.net, port: 6122, type: vmess, uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: USBGP-Nano - 闪极云, server: 165.3.122.145, port: 10010, type: ss, cipher: aes-256-gcm, password: b84caf05-5188-4ef3-a92a-4920b85fa2a8, udp: true}
-  - {name: SG-1-test - 闪极云, server: 54.151.240.228, port: 8959, type: ss, cipher: chacha20-ietf-poly1305, password: b84caf05-5188-4ef3-a92a-4920b85fa2a8, udp: true}
-  - {name: JP-1-test - 闪极云, server: 57.180.88.53, port: 7841, type: ss, cipher: chacha20-ietf-poly1305, password: b84caf05-5188-4ef3-a92a-4920b85fa2a8, udp: true}
-  - {name: 新加坡01 - 都是梦, server: sg3.doushimeng.com, port: 20053, type: ss, cipher: chacha20-ietf-poly1305, password: a35c4f90-188a-4ad9-9f25-8631d6d1da64, udp: true}
-  - {name: 日本01 - 都是梦, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: a35c4f90-188a-4ad9-9f25-8631d6d1da64, udp: true}
-  - {name: 美国01 - 都是梦, server: us4.doushimeng.com, port: 20802, type: ss, cipher: chacha20-ietf-poly1305, password: a35c4f90-188a-4ad9-9f25-8631d6d1da64, udp: true}
-  - {name: 德国01 - 都是梦, server: dl3.doushimeng.com, port: 2082, type: vmess, uuid: a35c4f90-188a-4ad9-9f25-8631d6d1da64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-de9.doushimeng.com}}, udp: true}
-  - {name: JP日本 A - 可乐云, server: jp.colacloud.site, port: 51310, type: ss, cipher: chacha20-ietf-poly1305, password: 8144daef-4026-4b89-ac57-710e0cc41a78, udp: true}
-  - {name: US美国 A - 可乐云, server: us.colacloud.site, port: 20552, type: ss, cipher: chacha20-ietf-poly1305, password: 8144daef-4026-4b89-ac57-710e0cc41a78, udp: true}
-  - {name: SG新加坡 A - 可乐云, server: sg.colacloud.site, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 8144daef-4026-4b89-ac57-710e0cc41a78, udp: true}
-  - {name: KR韩国 A - 可乐云, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 8144daef-4026-4b89-ac57-710e0cc41a78, udp: true}
-  - {name: 01新加坡节点Trojan - 星舰基地 | xStarship, server: sg01.xstarship.com, port: 56789, type: trojan, password: 2407c0a0-6a8c-4a6f-a812-9621050b550e, sni: sg01.xstarship.com, skip-cert-verify: true, udp: true}
-  - {name: 01美国洛杉机节点Trojan - 星舰基地 | xStarship, server: us01.xstarship.com, port: 56789, type: trojan, password: 2407c0a0-6a8c-4a6f-a812-9621050b550e, sni: us01.xstarship.com, skip-cert-verify: true, udp: true}
-  - {name: 01新加坡节点Shadowsocks - 星舰基地 | xStarship, server: sg01.xstarship.com, port: 56789, type: ss, cipher: chacha20-ietf-poly1305, password: 2407c0a0-6a8c-4a6f-a812-9621050b550e, udp: true}
-  - {name: 01美国洛杉机节点Shadowsocks - 星舰基地 | xStarship, server: us01.xstarship.com, port: 56789, type: ss, cipher: chacha20-ietf-poly1305, password: 2407c0a0-6a8c-4a6f-a812-9621050b550e, udp: true}
-  - {name: 01新加坡节点Vmess - 星舰基地 | xStarship, server: sg01.xstarship.com, port: 56789, type: vmess, uuid: 2407c0a0-6a8c-4a6f-a812-9621050b550e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg01.xstarship.com}}, udp: true}
-  - {name: 01美国洛杉机节点Vmess - 星舰基地 | xStarship, server: us01.xstarship.com, port: 56789, type: vmess, uuid: 2407c0a0-6a8c-4a6f-a812-9621050b550e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.xstarship.com}}, udp: true}
+  - {name: USBGP-Nano - 闪极云, server: 165.3.122.145, port: 10010, type: ss, cipher: aes-256-gcm, password: b1494702-bcaa-43ff-b654-f96a26bd0b22, udp: true}
+  - {name: SG-1-test - 闪极云, server: 54.151.240.228, port: 8959, type: ss, cipher: chacha20-ietf-poly1305, password: b1494702-bcaa-43ff-b654-f96a26bd0b22, udp: true}
+  - {name: JP-1-test - 闪极云, server: 57.180.88.53, port: 7841, type: ss, cipher: chacha20-ietf-poly1305, password: b1494702-bcaa-43ff-b654-f96a26bd0b22, udp: true}
+  - {name: 新加坡01 - 都是梦, server: sg3.doushimeng.com, port: 20053, type: ss, cipher: chacha20-ietf-poly1305, password: b6a924b9-064e-47fc-89c8-6127e3902cba, udp: true}
+  - {name: 日本01 - 都是梦, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: b6a924b9-064e-47fc-89c8-6127e3902cba, udp: true}
+  - {name: 美国01 - 都是梦, server: us4.doushimeng.com, port: 20802, type: ss, cipher: chacha20-ietf-poly1305, password: b6a924b9-064e-47fc-89c8-6127e3902cba, udp: true}
+  - {name: 德国01 - 都是梦, server: dl3.doushimeng.com, port: 2082, type: vmess, uuid: b6a924b9-064e-47fc-89c8-6127e3902cba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-de9.doushimeng.com}}, udp: true}
+  - {name: JP日本 A - 可乐云, server: jp.colacloud.site, port: 51310, type: ss, cipher: chacha20-ietf-poly1305, password: 0afb8a8e-5c3a-4d57-ab66-8a1ca56938b8, udp: true}
+  - {name: US美国 A - 可乐云, server: us.colacloud.site, port: 20552, type: ss, cipher: chacha20-ietf-poly1305, password: 0afb8a8e-5c3a-4d57-ab66-8a1ca56938b8, udp: true}
+  - {name: SG新加坡 A - 可乐云, server: sg.colacloud.site, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 0afb8a8e-5c3a-4d57-ab66-8a1ca56938b8, udp: true}
+  - {name: KR韩国 A - 可乐云, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 0afb8a8e-5c3a-4d57-ab66-8a1ca56938b8, udp: true}
+  - {name: 邀请好友返利65% - 十元一年, server: happynewcloud-shanghaidianxinzhixian.fly64jfgwhale.xyz, port: 34364, type: ss, cipher: chacha20-ietf-poly1305, password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, udp: true}
+  - {name: go.shiyuanyinian.xyz - 十元一年, server: happynewcloud-shanghaidianxinzhixian.fly64jfgwhale.xyz, port: 34364, type: ss, cipher: chacha20-ietf-poly1305, password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, udp: true}
+  - {name: 香港-上海电信 - 十元一年, server: happynewcloud-shanghaidianxinzhixian.fly64jfgwhale.xyz, port: 34364, type: ss, cipher: chacha20-ietf-poly1305, password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, udp: true}
+  - {name: 香港-广州电信 - 十元一年, server: happynewcloud-guangzhoudianxin-1.fly64jfgwhale.xyz, port: 34549, type: ss, cipher: chacha20-ietf-poly1305, password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, udp: true}
+  - {name: 香港-中华电信 - 十元一年, server: tw.passwallwall.shop, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, udp: true}
+  - {name: 俄罗斯-上海电信 - 十元一年, server: happynewcloud-shanghaidianxinzhixian.fly64jfgwhale.xyz, port: 34394, type: ss, cipher: chacha20-ietf-poly1305, password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, udp: true}
+  - {name: 俄罗斯-广州电信 - 十元一年, server: happynewcloud-guangzhoudianxin-1.fly64jfgwhale.xyz, port: 34249, type: ss, cipher: chacha20-ietf-poly1305, password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, udp: true}
+  - {name: 俄罗斯-中华电信 - 十元一年, server: tw.passwallwall.shop, port: 60002, type: ss, cipher: chacha20-ietf-poly1305, password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, udp: true}
+  - {name: 01新加坡节点Trojan - 星舰基地 | xStarship, server: sg01.xstarship.com, port: 56789, type: trojan, password: 3edddca1-b5b4-40a7-8ee4-c418ee40d7cc, sni: sg01.xstarship.com, skip-cert-verify: true, udp: true}
+  - {name: 01美国洛杉机节点Trojan - 星舰基地 | xStarship, server: us01.xstarship.com, port: 56789, type: trojan, password: 3edddca1-b5b4-40a7-8ee4-c418ee40d7cc, sni: us01.xstarship.com, skip-cert-verify: true, udp: true}
+  - {name: 01新加坡节点Shadowsocks - 星舰基地 | xStarship, server: sg01.xstarship.com, port: 56789, type: ss, cipher: chacha20-ietf-poly1305, password: 3edddca1-b5b4-40a7-8ee4-c418ee40d7cc, udp: true}
+  - {name: 01美国洛杉机节点Shadowsocks - 星舰基地 | xStarship, server: us01.xstarship.com, port: 56789, type: ss, cipher: chacha20-ietf-poly1305, password: 3edddca1-b5b4-40a7-8ee4-c418ee40d7cc, udp: true}
+  - {name: 01新加坡节点Vmess - 星舰基地 | xStarship, server: sg01.xstarship.com, port: 56789, type: vmess, uuid: 3edddca1-b5b4-40a7-8ee4-c418ee40d7cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg01.xstarship.com}}, udp: true}
+  - {name: 01美国洛杉机节点Vmess - 星舰基地 | xStarship, server: us01.xstarship.com, port: 56789, type: vmess, uuid: 3edddca1-b5b4-40a7-8ee4-c418ee40d7cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.xstarship.com}}, udp: true}
   - {name: 韩国01 优选（1x） - 快狗云, server: go.gujuji.top, port: 8080, type: vmess, uuid: acc00acc-8790-4be6-b9e5-3007ab6f5fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr-01.gujuji.top}}, udp: true}
   - {name: 加拿大new01（1x） - 快狗云, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: acc00acc-8790-4be6-b9e5-3007ab6f5fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
   - {name: 加拿大new01优选（1x） - 快狗云, server: go.gujuji.top, port: 8080, type: vmess, uuid: acc00acc-8790-4be6-b9e5-3007ab6f5fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
@@ -69,118 +77,123 @@ proxies:
   - {name: 美国02（1x） - 快狗云, server: us-01.gujuji.top, port: 8080, type: vmess, uuid: acc00acc-8790-4be6-b9e5-3007ab6f5fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-01.gujuji.top}}, udp: true}
   - {name: 美国02 优选（1x） - 快狗云, server: go.gujuji.top, port: 8080, type: vmess, uuid: acc00acc-8790-4be6-b9e5-3007ab6f5fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-02.gujuji.top}}, udp: true}
   - {name: 韩国01（1x） - 快狗云, server: kr-01.gujuji.top, port: 8080, type: vmess, uuid: acc00acc-8790-4be6-b9e5-3007ab6f5fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr-01.gujuji.top}}, udp: true}
-  - {name: 香港 / 华南｜HK - 小白云, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 香港 / 华东｜HK - 小白云, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 香港 / 备用｜HK - 小白云, server: hk3.iepl.cooc.icu, port: 23881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 日本 / 华东｜JP - 小白云, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 日本 / 华南｜JP - 小白云, server: jp2.iepl.cooc.icu, port: 47101, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 日本 / 备用｜JP - 小白云, server: jp3.iepl.cooc.icu, port: 19881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 美国 / 华东｜US - 小白云, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 美国 / 华南｜US - 小白云, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 美国 / 备用｜US - 小白云, server: usa3.iepl.cooc.icu, port: 33881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 美国 / 华东 | 家宽 - 小白云, server: usa4.iepl.cooc.icu, port: 34881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 美国 / 华南 | 家宽 - 小白云, server: usa5.iepl.cooc.icu, port: 35881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 韩国 / 华东｜KR - 小白云, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 韩国 / 华南｜KR - 小白云, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 新加坡 / 华南｜SG - 小白云, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 新加坡 / 华东｜SG - 小白云, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 台湾 / 华东｜TW - 小白云, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 台湾 / 华南｜TW - 小白云, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 越南 / 华东 | 原生 - 小白云, server: vn1.iepl.cooc.icu, port: 35601, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 越南 / 华南 | 原生 - 小白云, server: vn2.iepl.cooc.icu, port: 35602, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 马来 / 华南 | 原生 - 小白云, server: mas1.iepl.cooc.icu, port: 35603, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 马来 / 华东 | 原生 - 小白云, server: mas2.iepl.cooc.icu, port: 35604, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 英国 / 华东 | 原生 - 小白云, server: uk1.iepl.cooc.icu, port: 35605, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 英国 / 华南 | 原生 - 小白云, server: uk2.iepl.cooc.icu, port: 35606, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 德国 / 华南 | 原生 - 小白云, server: ger1.iepl.cooc.icu, port: 35607, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 德国 / 华东 | 原生 - 小白云, server: ger2.iepl.cooc.icu, port: 35608, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 法国 / 华南 | 原生 - 小白云, server: fr1.iepl.cooc.icu, port: 35611, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 法国 / 华东 | 原生 - 小白云, server: fr2.iepl.cooc.icu, port: 35612, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 海外用户｜HK - 小白云, server: hk.cooc.icu, port: 31511, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: JP｜Overseas users - 小白云, server: jp.cooc.icu, port: 33881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: US｜Overseas users - 小白云, server: 154.9.249.29, port: 35881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: KR｜Overseas users - 小白云, server: kr.cooc.icu, port: 37882, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: SG｜Overseas users - 小白云, server: sg.cooc.icu, port: 34881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: TW｜Overseas users - 小白云, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: VN｜Overseas users - 小白云, server: vn.cooc.icu, port: 31511, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: MAS｜Overseas users - 小白云, server: mas.cooc.icu, port: 31511, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: UK｜Overseas users - 小白云, server: uk.cooc.icu, port: 31511, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: GER｜Overseas users - 小白云, server: 185.39.51.197, port: 31511, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: FR｜Overseas users - 小白云, server: fr.cooc.icu, port: 31511, type: ss, cipher: aes-128-gcm, password: c45a20a9-8bd6-4dfe-973c-91017dd2832a, udp: true}
-  - {name: 中转•香港301•高速 - 飞翔吧, server: gy.58n.net, port: 20301, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•台湾258•高速 - 飞翔吧, server: gy.58n.net, port: 17629, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z258.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港143•高速 - 飞翔吧, server: gy.58n.net, port: 28678, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港269•高速 - 飞翔吧, server: gy.58n.net, port: 22741, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: dufu.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港294•高速 - 飞翔吧, server: gy.58n.net, port: 20294, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z294.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•香港102•高速 - 飞翔吧, server: gy.58n.net, port: 43337, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港259•高速 - 飞翔吧, server: gy.58n.net, port: 24603, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港278•高速 - 飞翔吧, server: gy.58n.net, port: 20278, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z278.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港279•高速 - 飞翔吧, server: gy.58n.net, port: 20279, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z279.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•台湾100•高速 - 飞翔吧, server: gy.58n.net, port: 59021, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x100.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•台湾91•原生 - 飞翔吧, server: gy.58n.net, port: 21247, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x91.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国302•GPT - 飞翔吧, server: gy.58n.net, port: 20302, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z302.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国303•GPT - 飞翔吧, server: gy.58n.net, port: 20303, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z303.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国304•GPT - 飞翔吧, server: gy.58n.net, port: 20304, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国305•GPT - 飞翔吧, server: gy.58n.net, port: 20305, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国306•GPT - 飞翔吧, server: gy.58n.net, port: 20306, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•新加坡299•高速 - 飞翔吧, server: gy.58n.net, port: 20299, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•新加坡65•青铜 - 飞翔吧, server: gy.58n.net, port: 17806, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•新加坡83•高速 - 飞翔吧, server: gy.58n.net, port: 30712, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•日本298•高速 - 飞翔吧, server: gy.58n.net, port: 20298, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z298.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•日本300•原生 - 飞翔吧, server: gy.58n.net, port: 20300, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z300.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国295•高速 - 飞翔吧, server: gy.58n.net, port: 20295, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z295.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国296•高速 - 飞翔吧, server: gy.58n.net, port: 20296, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z296.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国308•高速 - 飞翔吧, server: gy.58n.net, port: 20308, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z308.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国40•高速 - 飞翔吧, server: gy.58n.net, port: 16895, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x40.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国41•原生 - 飞翔吧, server: gy.58n.net, port: 21970, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x41.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国46•原生 - 飞翔吧, server: gy.58n.net, port: 14846, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x46.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国61•高速 - 飞翔吧, server: gy.58n.net, port: 30767, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z61.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•英国267•高速 - 飞翔吧, server: gy.58n.net, port: 25238, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z267.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•英国268•高速 - 飞翔吧, server: gy.58n.net, port: 11215, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z268.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•香港307•高速 - 飞翔吧, server: gy.58n.net, port: 20307, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•台湾261•高速 - 飞翔吧, server: gy.58n.net, port: 33323, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z261.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•台湾262•高速 - 飞翔吧, server: gy.58n.net, port: 36821, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z262.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•美国266•高速 - 飞翔吧, server: gy.58n.net, port: 56783, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z266.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•美国288•高速 - 飞翔吧, server: gy.58n.net, port: 20288, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z288.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•韩国263•高速 - 飞翔吧, server: gy.58n.net, port: 45168, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•韩国264•高速 - 飞翔吧, server: gy.58n.net, port: 50355, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z264.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 新加坡•高速129•高速 - 飞翔吧, server: gy.58n.net, port: 20129, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x129.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 新加坡•高速130•铂金 - 飞翔吧, server: gy.58n.net, port: 20130, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x130.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速114•高速 - 飞翔吧, server: gy.58n.net, port: 41767, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x114.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速115•高速 - 飞翔吧, server: gy.58n.net, port: 54178, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x115.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速139•铂金 - 飞翔吧, server: gy.58n.net, port: 20139, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z139.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速140•铂金 - 飞翔吧, server: gy.58n.net, port: 20140, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z140.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速141•铂金 - 飞翔吧, server: gy.58n.net, port: 20141, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z141.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速142•原生 - 飞翔吧, server: gy.58n.net, port: 20142, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: z142.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速59•青铜 - 飞翔吧, server: gy.58n.net, port: 20059, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x59.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速71•高速 - 飞翔吧, server: gy.58n.net, port: 20071, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x71.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速76•高速 - 飞翔吧, server: gy.58n.net, port: 20076, type: trojan, password: 238eb8ba-3078-3c2e-9249-cb39f3b7b479, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 香港 / 华南｜HK - 小白云, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 香港 / 华东｜HK - 小白云, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 香港 / 备用｜HK - 小白云, server: hk3.iepl.cooc.icu, port: 23881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 日本 / 华东｜JP - 小白云, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 日本 / 华南｜JP - 小白云, server: jp2.iepl.cooc.icu, port: 47101, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 日本 / 备用｜JP - 小白云, server: jp3.iepl.cooc.icu, port: 19881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 美国 / 华东｜US - 小白云, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 美国 / 华南｜US - 小白云, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 美国 / 备用｜US - 小白云, server: usa3.iepl.cooc.icu, port: 33881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 美国 / 华东 | 家宽 - 小白云, server: usa4.iepl.cooc.icu, port: 34881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 美国 / 华南 | 家宽 - 小白云, server: usa5.iepl.cooc.icu, port: 35881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 韩国 / 华东｜KR - 小白云, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 韩国 / 华南｜KR - 小白云, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 新加坡 / 华南｜SG - 小白云, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 新加坡 / 华东｜SG - 小白云, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 台湾 / 华东｜TW - 小白云, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 台湾 / 华南｜TW - 小白云, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 越南 / 华东 | 原生 - 小白云, server: vn1.iepl.cooc.icu, port: 35601, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 越南 / 华南 | 原生 - 小白云, server: vn2.iepl.cooc.icu, port: 35602, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 马来 / 华南 | 原生 - 小白云, server: mas1.iepl.cooc.icu, port: 35603, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 马来 / 华东 | 原生 - 小白云, server: mas2.iepl.cooc.icu, port: 35604, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 英国 / 华东 | 原生 - 小白云, server: uk1.iepl.cooc.icu, port: 35605, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 英国 / 华南 | 原生 - 小白云, server: uk2.iepl.cooc.icu, port: 35606, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 德国 / 华南 | 原生 - 小白云, server: ger1.iepl.cooc.icu, port: 35607, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 德国 / 华东 | 原生 - 小白云, server: ger2.iepl.cooc.icu, port: 35608, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 法国 / 华南 | 原生 - 小白云, server: fr1.iepl.cooc.icu, port: 35611, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 法国 / 华东 | 原生 - 小白云, server: fr2.iepl.cooc.icu, port: 35612, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 海外用户｜HK - 小白云, server: hk.cooc.icu, port: 31511, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: JP｜Overseas users - 小白云, server: jp.cooc.icu, port: 33881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: US｜Overseas users - 小白云, server: 154.9.249.29, port: 35881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: KR｜Overseas users - 小白云, server: kr.cooc.icu, port: 37882, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: SG｜Overseas users - 小白云, server: sg.cooc.icu, port: 34881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: TW｜Overseas users - 小白云, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: VN｜Overseas users - 小白云, server: vn.cooc.icu, port: 31511, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: MAS｜Overseas users - 小白云, server: mas.cooc.icu, port: 31511, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: UK｜Overseas users - 小白云, server: uk.cooc.icu, port: 31511, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: GER｜Overseas users - 小白云, server: 185.39.51.197, port: 31511, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: FR｜Overseas users - 小白云, server: fr.cooc.icu, port: 31511, type: ss, cipher: aes-128-gcm, password: 0b1741fb-bdb6-4eea-bcf1-9fb7cec6ee66, udp: true}
+  - {name: 中转•香港301•高速 - 飞翔吧, server: gy.58n.net, port: 20301, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•台湾258•高速 - 飞翔吧, server: gy.58n.net, port: 17629, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z258.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港143•高速 - 飞翔吧, server: gy.58n.net, port: 28678, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港269•高速 - 飞翔吧, server: gy.58n.net, port: 22741, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: dufu.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港294•高速 - 飞翔吧, server: gy.58n.net, port: 20294, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z294.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•香港102•高速 - 飞翔吧, server: gy.58n.net, port: 43337, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港259•高速 - 飞翔吧, server: gy.58n.net, port: 24603, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港278•高速 - 飞翔吧, server: gy.58n.net, port: 20278, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z278.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港279•高速 - 飞翔吧, server: gy.58n.net, port: 20279, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z279.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•台湾100•高速 - 飞翔吧, server: gy.58n.net, port: 59021, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x100.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•台湾91•原生 - 飞翔吧, server: gy.58n.net, port: 21247, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x91.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国302•GPT - 飞翔吧, server: gy.58n.net, port: 20302, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z302.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国303•GPT - 飞翔吧, server: gy.58n.net, port: 20303, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z303.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国304•GPT - 飞翔吧, server: gy.58n.net, port: 20304, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国305•GPT - 飞翔吧, server: gy.58n.net, port: 20305, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国306•GPT - 飞翔吧, server: gy.58n.net, port: 20306, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•新加坡299•高速 - 飞翔吧, server: gy.58n.net, port: 20299, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•新加坡65•青铜 - 飞翔吧, server: gy.58n.net, port: 17806, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•新加坡83•高速 - 飞翔吧, server: gy.58n.net, port: 30712, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•日本298•高速 - 飞翔吧, server: gy.58n.net, port: 20298, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z298.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•日本300•原生 - 飞翔吧, server: gy.58n.net, port: 20300, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z300.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国295•高速 - 飞翔吧, server: gy.58n.net, port: 20295, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z295.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国296•高速 - 飞翔吧, server: gy.58n.net, port: 20296, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z296.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国308•高速 - 飞翔吧, server: gy.58n.net, port: 20308, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z308.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国40•高速 - 飞翔吧, server: gy.58n.net, port: 16895, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x40.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国41•原生 - 飞翔吧, server: gy.58n.net, port: 21970, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x41.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国46•原生 - 飞翔吧, server: gy.58n.net, port: 14846, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x46.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国61•高速 - 飞翔吧, server: gy.58n.net, port: 30767, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z61.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•英国267•高速 - 飞翔吧, server: gy.58n.net, port: 25238, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z267.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•英国268•高速 - 飞翔吧, server: gy.58n.net, port: 11215, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z268.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•香港307•高速 - 飞翔吧, server: gy.58n.net, port: 20307, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•台湾261•高速 - 飞翔吧, server: gy.58n.net, port: 33323, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z261.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•台湾262•高速 - 飞翔吧, server: gy.58n.net, port: 36821, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z262.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•美国266•高速 - 飞翔吧, server: gy.58n.net, port: 56783, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z266.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•美国288•高速 - 飞翔吧, server: gy.58n.net, port: 20288, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z288.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•韩国263•高速 - 飞翔吧, server: gy.58n.net, port: 45168, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•韩国264•高速 - 飞翔吧, server: gy.58n.net, port: 50355, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z264.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡•高速129•高速 - 飞翔吧, server: gy.58n.net, port: 20129, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x129.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 新加坡•高速130•铂金 - 飞翔吧, server: gy.58n.net, port: 20130, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x130.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速114•高速 - 飞翔吧, server: gy.58n.net, port: 41767, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x114.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速115•高速 - 飞翔吧, server: gy.58n.net, port: 54178, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x115.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速139•铂金 - 飞翔吧, server: gy.58n.net, port: 20139, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z139.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速140•铂金 - 飞翔吧, server: gy.58n.net, port: 20140, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z140.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速141•铂金 - 飞翔吧, server: gy.58n.net, port: 20141, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z141.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速142•原生 - 飞翔吧, server: gy.58n.net, port: 20142, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: z142.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速59•青铜 - 飞翔吧, server: gy.58n.net, port: 20059, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x59.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速71•高速 - 飞翔吧, server: gy.58n.net, port: 20071, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x71.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速76•高速 - 飞翔吧, server: gy.58n.net, port: 20076, type: trojan, password: bf3678ea-033c-3f90-ad66-5c1253c64fbe, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 日本(免費) - bee.sulepay.com, server: v3nw.7n1gg.cn, port: 45613, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19658:0PfnhA, obfs-param: 1694d19658.microsoft.com, udp: true}
   - {name: 新加坡(免费) - bee.sulepay.com, server: freezhongzhuan.7n1gg.cn, port: 19546, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19658:0PfnhA, obfs-param: 1694d19658.microsoft.com, udp: true}
   - {name: 美國(免費) - bee.sulepay.com, server: hnzhuangfa.afi0i.cn, port: 19547, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19658:0PfnhA, obfs-param: 1694d19658.microsoft.com, udp: true}
-  - {name: "[vip①]德国1 - MG Network", server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]德国2 - MG Network", server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]新加坡1 - MG Network", server: 12.v2-ray.cyou, port: 23612, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]新加坡2 - MG Network", server: 17.v2-ray.cyou, port: 23617, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]日本1 - MG Network", server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[vip①]日本2 - MG Network", server: 19.v2-ray.cyou, port: 23619, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]美国1 - MG Network", server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]美国2 - MG Network", server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]英国1 - MG Network", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]英国2 - MG Network", server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]韩国1 - MG Network", server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: b96089f4-f767-3145-8626-b2d770252585, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
-  - {name: 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: 1dfa7536-ad22-472c-808f-af78b3fd204c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
-  - {name: 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: jp.littleqqq.co, port: 62193, type: vmess, uuid: 1dfa7536-ad22-472c-808f-af78b3fd204c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
-  - {name: 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: us.littleqqq.co, port: 21859, type: vmess, uuid: 1dfa7536-ad22-472c-808f-af78b3fd204c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
-  - {name: 台湾 BV BGP直连 - 共享流量, server: 188.253.6.35, port: 20009, type: vmess, uuid: 479bd28c-5200-425d-9934-9296f845bd8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国CC直链(IPV4) - 共享流量, server: 107.172.51.250, port: 443, type: vmess, uuid: 479bd28c-5200-425d-9934-9296f845bd8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 台湾 AK NAT直连 - 共享流量, server: aktwv4.cco.icu, port: 22250, type: vmess, uuid: 479bd28c-5200-425d-9934-9296f845bd8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aktwv4.cco.icu}}, udp: true}
-  - {name: 韩国 DCI NAT直连 - 共享流量, server: krse1.ip8.shop, port: 26752, type: vmess, uuid: 479bd28c-5200-425d-9934-9296f845bd8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: krse1.ip8.shop}}, udp: true}
-  - {name: 新加坡 DCI NAT直连 - 共享流量, server: sg2.ip8.shop, port: 64952, type: vmess, uuid: 479bd28c-5200-425d-9934-9296f845bd8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg2.ip8.shop}}, udp: true}
-  - {name: 米兰 DCI NAT直连 - 共享流量, server: itml1.ip8.shop, port: 54252, type: vmess, uuid: 479bd28c-5200-425d-9934-9296f845bd8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: itml1.ip8.shop}}, udp: true}
-  - {name: 孟买 DCI NAT直连 - 共享流量, server: inmm1.ip8.shop, port: 21152, type: vmess, uuid: 479bd28c-5200-425d-9934-9296f845bd8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: inmm1.ip8.shop}}, udp: true}
-  - {name: 德国 DCI NAT直连 - 共享流量, server: ukld2.ip8.shop, port: 36902, type: vmess, uuid: 479bd28c-5200-425d-9934-9296f845bd8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ukld2.ip8.shop}}, udp: true}
-  - {name: 香港 KW NAT直连 - 共享流量, server: hk.khanwebhost.com, port: 1801, type: vmess, uuid: 479bd28c-5200-425d-9934-9296f845bd8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.khanwebhost.com}}, udp: true}
+  - {name: "[vip①]德国1 - MG Network", server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]德国2 - MG Network", server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]新加坡1 - MG Network", server: 12.v2-ray.cyou, port: 23612, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]新加坡2 - MG Network", server: 17.v2-ray.cyou, port: 23617, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]日本1 - MG Network", server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[vip①]日本2 - MG Network", server: 19.v2-ray.cyou, port: 23619, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]美国1 - MG Network", server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]美国2 - MG Network", server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]英国1 - MG Network", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]英国2 - MG Network", server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]韩国1 - MG Network", server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: e57d360f-48ca-3ff7-bbda-d9b965f61e72, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
+  - {name: 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: 2001581a-2979-4bf5-8781-a5d50188d99e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
+  - {name: 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: jp.littleqqq.co, port: 62193, type: vmess, uuid: 2001581a-2979-4bf5-8781-a5d50188d99e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
+  - {name: 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: us.littleqqq.co, port: 21859, type: vmess, uuid: 2001581a-2979-4bf5-8781-a5d50188d99e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
+  - {name: 香港鸡仔(ipv6)中转 - 共享流量, server: jzyd.12ip.cc, port: 13782, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jzyd.12ip.cc}}, udp: true}
+  - {name: 香港AK直连(ipv6) - 共享流量, server: akhk1g.12ip.cc, port: 20001, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: akhk1g.12ip.cc}}, udp: true}
+  - {name: 台湾(ipv4)BV BGP直连 - 共享流量, server: 188.253.6.35, port: 20009, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国(ipv4)CC直链 - 共享流量, server: 107.172.51.250, port: 443, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 台湾(ipv4)AK NAT直连 - 共享流量, server: aktwv4.cco.icu, port: 22250, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aktwv4.cco.icu}}, udp: true}
+  - {name: 韩国(ipv4)DCI NAT直连 - 共享流量, server: krse1.ip8.shop, port: 26752, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: krse1.ip8.shop}}, udp: true}
+  - {name: 新加坡(ipv4)DCI NAT直连 - 共享流量, server: sg2.ip8.shop, port: 64952, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg2.ip8.shop}}, udp: true}
+  - {name: 米兰(ipv4)DCI NAT直连 - 共享流量, server: itml1.ip8.shop, port: 54252, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: itml1.ip8.shop}}, udp: true}
+  - {name: 孟买(ipv4)DCI NAT直连 - 共享流量, server: inmm1.ip8.shop, port: 21152, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: inmm1.ip8.shop}}, udp: true}
+  - {name: 德国(ipv4)DCI NAT直连 - 共享流量, server: ukld2.ip8.shop, port: 36902, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ukld2.ip8.shop}}, udp: true}
+  - {name: 香港(ipv4)KW NAT直连 - 共享流量, server: hk.khanwebhost.com, port: 1801, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.khanwebhost.com}}, udp: true}
+  - {name: 台湾(ipv6)wawo - 共享流量, server: wawotwv6.12ip.cc, port: 20001, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawotwv6.12ip.cc}}, udp: true}
+  - {name: 香港(ipv6)wawo - 共享流量, server: wawohkv6.12ip.cc, port: 20001, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawohkv6.12ip.cc}}, udp: true}
+  - {name: 荷兰(ipv6)wawo - 共享流量, server: wawonlv6.12ip.cc, port: 20001, type: vmess, uuid: b32bdf3d-c688-448b-a7fc-fca1f9c43d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawonlv6.12ip.cc}}, udp: true}
   - {name: V4-4001|日本|x1.5 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 14109, type: vmess, uuid: a35022a1-b21b-3698-bcdf-3ac2e3aaaff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
   - {name: V4-4002|日本|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 14110, type: vmess, uuid: a35022a1-b21b-3698-bcdf-3ac2e3aaaff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
   - {name: V4-4003|新加坡|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 12001, type: vmess, uuid: a35022a1-b21b-3698-bcdf-3ac2e3aaaff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
@@ -200,52 +213,58 @@ proxies:
   - {name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白, server: 112.26.46.141, port: 61001, type: vmess, uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
   - {name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白, server: 112.26.46.141, port: 63005, type: vmess, uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
   - {name: "香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白", server: 112.26.46.139, port: 61005, type: vmess, uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-1.cn-db.top}}, udp: true}
-  - {name: 德国 法兰克福101 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 10443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 德国 法兰克福102 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 20443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 德国 法兰克福103 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 30443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 德国 法兰克福104 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 40443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 德国 法兰克福105 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 50443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 101 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 10443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 102 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 20443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 103 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 30443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 104 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 40443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 105 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 50443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 日本 101 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 10443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 日本 102 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 20443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 日本 103 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 日本 104 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 日本 105 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 美国 洛杉矶101 - 墙了个墙, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 美国 洛杉矶102 - 墙了个墙, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 美国 洛杉矶103 - 墙了个墙, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 101 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 102 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 20443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 103 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 104 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 105 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 50443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 106 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 10444, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 107 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 20443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 108 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 30443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 109 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 40443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 香港 110 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 50443, type: trojan, password: f73290c6-e769-3f04-8c85-0cc463c07d0c, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 美国CERA - 海陆空, server: us01.h.csznet.eu.org, port: 443, type: vmess, uuid: 4f628768-71d9-4457-9b6e-77ee0930587c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: us01.h.csznet.eu.org}}, udp: true}
-  - {name: 香港QW - 海陆空, server: hk01.host.csznet.eu.org, port: 443, type: vmess, uuid: 4f628768-71d9-4457-9b6e-77ee0930587c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: hk01.host.csznet.eu.org}}, udp: true}
-  - {name: 土耳其 - 海陆空, server: tr01.h.csznet.eu.org, port: 40660, type: vmess, uuid: 4f628768-71d9-4457-9b6e-77ee0930587c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: tr01.h.csznet.eu.org}}, udp: true}
-  - {name: CF-WORK-美国CERA - 海陆空, server: cera.feedcc.workers.dev, port: 443, type: vmess, uuid: 4f628768-71d9-4457-9b6e-77ee0930587c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: us01.h.csznet.eu.org}}, udp: true}
-  - {name: 日本IIJ2 - 海陆空, server: iij2.csznet.eu.org, port: 3306, type: vmess, uuid: 4f628768-71d9-4457-9b6e-77ee0930587c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: iij2.csznet.eu.org}}, udp: true}
-  - {name: 韩国首尔 - 海陆空, server: kr01.host.csznet.eu.org, port: 443, type: vmess, uuid: 4f628768-71d9-4457-9b6e-77ee0930587c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: kr01.host.csznet.eu.org}}, udp: true}
+  - {name: "[vmess]日本CDN - GZ高铁复兴号", server: cndjp.tcip.top, port: 2052, type: vmess, uuid: f5d8854e-8bb3-45ff-af38-dbcd05a6f1b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cumshot?ed=2048", headers: {Host: cdnaa2.tcip.top}}, udp: true}
+  - {name: "[vmess]美国CDN - GZ高铁复兴号", server: cdnusa.tcip.top, port: 2052, type: vmess, uuid: f5d8854e-8bb3-45ff-af38-dbcd05a6f1b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cumshot?ed=2048", headers: {Host: cdnusa01.tcip.top}}, udp: true}
+  - {name: "[vmess]新加坡CDN - GZ高铁复兴号", server: cdnplhk.tcip.top, port: 2052, type: vmess, uuid: f5d8854e-8bb3-45ff-af38-dbcd05a6f1b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cumshot?ed=2048", headers: {Host: cdnplhk.tcip.top}}, udp: true}
+  - {name: "[vmess]4香港CDN - GZ高铁复兴号", server: cdnplhk.tcip.top, port: 2052, type: vmess, uuid: f5d8854e-8bb3-45ff-af38-dbcd05a6f1b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cumshot?ed=2048", headers: {Host: cdnhkone.tcip.top}}, udp: true}
+  - {name: "[vmess]香港联通CDN - GZ高铁复兴号", server: hk1.tcip.top, port: 2052, type: vmess, uuid: f5d8854e-8bb3-45ff-af38-dbcd05a6f1b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cumshot?ed=2048", headers: {Host: cdnhkone.tcip.top}}, udp: true}
+  - {name: "[vmess]新加坡联通CDN - GZ高铁复兴号", server: achk1.tcip.top, port: 2052, type: vmess, uuid: f5d8854e-8bb3-45ff-af38-dbcd05a6f1b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cumshot?ed=2048", headers: {Host: achk1.tcip.top}}, udp: true}
+  - {name: 德国 法兰克福101 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 10443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 德国 法兰克福102 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 20443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 德国 法兰克福103 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 30443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 德国 法兰克福104 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 40443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 德国 法兰克福105 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 50443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 101 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 10443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 102 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 20443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 103 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 30443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 104 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 40443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 105 - 墙了个墙, server: sgvip101.qlgq1.pw, port: 50443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 日本 101 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 10443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 日本 102 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 20443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 日本 103 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 日本 104 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 日本 105 - 墙了个墙, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 美国 洛杉矶101 - 墙了个墙, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 美国 洛杉矶102 - 墙了个墙, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 美国 洛杉矶103 - 墙了个墙, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 101 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 102 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 20443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 103 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 104 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 105 - 墙了个墙, server: hkvip102.qlgq1.pw, port: 50443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 106 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 10444, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 107 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 20443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 108 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 30443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 109 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 40443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 香港 110 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 50443, type: trojan, password: 7a7e5c82-36c9-32c5-8a6d-f4f888314ed1, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 美国CERA - 海陆空, server: us01.h.csznet.eu.org, port: 443, type: vmess, uuid: b0372aa6-44d9-48ef-ac94-7e700360dda1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: us01.h.csznet.eu.org}}, udp: true}
+  - {name: 香港QW - 海陆空, server: hk01.host.csznet.eu.org, port: 443, type: vmess, uuid: b0372aa6-44d9-48ef-ac94-7e700360dda1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: hk01.host.csznet.eu.org}}, udp: true}
+  - {name: 土耳其 - 海陆空, server: tr01.h.csznet.eu.org, port: 40660, type: vmess, uuid: b0372aa6-44d9-48ef-ac94-7e700360dda1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: tr01.h.csznet.eu.org}}, udp: true}
+  - {name: CF-WORK-美国CERA - 海陆空, server: cera.feedcc.workers.dev, port: 443, type: vmess, uuid: b0372aa6-44d9-48ef-ac94-7e700360dda1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: us01.h.csznet.eu.org}}, udp: true}
+  - {name: 日本IIJ2 - 海陆空, server: iij2.csznet.eu.org, port: 3306, type: vmess, uuid: b0372aa6-44d9-48ef-ac94-7e700360dda1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: iij2.csznet.eu.org}}, udp: true}
+  - {name: 韩国首尔 - 海陆空, server: kr01.host.csznet.eu.org, port: 443, type: vmess, uuid: b0372aa6-44d9-48ef-ac94-7e700360dda1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: kr01.host.csznet.eu.org}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 美国2 - vip666.xyz
-      - 美国（用前更新订阅） - vip666.xyz
-      - 新加坡 - vip666.xyz
-      - 香港-https://new.vip666.xyz - vip666.xyz
-      - 荷兰 - vip666.xyz
-      - 美国-VIP - vip666.xyz
-      - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
-      - 中国香港2 - vip666.xyz
+      - Hongkong-香港 - 一机场
+      - Korea-韩国 - 一机场
+      - Japan-日本 - 一机场
+      - Singapore-新加坡 - 一机场
+      - Singapore2-新加坡2 - 一机场
+      - Australia-澳大利亚 - 一机场
+      - UK-英国 - 一机场
+      - Canada-加拿大 - 一机场
       - 台湾A丨Hinet丨流媒体 - Tannel中继网络服务
       - 日本A丨Lin丨流媒体 - Tannel中继网络服务
       - 美国丨波特兰 - Tannel中继网络服务
@@ -276,6 +295,14 @@ proxy-groups:
       - US美国 A - 可乐云
       - SG新加坡 A - 可乐云
       - KR韩国 A - 可乐云
+      - 邀请好友返利65% - 十元一年
+      - go.shiyuanyinian.xyz - 十元一年
+      - 香港-上海电信 - 十元一年
+      - 香港-广州电信 - 十元一年
+      - 香港-中华电信 - 十元一年
+      - 俄罗斯-上海电信 - 十元一年
+      - 俄罗斯-广州电信 - 十元一年
+      - 俄罗斯-中华电信 - 十元一年
       - 01新加坡节点Trojan - 星舰基地 | xStarship
       - 01美国洛杉机节点Trojan - 星舰基地 | xStarship
       - 01新加坡节点Shadowsocks - 星舰基地 | xStarship
@@ -405,15 +432,20 @@ proxy-groups:
       - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
       - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
       - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
-      - 台湾 BV BGP直连 - 共享流量
-      - 美国CC直链(IPV4) - 共享流量
-      - 台湾 AK NAT直连 - 共享流量
-      - 韩国 DCI NAT直连 - 共享流量
-      - 新加坡 DCI NAT直连 - 共享流量
-      - 米兰 DCI NAT直连 - 共享流量
-      - 孟买 DCI NAT直连 - 共享流量
-      - 德国 DCI NAT直连 - 共享流量
-      - 香港 KW NAT直连 - 共享流量
+      - 香港鸡仔(ipv6)中转 - 共享流量
+      - 香港AK直连(ipv6) - 共享流量
+      - 台湾(ipv4)BV BGP直连 - 共享流量
+      - 美国(ipv4)CC直链 - 共享流量
+      - 台湾(ipv4)AK NAT直连 - 共享流量
+      - 韩国(ipv4)DCI NAT直连 - 共享流量
+      - 新加坡(ipv4)DCI NAT直连 - 共享流量
+      - 米兰(ipv4)DCI NAT直连 - 共享流量
+      - 孟买(ipv4)DCI NAT直连 - 共享流量
+      - 德国(ipv4)DCI NAT直连 - 共享流量
+      - 香港(ipv4)KW NAT直连 - 共享流量
+      - 台湾(ipv6)wawo - 共享流量
+      - 香港(ipv6)wawo - 共享流量
+      - 荷兰(ipv6)wawo - 共享流量
       - V4-4001|日本|x1.5 - 海豚云
       - V4-4002|日本|x2.0 - 海豚云
       - V4-4003|新加坡|x2.0 - 海豚云
@@ -433,6 +465,12 @@ proxy-groups:
       - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
+      - "[vmess]日本CDN - GZ高铁复兴号"
+      - "[vmess]美国CDN - GZ高铁复兴号"
+      - "[vmess]新加坡CDN - GZ高铁复兴号"
+      - "[vmess]4香港CDN - GZ高铁复兴号"
+      - "[vmess]香港联通CDN - GZ高铁复兴号"
+      - "[vmess]新加坡联通CDN - GZ高铁复兴号"
       - 德国 法兰克福101 - 墙了个墙
       - 德国 法兰克福102 - 墙了个墙
       - 德国 法兰克福103 - 墙了个墙
@@ -473,14 +511,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 美国2 - vip666.xyz
-      - 美国（用前更新订阅） - vip666.xyz
-      - 新加坡 - vip666.xyz
-      - 香港-https://new.vip666.xyz - vip666.xyz
-      - 荷兰 - vip666.xyz
-      - 美国-VIP - vip666.xyz
-      - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
-      - 中国香港2 - vip666.xyz
+      - Hongkong-香港 - 一机场
+      - Korea-韩国 - 一机场
+      - Japan-日本 - 一机场
+      - Singapore-新加坡 - 一机场
+      - Singapore2-新加坡2 - 一机场
+      - Australia-澳大利亚 - 一机场
+      - UK-英国 - 一机场
+      - Canada-加拿大 - 一机场
       - 台湾A丨Hinet丨流媒体 - Tannel中继网络服务
       - 日本A丨Lin丨流媒体 - Tannel中继网络服务
       - 美国丨波特兰 - Tannel中继网络服务
@@ -511,6 +549,14 @@ proxy-groups:
       - US美国 A - 可乐云
       - SG新加坡 A - 可乐云
       - KR韩国 A - 可乐云
+      - 邀请好友返利65% - 十元一年
+      - go.shiyuanyinian.xyz - 十元一年
+      - 香港-上海电信 - 十元一年
+      - 香港-广州电信 - 十元一年
+      - 香港-中华电信 - 十元一年
+      - 俄罗斯-上海电信 - 十元一年
+      - 俄罗斯-广州电信 - 十元一年
+      - 俄罗斯-中华电信 - 十元一年
       - 01新加坡节点Trojan - 星舰基地 | xStarship
       - 01美国洛杉机节点Trojan - 星舰基地 | xStarship
       - 01新加坡节点Shadowsocks - 星舰基地 | xStarship
@@ -640,15 +686,20 @@ proxy-groups:
       - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
       - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
       - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
-      - 台湾 BV BGP直连 - 共享流量
-      - 美国CC直链(IPV4) - 共享流量
-      - 台湾 AK NAT直连 - 共享流量
-      - 韩国 DCI NAT直连 - 共享流量
-      - 新加坡 DCI NAT直连 - 共享流量
-      - 米兰 DCI NAT直连 - 共享流量
-      - 孟买 DCI NAT直连 - 共享流量
-      - 德国 DCI NAT直连 - 共享流量
-      - 香港 KW NAT直连 - 共享流量
+      - 香港鸡仔(ipv6)中转 - 共享流量
+      - 香港AK直连(ipv6) - 共享流量
+      - 台湾(ipv4)BV BGP直连 - 共享流量
+      - 美国(ipv4)CC直链 - 共享流量
+      - 台湾(ipv4)AK NAT直连 - 共享流量
+      - 韩国(ipv4)DCI NAT直连 - 共享流量
+      - 新加坡(ipv4)DCI NAT直连 - 共享流量
+      - 米兰(ipv4)DCI NAT直连 - 共享流量
+      - 孟买(ipv4)DCI NAT直连 - 共享流量
+      - 德国(ipv4)DCI NAT直连 - 共享流量
+      - 香港(ipv4)KW NAT直连 - 共享流量
+      - 台湾(ipv6)wawo - 共享流量
+      - 香港(ipv6)wawo - 共享流量
+      - 荷兰(ipv6)wawo - 共享流量
       - V4-4001|日本|x1.5 - 海豚云
       - V4-4002|日本|x2.0 - 海豚云
       - V4-4003|新加坡|x2.0 - 海豚云
@@ -668,6 +719,12 @@ proxy-groups:
       - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
+      - "[vmess]日本CDN - GZ高铁复兴号"
+      - "[vmess]美国CDN - GZ高铁复兴号"
+      - "[vmess]新加坡CDN - GZ高铁复兴号"
+      - "[vmess]4香港CDN - GZ高铁复兴号"
+      - "[vmess]香港联通CDN - GZ高铁复兴号"
+      - "[vmess]新加坡联通CDN - GZ高铁复兴号"
       - 德国 法兰克福101 - 墙了个墙
       - 德国 法兰克福102 - 墙了个墙
       - 德国 法兰克福103 - 墙了个墙
@@ -709,14 +766,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 美国2 - vip666.xyz
-      - 美国（用前更新订阅） - vip666.xyz
-      - 新加坡 - vip666.xyz
-      - 香港-https://new.vip666.xyz - vip666.xyz
-      - 荷兰 - vip666.xyz
-      - 美国-VIP - vip666.xyz
-      - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
-      - 中国香港2 - vip666.xyz
+      - Hongkong-香港 - 一机场
+      - Korea-韩国 - 一机场
+      - Japan-日本 - 一机场
+      - Singapore-新加坡 - 一机场
+      - Singapore2-新加坡2 - 一机场
+      - Australia-澳大利亚 - 一机场
+      - UK-英国 - 一机场
+      - Canada-加拿大 - 一机场
       - 台湾A丨Hinet丨流媒体 - Tannel中继网络服务
       - 日本A丨Lin丨流媒体 - Tannel中继网络服务
       - 美国丨波特兰 - Tannel中继网络服务
@@ -747,6 +804,14 @@ proxy-groups:
       - US美国 A - 可乐云
       - SG新加坡 A - 可乐云
       - KR韩国 A - 可乐云
+      - 邀请好友返利65% - 十元一年
+      - go.shiyuanyinian.xyz - 十元一年
+      - 香港-上海电信 - 十元一年
+      - 香港-广州电信 - 十元一年
+      - 香港-中华电信 - 十元一年
+      - 俄罗斯-上海电信 - 十元一年
+      - 俄罗斯-广州电信 - 十元一年
+      - 俄罗斯-中华电信 - 十元一年
       - 01新加坡节点Trojan - 星舰基地 | xStarship
       - 01美国洛杉机节点Trojan - 星舰基地 | xStarship
       - 01新加坡节点Shadowsocks - 星舰基地 | xStarship
@@ -876,15 +941,20 @@ proxy-groups:
       - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
       - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
       - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
-      - 台湾 BV BGP直连 - 共享流量
-      - 美国CC直链(IPV4) - 共享流量
-      - 台湾 AK NAT直连 - 共享流量
-      - 韩国 DCI NAT直连 - 共享流量
-      - 新加坡 DCI NAT直连 - 共享流量
-      - 米兰 DCI NAT直连 - 共享流量
-      - 孟买 DCI NAT直连 - 共享流量
-      - 德国 DCI NAT直连 - 共享流量
-      - 香港 KW NAT直连 - 共享流量
+      - 香港鸡仔(ipv6)中转 - 共享流量
+      - 香港AK直连(ipv6) - 共享流量
+      - 台湾(ipv4)BV BGP直连 - 共享流量
+      - 美国(ipv4)CC直链 - 共享流量
+      - 台湾(ipv4)AK NAT直连 - 共享流量
+      - 韩国(ipv4)DCI NAT直连 - 共享流量
+      - 新加坡(ipv4)DCI NAT直连 - 共享流量
+      - 米兰(ipv4)DCI NAT直连 - 共享流量
+      - 孟买(ipv4)DCI NAT直连 - 共享流量
+      - 德国(ipv4)DCI NAT直连 - 共享流量
+      - 香港(ipv4)KW NAT直连 - 共享流量
+      - 台湾(ipv6)wawo - 共享流量
+      - 香港(ipv6)wawo - 共享流量
+      - 荷兰(ipv6)wawo - 共享流量
       - V4-4001|日本|x1.5 - 海豚云
       - V4-4002|日本|x2.0 - 海豚云
       - V4-4003|新加坡|x2.0 - 海豚云
@@ -904,6 +974,12 @@ proxy-groups:
       - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
+      - "[vmess]日本CDN - GZ高铁复兴号"
+      - "[vmess]美国CDN - GZ高铁复兴号"
+      - "[vmess]新加坡CDN - GZ高铁复兴号"
+      - "[vmess]4香港CDN - GZ高铁复兴号"
+      - "[vmess]香港联通CDN - GZ高铁复兴号"
+      - "[vmess]新加坡联通CDN - GZ高铁复兴号"
       - 德国 法兰克福101 - 墙了个墙
       - 德国 法兰克福102 - 墙了个墙
       - 德国 法兰克福103 - 墙了个墙
@@ -941,8 +1017,7 @@ proxy-groups:
   - name: 中国节点
     type: select
     proxies:
-      - 香港-https://new.vip666.xyz - vip666.xyz
-      - 中国香港2 - vip666.xyz
+      - Hongkong-香港 - 一机场
       - 台湾A丨Hinet丨流媒体 - Tannel中继网络服务
       - 香港A丨HKBN丨流媒体 - Tannel中继网络服务
       - 香港B丨BGP丨流媒体 - Tannel中继网络服务
@@ -958,6 +1033,9 @@ proxy-groups:
       - TW-桃园1-2(SS) - 麻雀加速器 Sparrow
       - TW-台中1-1(SS) - 麻雀加速器 Sparrow
       - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
+      - 香港-上海电信 - 十元一年
+      - 香港-广州电信 - 十元一年
+      - 香港-中华电信 - 十元一年
       - 香港 / 华南｜HK - 小白云
       - 香港 / 华东｜HK - 小白云
       - 香港 / 备用｜HK - 小白云
@@ -980,9 +1058,13 @@ proxy-groups:
       - 广港•台湾261•高速 - 飞翔吧
       - 广港•台湾262•高速 - 飞翔吧
       - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
-      - 台湾 BV BGP直连 - 共享流量
-      - 台湾 AK NAT直连 - 共享流量
-      - 香港 KW NAT直连 - 共享流量
+      - 香港鸡仔(ipv6)中转 - 共享流量
+      - 香港AK直连(ipv6) - 共享流量
+      - 台湾(ipv4)BV BGP直连 - 共享流量
+      - 台湾(ipv4)AK NAT直连 - 共享流量
+      - 香港(ipv4)KW NAT直连 - 共享流量
+      - 台湾(ipv6)wawo - 共享流量
+      - 香港(ipv6)wawo - 共享流量
       - V4-4007|台湾|x2.0 - 海豚云
       - V4-4008|台湾|x2.0 - 海豚云
       - V4-4009|香港|x1.0 - 海豚云
@@ -996,6 +1078,8 @@ proxy-groups:
       - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
+      - "[vmess]4香港CDN - GZ高铁复兴号"
+      - "[vmess]香港联通CDN - GZ高铁复兴号"
       - 香港 101 - 墙了个墙
       - 香港 102 - 墙了个墙
       - 香港 103 - 墙了个墙
@@ -1010,6 +1094,7 @@ proxy-groups:
   - name: 日本节点
     type: select
     proxies:
+      - Japan-日本 - 一机场
       - 日本A丨Lin丨流媒体 - Tannel中继网络服务
       - 公益免费 🇯🇵日本 - Gegeth极迅游
       - JP-1-test - 闪极云
@@ -1036,6 +1121,7 @@ proxy-groups:
       - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
       - V4-4001|日本|x1.5 - 海豚云
       - V4-4002|日本|x2.0 - 海豚云
+      - "[vmess]日本CDN - GZ高铁复兴号"
       - 日本 101 - 墙了个墙
       - 日本 102 - 墙了个墙
       - 日本 103 - 墙了个墙
@@ -1045,7 +1131,8 @@ proxy-groups:
   - name: 新加坡节点
     type: select
     proxies:
-      - 新加坡 - vip666.xyz
+      - Singapore-新加坡 - 一机场
+      - Singapore2-新加坡2 - 一机场
       - SG-1-test - 闪极云
       - 新加坡01 - 都是梦
       - SG新加坡 A - 可乐云
@@ -1063,9 +1150,11 @@ proxy-groups:
       - 新加坡(免费) - bee.sulepay.com
       - "[vip①]新加坡1 - MG Network"
       - "[vip①]新加坡2 - MG Network"
-      - 新加坡 DCI NAT直连 - 共享流量
+      - 新加坡(ipv4)DCI NAT直连 - 共享流量
       - V4-4003|新加坡|x2.0 - 海豚云
       - V4-4004|新加坡|x2.0 - 海豚云
+      - "[vmess]新加坡CDN - GZ高铁复兴号"
+      - "[vmess]新加坡联通CDN - GZ高铁复兴号"
       - 新加坡 101 - 墙了个墙
       - 新加坡 102 - 墙了个墙
       - 新加坡 103 - 墙了个墙
@@ -1077,9 +1166,6 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 美国2 - vip666.xyz
-      - 美国（用前更新订阅） - vip666.xyz
-      - 美国-VIP - vip666.xyz
       - 美国丨波特兰 - Tannel中继网络服务
       - 公益免费 🇺🇸美国 - Gegeth极迅游
       - USBGP-Nano - 闪极云
@@ -1116,9 +1202,10 @@ proxy-groups:
       - "[vip①]美国1 - MG Network"
       - "[vip①]美国2 - MG Network"
       - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
-      - 美国CC直链(IPV4) - 共享流量
+      - 美国(ipv4)CC直链 - 共享流量
       - V4-4005|美国|x2.0 - 海豚云
       - V4-4006|美国|x1.5 - 海豚云
+      - "[vmess]美国CDN - GZ高铁复兴号"
       - 美国 洛杉矶101 - 墙了个墙
       - 美国 洛杉矶102 - 墙了个墙
       - 美国 洛杉矶103 - 墙了个墙
