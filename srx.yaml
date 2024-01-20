@@ -5,43 +5,40 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1.--_US_美国+8, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 2.--_GI_直布罗陀, server: 95.164.69.27, port: 80, type: vmess, uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: internet.life.com.by}}, udp: true}
+  - {name: 1.--_US_美国+10, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 2.--↕️9@oneclickvpnkeys, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 80.92.205.112}}, udp: true}
   - {name: 3.--_US_美国->🇬🇧_GB_英国, server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: mikasa.erenyeager.cloudns.biz}}, udp: true}
-  - {name: 4.--↕️9@oneclickvpnkeys, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 80.92.205.112}}, udp: true}
-  - {name: 5.--_764 |352.10Mb, server: 159.223.207.182, port: 34428, type: trojan, password: zIvR7ryOXv, skip-cert-verify: true, udp: true}
-  - {name: 6.--|US|美国|@wxgqlfx|12, server: 94.131.8.32, port: 80, type: vmess, uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.8.32}}, udp: true}
-  - {name: 7.--【ccbaohe.com】 永久免费机场节点Netflix_109, server: 92.38.142.21, port: 80, type: vmess, uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: irisoft.servecounterstrike.com}}, udp: true}
-  - {name: 8.--TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 8907aeec-189d-48d9-b557-fb242a4d8127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 9.--NL_youtube@资源分享师_9, server: 93.123.17.140, port: 443, type: vmess, uuid: 14bb927f-a4ec-4de7-90fb-388c1f69dbc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sazgar22.zapto.org}}, udp: true}
+  - {name: 4.--_GI_直布罗陀, server: 95.164.69.27, port: 80, type: vmess, uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: internet.life.com.by}}, udp: true}
+  - {name: 5.--↪️j@oneclickvpnkeys, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 8907aeec-189d-48d9-b557-fb242a4d8127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 6.--台湾【TG：@ccbaohe】定时更新节点订阅, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 867b8e57-9355-40dc-a696-9ca2518b091e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: 8907aeec-189d-48d9-b557-fb242a4d8127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 8.--爱尔兰 都柏林Amazon数据中心, server: 54.229.97.58, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 1.--_US_美国+8
-      - 2.--_GI_直布罗陀
+      - 1.--_US_美国+10
+      - 2.--↕️9@oneclickvpnkeys
       - 3.--_US_美国->🇬🇧_GB_英国
-      - 4.--↕️9@oneclickvpnkeys
-      - 5.--_764 |352.10Mb
-      - 6.--|US|美国|@wxgqlfx|12
-      - 7.--【ccbaohe.com】 永久免费机场节点Netflix_109
-      - 8.--TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 9.--NL_youtube@资源分享师_9
+      - 4.--_GI_直布罗陀
+      - 5.--↪️j@oneclickvpnkeys
+      - 6.--台湾【TG：@ccbaohe】定时更新节点订阅
+      - 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
+      - 8.--爱尔兰 都柏林Amazon数据中心
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国+8
-      - 2.--_GI_直布罗陀
+      - 1.--_US_美国+10
+      - 2.--↕️9@oneclickvpnkeys
       - 3.--_US_美国->🇬🇧_GB_英国
-      - 4.--↕️9@oneclickvpnkeys
-      - 5.--_764 |352.10Mb
-      - 6.--|US|美国|@wxgqlfx|12
-      - 7.--【ccbaohe.com】 永久免费机场节点Netflix_109
-      - 8.--TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 9.--NL_youtube@资源分享师_9
+      - 4.--_GI_直布罗陀
+      - 5.--↪️j@oneclickvpnkeys
+      - 6.--台湾【TG：@ccbaohe】定时更新节点订阅
+      - 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
+      - 8.--爱尔兰 都柏林Amazon数据中心
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -49,19 +46,19 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国+8
-      - 2.--_GI_直布罗陀
+      - 1.--_US_美国+10
+      - 2.--↕️9@oneclickvpnkeys
       - 3.--_US_美国->🇬🇧_GB_英国
-      - 4.--↕️9@oneclickvpnkeys
-      - 5.--_764 |352.10Mb
-      - 6.--|US|美国|@wxgqlfx|12
-      - 7.--【ccbaohe.com】 永久免费机场节点Netflix_109
-      - 8.--TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 9.--NL_youtube@资源分享师_9
+      - 4.--_GI_直布罗陀
+      - 5.--↪️j@oneclickvpnkeys
+      - 6.--台湾【TG：@ccbaohe】定时更新节点订阅
+      - 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
+      - 8.--爱尔兰 都柏林Amazon数据中心
   - name: 中国节点
     type: select
     proxies:
-      - 8.--TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
+      - 6.--台湾【TG：@ccbaohe】定时更新节点订阅
+      - 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
   - name: 日本节点
     type: select
     proxies:
@@ -76,8 +73,7 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 1.--_US_美国+8
+      - 1.--_US_美国+10
       - 3.--_US_美国->🇬🇧_GB_英国
-      - 6.--|US|美国|@wxgqlfx|12
 rules:
   - MATCH,手动切换
