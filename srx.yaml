@@ -5,40 +5,46 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1.--_US_美国+10, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 2.--↕️9@oneclickvpnkeys, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 80.92.205.112}}, udp: true}
-  - {name: 3.--_US_美国->🇬🇧_GB_英国, server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: mikasa.erenyeager.cloudns.biz}}, udp: true}
-  - {name: 4.--_GI_直布罗陀, server: 95.164.69.27, port: 80, type: vmess, uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: internet.life.com.by}}, udp: true}
-  - {name: 5.--↪️j@oneclickvpnkeys, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 8907aeec-189d-48d9-b557-fb242a4d8127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 6.--台湾【TG：@ccbaohe】定时更新节点订阅, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 867b8e57-9355-40dc-a696-9ca2518b091e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: 8907aeec-189d-48d9-b557-fb242a4d8127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 8.--爱尔兰 都柏林Amazon数据中心, server: 54.229.97.58, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 1.--_NL_荷兰, server: 45.136.51.175, port: 32567, type: vmess, uuid: df35304b-1f31-4b0d-9d02-f70256f732f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2.--_US_美国+21, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 3.--⤴️g@oneclickvpnkeys, server: 172.67.131.108, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
+  - {name: 4.--⤴️8@oneclickvpnkeys, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
+  - {name: 5.--_US_美国+5, server: 94.131.117.159, port: 80, type: vmess, uuid: 72b3b89a-30c5-4dc7-8b6e-f61218b95eda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.117.159}}, udp: true}
+  - {name: 6.--美国2|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
+  - {name: 7.--_US_美国+41, server: 104.21.229.78, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
+  - {name: 8.--⤴️n@oneclickvpnkeys, server: 172.67.196.112, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}, udp: true}
+  - {name: 9.--⤴️j@oneclickvpnkeys, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}, udp: true}
+  - {name: 10.--⤴️u@oneclickvpnkeys, server: 172.67.203.169, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /XSjeg73o6ZdsheahCb5JG, headers: {Host: usd.yj2022.gq}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 1.--_US_美国+10
-      - 2.--↕️9@oneclickvpnkeys
-      - 3.--_US_美国->🇬🇧_GB_英国
-      - 4.--_GI_直布罗陀
-      - 5.--↪️j@oneclickvpnkeys
-      - 6.--台湾【TG：@ccbaohe】定时更新节点订阅
-      - 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 8.--爱尔兰 都柏林Amazon数据中心
+      - 1.--_NL_荷兰
+      - 2.--_US_美国+21
+      - 3.--⤴️g@oneclickvpnkeys
+      - 4.--⤴️8@oneclickvpnkeys
+      - 5.--_US_美国+5
+      - 6.--美国2|@ripaojiedian
+      - 7.--_US_美国+41
+      - 8.--⤴️n@oneclickvpnkeys
+      - 9.--⤴️j@oneclickvpnkeys
+      - 10.--⤴️u@oneclickvpnkeys
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国+10
-      - 2.--↕️9@oneclickvpnkeys
-      - 3.--_US_美国->🇬🇧_GB_英国
-      - 4.--_GI_直布罗陀
-      - 5.--↪️j@oneclickvpnkeys
-      - 6.--台湾【TG：@ccbaohe】定时更新节点订阅
-      - 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 8.--爱尔兰 都柏林Amazon数据中心
+      - 1.--_NL_荷兰
+      - 2.--_US_美国+21
+      - 3.--⤴️g@oneclickvpnkeys
+      - 4.--⤴️8@oneclickvpnkeys
+      - 5.--_US_美国+5
+      - 6.--美国2|@ripaojiedian
+      - 7.--_US_美国+41
+      - 8.--⤴️n@oneclickvpnkeys
+      - 9.--⤴️j@oneclickvpnkeys
+      - 10.--⤴️u@oneclickvpnkeys
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -46,19 +52,20 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国+10
-      - 2.--↕️9@oneclickvpnkeys
-      - 3.--_US_美国->🇬🇧_GB_英国
-      - 4.--_GI_直布罗陀
-      - 5.--↪️j@oneclickvpnkeys
-      - 6.--台湾【TG：@ccbaohe】定时更新节点订阅
-      - 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 8.--爱尔兰 都柏林Amazon数据中心
+      - 1.--_NL_荷兰
+      - 2.--_US_美国+21
+      - 3.--⤴️g@oneclickvpnkeys
+      - 4.--⤴️8@oneclickvpnkeys
+      - 5.--_US_美国+5
+      - 6.--美国2|@ripaojiedian
+      - 7.--_US_美国+41
+      - 8.--⤴️n@oneclickvpnkeys
+      - 9.--⤴️j@oneclickvpnkeys
+      - 10.--⤴️u@oneclickvpnkeys
   - name: 中国节点
     type: select
     proxies:
-      - 6.--台湾【TG：@ccbaohe】定时更新节点订阅
-      - 7.--TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
+      - DIRECT
   - name: 日本节点
     type: select
     proxies:
@@ -73,7 +80,9 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 1.--_US_美国+10
-      - 3.--_US_美国->🇬🇧_GB_英国
+      - 2.--_US_美国+21
+      - 5.--_US_美国+5
+      - 6.--美国2|@ripaojiedian
+      - 7.--_US_美国+41
 rules:
   - MATCH,手动切换
