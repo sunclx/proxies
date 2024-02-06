@@ -5,112 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 1.--_US_美国+12
-  server: 45.32.192.94
-  port: 12079
-  type: vmess
-  uuid: e63f477b-59d7-485e-9385-c38888b60cbf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-  udp: true
-- name: 2.--_US_美国+13
-  server: 104.21.82.183
-  port: 8880
-  type: vmess
-  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server6.beheshtbaneh.com
-  udp: true
-- name: 3.--_US_美国+6
-  server: server31.beheshtbaneh.com
-  port: 8880
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server31.beheshtbaneh.com
-  udp: true
-- name: 4.--_US_美国
-  server: server32.beheshtbaneh.com
-  port: 8880
-  type: vmess
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server32.beheshtbaneh.com
-  udp: true
-- name: 5.--_US_美国+14
-  server: server4.beheshtbaneh.com
-  port: 8880
-  type: vmess
-  uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server4.beheshtbaneh.com
-  udp: true
-- name: 6.--_US_美国+15
-  server: server3.beheshtbaneh.com
-  port: 8880
-  type: vmess
-  uuid: e305fc57-6153-4650-8c52-9a36865a199d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server3.beheshtbaneh.com
-  udp: true
-- name: 7.--_US_美国+5
-  server: 104.21.94.99
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.blueberrywindow.online
-  udp: true
-- name: 8.--_US_美国+4
+- name: 1.--_US_美国+1
   server: 172.67.166.190
   port: 8080
   type: vmess
@@ -125,74 +20,7 @@ proxies:
     headers:
       Host: www.crispyrainbow.online
   udp: true
-- name: 9.--_US_美国+7
-  server: 172.67.212.114
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.crispyrainbow.biz
-  udp: true
-- name: 10.--_US_美国->🇮🇷_IR_伊朗
-  server: www.crispyrainbow.biz
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.crispyrainbow.biz
-  udp: true
-- name: 11.--_US_美国+3
-  server: www.crispyrainbow.online
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.crispyrainbow.online
-  udp: true
-- name: 12.--_US_美国+46
-  server: 212.102.47.198
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-  udp: true
-- name: 13.--_US_美国+10
-  server: www.blueberrywindow.online
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.blueberrywindow.online
-  udp: true
-- name: 14.--_US_美国+16
+- name: 2.--_US_美国+3
   server: 104.21.23.176
   port: 8080
   type: vmess
@@ -207,8 +35,8 @@ proxies:
     headers:
       Host: www.crispyrainbow.biz
   udp: true
-- name: 15.--_US_美国->🇮🇷_IR_伊朗+1
-  server: www.darkroom.lol
+- name: 3.--_US_美国+8
+  server: www.crispyrainbow.online
   port: 8080
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -220,13 +48,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: www.darkroom.lol
+      Host: www.crispyrainbow.online
   udp: true
-- name: 16.--_US_美国+18
-  server: server10.beheshtbaneh.com
-  port: 8880
+- name: 4.--_US_美国+14
+  server: www.crispyrainbow.biz
+  port: 8080
   type: vmess
-  uuid: 66d4af1c-fcc3-479b-847c-3260253e1faa
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   alterId: 0
   cipher: auto
   tls: false
@@ -235,13 +63,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: server10.beheshtbaneh.com
+      Host: www.crispyrainbow.biz
   udp: true
-- name: 17.--美国【TG：@ccbaohe】定时更新节点订阅 8
-  server: server6.beheshtbaneh.com
-  port: 8880
+- name: 5.--_US_美国+11
+  server: www.blueberrywindow.online
+  port: 8080
   type: vmess
-  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   alterId: 0
   cipher: auto
   tls: false
@@ -250,13 +78,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: server6.beheshtbaneh.com
+      Host: www.blueberrywindow.online
   udp: true
-- name: 18.--美国45〖电报：@ccbaohe】免费节点定时更新
-  server: server9.beheshtbaneh.com
-  port: 8880
+- name: 6.--_US_美国+15
+  server: 104.21.94.99
+  port: 8080
   type: vmess
-  uuid: 62575747-37b4-4bf8-9ac5-95d214003be1
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   alterId: 0
   cipher: auto
   tls: false
@@ -265,21 +93,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: server9.beheshtbaneh.com
+      Host: www.blueberrywindow.online
   udp: true
-- name: 19.---2636-US【ccbaohe.com〗 永久免费节点机场\r
-  server: 104.160.18.251
-  port: 443
-  type: trojan
-  password: 7522e2c27233459aab8d0f1d715828d0
-  sni: www.gpt123.one
-  skip-cert-verify: true
-  udp: true
-- name: 20.--_US_美国_10
-  server: server13.beheshtbaneh.com
-  port: 8880
+- name: 7.--_US_美国+16
+  server: 172.67.212.114
+  port: 8080
   type: vmess
-  uuid: 0c0db4fe-6133-4837-9f57-0ce75fb59692
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   alterId: 0
   cipher: auto
   tls: false
@@ -288,28 +108,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: server13.beheshtbaneh.com
+      Host: www.crispyrainbow.biz
   udp: true
-- name: 21.--LU_youtube@资源分享师_91
-  server: nngxxx.link
-  port: 443
-  type: vmess
-  uuid: 7fdc9ae0-4b55-4da2-f234-31079092b323
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nngxxx.link
-  udp: true
-- name: 22.--19@oneclickvpnkeys
-  server: server8.beheshtbaneh.com
+- name: 8.--_US_美国+2
+  server: server32.beheshtbaneh.com
   port: 8880
   type: vmess
-  uuid: f46acc36-5edf-4c5f-8c8f-3520ff46cdd9
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
   alterId: 0
   cipher: auto
   tls: false
@@ -318,9 +123,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: server8.beheshtbaneh.com
+      Host: server32.beheshtbaneh.com
   udp: true
-- name: 23.--_US_美国+88
+- name: 9.--_US_美国+4
   server: server26.beheshtbaneh.com
   port: 8880
   type: vmess
@@ -335,38 +140,15 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
   udp: true
-- name: 24.---2624-RELAY【ccbaohe.com〗 永久免费节点机场
-  server: server20.beheshtbaneh.com
-  port: 8880
-  type: vmess
-  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server20.beheshtbaneh.com
-  udp: true
-- name: 25.--Wus01
-  server: wus01.node.onepai.top
+- name: 10.--_US_美国+45
+  server: 212.102.47.198
   port: 443
-  type: vmess
-  uuid: ba9a3df5-c103-42e4-bd2d-712dd76db690
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wus01.node.onepai.top
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
   udp: true
-- name: 26.--_US_美国+87
-  server: 104.21.83.10
+- name: 11.--_US_美国+12
+  server: www.darkroom.lol
   port: 8080
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -378,13 +160,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: www.coldstone.club
+      Host: www.darkroom.lol
   udp: true
-- name: 27.--_US_美国+114
-  server: server5.beheshtbaneh.com
+- name: 12.---2556-RELAY【ccbaohe.com〗 永久免费节点机场
+  server: server33.beheshtbaneh.com
   port: 8880
   type: vmess
-  uuid: 352ecc6f-21f1-4dc8-8177-4ebd52c55b12
+  uuid: 0873fffc-414f-4140-a155-672129fd9a1d
   alterId: 0
   cipher: auto
   tls: false
@@ -393,69 +175,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: server5.beheshtbaneh.com
+      Host: server33.beheshtbaneh.com
   udp: true
-- name: 28.--🔒
-  server: 3.124.250.187
-  port: 22222
-  type: trojan
-  password: telegram-id-privatevpns
-  sni: trojan.miwan.co.uk
-  skip-cert-verify: true
-  udp: true
-- name: 29.--TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-  server: c12.twtc.dynu.net
-  port: 6122
+- name: 13.--_MX_墨西哥
+  server: 45.170.248.137
+  port: 2053
   type: vmess
-  uuid: 6d1d2171-fab5-4313-8e8c-91ecc9f5dee0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 30.--FR_youtube@资源分享师_70
-  server: 146.59.204.6
-  port: 80
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-    headers:
-      Host: 146.59.204.6
-  udp: true
-- name: 31.--12@oneclickvpnkeys
-  server: 94.131.10.135
-  port: 2095
-  type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 94.131.10.135
-  udp: true
-- name: 32.---2605-HK【ccbaohe.com〗 永久免费节点机场\r
-  server: 183.179.168.53
-  port: 443
-  type: trojan
-  password: 7522e2c27233459aab8d0f1d715828d0
-  sni: www.gpt123.one
-  skip-cert-verify: true
-  udp: true
-- name: 33.--Jpe02
-  server: jpe02.node.onepai.top
-  port: 443
-  type: vmess
-  uuid: ba9a3df5-c103-42e4-bd2d-712dd76db690
+  uuid: 8b0136d3-148d-4efd-a866-76bd8d3e061e
   alterId: 0
   cipher: auto
   tls: true
@@ -464,13 +190,88 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: jpe02.node.onepai.top
+      Host: usacv.universecloud.cloud
   udp: true
-- name: 34.--|US|美国|@wxgqlfx|64
-  server: 94.131.8.32
-  port: 8080
+- name: 14.--_US_美国+94
+  server: 45.32.192.94
+  port: 12079
   type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  uuid: e63f477b-59d7-485e-9385-c38888b60cbf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+  udp: true
+- name: 15.--|US|美国|@wxgqlfx|38
+  server: for-irancell.outline-vpn.cloud
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: my1.tooters.ir
+  udp: true
+- name: 16.--|US|美国|@wxgqlfx|29
+  server: 104.20.231.30
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+  udp: true
+- name: 17.--US_youtube@资源分享师_3
+  server: vip2323.cfd
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: vip2323.cfd
+  udp: true
+- name: 18.--_US_美国->🇷🇺_RU_俄罗斯联邦
+  server: 104.18.202.232
+  port: 2083
+  type: vmess
+  uuid: 0d3f0cf6-e010-4138-8133-140c07e5eafb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /@golestan_vpn
+    headers:
+      Host: joooin.golestan-vpn.link
+  udp: true
+- name: 19.--@Hope_Net-join-us-on-Telegram
+  server: 95.164.46.154
+  port: 80
+  type: vmess
+  uuid: 431fda16-e0f8-4884-b4fd-965f03f86471
   alterId: 0
   cipher: auto
   tls: false
@@ -479,7 +280,67 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: 94.131.8.32
+      Host: 95.164.46.154
+  udp: true
+- name: 20.--|US|美国|@wxgqlfx|34
+  server: 104.22.51.162
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: my1.tooters.ir
+  udp: true
+- name: 21.--|US|美国|@wxgqlfx|33
+  server: 104.24.208.37
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+  udp: true
+- name: 22.--_US_美国+93
+  server: server31.beheshtbaneh.com
+  port: 8880
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: server31.beheshtbaneh.com
+  udp: true
+- name: 23.--US_youtube@资源分享师_20
+  server: 92.38.168.5
+  port: 443
+  type: vmess
+  uuid: 29a47c42-6c3a-46d0-a184-2c1a6ea192ac
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: kosar37.sytes.net
   udp: true
 proxy-groups:
 - name: 🔰 节点选择
@@ -488,79 +349,57 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 负载均衡
-  - 1.--_US_美国+12
-  - 2.--_US_美国+13
-  - 3.--_US_美国+6
-  - 4.--_US_美国
-  - 5.--_US_美国+14
+  - 1.--_US_美国+1
+  - 2.--_US_美国+3
+  - 3.--_US_美国+8
+  - 4.--_US_美国+14
+  - 5.--_US_美国+11
   - 6.--_US_美国+15
-  - 7.--_US_美国+5
-  - 8.--_US_美国+4
-  - 9.--_US_美国+7
-  - 10.--_US_美国->🇮🇷_IR_伊朗
-  - 11.--_US_美国+3
-  - 12.--_US_美国+46
-  - 13.--_US_美国+10
-  - 14.--_US_美国+16
-  - 15.--_US_美国->🇮🇷_IR_伊朗+1
-  - 16.--_US_美国+18
-  - 17.--美国【TG：@ccbaohe】定时更新节点订阅 8
-  - 18.--美国45〖电报：@ccbaohe】免费节点定时更新
-  - 19.---2636-US【ccbaohe.com〗 永久免费节点机场\r
-  - 20.--_US_美国_10
-  - 21.--LU_youtube@资源分享师_91
-  - 22.--19@oneclickvpnkeys
-  - 23.--_US_美国+88
-  - 24.---2624-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 25.--Wus01
-  - 26.--_US_美国+87
-  - 27.--_US_美国+114
-  - 28.--🔒
-  - 29.--TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-  - 30.--FR_youtube@资源分享师_70
-  - 31.--12@oneclickvpnkeys
-  - 32.---2605-HK【ccbaohe.com〗 永久免费节点机场\r
-  - 33.--Jpe02
-  - 34.--|US|美国|@wxgqlfx|64
+  - 7.--_US_美国+16
+  - 8.--_US_美国+2
+  - 9.--_US_美国+4
+  - 10.--_US_美国+45
+  - 11.--_US_美国+12
+  - 12.---2556-RELAY【ccbaohe.com〗 永久免费节点机场
+  - 13.--_MX_墨西哥
+  - 14.--_US_美国+94
+  - 15.--|US|美国|@wxgqlfx|38
+  - 16.--|US|美国|@wxgqlfx|29
+  - 17.--US_youtube@资源分享师_3
+  - 18.--_US_美国->🇷🇺_RU_俄罗斯联邦
+  - 19.--@Hope_Net-join-us-on-Telegram
+  - 20.--|US|美国|@wxgqlfx|34
+  - 21.--|US|美国|@wxgqlfx|33
+  - 22.--_US_美国+93
+  - 23.--US_youtube@资源分享师_20
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 1.--_US_美国+12
-  - 2.--_US_美国+13
-  - 3.--_US_美国+6
-  - 4.--_US_美国
-  - 5.--_US_美国+14
+  - 1.--_US_美国+1
+  - 2.--_US_美国+3
+  - 3.--_US_美国+8
+  - 4.--_US_美国+14
+  - 5.--_US_美国+11
   - 6.--_US_美国+15
-  - 7.--_US_美国+5
-  - 8.--_US_美国+4
-  - 9.--_US_美国+7
-  - 10.--_US_美国->🇮🇷_IR_伊朗
-  - 11.--_US_美国+3
-  - 12.--_US_美国+46
-  - 13.--_US_美国+10
-  - 14.--_US_美国+16
-  - 15.--_US_美国->🇮🇷_IR_伊朗+1
-  - 16.--_US_美国+18
-  - 17.--美国【TG：@ccbaohe】定时更新节点订阅 8
-  - 18.--美国45〖电报：@ccbaohe】免费节点定时更新
-  - 19.---2636-US【ccbaohe.com〗 永久免费节点机场\r
-  - 20.--_US_美国_10
-  - 21.--LU_youtube@资源分享师_91
-  - 22.--19@oneclickvpnkeys
-  - 23.--_US_美国+88
-  - 24.---2624-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 25.--Wus01
-  - 26.--_US_美国+87
-  - 27.--_US_美国+114
-  - 28.--🔒
-  - 29.--TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-  - 30.--FR_youtube@资源分享师_70
-  - 31.--12@oneclickvpnkeys
-  - 32.---2605-HK【ccbaohe.com〗 永久免费节点机场\r
-  - 33.--Jpe02
-  - 34.--|US|美国|@wxgqlfx|64
+  - 7.--_US_美国+16
+  - 8.--_US_美国+2
+  - 9.--_US_美国+4
+  - 10.--_US_美国+45
+  - 11.--_US_美国+12
+  - 12.---2556-RELAY【ccbaohe.com〗 永久免费节点机场
+  - 13.--_MX_墨西哥
+  - 14.--_US_美国+94
+  - 15.--|US|美国|@wxgqlfx|38
+  - 16.--|US|美国|@wxgqlfx|29
+  - 17.--US_youtube@资源分享师_3
+  - 18.--_US_美国->🇷🇺_RU_俄罗斯联邦
+  - 19.--@Hope_Net-join-us-on-Telegram
+  - 20.--|US|美国|@wxgqlfx|34
+  - 21.--|US|美国|@wxgqlfx|33
+  - 22.--_US_美国+93
+  - 23.--US_youtube@资源分享师_20
 - name: 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -568,205 +407,149 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 1.--_US_美国+12
-  - 2.--_US_美国+13
-  - 3.--_US_美国+6
-  - 4.--_US_美国
-  - 5.--_US_美国+14
+  - 1.--_US_美国+1
+  - 2.--_US_美国+3
+  - 3.--_US_美国+8
+  - 4.--_US_美国+14
+  - 5.--_US_美国+11
   - 6.--_US_美国+15
-  - 7.--_US_美国+5
-  - 8.--_US_美国+4
-  - 9.--_US_美国+7
-  - 10.--_US_美国->🇮🇷_IR_伊朗
-  - 11.--_US_美国+3
-  - 12.--_US_美国+46
-  - 13.--_US_美国+10
-  - 14.--_US_美国+16
-  - 15.--_US_美国->🇮🇷_IR_伊朗+1
-  - 16.--_US_美国+18
-  - 17.--美国【TG：@ccbaohe】定时更新节点订阅 8
-  - 18.--美国45〖电报：@ccbaohe】免费节点定时更新
-  - 19.---2636-US【ccbaohe.com〗 永久免费节点机场\r
-  - 20.--_US_美国_10
-  - 21.--LU_youtube@资源分享师_91
-  - 22.--19@oneclickvpnkeys
-  - 23.--_US_美国+88
-  - 24.---2624-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 25.--Wus01
-  - 26.--_US_美国+87
-  - 27.--_US_美国+114
-  - 28.--🔒
-  - 29.--TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-  - 30.--FR_youtube@资源分享师_70
-  - 31.--12@oneclickvpnkeys
-  - 32.---2605-HK【ccbaohe.com〗 永久免费节点机场\r
-  - 33.--Jpe02
-  - 34.--|US|美国|@wxgqlfx|64
+  - 7.--_US_美国+16
+  - 8.--_US_美国+2
+  - 9.--_US_美国+4
+  - 10.--_US_美国+45
+  - 11.--_US_美国+12
+  - 12.---2556-RELAY【ccbaohe.com〗 永久免费节点机场
+  - 13.--_MX_墨西哥
+  - 14.--_US_美国+94
+  - 15.--|US|美国|@wxgqlfx|38
+  - 16.--|US|美国|@wxgqlfx|29
+  - 17.--US_youtube@资源分享师_3
+  - 18.--_US_美国->🇷🇺_RU_俄罗斯联邦
+  - 19.--@Hope_Net-join-us-on-Telegram
+  - 20.--|US|美国|@wxgqlfx|34
+  - 21.--|US|美国|@wxgqlfx|33
+  - 22.--_US_美国+93
+  - 23.--US_youtube@资源分享师_20
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 1.--_US_美国+12
-  - 2.--_US_美国+13
-  - 3.--_US_美国+6
-  - 4.--_US_美国
-  - 5.--_US_美国+14
+  - 1.--_US_美国+1
+  - 2.--_US_美国+3
+  - 3.--_US_美国+8
+  - 4.--_US_美国+14
+  - 5.--_US_美国+11
   - 6.--_US_美国+15
-  - 7.--_US_美国+5
-  - 8.--_US_美国+4
-  - 9.--_US_美国+7
-  - 10.--_US_美国->🇮🇷_IR_伊朗
-  - 11.--_US_美国+3
-  - 12.--_US_美国+46
-  - 13.--_US_美国+10
-  - 14.--_US_美国+16
-  - 15.--_US_美国->🇮🇷_IR_伊朗+1
-  - 16.--_US_美国+18
-  - 17.--美国【TG：@ccbaohe】定时更新节点订阅 8
-  - 18.--美国45〖电报：@ccbaohe】免费节点定时更新
-  - 19.---2636-US【ccbaohe.com〗 永久免费节点机场\r
-  - 20.--_US_美国_10
-  - 21.--LU_youtube@资源分享师_91
-  - 22.--19@oneclickvpnkeys
-  - 23.--_US_美国+88
-  - 24.---2624-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 25.--Wus01
-  - 26.--_US_美国+87
-  - 27.--_US_美国+114
-  - 28.--🔒
-  - 29.--TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-  - 30.--FR_youtube@资源分享师_70
-  - 31.--12@oneclickvpnkeys
-  - 32.---2605-HK【ccbaohe.com〗 永久免费节点机场\r
-  - 33.--Jpe02
-  - 34.--|US|美国|@wxgqlfx|64
+  - 7.--_US_美国+16
+  - 8.--_US_美国+2
+  - 9.--_US_美国+4
+  - 10.--_US_美国+45
+  - 11.--_US_美国+12
+  - 12.---2556-RELAY【ccbaohe.com〗 永久免费节点机场
+  - 13.--_MX_墨西哥
+  - 14.--_US_美国+94
+  - 15.--|US|美国|@wxgqlfx|38
+  - 16.--|US|美国|@wxgqlfx|29
+  - 17.--US_youtube@资源分享师_3
+  - 18.--_US_美国->🇷🇺_RU_俄罗斯联邦
+  - 19.--@Hope_Net-join-us-on-Telegram
+  - 20.--|US|美国|@wxgqlfx|34
+  - 21.--|US|美国|@wxgqlfx|33
+  - 22.--_US_美国+93
+  - 23.--US_youtube@资源分享师_20
 - name: 🌏 国内媒体
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 29.--TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-  - 32.---2605-HK【ccbaohe.com〗 永久免费节点机场\r
+  - DIRECT
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 1.--_US_美国+12
-  - 2.--_US_美国+13
-  - 3.--_US_美国+6
-  - 4.--_US_美国
-  - 5.--_US_美国+14
+  - 1.--_US_美国+1
+  - 2.--_US_美国+3
+  - 3.--_US_美国+8
+  - 4.--_US_美国+14
+  - 5.--_US_美国+11
   - 6.--_US_美国+15
-  - 7.--_US_美国+5
-  - 8.--_US_美国+4
-  - 9.--_US_美国+7
-  - 10.--_US_美国->🇮🇷_IR_伊朗
-  - 11.--_US_美国+3
-  - 12.--_US_美国+46
-  - 13.--_US_美国+10
-  - 14.--_US_美国+16
-  - 15.--_US_美国->🇮🇷_IR_伊朗+1
-  - 16.--_US_美国+18
-  - 17.--美国【TG：@ccbaohe】定时更新节点订阅 8
-  - 18.--美国45〖电报：@ccbaohe】免费节点定时更新
-  - 19.---2636-US【ccbaohe.com〗 永久免费节点机场\r
-  - 20.--_US_美国_10
-  - 21.--LU_youtube@资源分享师_91
-  - 22.--19@oneclickvpnkeys
-  - 23.--_US_美国+88
-  - 24.---2624-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 25.--Wus01
-  - 26.--_US_美国+87
-  - 27.--_US_美国+114
-  - 28.--🔒
-  - 29.--TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-  - 30.--FR_youtube@资源分享师_70
-  - 31.--12@oneclickvpnkeys
-  - 32.---2605-HK【ccbaohe.com〗 永久免费节点机场\r
-  - 33.--Jpe02
-  - 34.--|US|美国|@wxgqlfx|64
+  - 7.--_US_美国+16
+  - 8.--_US_美国+2
+  - 9.--_US_美国+4
+  - 10.--_US_美国+45
+  - 11.--_US_美国+12
+  - 12.---2556-RELAY【ccbaohe.com〗 永久免费节点机场
+  - 13.--_MX_墨西哥
+  - 14.--_US_美国+94
+  - 15.--|US|美国|@wxgqlfx|38
+  - 16.--|US|美国|@wxgqlfx|29
+  - 17.--US_youtube@资源分享师_3
+  - 18.--_US_美国->🇷🇺_RU_俄罗斯联邦
+  - 19.--@Hope_Net-join-us-on-Telegram
+  - 20.--|US|美国|@wxgqlfx|34
+  - 21.--|US|美国|@wxgqlfx|33
+  - 22.--_US_美国+93
+  - 23.--US_youtube@资源分享师_20
 - name: 📲 电报信息
   type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 1.--_US_美国+12
-  - 2.--_US_美国+13
-  - 3.--_US_美国+6
-  - 4.--_US_美国
-  - 5.--_US_美国+14
+  - 1.--_US_美国+1
+  - 2.--_US_美国+3
+  - 3.--_US_美国+8
+  - 4.--_US_美国+14
+  - 5.--_US_美国+11
   - 6.--_US_美国+15
-  - 7.--_US_美国+5
-  - 8.--_US_美国+4
-  - 9.--_US_美国+7
-  - 10.--_US_美国->🇮🇷_IR_伊朗
-  - 11.--_US_美国+3
-  - 12.--_US_美国+46
-  - 13.--_US_美国+10
-  - 14.--_US_美国+16
-  - 15.--_US_美国->🇮🇷_IR_伊朗+1
-  - 16.--_US_美国+18
-  - 17.--美国【TG：@ccbaohe】定时更新节点订阅 8
-  - 18.--美国45〖电报：@ccbaohe】免费节点定时更新
-  - 19.---2636-US【ccbaohe.com〗 永久免费节点机场\r
-  - 20.--_US_美国_10
-  - 21.--LU_youtube@资源分享师_91
-  - 22.--19@oneclickvpnkeys
-  - 23.--_US_美国+88
-  - 24.---2624-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 25.--Wus01
-  - 26.--_US_美国+87
-  - 27.--_US_美国+114
-  - 28.--🔒
-  - 29.--TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-  - 30.--FR_youtube@资源分享师_70
-  - 31.--12@oneclickvpnkeys
-  - 32.---2605-HK【ccbaohe.com〗 永久免费节点机场\r
-  - 33.--Jpe02
-  - 34.--|US|美国|@wxgqlfx|64
+  - 7.--_US_美国+16
+  - 8.--_US_美国+2
+  - 9.--_US_美国+4
+  - 10.--_US_美国+45
+  - 11.--_US_美国+12
+  - 12.---2556-RELAY【ccbaohe.com〗 永久免费节点机场
+  - 13.--_MX_墨西哥
+  - 14.--_US_美国+94
+  - 15.--|US|美国|@wxgqlfx|38
+  - 16.--|US|美国|@wxgqlfx|29
+  - 17.--US_youtube@资源分享师_3
+  - 18.--_US_美国->🇷🇺_RU_俄罗斯联邦
+  - 19.--@Hope_Net-join-us-on-Telegram
+  - 20.--|US|美国|@wxgqlfx|34
+  - 21.--|US|美国|@wxgqlfx|33
+  - 22.--_US_美国+93
+  - 23.--US_youtube@资源分享师_20
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - ♻️ 自动选择
-  - 1.--_US_美国+12
-  - 2.--_US_美国+13
-  - 3.--_US_美国+6
-  - 4.--_US_美国
-  - 5.--_US_美国+14
+  - 1.--_US_美国+1
+  - 2.--_US_美国+3
+  - 3.--_US_美国+8
+  - 4.--_US_美国+14
+  - 5.--_US_美国+11
   - 6.--_US_美国+15
-  - 7.--_US_美国+5
-  - 8.--_US_美国+4
-  - 9.--_US_美国+7
-  - 10.--_US_美国->🇮🇷_IR_伊朗
-  - 11.--_US_美国+3
-  - 12.--_US_美国+46
-  - 13.--_US_美国+10
-  - 14.--_US_美国+16
-  - 15.--_US_美国->🇮🇷_IR_伊朗+1
-  - 16.--_US_美国+18
-  - 17.--美国【TG：@ccbaohe】定时更新节点订阅 8
-  - 18.--美国45〖电报：@ccbaohe】免费节点定时更新
-  - 19.---2636-US【ccbaohe.com〗 永久免费节点机场\r
-  - 20.--_US_美国_10
-  - 21.--LU_youtube@资源分享师_91
-  - 22.--19@oneclickvpnkeys
-  - 23.--_US_美国+88
-  - 24.---2624-RELAY【ccbaohe.com〗 永久免费节点机场
-  - 25.--Wus01
-  - 26.--_US_美国+87
-  - 27.--_US_美国+114
-  - 28.--🔒
-  - 29.--TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-  - 30.--FR_youtube@资源分享师_70
-  - 31.--12@oneclickvpnkeys
-  - 32.---2605-HK【ccbaohe.com〗 永久免费节点机场\r
-  - 33.--Jpe02
-  - 34.--|US|美国|@wxgqlfx|64
+  - 7.--_US_美国+16
+  - 8.--_US_美国+2
+  - 9.--_US_美国+4
+  - 10.--_US_美国+45
+  - 11.--_US_美国+12
+  - 12.---2556-RELAY【ccbaohe.com〗 永久免费节点机场
+  - 13.--_MX_墨西哥
+  - 14.--_US_美国+94
+  - 15.--|US|美国|@wxgqlfx|38
+  - 16.--|US|美国|@wxgqlfx|29
+  - 17.--US_youtube@资源分享师_3
+  - 18.--_US_美国->🇷🇺_RU_俄罗斯联邦
+  - 19.--@Hope_Net-join-us-on-Telegram
+  - 20.--|US|美国|@wxgqlfx|34
+  - 21.--|US|美国|@wxgqlfx|33
+  - 22.--_US_美国+93
+  - 23.--US_youtube@资源分享师_20
 - name: 🎯 全球直连
   type: select
   proxies:
