@@ -5,82 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 1.--_US_美国+2
-  server: 104.21.94.99
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.blueberrywindow.online
-  udp: true
-- name: 2.--_US_美国+3
-  server: www.blueberrywindow.online
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.blueberrywindow.online
-  udp: true
-- name: 3.--_US_美国+1
-  server: 104.21.23.176
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.crispyrainbow.biz
-  udp: true
-- name: 4.--_US_美国->🇩🇪_DE_德国
-  server: 104.24.208.37
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: my1.tooters.ir
-  udp: true
-- name: 5.--_US_美国+4
-  server: www.crispyrainbow.biz
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.crispyrainbow.biz
-  udp: true
-- name: 6.--_US_美国+12
+- name: 1.--_US_美国+1
   server: 172.67.212.114
   port: 8080
   type: vmess
@@ -95,8 +20,8 @@ proxies:
     headers:
       Host: www.crispyrainbow.biz
   udp: true
-- name: 7.--_US_美国+6
-  server: 172.67.166.190
+- name: 2.--_US_美国+6
+  server: 104.21.23.176
   port: 8080
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -108,24 +33,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: www.crispyrainbow.online
+      Host: www.crispyrainbow.biz
   udp: true
-- name: 8.--_US_美国+7
-  server: server20.beheshtbaneh.com
-  port: 8880
-  type: vmess
-  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server20.beheshtbaneh.com
-  udp: true
-- name: 9.--_US_美国->🇩🇪_DE_德国+2
+- name: 3.--_US_美国+5
   server: for-irancell.outline-vpn.cloud
   port: 80
   type: vmess
@@ -140,141 +50,7 @@ proxies:
     headers:
       Host: my1.tooters.ir
   udp: true
-- name: 10.--_US_美国
-  server: www.darkroom.lol
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.darkroom.lol
-  udp: true
-- name: 11.--_US_美国->🇩🇪_DE_德国+4
-  server: 104.22.51.162
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: my1.tooters.ir
-  udp: true
-- name: 12.--_US_美国+9
-  server: www.crispyrainbow.online
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.crispyrainbow.online
-  udp: true
-- name: 13.--_US_美国+43
-  server: 212.102.47.198
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-  udp: true
-- name: 14.--_US_美国->🇩🇪_DE_德国+5
-  server: www.greendam.site
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-  udp: true
-- name: 15.--_US_美国+15
-  server: server32.beheshtbaneh.com
-  port: 8880
-  type: vmess
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server32.beheshtbaneh.com
-  udp: true
-- name: 16.--_US_美国->🇩🇪_DE_德国+3
-  server: 104.20.231.30
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: my1.tooters.ir
-  udp: true
-- name: 17.--_US_美国+11
-  server: server31.beheshtbaneh.com
-  port: 8880
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server31.beheshtbaneh.com
-  udp: true
-- name: 18.--美国 得克萨斯州达拉斯Linode数据中心
-  server: 198.58.109.150
-  port: 443
-  type: trojan
-  password: a95c55dd-5a72-4cc4-a262-6da634235f85
-  skip-cert-verify: true
-  udp: true
-- name: 19.--美国75〖电报：@ccbaohe】免费节点定时更新
-  server: 104.21.83.10
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.coldstone.club
-  udp: true
-- name: 20.--_US_美国+81
+- name: 4.--_US_美国+9
   server: server33.beheshtbaneh.com
   port: 8880
   type: vmess
@@ -289,7 +65,160 @@ proxies:
     headers:
       Host: server33.beheshtbaneh.com
   udp: true
-- name: 21.--_US_美国 3
+- name: 5.--_US_美国+2
+  server: 172.67.166.190
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.crispyrainbow.online
+  udp: true
+- name: 6.--_US_美国+46
+  server: 212.102.47.198
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
+  udp: true
+- name: 7.--_US_美国+4
+  server: 104.22.51.162
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: my1.tooters.ir
+  udp: true
+- name: 8.--_US_美国+8
+  server: www.crispyrainbow.online
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.crispyrainbow.online
+  udp: true
+- name: 9.--_US_美国+10
+  server: 104.20.231.30
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: my1.tooters.ir
+  udp: true
+- name: 10.--_NZ_新西兰
+  server: 216.73.156.230
+  port: 443
+  type: trojan
+  password: 11e247e5-136d-45f1-844a-a7f054d36bab
+  sni: 216.73.156.230
+  skip-cert-verify: true
+  udp: true
+- name: 11.--_US_美国+16
+  server: www.crispyrainbow.biz
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.crispyrainbow.biz
+  udp: true
+- name: 12.--_US_美国+17
+  server: 104.21.89.252
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.crispyrainbow.online
+  udp: true
+- name: 13.--_GB_英国
+  server: 18.169.140.197
+  port: 22222
+  type: trojan
+  password: telegram-id-privatevpns
+  sni: trojan.miwan.co.uk
+  skip-cert-verify: true
+  udp: true
+- name: 14.--⏮️c@oneclickvpnkeys
+  server: 205.185.125.200
+  port: 11451
+  type: vmess
+  uuid: 165bdbb6-3fd0-4d1a-e6fb-0e5cd2a0154f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 205.185.125.200
+  udp: true
+- name: 15.--⏮️3@oneclickvpnkeys
+  server: 94.131.99.8
+  port: 47182
+  type: vmess
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 16.--加拿大 063
+  server: 172.67.166.194
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.coldstone.club
+  udp: true
+- name: 17.--长期更新节点@mftizi
   server: www.coldstone.club
   port: 8080
   type: vmess
@@ -304,15 +233,75 @@ proxies:
     headers:
       Host: www.coldstone.club
   udp: true
-- name: 22.--乌克兰 V2CROSS.COM
-  server: 94.131.99.8
-  port: 47182
+- name: 18.--中国 003
+  server: 114.37.112.239
+  port: 2024
   type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+  uuid: 08ee510e-68e6-4a71-8d3a-1c576ffa3cac
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  udp: true
+- name: 19.--@Hope_Net-join-us-on-Telegram+2
+  server: 104.21.51.208
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: nina.bond
+  udp: true
+- name: 20.--英国 006
+  server: 51.38.64.145
+  port: 2086
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: internet.life.com.by
+  udp: true
+- name: 21.--@Hope_Net-join-us-on-Telegram+1
+  server: 172.67.196.112
+  port: 443
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: linde06.indiavideo.sbs
+  udp: true
+- name: 22.--⏮️18@oneclickvpnkeys
+  server: 104.21.30.254
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: nina.bond
   udp: true
 - name: 23.--美国 026
   server: 94.131.122.105
@@ -329,25 +318,48 @@ proxies:
     headers:
       Host: uk1.xv2ray.net
   udp: true
-- name: 24.--SE_speednode_0038
-  server: 172.234.96.114
-  port: 443
-  type: trojan
-  password: f6c617b0-f272-48a3-9f29-10771ee12994
+- name: 24.--[宇航员] 日本 80免流 02
+  server: jpcd07-4c4e-9945-219dfebd1776.xn--jsrz0o258a.online
+  port: 80
+  type: vmess
+  uuid: 1cb8d9f0-639c-4a8d-83c1-d5361179d18f
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: bilibili.com
   udp: true
-- name: 25.--英国 伦敦Amazon数据中心+1
-  server: fast_2ray_telchannelll.fast2rayy.eu.org
+- name: 25.--美国 麻省理工学院
+  server: jseyu.arvancode.eu.org
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: Bog0ELmMM9DSxDdQ
   udp: true
-- name: 26.--[宇航员] 香港 80免流 02
+- name: 26.--[宇航员] 香港 80免流 01
   server: hkb12a8e-36fc-a36f-5a2.xn--jsrz0o258a.online
   port: 80
   type: vmess
-  uuid: aaf1e0a7-5616-4e67-bb4b-c706b8a32b01
+  uuid: 1cb8d9f0-639c-4a8d-83c1-d5361179d18f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: bilibili.com
+  udp: true
+- name: 27.--[宇航员] 台湾 80免流 02
+  server: twa877-4e18-b158-bc88c4bb2e2d.xn--jsrz0o258a.online
+  port: 80
+  type: vmess
+  uuid: 1cb8d9f0-639c-4a8d-83c1-d5361179d18f
   alterId: 0
   cipher: auto
   tls: false
@@ -365,63 +377,65 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 负载均衡
-  - 1.--_US_美国+2
-  - 2.--_US_美国+3
-  - 3.--_US_美国+1
-  - 4.--_US_美国->🇩🇪_DE_德国
-  - 5.--_US_美国+4
-  - 6.--_US_美国+12
-  - 7.--_US_美国+6
-  - 8.--_US_美国+7
-  - 9.--_US_美国->🇩🇪_DE_德国+2
-  - 10.--_US_美国
-  - 11.--_US_美国->🇩🇪_DE_德国+4
-  - 12.--_US_美国+9
-  - 13.--_US_美国+43
-  - 14.--_US_美国->🇩🇪_DE_德国+5
-  - 15.--_US_美国+15
-  - 16.--_US_美国->🇩🇪_DE_德国+3
-  - 17.--_US_美国+11
-  - 18.--美国 得克萨斯州达拉斯Linode数据中心
-  - 19.--美国75〖电报：@ccbaohe】免费节点定时更新
-  - 20.--_US_美国+81
-  - 21.--_US_美国 3
-  - 22.--乌克兰 V2CROSS.COM
+  - 1.--_US_美国+1
+  - 2.--_US_美国+6
+  - 3.--_US_美国+5
+  - 4.--_US_美国+9
+  - 5.--_US_美国+2
+  - 6.--_US_美国+46
+  - 7.--_US_美国+4
+  - 8.--_US_美国+8
+  - 9.--_US_美国+10
+  - 10.--_NZ_新西兰
+  - 11.--_US_美国+16
+  - 12.--_US_美国+17
+  - 13.--_GB_英国
+  - 14.--⏮️c@oneclickvpnkeys
+  - 15.--⏮️3@oneclickvpnkeys
+  - 16.--加拿大 063
+  - 17.--长期更新节点@mftizi
+  - 18.--中国 003
+  - 19.--@Hope_Net-join-us-on-Telegram+2
+  - 20.--英国 006
+  - 21.--@Hope_Net-join-us-on-Telegram+1
+  - 22.--⏮️18@oneclickvpnkeys
   - 23.--美国 026
-  - 24.--SE_speednode_0038
-  - 25.--英国 伦敦Amazon数据中心+1
-  - 26.--[宇航员] 香港 80免流 02
+  - 24.--[宇航员] 日本 80免流 02
+  - 25.--美国 麻省理工学院
+  - 26.--[宇航员] 香港 80免流 01
+  - 27.--[宇航员] 台湾 80免流 02
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 1.--_US_美国+2
-  - 2.--_US_美国+3
-  - 3.--_US_美国+1
-  - 4.--_US_美国->🇩🇪_DE_德国
-  - 5.--_US_美国+4
-  - 6.--_US_美国+12
-  - 7.--_US_美国+6
-  - 8.--_US_美国+7
-  - 9.--_US_美国->🇩🇪_DE_德国+2
-  - 10.--_US_美国
-  - 11.--_US_美国->🇩🇪_DE_德国+4
-  - 12.--_US_美国+9
-  - 13.--_US_美国+43
-  - 14.--_US_美国->🇩🇪_DE_德国+5
-  - 15.--_US_美国+15
-  - 16.--_US_美国->🇩🇪_DE_德国+3
-  - 17.--_US_美国+11
-  - 18.--美国 得克萨斯州达拉斯Linode数据中心
-  - 19.--美国75〖电报：@ccbaohe】免费节点定时更新
-  - 20.--_US_美国+81
-  - 21.--_US_美国 3
-  - 22.--乌克兰 V2CROSS.COM
+  - 1.--_US_美国+1
+  - 2.--_US_美国+6
+  - 3.--_US_美国+5
+  - 4.--_US_美国+9
+  - 5.--_US_美国+2
+  - 6.--_US_美国+46
+  - 7.--_US_美国+4
+  - 8.--_US_美国+8
+  - 9.--_US_美国+10
+  - 10.--_NZ_新西兰
+  - 11.--_US_美国+16
+  - 12.--_US_美国+17
+  - 13.--_GB_英国
+  - 14.--⏮️c@oneclickvpnkeys
+  - 15.--⏮️3@oneclickvpnkeys
+  - 16.--加拿大 063
+  - 17.--长期更新节点@mftizi
+  - 18.--中国 003
+  - 19.--@Hope_Net-join-us-on-Telegram+2
+  - 20.--英国 006
+  - 21.--@Hope_Net-join-us-on-Telegram+1
+  - 22.--⏮️18@oneclickvpnkeys
   - 23.--美国 026
-  - 24.--SE_speednode_0038
-  - 25.--英国 伦敦Amazon数据中心+1
-  - 26.--[宇航员] 香港 80免流 02
+  - 24.--[宇航员] 日本 80免流 02
+  - 25.--美国 麻省理工学院
+  - 26.--[宇航员] 香港 80免流 01
+  - 27.--[宇航员] 台湾 80免流 02
 - name: 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -429,164 +443,171 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 1.--_US_美国+2
-  - 2.--_US_美国+3
-  - 3.--_US_美国+1
-  - 4.--_US_美国->🇩🇪_DE_德国
-  - 5.--_US_美国+4
-  - 6.--_US_美国+12
-  - 7.--_US_美国+6
-  - 8.--_US_美国+7
-  - 9.--_US_美国->🇩🇪_DE_德国+2
-  - 10.--_US_美国
-  - 11.--_US_美国->🇩🇪_DE_德国+4
-  - 12.--_US_美国+9
-  - 13.--_US_美国+43
-  - 14.--_US_美国->🇩🇪_DE_德国+5
-  - 15.--_US_美国+15
-  - 16.--_US_美国->🇩🇪_DE_德国+3
-  - 17.--_US_美国+11
-  - 18.--美国 得克萨斯州达拉斯Linode数据中心
-  - 19.--美国75〖电报：@ccbaohe】免费节点定时更新
-  - 20.--_US_美国+81
-  - 21.--_US_美国 3
-  - 22.--乌克兰 V2CROSS.COM
+  - 1.--_US_美国+1
+  - 2.--_US_美国+6
+  - 3.--_US_美国+5
+  - 4.--_US_美国+9
+  - 5.--_US_美国+2
+  - 6.--_US_美国+46
+  - 7.--_US_美国+4
+  - 8.--_US_美国+8
+  - 9.--_US_美国+10
+  - 10.--_NZ_新西兰
+  - 11.--_US_美国+16
+  - 12.--_US_美国+17
+  - 13.--_GB_英国
+  - 14.--⏮️c@oneclickvpnkeys
+  - 15.--⏮️3@oneclickvpnkeys
+  - 16.--加拿大 063
+  - 17.--长期更新节点@mftizi
+  - 18.--中国 003
+  - 19.--@Hope_Net-join-us-on-Telegram+2
+  - 20.--英国 006
+  - 21.--@Hope_Net-join-us-on-Telegram+1
+  - 22.--⏮️18@oneclickvpnkeys
   - 23.--美国 026
-  - 24.--SE_speednode_0038
-  - 25.--英国 伦敦Amazon数据中心+1
-  - 26.--[宇航员] 香港 80免流 02
+  - 24.--[宇航员] 日本 80免流 02
+  - 25.--美国 麻省理工学院
+  - 26.--[宇航员] 香港 80免流 01
+  - 27.--[宇航员] 台湾 80免流 02
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 1.--_US_美国+2
-  - 2.--_US_美国+3
-  - 3.--_US_美国+1
-  - 4.--_US_美国->🇩🇪_DE_德国
-  - 5.--_US_美国+4
-  - 6.--_US_美国+12
-  - 7.--_US_美国+6
-  - 8.--_US_美国+7
-  - 9.--_US_美国->🇩🇪_DE_德国+2
-  - 10.--_US_美国
-  - 11.--_US_美国->🇩🇪_DE_德国+4
-  - 12.--_US_美国+9
-  - 13.--_US_美国+43
-  - 14.--_US_美国->🇩🇪_DE_德国+5
-  - 15.--_US_美国+15
-  - 16.--_US_美国->🇩🇪_DE_德国+3
-  - 17.--_US_美国+11
-  - 18.--美国 得克萨斯州达拉斯Linode数据中心
-  - 19.--美国75〖电报：@ccbaohe】免费节点定时更新
-  - 20.--_US_美国+81
-  - 21.--_US_美国 3
-  - 22.--乌克兰 V2CROSS.COM
+  - 1.--_US_美国+1
+  - 2.--_US_美国+6
+  - 3.--_US_美国+5
+  - 4.--_US_美国+9
+  - 5.--_US_美国+2
+  - 6.--_US_美国+46
+  - 7.--_US_美国+4
+  - 8.--_US_美国+8
+  - 9.--_US_美国+10
+  - 10.--_NZ_新西兰
+  - 11.--_US_美国+16
+  - 12.--_US_美国+17
+  - 13.--_GB_英国
+  - 14.--⏮️c@oneclickvpnkeys
+  - 15.--⏮️3@oneclickvpnkeys
+  - 16.--加拿大 063
+  - 17.--长期更新节点@mftizi
+  - 18.--中国 003
+  - 19.--@Hope_Net-join-us-on-Telegram+2
+  - 20.--英国 006
+  - 21.--@Hope_Net-join-us-on-Telegram+1
+  - 22.--⏮️18@oneclickvpnkeys
   - 23.--美国 026
-  - 24.--SE_speednode_0038
-  - 25.--英国 伦敦Amazon数据中心+1
-  - 26.--[宇航员] 香港 80免流 02
+  - 24.--[宇航员] 日本 80免流 02
+  - 25.--美国 麻省理工学院
+  - 26.--[宇航员] 香港 80免流 01
+  - 27.--[宇航员] 台湾 80免流 02
 - name: 🌏 国内媒体
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 26.--[宇航员] 香港 80免流 02
+  - 18.--中国 003
+  - 26.--[宇航员] 香港 80免流 01
+  - 27.--[宇航员] 台湾 80免流 02
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 1.--_US_美国+2
-  - 2.--_US_美国+3
-  - 3.--_US_美国+1
-  - 4.--_US_美国->🇩🇪_DE_德国
-  - 5.--_US_美国+4
-  - 6.--_US_美国+12
-  - 7.--_US_美国+6
-  - 8.--_US_美国+7
-  - 9.--_US_美国->🇩🇪_DE_德国+2
-  - 10.--_US_美国
-  - 11.--_US_美国->🇩🇪_DE_德国+4
-  - 12.--_US_美国+9
-  - 13.--_US_美国+43
-  - 14.--_US_美国->🇩🇪_DE_德国+5
-  - 15.--_US_美国+15
-  - 16.--_US_美国->🇩🇪_DE_德国+3
-  - 17.--_US_美国+11
-  - 18.--美国 得克萨斯州达拉斯Linode数据中心
-  - 19.--美国75〖电报：@ccbaohe】免费节点定时更新
-  - 20.--_US_美国+81
-  - 21.--_US_美国 3
-  - 22.--乌克兰 V2CROSS.COM
+  - 1.--_US_美国+1
+  - 2.--_US_美国+6
+  - 3.--_US_美国+5
+  - 4.--_US_美国+9
+  - 5.--_US_美国+2
+  - 6.--_US_美国+46
+  - 7.--_US_美国+4
+  - 8.--_US_美国+8
+  - 9.--_US_美国+10
+  - 10.--_NZ_新西兰
+  - 11.--_US_美国+16
+  - 12.--_US_美国+17
+  - 13.--_GB_英国
+  - 14.--⏮️c@oneclickvpnkeys
+  - 15.--⏮️3@oneclickvpnkeys
+  - 16.--加拿大 063
+  - 17.--长期更新节点@mftizi
+  - 18.--中国 003
+  - 19.--@Hope_Net-join-us-on-Telegram+2
+  - 20.--英国 006
+  - 21.--@Hope_Net-join-us-on-Telegram+1
+  - 22.--⏮️18@oneclickvpnkeys
   - 23.--美国 026
-  - 24.--SE_speednode_0038
-  - 25.--英国 伦敦Amazon数据中心+1
-  - 26.--[宇航员] 香港 80免流 02
+  - 24.--[宇航员] 日本 80免流 02
+  - 25.--美国 麻省理工学院
+  - 26.--[宇航员] 香港 80免流 01
+  - 27.--[宇航员] 台湾 80免流 02
 - name: 📲 电报信息
   type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 1.--_US_美国+2
-  - 2.--_US_美国+3
-  - 3.--_US_美国+1
-  - 4.--_US_美国->🇩🇪_DE_德国
-  - 5.--_US_美国+4
-  - 6.--_US_美国+12
-  - 7.--_US_美国+6
-  - 8.--_US_美国+7
-  - 9.--_US_美国->🇩🇪_DE_德国+2
-  - 10.--_US_美国
-  - 11.--_US_美国->🇩🇪_DE_德国+4
-  - 12.--_US_美国+9
-  - 13.--_US_美国+43
-  - 14.--_US_美国->🇩🇪_DE_德国+5
-  - 15.--_US_美国+15
-  - 16.--_US_美国->🇩🇪_DE_德国+3
-  - 17.--_US_美国+11
-  - 18.--美国 得克萨斯州达拉斯Linode数据中心
-  - 19.--美国75〖电报：@ccbaohe】免费节点定时更新
-  - 20.--_US_美国+81
-  - 21.--_US_美国 3
-  - 22.--乌克兰 V2CROSS.COM
+  - 1.--_US_美国+1
+  - 2.--_US_美国+6
+  - 3.--_US_美国+5
+  - 4.--_US_美国+9
+  - 5.--_US_美国+2
+  - 6.--_US_美国+46
+  - 7.--_US_美国+4
+  - 8.--_US_美国+8
+  - 9.--_US_美国+10
+  - 10.--_NZ_新西兰
+  - 11.--_US_美国+16
+  - 12.--_US_美国+17
+  - 13.--_GB_英国
+  - 14.--⏮️c@oneclickvpnkeys
+  - 15.--⏮️3@oneclickvpnkeys
+  - 16.--加拿大 063
+  - 17.--长期更新节点@mftizi
+  - 18.--中国 003
+  - 19.--@Hope_Net-join-us-on-Telegram+2
+  - 20.--英国 006
+  - 21.--@Hope_Net-join-us-on-Telegram+1
+  - 22.--⏮️18@oneclickvpnkeys
   - 23.--美国 026
-  - 24.--SE_speednode_0038
-  - 25.--英国 伦敦Amazon数据中心+1
-  - 26.--[宇航员] 香港 80免流 02
+  - 24.--[宇航员] 日本 80免流 02
+  - 25.--美国 麻省理工学院
+  - 26.--[宇航员] 香港 80免流 01
+  - 27.--[宇航员] 台湾 80免流 02
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - ♻️ 自动选择
-  - 1.--_US_美国+2
-  - 2.--_US_美国+3
-  - 3.--_US_美国+1
-  - 4.--_US_美国->🇩🇪_DE_德国
-  - 5.--_US_美国+4
-  - 6.--_US_美国+12
-  - 7.--_US_美国+6
-  - 8.--_US_美国+7
-  - 9.--_US_美国->🇩🇪_DE_德国+2
-  - 10.--_US_美国
-  - 11.--_US_美国->🇩🇪_DE_德国+4
-  - 12.--_US_美国+9
-  - 13.--_US_美国+43
-  - 14.--_US_美国->🇩🇪_DE_德国+5
-  - 15.--_US_美国+15
-  - 16.--_US_美国->🇩🇪_DE_德国+3
-  - 17.--_US_美国+11
-  - 18.--美国 得克萨斯州达拉斯Linode数据中心
-  - 19.--美国75〖电报：@ccbaohe】免费节点定时更新
-  - 20.--_US_美国+81
-  - 21.--_US_美国 3
-  - 22.--乌克兰 V2CROSS.COM
+  - 1.--_US_美国+1
+  - 2.--_US_美国+6
+  - 3.--_US_美国+5
+  - 4.--_US_美国+9
+  - 5.--_US_美国+2
+  - 6.--_US_美国+46
+  - 7.--_US_美国+4
+  - 8.--_US_美国+8
+  - 9.--_US_美国+10
+  - 10.--_NZ_新西兰
+  - 11.--_US_美国+16
+  - 12.--_US_美国+17
+  - 13.--_GB_英国
+  - 14.--⏮️c@oneclickvpnkeys
+  - 15.--⏮️3@oneclickvpnkeys
+  - 16.--加拿大 063
+  - 17.--长期更新节点@mftizi
+  - 18.--中国 003
+  - 19.--@Hope_Net-join-us-on-Telegram+2
+  - 20.--英国 006
+  - 21.--@Hope_Net-join-us-on-Telegram+1
+  - 22.--⏮️18@oneclickvpnkeys
   - 23.--美国 026
-  - 24.--SE_speednode_0038
-  - 25.--英国 伦敦Amazon数据中心+1
-  - 26.--[宇航员] 香港 80免流 02
+  - 24.--[宇航员] 日本 80免流 02
+  - 25.--美国 麻省理工学院
+  - 26.--[宇航员] 香港 80免流 01
+  - 27.--[宇航员] 台湾 80免流 02
 - name: 🎯 全球直连
   type: select
   proxies:
