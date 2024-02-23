@@ -9,7 +9,7 @@ proxies:
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: d8655133-0a74-4496-ad75-25414a355a20
+  uuid: 9c9f0191-e785-4ead-8df6-5d89316a80fb
   alterId: 0
   cipher: auto
   tls: false
@@ -24,7 +24,7 @@ proxies:
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: d8655133-0a74-4496-ad75-25414a355a20
+  uuid: 9c9f0191-e785-4ead-8df6-5d89316a80fb
   alterId: 0
   cipher: auto
   tls: false
@@ -39,7 +39,7 @@ proxies:
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: d8655133-0a74-4496-ad75-25414a355a20
+  uuid: 9c9f0191-e785-4ead-8df6-5d89316a80fb
   alterId: 0
   cipher: auto
   tls: false
@@ -55,13 +55,13 @@ proxies:
   port: 51653
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: e1d3f1e8-598a-43e7-b9d0-c7a52a9e6894
+  password: c9fd2498-d46d-4b59-b65c-21ef4182e101
   udp: true
 - name: 美国01 - 都是梦
   server: dl6.doushimeng.com
   port: 2082
   type: vmess
-  uuid: e1d3f1e8-598a-43e7-b9d0-c7a52a9e6894
+  uuid: c9fd2498-d46d-4b59-b65c-21ef4182e101
   alterId: 0
   cipher: auto
   tls: false
@@ -76,7 +76,7 @@ proxies:
   server: dl3s.doushimeng.com
   port: 2082
   type: vmess
-  uuid: e1d3f1e8-598a-43e7-b9d0-c7a52a9e6894
+  uuid: c9fd2498-d46d-4b59-b65c-21ef4182e101
   alterId: 0
   cipher: auto
   tls: false
@@ -91,7 +91,7 @@ proxies:
   server: dl1.doushimeng.com
   port: 2082
   type: vmess
-  uuid: e1d3f1e8-598a-43e7-b9d0-c7a52a9e6894
+  uuid: c9fd2498-d46d-4b59-b65c-21ef4182e101
   alterId: 0
   cipher: auto
   tls: false
@@ -103,8 +103,8 @@ proxies:
       Host: cf-frsss5.nicehand.top
   udp: true
 - name: 香港|【年节活动】7折活动进行中|公益 - 大白
-  server: 101.91.226.84
-  port: 46242
+  server: 101.89.154.94
+  port: 26068
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -119,7 +119,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   server: 101.89.154.94
-  port: 58081
+  port: 19979
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -133,8 +133,8 @@ proxies:
       Host: data-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-  server: 101.89.219.103
-  port: 58081
+  server: 101.91.226.84
+  port: 46242
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -148,8 +148,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
-  server: 185.214.103.249
-  port: 8002
+  server: 101.91.226.84
+  port: 26068
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -163,8 +163,8 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
-  server: 101.91.226.84
-  port: 26068
+  server: 101.89.219.103
+  port: 19979
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -178,8 +178,8 @@ proxies:
       Host: data-hk-3.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
-  server: 101.91.226.84
-  port: 58081
+  server: 101.89.154.94
+  port: 48233
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -194,7 +194,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
   server: 101.89.154.94
-  port: 26068
+  port: 58081
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -209,7 +209,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
   server: 101.89.154.94
-  port: 41082
+  port: 58398
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -451,42 +451,100 @@ proxies:
   port: 51310
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66281859-5e88-4393-b384-415c54e068ec
+  password: ec894a28-2d4a-43b9-ba43-b82394ccf07b
   udp: true
 - name: KR韩国 A - 可乐云
   server: kr.colacloud.site
   port: 20352
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66281859-5e88-4393-b384-415c54e068ec
+  password: ec894a28-2d4a-43b9-ba43-b82394ccf07b
   udp: true
-- name: SS1-T - 速迪云加速
-  server: 132.145.102.60
-  port: 21001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 17e349e5-8df3-4ab1-8aff-6fba4374b292
-  udp: true
-- name: vmess_US - 速迪云加速
-  server: us-n1.speedyyun.com
-  port: 25314
-  type: vmess
-  uuid: 17e349e5-8df3-4ab1-8aff-6fba4374b292
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: Japan 01 | - 蓝天白云
+  server: jp01.bsawc.shop
+  port: 20602
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: jp01.bsawc.shop
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /victorias
-    headers:
-      Host: us-n1.speedyyun.com
+  udp: true
+- name: Korea 01 - 蓝天白云
+  server: kr01.bsawc.shop
+  port: 61302
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: kr01.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: Singapore 02 - 蓝天白云
+  server: sg02.bsawc.shop
+  port: 51652
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: sg02.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: Singapore 03 - 蓝天白云
+  server: sg03.bsawc.shop
+  port: 30008
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: sg03.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: Canada 01 - 蓝天白云
+  server: ca01.bsawc.shop
+  port: 27352
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: ca01.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: Russia CN2 01 - 蓝天白云
+  server: ru01.bsawc.shop
+  port: 30005
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: ru01.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: Dubai 01 - 蓝天白云
+  server: ua01.bsawc.shop
+  port: 37902
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: ua01.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: France 01 - 蓝天白云
+  server: fr01.bsawc.shop
+  port: 30012
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: fr01.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: Poland 01 - 蓝天白云
+  server: pl01.bsawc.shop
+  port: 30013
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: pl01.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: Netherlands 01 - 蓝天白云
+  server: nl01.bsawc.shop
+  port: 64302
+  type: trojan
+  password: c46b86b5-5e2d-4bab-8a88-c09f74017784
+  sni: nl01.bsawc.shop
+  skip-cert-verify: true
   udp: true
 - name: '[vip①]德国1 - MG Network'
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -501,7 +559,7 @@ proxies:
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -516,7 +574,7 @@ proxies:
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -531,7 +589,7 @@ proxies:
   server: 17.v2-ray.cyou
   port: 23617
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -546,7 +604,7 @@ proxies:
   server: 8.v2-ray.cyou
   port: 23608
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -556,7 +614,7 @@ proxies:
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -571,7 +629,7 @@ proxies:
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -586,7 +644,7 @@ proxies:
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -601,7 +659,7 @@ proxies:
   server: 5.v2-ray.cyou
   port: 23605
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -616,7 +674,7 @@ proxies:
   server: 13.v2-ray.cyou
   port: 23613
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -631,7 +689,7 @@ proxies:
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: b0e877ea-ec97-3cb4-8650-a678a2381b89
+  uuid: 66763067-21b4-399c-be0b-2e6f1765a75e
   alterId: 2
   cipher: auto
   tls: false
@@ -646,7 +704,7 @@ proxies:
   server: us01.h.csznet.eu.org
   port: 443
   type: vmess
-  uuid: d8b597d3-72b2-48ff-a1bf-5b2c2c73c410
+  uuid: 052ecc2d-0649-4652-a43f-d1629fcd6845
   alterId: 0
   cipher: auto
   tls: true
@@ -661,7 +719,7 @@ proxies:
   server: hk01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: d8b597d3-72b2-48ff-a1bf-5b2c2c73c410
+  uuid: 052ecc2d-0649-4652-a43f-d1629fcd6845
   alterId: 0
   cipher: auto
   tls: true
@@ -676,7 +734,7 @@ proxies:
   server: tr01.h.csznet.eu.org
   port: 40660
   type: vmess
-  uuid: d8b597d3-72b2-48ff-a1bf-5b2c2c73c410
+  uuid: 052ecc2d-0649-4652-a43f-d1629fcd6845
   alterId: 0
   cipher: auto
   tls: true
@@ -691,7 +749,7 @@ proxies:
   server: cera.feedcc.workers.dev
   port: 443
   type: vmess
-  uuid: d8b597d3-72b2-48ff-a1bf-5b2c2c73c410
+  uuid: 052ecc2d-0649-4652-a43f-d1629fcd6845
   alterId: 0
   cipher: auto
   tls: true
@@ -706,7 +764,7 @@ proxies:
   server: iij2.csznet.eu.org
   port: 3306
   type: vmess
-  uuid: d8b597d3-72b2-48ff-a1bf-5b2c2c73c410
+  uuid: 052ecc2d-0649-4652-a43f-d1629fcd6845
   alterId: 0
   cipher: auto
   tls: true
@@ -721,7 +779,7 @@ proxies:
   server: kr01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: d8b597d3-72b2-48ff-a1bf-5b2c2c73c410
+  uuid: 052ecc2d-0649-4652-a43f-d1629fcd6845
   alterId: 0
   cipher: auto
   tls: true
@@ -811,7 +869,7 @@ proxies:
   server: 112.29.200.93
   port: 29711
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -824,7 +882,7 @@ proxies:
   server: jzyd.12ip.cc
   port: 24252
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -839,7 +897,7 @@ proxies:
   server: 188.253.6.35
   port: 20009
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -852,7 +910,7 @@ proxies:
   server: 64.110.68.141
   port: 26752
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -865,7 +923,7 @@ proxies:
   server: sg-singapore-oracle-4f34e8.ip1.shop
   port: 64952
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -880,7 +938,7 @@ proxies:
   server: it-milan-oracle-2b2d63.ip1.shop
   port: 54252
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -895,7 +953,7 @@ proxies:
   server: in-mumbai-oracle-2de5d7.ip1.shop
   port: 21152
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -910,7 +968,7 @@ proxies:
   server: uk-london-oracle-51b798.ip1.shop
   port: 36902
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -925,7 +983,7 @@ proxies:
   server: duocloudhkv6.12ip.cc
   port: 443
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -940,7 +998,7 @@ proxies:
   server: wawotwv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -955,7 +1013,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -970,7 +1028,7 @@ proxies:
   server: wawonlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -985,7 +1043,7 @@ proxies:
   server: akdev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -1000,7 +1058,7 @@ proxies:
   server: xmusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -1015,7 +1073,7 @@ proxies:
   server: hoyoversenlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -1030,7 +1088,7 @@ proxies:
   server: hoyoversedev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -1045,7 +1103,7 @@ proxies:
   server: acusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -1060,7 +1118,7 @@ proxies:
   server: wawojpv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -1075,7 +1133,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 5b6ff70c-790e-488a-96d1-0ca177cf2e12
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
@@ -1085,6 +1143,276 @@ proxies:
     path: /
     headers:
       Host: wawohkv6.12ip.cc
+  udp: true
+- name: 新加坡-0 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27500
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 新加坡-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27501
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 新加坡-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27502
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 香港-0 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27600
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 香港-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27601
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 香港-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27602
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 台湾-0 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27700
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tw
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 台湾-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27701
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tw
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 台湾-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27702
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tw
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 日本-0 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27800
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jp
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 日本-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27803
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jp
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 日本-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27802
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jp
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 美国-0 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27900
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /us
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 美国-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27901
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /us
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 美国-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27902
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /us
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 英国-0 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 28100
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /uk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 英国-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 28001
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /uk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 英国-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 28002
+  type: vmess
+  uuid: 5ec147e8-f4b8-4e82-b58f-ea12617273d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /uk
+    headers:
+      Host: www.rockeyxzy.com
   udp: true
 - name: 邀请好友返利65% - 十元一年
   server: IT-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz
@@ -1146,397 +1474,6 @@ proxies:
     headers:
       Host: bing.com
   udp: true
-- name: 中转•香港301•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20301
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z301.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•台湾258•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 17629
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z258.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•香港143•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 28678
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z143.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•香港269•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 22741
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: dufu.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•香港294•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20294
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z294.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•香港102•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 43337
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z102.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•香港259•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 24603
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z259.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•香港278•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20278
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z278.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•香港279•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20279
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z279.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•台湾100•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 59021
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x100.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 中转•台湾91•原生 - 飞翔吧
-  server: gy.58n.net
-  port: 21247
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x91.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 中转•德国302•GPT - 飞翔吧
-  server: gy.58n.net
-  port: 20302
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z302.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•德国303•GPT - 飞翔吧
-  server: gy.58n.net
-  port: 20303
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z303.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•德国304•GPT - 飞翔吧
-  server: gy.58n.net
-  port: 20304
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z304.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•德国305•GPT - 飞翔吧
-  server: gy.58n.net
-  port: 20305
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z305.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•德国306•GPT - 飞翔吧
-  server: gy.58n.net
-  port: 20306
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z306.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•新加坡299•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20299
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x299.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 中转•新加坡65•青铜 - 飞翔吧
-  server: gy.58n.net
-  port: 17806
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x65.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 中转•新加坡83•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 30712
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x83.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 中转•日本298•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20298
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z298.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•日本300•原生 - 飞翔吧
-  server: gy.58n.net
-  port: 20300
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z300.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•美国295•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20295
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z295.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•美国296•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20296
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z296.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•美国308•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20308
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z308.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•美国40•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 16895
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x40.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 中转•美国41•原生 - 飞翔吧
-  server: gy.58n.net
-  port: 21970
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x41.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 中转•美国46•原生 - 飞翔吧
-  server: gy.58n.net
-  port: 14846
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x46.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 中转•美国61•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 30767
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z61.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•英国267•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 25238
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z267.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•英国268•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 11215
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z268.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 中转•香港307•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20307
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z307.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•台湾261•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 33323
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z261.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•台湾262•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 36821
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z262.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•美国266•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 56783
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z266.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•美国288•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20288
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z288.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•韩国263•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 45168
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z263.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 广港•韩国264•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 50355
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z264.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 新加坡•高速129•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20129
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x129.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 新加坡•高速130•铂金 - 飞翔吧
-  server: gy.58n.net
-  port: 20130
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x130.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 日本•高速114•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 41767
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x114.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 日本•高速115•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 54178
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x115.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 日本•高速139•铂金 - 飞翔吧
-  server: gy.58n.net
-  port: 20139
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z139.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 日本•高速140•铂金 - 飞翔吧
-  server: gy.58n.net
-  port: 20140
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z140.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 日本•高速141•铂金 - 飞翔吧
-  server: gy.58n.net
-  port: 20141
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z141.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 日本•高速142•原生 - 飞翔吧
-  server: gy.58n.net
-  port: 20142
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: z142.hongkongnode.top
-  skip-cert-verify: true
-  udp: true
-- name: 日本•高速59•青铜 - 飞翔吧
-  server: gy.58n.net
-  port: 20059
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x59.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 日本•高速71•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20071
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x71.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: 日本•高速76•高速 - 飞翔吧
-  server: gy.58n.net
-  port: 20076
-  type: trojan
-  password: 0e8c9dcb-2e18-3656-874c-b3a5adb5043f
-  sni: x76.flybar.work
-  skip-cert-verify: true
-  udp: true
-- name: ℹ 官网-2022.pet - 飞翔吧
-  server: www.flybar.top
-  port: 10086
-  type: trojan
-  password: wjdrDpM5SttakUuS
-  skip-cert-verify: true
-  udp: true
 - name: 免费-日本 - bee.sulepay.com
   server: freejpno1.beednsvip.top
   port: 45613
@@ -1545,8 +1482,8 @@ proxies:
   password: tsu9oi
   protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 20061:a7y1R3
-  obfs-param: 437e320061.microsoft.com
+  protocol-param: 20072:mDKJNC
+  obfs-param: 519eb20072.microsoft.com
   udp: true
 - name: 免费-新加坡 - bee.sulepay.com
   server: freeno1sg.beednsvip.top
@@ -1556,8 +1493,8 @@ proxies:
   password: tsu9oi
   protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 20061:a7y1R3
-  obfs-param: 437e320061.microsoft.com
+  protocol-param: 20072:mDKJNC
+  obfs-param: 519eb20072.microsoft.com
   udp: true
 - name: 免费-美国 - bee.sulepay.com
   server: freeno1us.beednsvip.top
@@ -1567,14 +1504,14 @@ proxies:
   password: tsu9oi
   protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 20061:a7y1R3
-  obfs-param: 437e320061.microsoft.com
+  protocol-param: 20072:mDKJNC
+  obfs-param: 519eb20072.microsoft.com
   udp: true
 - name: ℹ 官网 https://help.vip666.xyz - vip666.xyz
   server: www.a.com
   port: 80
   type: vmess
-  uuid: af3bc768-d43b-4aa5-a0b7-13190537b5bc
+  uuid: 587f0adc-4c7e-42ce-854b-052c8d273b8d
   alterId: 0
   cipher: auto
   tls: false
@@ -1590,55 +1527,55 @@ proxies:
   port: 20032
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: af3bc768-d43b-4aa5-a0b7-13190537b5bc
+  password: 587f0adc-4c7e-42ce-854b-052c8d273b8d
   udp: true
 - name: 美国（用前更新订阅） - vip666.xyz
   server: node.websitea.xyz
   port: 20031
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: af3bc768-d43b-4aa5-a0b7-13190537b5bc
+  password: 587f0adc-4c7e-42ce-854b-052c8d273b8d
   udp: true
 - name: 新加坡 - vip666.xyz
   server: node.websitea.xyz
   port: 20035
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: af3bc768-d43b-4aa5-a0b7-13190537b5bc
+  password: 587f0adc-4c7e-42ce-854b-052c8d273b8d
   udp: true
 - name: 香港-https://new.vip666.xyz - vip666.xyz
   server: node.websitea.xyz
   port: 20036
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: af3bc768-d43b-4aa5-a0b7-13190537b5bc
+  password: 587f0adc-4c7e-42ce-854b-052c8d273b8d
   udp: true
 - name: 荷兰 - vip666.xyz
   server: node.websitea.xyz
   port: 20037
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: af3bc768-d43b-4aa5-a0b7-13190537b5bc
+  password: 587f0adc-4c7e-42ce-854b-052c8d273b8d
   udp: true
 - name: 韩国（最新地址：help.vip666.xyz） - vip666.xyz
   server: node.websitea.xyz
   port: 20039
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: af3bc768-d43b-4aa5-a0b7-13190537b5bc
+  password: 587f0adc-4c7e-42ce-854b-052c8d273b8d
   udp: true
 - name: 中国香港2 - vip666.xyz
   server: node.websitea.xyz
   port: 20041
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: af3bc768-d43b-4aa5-a0b7-13190537b5bc
+  password: 587f0adc-4c7e-42ce-854b-052c8d273b8d
   udp: true
 - name: 美国 🌐「达拉斯」 - 北方航空
   server: cdn.chigua.tk
   port: 80
   type: vmess
-  uuid: 0338a1c8-2d8b-46eb-b79a-819eba05e94d
+  uuid: d605e796-67ac-49ef-b9bf-b484eb2a7226
   alterId: 0
   cipher: auto
   tls: false
@@ -1701,8 +1638,16 @@ proxy-groups:
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
   - KR韩国 A - 可乐云
-  - SS1-T - 速迪云加速
-  - vmess_US - 速迪云加速
+  - Japan 01 | - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Singapore 02 - 蓝天白云
+  - Singapore 03 - 蓝天白云
+  - Canada 01 - 蓝天白云
+  - Russia CN2 01 - 蓝天白云
+  - Dubai 01 - 蓝天白云
+  - France 01 - 蓝天白云
+  - Poland 01 - 蓝天白云
+  - Netherlands 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -1748,59 +1693,28 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
+  - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
+  - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
+  - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
+  - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
+  - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
+  - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁 - 十元一年
   - 香港-台湾中转 - 十元一年
-  - 中转•香港301•高速 - 飞翔吧
-  - 广港•台湾258•高速 - 飞翔吧
-  - 广港•香港143•高速 - 飞翔吧
-  - 广港•香港269•高速 - 飞翔吧
-  - 广港•香港294•高速 - 飞翔吧
-  - 中转•香港102•高速 - 飞翔吧
-  - 广港•香港259•高速 - 飞翔吧
-  - 广港•香港278•高速 - 飞翔吧
-  - 广港•香港279•高速 - 飞翔吧
-  - 中转•台湾100•高速 - 飞翔吧
-  - 中转•台湾91•原生 - 飞翔吧
-  - 中转•德国302•GPT - 飞翔吧
-  - 中转•德国303•GPT - 飞翔吧
-  - 中转•德国304•GPT - 飞翔吧
-  - 中转•德国305•GPT - 飞翔吧
-  - 中转•德国306•GPT - 飞翔吧
-  - 中转•新加坡299•高速 - 飞翔吧
-  - 中转•新加坡65•青铜 - 飞翔吧
-  - 中转•新加坡83•高速 - 飞翔吧
-  - 中转•日本298•高速 - 飞翔吧
-  - 中转•日本300•原生 - 飞翔吧
-  - 中转•美国295•高速 - 飞翔吧
-  - 中转•美国296•高速 - 飞翔吧
-  - 中转•美国308•高速 - 飞翔吧
-  - 中转•美国40•高速 - 飞翔吧
-  - 中转•美国41•原生 - 飞翔吧
-  - 中转•美国46•原生 - 飞翔吧
-  - 中转•美国61•高速 - 飞翔吧
-  - 中转•英国267•高速 - 飞翔吧
-  - 中转•英国268•高速 - 飞翔吧
-  - 中转•香港307•高速 - 飞翔吧
-  - 广港•台湾261•高速 - 飞翔吧
-  - 广港•台湾262•高速 - 飞翔吧
-  - 广港•美国266•高速 - 飞翔吧
-  - 广港•美国288•高速 - 飞翔吧
-  - 广港•韩国263•高速 - 飞翔吧
-  - 广港•韩国264•高速 - 飞翔吧
-  - 新加坡•高速129•高速 - 飞翔吧
-  - 新加坡•高速130•铂金 - 飞翔吧
-  - 日本•高速114•高速 - 飞翔吧
-  - 日本•高速115•高速 - 飞翔吧
-  - 日本•高速139•铂金 - 飞翔吧
-  - 日本•高速140•铂金 - 飞翔吧
-  - 日本•高速141•铂金 - 飞翔吧
-  - 日本•高速142•原生 - 飞翔吧
-  - 日本•高速59•青铜 - 飞翔吧
-  - 日本•高速71•高速 - 飞翔吧
-  - 日本•高速76•高速 - 飞翔吧
-  - ℹ 官网-2022.pet - 飞翔吧
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
@@ -1863,8 +1777,16 @@ proxy-groups:
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
   - KR韩国 A - 可乐云
-  - SS1-T - 速迪云加速
-  - vmess_US - 速迪云加速
+  - Japan 01 | - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Singapore 02 - 蓝天白云
+  - Singapore 03 - 蓝天白云
+  - Canada 01 - 蓝天白云
+  - Russia CN2 01 - 蓝天白云
+  - Dubai 01 - 蓝天白云
+  - France 01 - 蓝天白云
+  - Poland 01 - 蓝天白云
+  - Netherlands 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -1910,59 +1832,28 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
+  - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
+  - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
+  - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
+  - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
+  - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
+  - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁 - 十元一年
   - 香港-台湾中转 - 十元一年
-  - 中转•香港301•高速 - 飞翔吧
-  - 广港•台湾258•高速 - 飞翔吧
-  - 广港•香港143•高速 - 飞翔吧
-  - 广港•香港269•高速 - 飞翔吧
-  - 广港•香港294•高速 - 飞翔吧
-  - 中转•香港102•高速 - 飞翔吧
-  - 广港•香港259•高速 - 飞翔吧
-  - 广港•香港278•高速 - 飞翔吧
-  - 广港•香港279•高速 - 飞翔吧
-  - 中转•台湾100•高速 - 飞翔吧
-  - 中转•台湾91•原生 - 飞翔吧
-  - 中转•德国302•GPT - 飞翔吧
-  - 中转•德国303•GPT - 飞翔吧
-  - 中转•德国304•GPT - 飞翔吧
-  - 中转•德国305•GPT - 飞翔吧
-  - 中转•德国306•GPT - 飞翔吧
-  - 中转•新加坡299•高速 - 飞翔吧
-  - 中转•新加坡65•青铜 - 飞翔吧
-  - 中转•新加坡83•高速 - 飞翔吧
-  - 中转•日本298•高速 - 飞翔吧
-  - 中转•日本300•原生 - 飞翔吧
-  - 中转•美国295•高速 - 飞翔吧
-  - 中转•美国296•高速 - 飞翔吧
-  - 中转•美国308•高速 - 飞翔吧
-  - 中转•美国40•高速 - 飞翔吧
-  - 中转•美国41•原生 - 飞翔吧
-  - 中转•美国46•原生 - 飞翔吧
-  - 中转•美国61•高速 - 飞翔吧
-  - 中转•英国267•高速 - 飞翔吧
-  - 中转•英国268•高速 - 飞翔吧
-  - 中转•香港307•高速 - 飞翔吧
-  - 广港•台湾261•高速 - 飞翔吧
-  - 广港•台湾262•高速 - 飞翔吧
-  - 广港•美国266•高速 - 飞翔吧
-  - 广港•美国288•高速 - 飞翔吧
-  - 广港•韩国263•高速 - 飞翔吧
-  - 广港•韩国264•高速 - 飞翔吧
-  - 新加坡•高速129•高速 - 飞翔吧
-  - 新加坡•高速130•铂金 - 飞翔吧
-  - 日本•高速114•高速 - 飞翔吧
-  - 日本•高速115•高速 - 飞翔吧
-  - 日本•高速139•铂金 - 飞翔吧
-  - 日本•高速140•铂金 - 飞翔吧
-  - 日本•高速141•铂金 - 飞翔吧
-  - 日本•高速142•原生 - 飞翔吧
-  - 日本•高速59•青铜 - 飞翔吧
-  - 日本•高速71•高速 - 飞翔吧
-  - 日本•高速76•高速 - 飞翔吧
-  - ℹ 官网-2022.pet - 飞翔吧
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
@@ -2027,8 +1918,16 @@ proxy-groups:
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
   - KR韩国 A - 可乐云
-  - SS1-T - 速迪云加速
-  - vmess_US - 速迪云加速
+  - Japan 01 | - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Singapore 02 - 蓝天白云
+  - Singapore 03 - 蓝天白云
+  - Canada 01 - 蓝天白云
+  - Russia CN2 01 - 蓝天白云
+  - Dubai 01 - 蓝天白云
+  - France 01 - 蓝天白云
+  - Poland 01 - 蓝天白云
+  - Netherlands 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2074,59 +1973,28 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
+  - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
+  - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
+  - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
+  - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
+  - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
+  - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁 - 十元一年
   - 香港-台湾中转 - 十元一年
-  - 中转•香港301•高速 - 飞翔吧
-  - 广港•台湾258•高速 - 飞翔吧
-  - 广港•香港143•高速 - 飞翔吧
-  - 广港•香港269•高速 - 飞翔吧
-  - 广港•香港294•高速 - 飞翔吧
-  - 中转•香港102•高速 - 飞翔吧
-  - 广港•香港259•高速 - 飞翔吧
-  - 广港•香港278•高速 - 飞翔吧
-  - 广港•香港279•高速 - 飞翔吧
-  - 中转•台湾100•高速 - 飞翔吧
-  - 中转•台湾91•原生 - 飞翔吧
-  - 中转•德国302•GPT - 飞翔吧
-  - 中转•德国303•GPT - 飞翔吧
-  - 中转•德国304•GPT - 飞翔吧
-  - 中转•德国305•GPT - 飞翔吧
-  - 中转•德国306•GPT - 飞翔吧
-  - 中转•新加坡299•高速 - 飞翔吧
-  - 中转•新加坡65•青铜 - 飞翔吧
-  - 中转•新加坡83•高速 - 飞翔吧
-  - 中转•日本298•高速 - 飞翔吧
-  - 中转•日本300•原生 - 飞翔吧
-  - 中转•美国295•高速 - 飞翔吧
-  - 中转•美国296•高速 - 飞翔吧
-  - 中转•美国308•高速 - 飞翔吧
-  - 中转•美国40•高速 - 飞翔吧
-  - 中转•美国41•原生 - 飞翔吧
-  - 中转•美国46•原生 - 飞翔吧
-  - 中转•美国61•高速 - 飞翔吧
-  - 中转•英国267•高速 - 飞翔吧
-  - 中转•英国268•高速 - 飞翔吧
-  - 中转•香港307•高速 - 飞翔吧
-  - 广港•台湾261•高速 - 飞翔吧
-  - 广港•台湾262•高速 - 飞翔吧
-  - 广港•美国266•高速 - 飞翔吧
-  - 广港•美国288•高速 - 飞翔吧
-  - 广港•韩国263•高速 - 飞翔吧
-  - 广港•韩国264•高速 - 飞翔吧
-  - 新加坡•高速129•高速 - 飞翔吧
-  - 新加坡•高速130•铂金 - 飞翔吧
-  - 日本•高速114•高速 - 飞翔吧
-  - 日本•高速115•高速 - 飞翔吧
-  - 日本•高速139•铂金 - 飞翔吧
-  - 日本•高速140•铂金 - 飞翔吧
-  - 日本•高速141•铂金 - 飞翔吧
-  - 日本•高速142•原生 - 飞翔吧
-  - 日本•高速59•青铜 - 飞翔吧
-  - 日本•高速71•高速 - 飞翔吧
-  - 日本•高速76•高速 - 飞翔吧
-  - ℹ 官网-2022.pet - 飞翔吧
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
@@ -2190,8 +2058,16 @@ proxy-groups:
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
   - KR韩国 A - 可乐云
-  - SS1-T - 速迪云加速
-  - vmess_US - 速迪云加速
+  - Japan 01 | - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Singapore 02 - 蓝天白云
+  - Singapore 03 - 蓝天白云
+  - Canada 01 - 蓝天白云
+  - Russia CN2 01 - 蓝天白云
+  - Dubai 01 - 蓝天白云
+  - France 01 - 蓝天白云
+  - Poland 01 - 蓝天白云
+  - Netherlands 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2237,59 +2113,28 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
+  - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
+  - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
+  - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
+  - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
+  - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
+  - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁 - 十元一年
   - 香港-台湾中转 - 十元一年
-  - 中转•香港301•高速 - 飞翔吧
-  - 广港•台湾258•高速 - 飞翔吧
-  - 广港•香港143•高速 - 飞翔吧
-  - 广港•香港269•高速 - 飞翔吧
-  - 广港•香港294•高速 - 飞翔吧
-  - 中转•香港102•高速 - 飞翔吧
-  - 广港•香港259•高速 - 飞翔吧
-  - 广港•香港278•高速 - 飞翔吧
-  - 广港•香港279•高速 - 飞翔吧
-  - 中转•台湾100•高速 - 飞翔吧
-  - 中转•台湾91•原生 - 飞翔吧
-  - 中转•德国302•GPT - 飞翔吧
-  - 中转•德国303•GPT - 飞翔吧
-  - 中转•德国304•GPT - 飞翔吧
-  - 中转•德国305•GPT - 飞翔吧
-  - 中转•德国306•GPT - 飞翔吧
-  - 中转•新加坡299•高速 - 飞翔吧
-  - 中转•新加坡65•青铜 - 飞翔吧
-  - 中转•新加坡83•高速 - 飞翔吧
-  - 中转•日本298•高速 - 飞翔吧
-  - 中转•日本300•原生 - 飞翔吧
-  - 中转•美国295•高速 - 飞翔吧
-  - 中转•美国296•高速 - 飞翔吧
-  - 中转•美国308•高速 - 飞翔吧
-  - 中转•美国40•高速 - 飞翔吧
-  - 中转•美国41•原生 - 飞翔吧
-  - 中转•美国46•原生 - 飞翔吧
-  - 中转•美国61•高速 - 飞翔吧
-  - 中转•英国267•高速 - 飞翔吧
-  - 中转•英国268•高速 - 飞翔吧
-  - 中转•香港307•高速 - 飞翔吧
-  - 广港•台湾261•高速 - 飞翔吧
-  - 广港•台湾262•高速 - 飞翔吧
-  - 广港•美国266•高速 - 飞翔吧
-  - 广港•美国288•高速 - 飞翔吧
-  - 广港•韩国263•高速 - 飞翔吧
-  - 广港•韩国264•高速 - 飞翔吧
-  - 新加坡•高速129•高速 - 飞翔吧
-  - 新加坡•高速130•铂金 - 飞翔吧
-  - 日本•高速114•高速 - 飞翔吧
-  - 日本•高速115•高速 - 飞翔吧
-  - 日本•高速139•铂金 - 飞翔吧
-  - 日本•高速140•铂金 - 飞翔吧
-  - 日本•高速141•铂金 - 飞翔吧
-  - 日本•高速142•原生 - 飞翔吧
-  - 日本•高速59•青铜 - 飞翔吧
-  - 日本•高速71•高速 - 飞翔吧
-  - 日本•高速76•高速 - 飞翔吧
-  - ℹ 官网-2022.pet - 飞翔吧
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
@@ -2326,6 +2171,7 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
+  - Russia CN2 01 - 蓝天白云
   - 香港QW - 海陆空
   - TW-板桥1-2(SS) - 麻雀加速器 Sparrow
   - TW-板桥1-3(SS) - 麻雀加速器 Sparrow
@@ -2341,21 +2187,13 @@ proxy-groups:
   - 台湾(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
+  - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
+  - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
   - 香港-台湾中转 - 十元一年
-  - 中转•香港301•高速 - 飞翔吧
-  - 广港•台湾258•高速 - 飞翔吧
-  - 广港•香港143•高速 - 飞翔吧
-  - 广港•香港269•高速 - 飞翔吧
-  - 广港•香港294•高速 - 飞翔吧
-  - 中转•香港102•高速 - 飞翔吧
-  - 广港•香港259•高速 - 飞翔吧
-  - 广港•香港278•高速 - 飞翔吧
-  - 广港•香港279•高速 - 飞翔吧
-  - 中转•台湾100•高速 - 飞翔吧
-  - 中转•台湾91•原生 - 飞翔吧
-  - 中转•香港307•高速 - 飞翔吧
-  - 广港•台湾261•高速 - 飞翔吧
-  - 广港•台湾262•高速 - 飞翔吧
   - 香港-https://new.vip666.xyz - vip666.xyz
   - 中国香港2 - vip666.xyz
 - name: Ⓜ️ 微软服务
@@ -2408,8 +2246,16 @@ proxy-groups:
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
   - KR韩国 A - 可乐云
-  - SS1-T - 速迪云加速
-  - vmess_US - 速迪云加速
+  - Japan 01 | - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Singapore 02 - 蓝天白云
+  - Singapore 03 - 蓝天白云
+  - Canada 01 - 蓝天白云
+  - Russia CN2 01 - 蓝天白云
+  - Dubai 01 - 蓝天白云
+  - France 01 - 蓝天白云
+  - Poland 01 - 蓝天白云
+  - Netherlands 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2455,59 +2301,28 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
+  - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
+  - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
+  - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
+  - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
+  - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
+  - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁 - 十元一年
   - 香港-台湾中转 - 十元一年
-  - 中转•香港301•高速 - 飞翔吧
-  - 广港•台湾258•高速 - 飞翔吧
-  - 广港•香港143•高速 - 飞翔吧
-  - 广港•香港269•高速 - 飞翔吧
-  - 广港•香港294•高速 - 飞翔吧
-  - 中转•香港102•高速 - 飞翔吧
-  - 广港•香港259•高速 - 飞翔吧
-  - 广港•香港278•高速 - 飞翔吧
-  - 广港•香港279•高速 - 飞翔吧
-  - 中转•台湾100•高速 - 飞翔吧
-  - 中转•台湾91•原生 - 飞翔吧
-  - 中转•德国302•GPT - 飞翔吧
-  - 中转•德国303•GPT - 飞翔吧
-  - 中转•德国304•GPT - 飞翔吧
-  - 中转•德国305•GPT - 飞翔吧
-  - 中转•德国306•GPT - 飞翔吧
-  - 中转•新加坡299•高速 - 飞翔吧
-  - 中转•新加坡65•青铜 - 飞翔吧
-  - 中转•新加坡83•高速 - 飞翔吧
-  - 中转•日本298•高速 - 飞翔吧
-  - 中转•日本300•原生 - 飞翔吧
-  - 中转•美国295•高速 - 飞翔吧
-  - 中转•美国296•高速 - 飞翔吧
-  - 中转•美国308•高速 - 飞翔吧
-  - 中转•美国40•高速 - 飞翔吧
-  - 中转•美国41•原生 - 飞翔吧
-  - 中转•美国46•原生 - 飞翔吧
-  - 中转•美国61•高速 - 飞翔吧
-  - 中转•英国267•高速 - 飞翔吧
-  - 中转•英国268•高速 - 飞翔吧
-  - 中转•香港307•高速 - 飞翔吧
-  - 广港•台湾261•高速 - 飞翔吧
-  - 广港•台湾262•高速 - 飞翔吧
-  - 广港•美国266•高速 - 飞翔吧
-  - 广港•美国288•高速 - 飞翔吧
-  - 广港•韩国263•高速 - 飞翔吧
-  - 广港•韩国264•高速 - 飞翔吧
-  - 新加坡•高速129•高速 - 飞翔吧
-  - 新加坡•高速130•铂金 - 飞翔吧
-  - 日本•高速114•高速 - 飞翔吧
-  - 日本•高速115•高速 - 飞翔吧
-  - 日本•高速139•铂金 - 飞翔吧
-  - 日本•高速140•铂金 - 飞翔吧
-  - 日本•高速141•铂金 - 飞翔吧
-  - 日本•高速142•原生 - 飞翔吧
-  - 日本•高速59•青铜 - 飞翔吧
-  - 日本•高速71•高速 - 飞翔吧
-  - 日本•高速76•高速 - 飞翔吧
-  - ℹ 官网-2022.pet - 飞翔吧
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
@@ -2570,8 +2385,16 @@ proxy-groups:
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
   - KR韩国 A - 可乐云
-  - SS1-T - 速迪云加速
-  - vmess_US - 速迪云加速
+  - Japan 01 | - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Singapore 02 - 蓝天白云
+  - Singapore 03 - 蓝天白云
+  - Canada 01 - 蓝天白云
+  - Russia CN2 01 - 蓝天白云
+  - Dubai 01 - 蓝天白云
+  - France 01 - 蓝天白云
+  - Poland 01 - 蓝天白云
+  - Netherlands 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2617,59 +2440,28 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
+  - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
+  - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
+  - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
+  - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
+  - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
+  - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁 - 十元一年
   - 香港-台湾中转 - 十元一年
-  - 中转•香港301•高速 - 飞翔吧
-  - 广港•台湾258•高速 - 飞翔吧
-  - 广港•香港143•高速 - 飞翔吧
-  - 广港•香港269•高速 - 飞翔吧
-  - 广港•香港294•高速 - 飞翔吧
-  - 中转•香港102•高速 - 飞翔吧
-  - 广港•香港259•高速 - 飞翔吧
-  - 广港•香港278•高速 - 飞翔吧
-  - 广港•香港279•高速 - 飞翔吧
-  - 中转•台湾100•高速 - 飞翔吧
-  - 中转•台湾91•原生 - 飞翔吧
-  - 中转•德国302•GPT - 飞翔吧
-  - 中转•德国303•GPT - 飞翔吧
-  - 中转•德国304•GPT - 飞翔吧
-  - 中转•德国305•GPT - 飞翔吧
-  - 中转•德国306•GPT - 飞翔吧
-  - 中转•新加坡299•高速 - 飞翔吧
-  - 中转•新加坡65•青铜 - 飞翔吧
-  - 中转•新加坡83•高速 - 飞翔吧
-  - 中转•日本298•高速 - 飞翔吧
-  - 中转•日本300•原生 - 飞翔吧
-  - 中转•美国295•高速 - 飞翔吧
-  - 中转•美国296•高速 - 飞翔吧
-  - 中转•美国308•高速 - 飞翔吧
-  - 中转•美国40•高速 - 飞翔吧
-  - 中转•美国41•原生 - 飞翔吧
-  - 中转•美国46•原生 - 飞翔吧
-  - 中转•美国61•高速 - 飞翔吧
-  - 中转•英国267•高速 - 飞翔吧
-  - 中转•英国268•高速 - 飞翔吧
-  - 中转•香港307•高速 - 飞翔吧
-  - 广港•台湾261•高速 - 飞翔吧
-  - 广港•台湾262•高速 - 飞翔吧
-  - 广港•美国266•高速 - 飞翔吧
-  - 广港•美国288•高速 - 飞翔吧
-  - 广港•韩国263•高速 - 飞翔吧
-  - 广港•韩国264•高速 - 飞翔吧
-  - 新加坡•高速129•高速 - 飞翔吧
-  - 新加坡•高速130•铂金 - 飞翔吧
-  - 日本•高速114•高速 - 飞翔吧
-  - 日本•高速115•高速 - 飞翔吧
-  - 日本•高速139•铂金 - 飞翔吧
-  - 日本•高速140•铂金 - 飞翔吧
-  - 日本•高速141•铂金 - 飞翔吧
-  - 日本•高速142•原生 - 飞翔吧
-  - 日本•高速59•青铜 - 飞翔吧
-  - 日本•高速71•高速 - 飞翔吧
-  - 日本•高速76•高速 - 飞翔吧
-  - ℹ 官网-2022.pet - 飞翔吧
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
@@ -2733,8 +2525,16 @@ proxy-groups:
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
   - KR韩国 A - 可乐云
-  - SS1-T - 速迪云加速
-  - vmess_US - 速迪云加速
+  - Japan 01 | - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Singapore 02 - 蓝天白云
+  - Singapore 03 - 蓝天白云
+  - Canada 01 - 蓝天白云
+  - Russia CN2 01 - 蓝天白云
+  - Dubai 01 - 蓝天白云
+  - France 01 - 蓝天白云
+  - Poland 01 - 蓝天白云
+  - Netherlands 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2780,59 +2580,28 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
+  - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
+  - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
+  - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
+  - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
+  - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
+  - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁 - 十元一年
   - 香港-台湾中转 - 十元一年
-  - 中转•香港301•高速 - 飞翔吧
-  - 广港•台湾258•高速 - 飞翔吧
-  - 广港•香港143•高速 - 飞翔吧
-  - 广港•香港269•高速 - 飞翔吧
-  - 广港•香港294•高速 - 飞翔吧
-  - 中转•香港102•高速 - 飞翔吧
-  - 广港•香港259•高速 - 飞翔吧
-  - 广港•香港278•高速 - 飞翔吧
-  - 广港•香港279•高速 - 飞翔吧
-  - 中转•台湾100•高速 - 飞翔吧
-  - 中转•台湾91•原生 - 飞翔吧
-  - 中转•德国302•GPT - 飞翔吧
-  - 中转•德国303•GPT - 飞翔吧
-  - 中转•德国304•GPT - 飞翔吧
-  - 中转•德国305•GPT - 飞翔吧
-  - 中转•德国306•GPT - 飞翔吧
-  - 中转•新加坡299•高速 - 飞翔吧
-  - 中转•新加坡65•青铜 - 飞翔吧
-  - 中转•新加坡83•高速 - 飞翔吧
-  - 中转•日本298•高速 - 飞翔吧
-  - 中转•日本300•原生 - 飞翔吧
-  - 中转•美国295•高速 - 飞翔吧
-  - 中转•美国296•高速 - 飞翔吧
-  - 中转•美国308•高速 - 飞翔吧
-  - 中转•美国40•高速 - 飞翔吧
-  - 中转•美国41•原生 - 飞翔吧
-  - 中转•美国46•原生 - 飞翔吧
-  - 中转•美国61•高速 - 飞翔吧
-  - 中转•英国267•高速 - 飞翔吧
-  - 中转•英国268•高速 - 飞翔吧
-  - 中转•香港307•高速 - 飞翔吧
-  - 广港•台湾261•高速 - 飞翔吧
-  - 广港•台湾262•高速 - 飞翔吧
-  - 广港•美国266•高速 - 飞翔吧
-  - 广港•美国288•高速 - 飞翔吧
-  - 广港•韩国263•高速 - 飞翔吧
-  - 广港•韩国264•高速 - 飞翔吧
-  - 新加坡•高速129•高速 - 飞翔吧
-  - 新加坡•高速130•铂金 - 飞翔吧
-  - 日本•高速114•高速 - 飞翔吧
-  - 日本•高速115•高速 - 飞翔吧
-  - 日本•高速139•铂金 - 飞翔吧
-  - 日本•高速140•铂金 - 飞翔吧
-  - 日本•高速141•铂金 - 飞翔吧
-  - 日本•高速142•原生 - 飞翔吧
-  - 日本•高速59•青铜 - 飞翔吧
-  - 日本•高速71•高速 - 飞翔吧
-  - 日本•高速76•高速 - 飞翔吧
-  - ℹ 官网-2022.pet - 飞翔吧
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
