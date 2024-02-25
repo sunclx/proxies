@@ -43,7 +43,7 @@ async fn read_yaml(file_path: &str) -> Result<Config> {
 }
 // 获取配置文件
 async fn get() -> Result<()> {
-    //   let url =     "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml";
+    //   let url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml";
     let url = "https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml";
     let content = get_config(url).await?;
     fs::write("./clash.yaml", &content).await?;
