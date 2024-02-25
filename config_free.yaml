@@ -5,176 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: too.st/5U2 - Internet Acceleration
-  server: de-cdn.ikuan.dev
-  port: 2052
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /microsoftvideo/HEAC?ed=2048
-    headers:
-      Host: de05-v6.ikuan.dev
-  udp: true
-- name: US | too.st/6U3 | FREE NODE - Internet Acceleration
-  server: cdnikuan.ikuan.dev
-  port: 8880
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /microsoft?ed=1024
-    headers:
-      Host: losangeles.pisces.eu.org
-  udp: true
-- name: US-LosAngeles5(Unmetered) - Internet Acceleration
-  server: contentdeliverynetwork.ikuan.dev
-  port: 8880
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /microsoft?ed=1024
-    headers:
-      Host: losangeles.pisces.eu.org
-  udp: true
-- name: US-LosAngeles3(Unmetered) - Internet Acceleration
-  server: cdnikuan3.ikuan.dev
-  port: 8880
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /microsoft?ed=1024
-    headers:
-      Host: losangeles.freenode.pro
-  udp: true
-- name: US-LosAngeles4(Unmetered) - Internet Acceleration
-  server: cdnikuancdnikuan.ikuan.dev
-  port: 8880
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /microsoft?ed=1024
-    headers:
-      Host: losangeles.freenode.pro
-  udp: true
-- name: US-Draper-3 - Internet Acceleration
-  server: cdnikuancdnikuan.ikuan.dev
-  port: 8080
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /Onlinemedicallearningvideos/HEAC*?ed=2048
-    headers:
-      Host: usopenvz3-52026022940dc1234123455cf1.pisces.eu.org
-  udp: true
-- name: US-Draper-2 - Internet Acceleration
-  server: cdnikuancdnikuan.ikuan.dev
-  port: 2052
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /Onlinemedicallearningvideos/HEAC*?ed=2048
-    headers:
-      Host: usopenvz2-10726022940b71234123487d70001.pisces.eu.org
-  udp: true
-- name: CF-Draper-02 - Internet Acceleration
-  server: contentdeliverynetwork.ikuan.dev
-  port: 2095
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cloudvideo?ed=1024
-    headers:
-      Host: de-data-02.ikuan.dev
-  udp: true
-- name: CF-UK-01 - Internet Acceleration
-  server: lon01.freenode.pro
-  port: 443
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /update.microsoft.com
-    headers:
-      Host: lon01.freenode.pro
-  udp: true
-- name: CF-US-01v6 - Internet Acceleration
-  server: cewcastlecdn2111.ikuan.dev
-  port: 2086
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /update.microsoft.com?ed=2048
-    headers:
-      Host: us01-v6.pisces.eu.org
-  udp: true
-- name: CF-Draper-03 - Internet Acceleration
-  server: cdnikuancdnikuan.ikuan.dev
-  port: 2095
-  type: vmess
-  uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cloudvideo?ed=1024
-    headers:
-      Host: de-data-02.ikuan.dev
-  udp: true
 - name: 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: 06ec16b6-a4a7-4327-84c5-69a43e410e66
+  uuid: dce4c826-6ce5-4cb3-8bc2-a913660223e8
   alterId: 0
   cipher: auto
   tls: false
@@ -189,7 +24,7 @@ proxies:
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: 06ec16b6-a4a7-4327-84c5-69a43e410e66
+  uuid: dce4c826-6ce5-4cb3-8bc2-a913660223e8
   alterId: 0
   cipher: auto
   tls: false
@@ -204,7 +39,7 @@ proxies:
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: 06ec16b6-a4a7-4327-84c5-69a43e410e66
+  uuid: dce4c826-6ce5-4cb3-8bc2-a913660223e8
   alterId: 0
   cipher: auto
   tls: false
@@ -223,8 +58,8 @@ proxies:
   password: d84608ad-908a-4313-956e-7c94190e7bc4
   udp: true
 - name: 美国01 - 都是梦
-  server: dl6.doushimeng.com
-  port: 2082
+  server: dl4.doushimeng.com
+  port: 2086
   type: vmess
   uuid: d84608ad-908a-4313-956e-7c94190e7bc4
   alterId: 0
@@ -235,7 +70,14 @@ proxies:
   ws-opts:
     path: /asdas
     headers:
-      Host: cf-us5.doushimeng.free.hr
+      Host: cf-us.doushimeng.free.hr
+  udp: true
+- name: 美国02|V6 - 都是梦
+  server: us5.doushimeng.free.hr
+  port: 20060
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d84608ad-908a-4313-956e-7c94190e7bc4
   udp: true
 - name: 德国01 - 都是梦
   server: dl3s.doushimeng.com
@@ -269,7 +111,7 @@ proxies:
   udp: true
 - name: 香港|【免费领1TB流量】前往-注册|公益 - 大白
   server: 101.89.219.103
-  port: 33810
+  port: 46242
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -283,8 +125,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
-  server: 101.91.226.84
-  port: 46242
+  server: 101.89.154.94
+  port: 58398
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -298,8 +140,8 @@ proxies:
       Host: data-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-  server: 101.89.154.94
-  port: 46242
+  server: 101.89.219.103
+  port: 58398
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -313,8 +155,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
-  server: 101.91.226.84
-  port: 26068
+  server: 101.89.154.94
+  port: 33810
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -328,8 +170,8 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
-  server: 101.91.226.84
-  port: 41082
+  server: 101.89.154.94
+  port: 58081
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -343,7 +185,7 @@ proxies:
       Host: data-hk-3.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
-  server: 101.89.219.103
+  server: 101.89.154.94
   port: 19979
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
@@ -359,7 +201,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
   server: 101.89.154.94
-  port: 58081
+  port: 48233
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -373,8 +215,8 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-  server: 101.89.154.94
-  port: 26068
+  server: 101.89.219.103
+  port: 58081
   type: vmess
   uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
   alterId: 0
@@ -616,14 +458,21 @@ proxies:
   port: 51310
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 661e0f7d-8ea4-4104-aab5-ba486e8014aa
+  password: dfa17e8f-5df4-4311-bfde-272cace37cfa
+  udp: true
+- name: SG新加坡 A - 可乐云
+  server: sg.colacloud.site
+  port: 42752
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: dfa17e8f-5df4-4311-bfde-272cace37cfa
   udp: true
 - name: KR韩国 A - 可乐云
   server: kr.colacloud.site
   port: 20352
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 661e0f7d-8ea4-4104-aab5-ba486e8014aa
+  password: dfa17e8f-5df4-4311-bfde-272cace37cfa
   udp: true
 - name: Japan 01 - 蓝天白云
   server: jp01.bsawc.shop
@@ -641,9 +490,25 @@ proxies:
   sni: jp02.bsawc.shop
   skip-cert-verify: true
   udp: true
+- name: Korea 01 - 蓝天白云
+  server: kr01.bsawc.shop
+  port: 34952
+  type: trojan
+  password: 301caac8-edc6-4058-9f6a-78bc8a5a675b
+  sni: kr01.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: Korea 02 - 蓝天白云
+  server: kr02.bsawc.shop
+  port: 57602
+  type: trojan
+  password: 301caac8-edc6-4058-9f6a-78bc8a5a675b
+  sni: kr02.bsawc.shop
+  skip-cert-verify: true
+  udp: true
 - name: Singapore 02 - 蓝天白云
   server: sg02.bsawc.shop
-  port: 51652
+  port: 54952
   type: trojan
   password: 301caac8-edc6-4058-9f6a-78bc8a5a675b
   sni: sg02.bsawc.shop
@@ -669,7 +534,7 @@ proxies:
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -684,7 +549,7 @@ proxies:
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -699,7 +564,7 @@ proxies:
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -714,7 +579,7 @@ proxies:
   server: 17.v2-ray.cyou
   port: 23617
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -729,7 +594,7 @@ proxies:
   server: 8.v2-ray.cyou
   port: 23608
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -739,7 +604,7 @@ proxies:
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -754,7 +619,7 @@ proxies:
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -769,7 +634,7 @@ proxies:
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -784,7 +649,7 @@ proxies:
   server: 5.v2-ray.cyou
   port: 23605
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -799,7 +664,7 @@ proxies:
   server: 13.v2-ray.cyou
   port: 23613
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -814,7 +679,7 @@ proxies:
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: f188ea36-3353-3c50-992f-1094efd9197a
+  uuid: 5f3131c3-8028-337d-881c-2a1a094fa228
   alterId: 2
   cipher: auto
   tls: false
@@ -915,19 +780,21 @@ proxies:
     headers:
       Host: kr01.host.csznet.eu.org
   udp: true
-- name: TW-板桥1-2(SS) - 麻雀加速器 Sparrow
+- name: TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
   server: b12.ntbq.dynu.net
-  port: 9123
-  type: ss
-  cipher: chacha20-ietf-poly1305
+  port: 9755
+  type: trojan
   password: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  sni: b12.ntbq.dynu.net
+  skip-cert-verify: true
   udp: true
-- name: TW-板桥1-3(SS) - 麻雀加速器 Sparrow
+- name: TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
   server: b13.ntbq.dynu.net
-  port: 9255
-  type: ss
-  cipher: chacha20-ietf-poly1305
+  port: 9489
+  type: trojan
   password: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  sni: b13.ntbq.dynu.net
+  skip-cert-verify: true
   udp: true
 - name: TW-板桥2-2(TCP) - 麻雀加速器 Sparrow
   server: nb22.ntbq.dynu.net
@@ -959,26 +826,29 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: TW-桃园1-1(SS) - 麻雀加速器 Sparrow
-  server: ty11.twty.dynu.net
-  port: 13651
-  type: ss
-  cipher: chacha20-ietf-poly1305
+- name: TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
+  server: ty11t.twty.dynu.net
+  port: 13761
+  type: trojan
   password: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  sni: ty11t.twty.dynu.net
+  skip-cert-verify: true
   udp: true
-- name: TW-桃园1-2(SS) - 麻雀加速器 Sparrow
-  server: ty12.twty.dynu.net
-  port: 18711
-  type: ss
-  cipher: chacha20-ietf-poly1305
+- name: TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
+  server: ty12t.twty.dynu.net
+  port: 18912
+  type: trojan
   password: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  sni: ty12t.twty.dynu.net
+  skip-cert-verify: true
   udp: true
-- name: TW-台中1-1(SS) - 麻雀加速器 Sparrow
+- name: TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   server: c11.twtc.dynu.net
-  port: 16711
-  type: ss
-  cipher: chacha20-ietf-poly1305
+  port: 12388
+  type: trojan
   password: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  sni: c11.twtc.dynu.net
+  skip-cert-verify: true
   udp: true
 - name: TW-台中1-2(TCP) - 麻雀加速器 Sparrow
   server: c12.twtc.dynu.net
@@ -994,7 +864,7 @@ proxies:
   server: 112.29.200.93
   port: 29711
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1007,7 +877,7 @@ proxies:
   server: jzyd.12ip.cc
   port: 24252
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1022,7 +892,7 @@ proxies:
   server: 188.253.6.35
   port: 20009
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1035,7 +905,7 @@ proxies:
   server: jp-osaka-oracle-d9311f.ip1.shop
   port: 64702
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1050,7 +920,7 @@ proxies:
   server: sg-singapore-oracle-4f34e8.ip1.shop
   port: 64952
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1065,7 +935,7 @@ proxies:
   server: it-milan-oracle-2b2d63.ip1.shop
   port: 54252
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1080,7 +950,7 @@ proxies:
   server: in-mumbai-oracle-2de5d7.ip1.shop
   port: 21152
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1095,7 +965,7 @@ proxies:
   server: uk-london-oracle-51b798.ip1.shop
   port: 36902
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1110,7 +980,7 @@ proxies:
   server: duocloudhkv6.12ip.cc
   port: 443
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1125,7 +995,7 @@ proxies:
   server: wawotwv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1140,7 +1010,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1155,7 +1025,7 @@ proxies:
   server: wawonlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1170,7 +1040,7 @@ proxies:
   server: akdev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1185,7 +1055,7 @@ proxies:
   server: xmusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1200,7 +1070,7 @@ proxies:
   server: hoyoversenlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1215,7 +1085,7 @@ proxies:
   server: hoyoversedev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1230,7 +1100,7 @@ proxies:
   server: acusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1245,7 +1115,7 @@ proxies:
   server: wawojpv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1260,7 +1130,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 3f25fa14-c2e6-4e85-b182-4f910a2941a1
+  uuid: 75f86858-8ded-43be-9981-69a34c3d0eff
   alterId: 0
   cipher: auto
   tls: false
@@ -1272,10 +1142,40 @@ proxies:
       Host: wawohkv6.12ip.cc
   udp: true
 - name: 新加坡-0 - 飞啦机场
-  server: wtt1.hkg.hypernat.com
+  server: cu1.guguyun.xyz
   port: 27500
   type: vmess
-  uuid: 0f011012-c63a-4bd9-915f-76f991414c98
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 新加坡-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27501
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 新加坡-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27502
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
   alterId: 0
   cipher: auto
   tls: true
@@ -1287,10 +1187,40 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 香港-0 - 飞啦机场
-  server: wtt1.hkg.hypernat.com
+  server: cu1.guguyun.xyz
   port: 27600
   type: vmess
-  uuid: 0f011012-c63a-4bd9-915f-76f991414c98
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 香港-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27601
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 香港-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27602
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
   alterId: 0
   cipher: auto
   tls: true
@@ -1302,10 +1232,40 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 台湾-0 - 飞啦机场
-  server: wtt1.hkg.hypernat.com
+  server: cu1.guguyun.xyz
   port: 27700
   type: vmess
-  uuid: 0f011012-c63a-4bd9-915f-76f991414c98
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tw
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 台湾-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27701
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tw
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 台湾-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27702
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
   alterId: 0
   cipher: auto
   tls: true
@@ -1317,10 +1277,40 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 日本-0 - 飞啦机场
-  server: wtt1.hkg.hypernat.com
+  server: cu1.guguyun.xyz
   port: 27800
   type: vmess
-  uuid: 0f011012-c63a-4bd9-915f-76f991414c98
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jp
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 日本-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27803
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jp
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 日本-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27802
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
   alterId: 0
   cipher: auto
   tls: true
@@ -1332,10 +1322,40 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 美国-0 - 飞啦机场
-  server: wtt1.hkg.hypernat.com
+  server: cu1.guguyun.xyz
   port: 27900
   type: vmess
-  uuid: 0f011012-c63a-4bd9-915f-76f991414c98
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /us
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 美国-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27901
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /us
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 美国-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 27902
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
   alterId: 0
   cipher: auto
   tls: true
@@ -1347,10 +1367,10 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 英国-0 - 飞啦机场
-  server: wtt1.hkg.hypernat.com
-  port: 28000
+  server: cu1.guguyun.xyz
+  port: 28100
   type: vmess
-  uuid: 0f011012-c63a-4bd9-915f-76f991414c98
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
   alterId: 0
   cipher: auto
   tls: true
@@ -1358,6 +1378,51 @@ proxies:
   network: ws
   ws-opts:
     path: /uk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 英国-1 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 28001
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /uk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 英国-2 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 28002
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /uk
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 台湾-防失联 - 飞啦机场
+  server: 111.247.40.244
+  port: 15810
+  type: vmess
+  uuid: 7dfb8007-c461-4ca4-a5dc-b5326c6be2fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tw
     headers:
       Host: www.rockeyxzy.com
   udp: true
@@ -1540,22 +1605,12 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 负载均衡
-  - too.st/5U2 - Internet Acceleration
-  - US | too.st/6U3 | FREE NODE - Internet Acceleration
-  - US-LosAngeles5(Unmetered) - Internet Acceleration
-  - US-LosAngeles3(Unmetered) - Internet Acceleration
-  - US-LosAngeles4(Unmetered) - Internet Acceleration
-  - US-Draper-3 - Internet Acceleration
-  - US-Draper-2 - Internet Acceleration
-  - CF-Draper-02 - Internet Acceleration
-  - CF-UK-01 - Internet Acceleration
-  - CF-US-01v6 - Internet Acceleration
-  - CF-Draper-03 - Internet Acceleration
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 日本01 - 都是梦
   - 美国01 - 都是梦
+  - 美国02|V6 - 都是梦
   - 德国01 - 都是梦
   - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
@@ -1595,9 +1650,12 @@ proxy-groups:
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
+  - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Korea 02 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
@@ -1618,14 +1676,14 @@ proxy-groups:
   - CF-WORK-美国CERA - 海陆空
   - 日本IIJ2 - 海陆空
   - 韩国首尔 - 海陆空
-  - TW-板桥1-2(SS) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(SS) - 麻雀加速器 Sparrow
+  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
   - TW-板桥2-2(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-3(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-4(TCP) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(SS) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(SS) - 麻雀加速器 Sparrow
-  - TW-台中1-1(SS) - 麻雀加速器 Sparrow
+  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
+  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
@@ -1647,11 +1705,24 @@ proxy-groups:
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
   - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
   - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
   - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
   - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
   - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
   - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
+  - 台湾-防失联 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -1673,22 +1744,12 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - too.st/5U2 - Internet Acceleration
-  - US | too.st/6U3 | FREE NODE - Internet Acceleration
-  - US-LosAngeles5(Unmetered) - Internet Acceleration
-  - US-LosAngeles3(Unmetered) - Internet Acceleration
-  - US-LosAngeles4(Unmetered) - Internet Acceleration
-  - US-Draper-3 - Internet Acceleration
-  - US-Draper-2 - Internet Acceleration
-  - CF-Draper-02 - Internet Acceleration
-  - CF-UK-01 - Internet Acceleration
-  - CF-US-01v6 - Internet Acceleration
-  - CF-Draper-03 - Internet Acceleration
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 日本01 - 都是梦
   - 美国01 - 都是梦
+  - 美国02|V6 - 都是梦
   - 德国01 - 都是梦
   - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
@@ -1728,9 +1789,12 @@ proxy-groups:
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
+  - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Korea 02 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
@@ -1751,14 +1815,14 @@ proxy-groups:
   - CF-WORK-美国CERA - 海陆空
   - 日本IIJ2 - 海陆空
   - 韩国首尔 - 海陆空
-  - TW-板桥1-2(SS) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(SS) - 麻雀加速器 Sparrow
+  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
   - TW-板桥2-2(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-3(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-4(TCP) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(SS) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(SS) - 麻雀加速器 Sparrow
-  - TW-台中1-1(SS) - 麻雀加速器 Sparrow
+  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
+  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
@@ -1780,11 +1844,24 @@ proxy-groups:
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
   - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
   - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
   - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
   - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
   - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
   - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
+  - 台湾-防失联 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -1808,22 +1885,12 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - too.st/5U2 - Internet Acceleration
-  - US | too.st/6U3 | FREE NODE - Internet Acceleration
-  - US-LosAngeles5(Unmetered) - Internet Acceleration
-  - US-LosAngeles3(Unmetered) - Internet Acceleration
-  - US-LosAngeles4(Unmetered) - Internet Acceleration
-  - US-Draper-3 - Internet Acceleration
-  - US-Draper-2 - Internet Acceleration
-  - CF-Draper-02 - Internet Acceleration
-  - CF-UK-01 - Internet Acceleration
-  - CF-US-01v6 - Internet Acceleration
-  - CF-Draper-03 - Internet Acceleration
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 日本01 - 都是梦
   - 美国01 - 都是梦
+  - 美国02|V6 - 都是梦
   - 德国01 - 都是梦
   - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
@@ -1863,9 +1930,12 @@ proxy-groups:
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
+  - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Korea 02 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
@@ -1886,14 +1956,14 @@ proxy-groups:
   - CF-WORK-美国CERA - 海陆空
   - 日本IIJ2 - 海陆空
   - 韩国首尔 - 海陆空
-  - TW-板桥1-2(SS) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(SS) - 麻雀加速器 Sparrow
+  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
   - TW-板桥2-2(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-3(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-4(TCP) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(SS) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(SS) - 麻雀加速器 Sparrow
-  - TW-台中1-1(SS) - 麻雀加速器 Sparrow
+  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
+  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
@@ -1915,11 +1985,24 @@ proxy-groups:
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
   - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
   - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
   - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
   - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
   - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
   - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
+  - 台湾-防失联 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -1942,22 +2025,12 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - too.st/5U2 - Internet Acceleration
-  - US | too.st/6U3 | FREE NODE - Internet Acceleration
-  - US-LosAngeles5(Unmetered) - Internet Acceleration
-  - US-LosAngeles3(Unmetered) - Internet Acceleration
-  - US-LosAngeles4(Unmetered) - Internet Acceleration
-  - US-Draper-3 - Internet Acceleration
-  - US-Draper-2 - Internet Acceleration
-  - CF-Draper-02 - Internet Acceleration
-  - CF-UK-01 - Internet Acceleration
-  - CF-US-01v6 - Internet Acceleration
-  - CF-Draper-03 - Internet Acceleration
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 日本01 - 都是梦
   - 美国01 - 都是梦
+  - 美国02|V6 - 都是梦
   - 德国01 - 都是梦
   - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
@@ -1997,9 +2070,12 @@ proxy-groups:
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
+  - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Korea 02 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
@@ -2020,14 +2096,14 @@ proxy-groups:
   - CF-WORK-美国CERA - 海陆空
   - 日本IIJ2 - 海陆空
   - 韩国首尔 - 海陆空
-  - TW-板桥1-2(SS) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(SS) - 麻雀加速器 Sparrow
+  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
   - TW-板桥2-2(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-3(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-4(TCP) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(SS) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(SS) - 麻雀加速器 Sparrow
-  - TW-台中1-1(SS) - 麻雀加速器 Sparrow
+  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
+  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
@@ -2049,11 +2125,24 @@ proxy-groups:
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
   - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
   - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
   - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
   - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
   - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
   - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
+  - 台湾-防失联 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2096,14 +2185,14 @@ proxy-groups:
   - 香港 110 - 墙了个墙
   - Russia CN2 01 - 蓝天白云
   - 香港QW - 海陆空
-  - TW-板桥1-2(SS) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(SS) - 麻雀加速器 Sparrow
+  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
   - TW-板桥2-2(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-3(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-4(TCP) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(SS) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(SS) - 麻雀加速器 Sparrow
-  - TW-台中1-1(SS) - 麻雀加速器 Sparrow
+  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
+  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
   - 台湾(ipv4)BV BGP直连 - 共享流量
   - 香港(ipv6)duocloud - 共享流量
@@ -2111,7 +2200,12 @@ proxy-groups:
   - 香港(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
   - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
   - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
+  - 台湾-防失联 - 飞啦机场
   - 香港-台湾中转 - 十元一年
   - 香港-https://new.vip666.xyz - vip666.xyz
   - 中国香港2 - vip666.xyz
@@ -2120,22 +2214,12 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - too.st/5U2 - Internet Acceleration
-  - US | too.st/6U3 | FREE NODE - Internet Acceleration
-  - US-LosAngeles5(Unmetered) - Internet Acceleration
-  - US-LosAngeles3(Unmetered) - Internet Acceleration
-  - US-LosAngeles4(Unmetered) - Internet Acceleration
-  - US-Draper-3 - Internet Acceleration
-  - US-Draper-2 - Internet Acceleration
-  - CF-Draper-02 - Internet Acceleration
-  - CF-UK-01 - Internet Acceleration
-  - CF-US-01v6 - Internet Acceleration
-  - CF-Draper-03 - Internet Acceleration
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 日本01 - 都是梦
   - 美国01 - 都是梦
+  - 美国02|V6 - 都是梦
   - 德国01 - 都是梦
   - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
@@ -2175,9 +2259,12 @@ proxy-groups:
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
+  - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Korea 02 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
@@ -2198,14 +2285,14 @@ proxy-groups:
   - CF-WORK-美国CERA - 海陆空
   - 日本IIJ2 - 海陆空
   - 韩国首尔 - 海陆空
-  - TW-板桥1-2(SS) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(SS) - 麻雀加速器 Sparrow
+  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
   - TW-板桥2-2(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-3(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-4(TCP) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(SS) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(SS) - 麻雀加速器 Sparrow
-  - TW-台中1-1(SS) - 麻雀加速器 Sparrow
+  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
+  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
@@ -2227,11 +2314,24 @@ proxy-groups:
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
   - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
   - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
   - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
   - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
   - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
   - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
+  - 台湾-防失联 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2253,22 +2353,12 @@ proxy-groups:
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - too.st/5U2 - Internet Acceleration
-  - US | too.st/6U3 | FREE NODE - Internet Acceleration
-  - US-LosAngeles5(Unmetered) - Internet Acceleration
-  - US-LosAngeles3(Unmetered) - Internet Acceleration
-  - US-LosAngeles4(Unmetered) - Internet Acceleration
-  - US-Draper-3 - Internet Acceleration
-  - US-Draper-2 - Internet Acceleration
-  - CF-Draper-02 - Internet Acceleration
-  - CF-UK-01 - Internet Acceleration
-  - CF-US-01v6 - Internet Acceleration
-  - CF-Draper-03 - Internet Acceleration
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 日本01 - 都是梦
   - 美国01 - 都是梦
+  - 美国02|V6 - 都是梦
   - 德国01 - 都是梦
   - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
@@ -2308,9 +2398,12 @@ proxy-groups:
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
+  - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Korea 02 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
@@ -2331,14 +2424,14 @@ proxy-groups:
   - CF-WORK-美国CERA - 海陆空
   - 日本IIJ2 - 海陆空
   - 韩国首尔 - 海陆空
-  - TW-板桥1-2(SS) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(SS) - 麻雀加速器 Sparrow
+  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
   - TW-板桥2-2(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-3(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-4(TCP) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(SS) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(SS) - 麻雀加速器 Sparrow
-  - TW-台中1-1(SS) - 麻雀加速器 Sparrow
+  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
+  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
@@ -2360,11 +2453,24 @@ proxy-groups:
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
   - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
   - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
   - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
   - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
   - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
   - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
+  - 台湾-防失联 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2387,22 +2493,12 @@ proxy-groups:
   - 🎯 全球直连
   - 🔰 节点选择
   - ♻️ 自动选择
-  - too.st/5U2 - Internet Acceleration
-  - US | too.st/6U3 | FREE NODE - Internet Acceleration
-  - US-LosAngeles5(Unmetered) - Internet Acceleration
-  - US-LosAngeles3(Unmetered) - Internet Acceleration
-  - US-LosAngeles4(Unmetered) - Internet Acceleration
-  - US-Draper-3 - Internet Acceleration
-  - US-Draper-2 - Internet Acceleration
-  - CF-Draper-02 - Internet Acceleration
-  - CF-UK-01 - Internet Acceleration
-  - CF-US-01v6 - Internet Acceleration
-  - CF-Draper-03 - Internet Acceleration
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 日本01 - 都是梦
   - 美国01 - 都是梦
+  - 美国02|V6 - 都是梦
   - 德国01 - 都是梦
   - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
@@ -2442,9 +2538,12 @@ proxy-groups:
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
   - JP日本 A - 可乐云
+  - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
+  - Korea 01 - 蓝天白云
+  - Korea 02 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
@@ -2465,14 +2564,14 @@ proxy-groups:
   - CF-WORK-美国CERA - 海陆空
   - 日本IIJ2 - 海陆空
   - 韩国首尔 - 海陆空
-  - TW-板桥1-2(SS) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(SS) - 麻雀加速器 Sparrow
+  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
   - TW-板桥2-2(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-3(TCP) - 麻雀加速器 Sparrow
   - TW-板桥2-4(TCP) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(SS) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(SS) - 麻雀加速器 Sparrow
-  - TW-台中1-1(SS) - 麻雀加速器 Sparrow
+  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
+  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
+  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
@@ -2494,11 +2593,24 @@ proxy-groups:
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
   - 新加坡-0 - 飞啦机场
+  - 新加坡-1 - 飞啦机场
+  - 新加坡-2 - 飞啦机场
   - 香港-0 - 飞啦机场
+  - 香港-1 - 飞啦机场
+  - 香港-2 - 飞啦机场
   - 台湾-0 - 飞啦机场
+  - 台湾-1 - 飞啦机场
+  - 台湾-2 - 飞啦机场
   - 日本-0 - 飞啦机场
+  - 日本-1 - 飞啦机场
+  - 日本-2 - 飞啦机场
   - 美国-0 - 飞啦机场
+  - 美国-1 - 飞啦机场
+  - 美国-2 - 飞啦机场
   - 英国-0 - 飞啦机场
+  - 英国-1 - 飞啦机场
+  - 英国-2 - 飞啦机场
+  - 台湾-防失联 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
