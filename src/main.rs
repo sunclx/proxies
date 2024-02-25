@@ -25,9 +25,9 @@ async fn main() -> Result<()> {
     // let filename3 = "srx.yaml";
 
     let (r1, r2, r3) = tokio::join!(
-        get_yaml(url1, filename2),
-        get_yaml(url2, filename3),
-        get_yaml(url3, filename1),
+        get_yaml(url1, filename1),
+        get_yaml(url2, filename2),
+        get_yaml(url3, filename3),
     );
     (r1?, r2?, r3?);
 
