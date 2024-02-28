@@ -9,7 +9,7 @@ proxies:
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: 0374e113-e0c2-492a-8308-0cf9b9afaa34
+  uuid: aa5dba1f-6865-4d4b-9eef-61bd2fded935
   alterId: 0
   cipher: auto
   tls: false
@@ -24,7 +24,7 @@ proxies:
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: 0374e113-e0c2-492a-8308-0cf9b9afaa34
+  uuid: aa5dba1f-6865-4d4b-9eef-61bd2fded935
   alterId: 0
   cipher: auto
   tls: false
@@ -39,7 +39,7 @@ proxies:
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: 0374e113-e0c2-492a-8308-0cf9b9afaa34
+  uuid: aa5dba1f-6865-4d4b-9eef-61bd2fded935
   alterId: 0
   cipher: auto
   tls: false
@@ -55,13 +55,13 @@ proxies:
   port: 51653
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: b02ca46e-97e8-4dc3-864d-eb04a42516f5
+  password: 9ffff2d4-d87e-4fe6-9507-ec365bbd0810
   udp: true
 - name: 美国01 - 都是梦
   server: dl4.doushimeng.com
   port: 2086
   type: vmess
-  uuid: b02ca46e-97e8-4dc3-864d-eb04a42516f5
+  uuid: 9ffff2d4-d87e-4fe6-9507-ec365bbd0810
   alterId: 0
   cipher: auto
   tls: false
@@ -77,13 +77,13 @@ proxies:
   port: 20060
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: b02ca46e-97e8-4dc3-864d-eb04a42516f5
+  password: 9ffff2d4-d87e-4fe6-9507-ec365bbd0810
   udp: true
 - name: 德国01 - 都是梦
   server: dl3s.doushimeng.com
   port: 2082
   type: vmess
-  uuid: b02ca46e-97e8-4dc3-864d-eb04a42516f5
+  uuid: 9ffff2d4-d87e-4fe6-9507-ec365bbd0810
   alterId: 0
   cipher: auto
   tls: false
@@ -98,7 +98,7 @@ proxies:
   server: dl1.doushimeng.com
   port: 2082
   type: vmess
-  uuid: b02ca46e-97e8-4dc3-864d-eb04a42516f5
+  uuid: 9ffff2d4-d87e-4fe6-9507-ec365bbd0810
   alterId: 0
   cipher: auto
   tls: false
@@ -111,7 +111,7 @@ proxies:
   udp: true
 - name: 香港|【免费领1TB流量】前往-注册|公益 - 大白
   server: 101.89.154.94
-  port: 58081
+  port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -126,7 +126,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   server: 101.89.154.94
-  port: 58398
+  port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -140,8 +140,8 @@ proxies:
       Host: data-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-  server: 101.89.154.94
-  port: 48233
+  server: 101.91.226.84
+  port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -155,8 +155,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
-  server: 101.89.219.103
-  port: 33810
+  server: 101.89.154.94
+  port: 48233
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -171,7 +171,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
   server: 101.89.154.94
-  port: 33810
+  port: 48233
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -185,8 +185,8 @@ proxies:
       Host: data-hk-3.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
-  server: 101.89.154.94
-  port: 46242
+  server: 101.89.219.103
+  port: 48233
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -200,8 +200,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
-  server: 101.89.219.103
-  port: 41082
+  server: 101.89.154.94
+  port: 48233
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -216,7 +216,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
   server: 101.89.219.103
-  port: 46242
+  port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -453,27 +453,6 @@ proxies:
   sni: hkvip103.qlgq1.pw
   skip-cert-verify: true
   udp: true
-- name: JP日本 A - 可乐云
-  server: jp.colacloud.site
-  port: 51310
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 35a2f355-ef32-4e30-b860-5d223cdcc2be
-  udp: true
-- name: SG新加坡 A - 可乐云
-  server: sg.colacloud.site
-  port: 42752
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 35a2f355-ef32-4e30-b860-5d223cdcc2be
-  udp: true
-- name: KR韩国 A - 可乐云
-  server: kr.colacloud.site
-  port: 20352
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 35a2f355-ef32-4e30-b860-5d223cdcc2be
-  udp: true
 - name: Japan 01 - 蓝天白云
   server: jp01.bsawc.shop
   port: 20602
@@ -534,7 +513,7 @@ proxies:
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -549,7 +528,7 @@ proxies:
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -564,7 +543,7 @@ proxies:
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -579,7 +558,7 @@ proxies:
   server: 17.v2-ray.cyou
   port: 23617
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -594,7 +573,7 @@ proxies:
   server: 8.v2-ray.cyou
   port: 23608
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -604,7 +583,7 @@ proxies:
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -619,7 +598,7 @@ proxies:
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -634,7 +613,7 @@ proxies:
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -649,7 +628,7 @@ proxies:
   server: 5.v2-ray.cyou
   port: 23605
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -664,7 +643,7 @@ proxies:
   server: 13.v2-ray.cyou
   port: 23613
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -679,7 +658,7 @@ proxies:
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: bc48efc0-5a93-3e8d-a343-8178188bec57
+  uuid: f3b47021-3434-3454-be21-30a828da21ba
   alterId: 2
   cipher: auto
   tls: false
@@ -694,7 +673,7 @@ proxies:
   server: us01.h.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 9dd56564-4d32-41cd-80b8-f54f18aed1a0
+  uuid: d61d0094-be77-42e0-a0d7-c04d8203b580
   alterId: 0
   cipher: auto
   tls: true
@@ -709,7 +688,7 @@ proxies:
   server: hk01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 9dd56564-4d32-41cd-80b8-f54f18aed1a0
+  uuid: d61d0094-be77-42e0-a0d7-c04d8203b580
   alterId: 0
   cipher: auto
   tls: true
@@ -724,7 +703,7 @@ proxies:
   server: tr01.h.csznet.eu.org
   port: 40660
   type: vmess
-  uuid: 9dd56564-4d32-41cd-80b8-f54f18aed1a0
+  uuid: d61d0094-be77-42e0-a0d7-c04d8203b580
   alterId: 0
   cipher: auto
   tls: true
@@ -739,7 +718,7 @@ proxies:
   server: cera.feedcc.workers.dev
   port: 443
   type: vmess
-  uuid: 9dd56564-4d32-41cd-80b8-f54f18aed1a0
+  uuid: d61d0094-be77-42e0-a0d7-c04d8203b580
   alterId: 0
   cipher: auto
   tls: true
@@ -754,7 +733,7 @@ proxies:
   server: iij2.csznet.eu.org
   port: 3306
   type: vmess
-  uuid: 9dd56564-4d32-41cd-80b8-f54f18aed1a0
+  uuid: d61d0094-be77-42e0-a0d7-c04d8203b580
   alterId: 0
   cipher: auto
   tls: true
@@ -769,7 +748,7 @@ proxies:
   server: kr01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 9dd56564-4d32-41cd-80b8-f54f18aed1a0
+  uuid: d61d0094-be77-42e0-a0d7-c04d8203b580
   alterId: 0
   cipher: auto
   tls: true
@@ -862,7 +841,7 @@ proxies:
   server: 112.29.200.93
   port: 29711
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -875,7 +854,7 @@ proxies:
   server: jzyd.12ip.cc
   port: 24252
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -890,7 +869,7 @@ proxies:
   server: 188.253.6.35
   port: 20009
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -903,7 +882,7 @@ proxies:
   server: jp-osaka-oracle-d9311f.ip1.shop
   port: 64702
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -918,7 +897,7 @@ proxies:
   server: sg-singapore-oracle-4f34e8.ip1.shop
   port: 64952
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -933,7 +912,7 @@ proxies:
   server: it-milan-oracle-2b2d63.ip1.shop
   port: 54252
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -948,7 +927,7 @@ proxies:
   server: in-mumbai-oracle-2de5d7.ip1.shop
   port: 21152
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -963,7 +942,7 @@ proxies:
   server: uk-london-oracle-51b798.ip1.shop
   port: 36902
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -978,7 +957,7 @@ proxies:
   server: duocloudhkv6.12ip.cc
   port: 443
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -993,7 +972,7 @@ proxies:
   server: wawotwv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1008,7 +987,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1023,7 +1002,7 @@ proxies:
   server: wawonlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1038,7 +1017,7 @@ proxies:
   server: akdev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1053,7 +1032,7 @@ proxies:
   server: xmusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1068,7 +1047,7 @@ proxies:
   server: hoyoversenlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1083,7 +1062,7 @@ proxies:
   server: hoyoversedev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1098,7 +1077,7 @@ proxies:
   server: acusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1113,7 +1092,7 @@ proxies:
   server: wawojpv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1128,7 +1107,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 68d00e13-c3d1-4d29-8d19-b6b99de150bc
+  uuid: 703b4e4f-7517-4c2f-b551-007b7743360a
   alterId: 0
   cipher: auto
   tls: false
@@ -1688,8 +1667,8 @@ proxies:
   password: tsu9oi
   protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 20116:NhxXQs
-  obfs-param: 88dbf20116.microsoft.com
+  protocol-param: 20123:dB6Dhw
+  obfs-param: 2e84320123.microsoft.com
   udp: true
 - name: 免费-新加坡 - bee.sulepay.com
   server: freeno1sg.beednsvip.top
@@ -1699,8 +1678,8 @@ proxies:
   password: tsu9oi
   protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 20116:NhxXQs
-  obfs-param: 88dbf20116.microsoft.com
+  protocol-param: 20123:dB6Dhw
+  obfs-param: 2e84320123.microsoft.com
   udp: true
 - name: 免费-美国 - bee.sulepay.com
   server: freeno1us.beednsvip.top
@@ -1710,8 +1689,8 @@ proxies:
   password: tsu9oi
   protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 20116:NhxXQs
-  obfs-param: 88dbf20116.microsoft.com
+  protocol-param: 20123:dB6Dhw
+  obfs-param: 2e84320123.microsoft.com
   udp: true
 - name: 美国 🌐「达拉斯」 - 北方航空
   server: cdn.chigua.tk
@@ -1779,9 +1758,6 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
-  - JP日本 A - 可乐云
-  - SG新加坡 A - 可乐云
-  - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
   - Korea 01 - 蓝天白云
@@ -1946,9 +1922,6 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
-  - JP日本 A - 可乐云
-  - SG新加坡 A - 可乐云
-  - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
   - Korea 01 - 蓝天白云
@@ -2115,9 +2088,6 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
-  - JP日本 A - 可乐云
-  - SG新加坡 A - 可乐云
-  - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
   - Korea 01 - 蓝天白云
@@ -2283,9 +2253,6 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
-  - JP日本 A - 可乐云
-  - SG新加坡 A - 可乐云
-  - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
   - Korea 01 - 蓝天白云
@@ -2507,9 +2474,6 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
-  - JP日本 A - 可乐云
-  - SG新加坡 A - 可乐云
-  - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
   - Korea 01 - 蓝天白云
@@ -2674,9 +2638,6 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
-  - JP日本 A - 可乐云
-  - SG新加坡 A - 可乐云
-  - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
   - Korea 01 - 蓝天白云
@@ -2842,9 +2803,6 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
-  - JP日本 A - 可乐云
-  - SG新加坡 A - 可乐云
-  - KR韩国 A - 可乐云
   - Japan 01 - 蓝天白云
   - Japan 02 - 蓝天白云
   - Korea 01 - 蓝天白云
