@@ -9,7 +9,7 @@ proxies:
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: 939b24d5-16f7-4208-b630-564aa88eae85
+  uuid: 09fba290-11cc-4d49-88a0-3bd873d83b4d
   alterId: 0
   cipher: auto
   tls: false
@@ -24,7 +24,7 @@ proxies:
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: 939b24d5-16f7-4208-b630-564aa88eae85
+  uuid: 09fba290-11cc-4d49-88a0-3bd873d83b4d
   alterId: 0
   cipher: auto
   tls: false
@@ -39,7 +39,7 @@ proxies:
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: 939b24d5-16f7-4208-b630-564aa88eae85
+  uuid: 09fba290-11cc-4d49-88a0-3bd873d83b4d
   alterId: 0
   cipher: auto
   tls: false
@@ -55,13 +55,13 @@ proxies:
   port: 51653
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3
+  password: aa22e03b-981c-4577-b8d9-5677e4807cd9
   udp: true
 - name: 美国01 - 都是梦
   server: dl4.doushimeng.com
   port: 2086
   type: vmess
-  uuid: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3
+  uuid: aa22e03b-981c-4577-b8d9-5677e4807cd9
   alterId: 0
   cipher: auto
   tls: false
@@ -77,13 +77,13 @@ proxies:
   port: 20060
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3
+  password: aa22e03b-981c-4577-b8d9-5677e4807cd9
   udp: true
 - name: 德国01 - 都是梦
   server: dl3s.doushimeng.com
   port: 2082
   type: vmess
-  uuid: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3
+  uuid: aa22e03b-981c-4577-b8d9-5677e4807cd9
   alterId: 0
   cipher: auto
   tls: false
@@ -98,7 +98,7 @@ proxies:
   server: dl1.doushimeng.com
   port: 2082
   type: vmess
-  uuid: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3
+  uuid: aa22e03b-981c-4577-b8d9-5677e4807cd9
   alterId: 0
   cipher: auto
   tls: false
@@ -110,7 +110,7 @@ proxies:
       Host: cf-frsss6.nicehand.top
   udp: true
 - name: 香港|【免费领1TB流量】前往-注册|公益 - 大白
-  server: 101.89.219.103
+  server: 101.89.154.94
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -140,7 +140,7 @@ proxies:
       Host: data-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-  server: 101.89.219.103
+  server: 101.89.154.94
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -170,7 +170,7 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
-  server: 101.89.154.94
+  server: 101.89.219.103
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -215,7 +215,7 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-  server: 101.89.154.94
+  server: 101.89.219.103
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -458,27 +458,27 @@ proxies:
   port: 51310
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5fc3ca59-3190-4211-9e75-3493b6e12551
+  password: bd296abc-686f-461d-91d3-26fc270de3f2
   udp: true
 - name: SG新加坡 A - 可乐云
   server: sg.colacloud.site
   port: 42752
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5fc3ca59-3190-4211-9e75-3493b6e12551
+  password: bd296abc-686f-461d-91d3-26fc270de3f2
   udp: true
 - name: KR韩国 A - 可乐云
   server: kr.colacloud.site
   port: 20352
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 5fc3ca59-3190-4211-9e75-3493b6e12551
+  password: bd296abc-686f-461d-91d3-26fc270de3f2
   udp: true
 - name: Japan 01 - 蓝天白云
   server: jp01.bsawc.shop
   port: 35902
   type: trojan
-  password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38
+  password: 9b3f69de-e059-4f29-8fca-0c93ec644fc9
   sni: jp01.bsawc.shop
   skip-cert-verify: true
   udp: true
@@ -486,7 +486,7 @@ proxies:
   server: kr01.bsawc.shop
   port: 34952
   type: trojan
-  password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38
+  password: 9b3f69de-e059-4f29-8fca-0c93ec644fc9
   sni: kr01.bsawc.shop
   skip-cert-verify: true
   udp: true
@@ -494,7 +494,7 @@ proxies:
   server: kr02.bsawc.shop
   port: 57602
   type: trojan
-  password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38
+  password: 9b3f69de-e059-4f29-8fca-0c93ec644fc9
   sni: kr02.bsawc.shop
   skip-cert-verify: true
   udp: true
@@ -502,7 +502,7 @@ proxies:
   server: sg02.bsawc.shop
   port: 54952
   type: trojan
-  password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38
+  password: 9b3f69de-e059-4f29-8fca-0c93ec644fc9
   sni: sg02.bsawc.shop
   skip-cert-verify: true
   udp: true
@@ -510,7 +510,7 @@ proxies:
   server: sg03.bsawc.shop
   port: 30008
   type: trojan
-  password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38
+  password: 9b3f69de-e059-4f29-8fca-0c93ec644fc9
   sni: sg03.bsawc.shop
   skip-cert-verify: true
   udp: true
@@ -518,7 +518,7 @@ proxies:
   server: au02.bsawc.shop
   port: 38152
   type: trojan
-  password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38
+  password: 9b3f69de-e059-4f29-8fca-0c93ec644fc9
   sni: au02.bsawc.shop
   skip-cert-verify: true
   udp: true
@@ -526,7 +526,7 @@ proxies:
   server: ru01.bsawc.shop
   port: 30005
   type: trojan
-  password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38
+  password: 9b3f69de-e059-4f29-8fca-0c93ec644fc9
   sni: ru01.bsawc.shop
   skip-cert-verify: true
   udp: true
@@ -534,7 +534,7 @@ proxies:
   server: fr01.bsawc.shop
   port: 23752
   type: trojan
-  password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38
+  password: 9b3f69de-e059-4f29-8fca-0c93ec644fc9
   sni: fr01.bsawc.shop
   skip-cert-verify: true
   udp: true
@@ -542,7 +542,7 @@ proxies:
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -557,7 +557,7 @@ proxies:
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -572,7 +572,7 @@ proxies:
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -587,7 +587,7 @@ proxies:
   server: 17.v2-ray.cyou
   port: 23617
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -602,7 +602,7 @@ proxies:
   server: 8.v2-ray.cyou
   port: 23608
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -612,7 +612,7 @@ proxies:
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -627,7 +627,7 @@ proxies:
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -642,7 +642,7 @@ proxies:
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -657,7 +657,7 @@ proxies:
   server: 5.v2-ray.cyou
   port: 23605
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -672,7 +672,7 @@ proxies:
   server: 13.v2-ray.cyou
   port: 23613
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -687,7 +687,7 @@ proxies:
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6
+  uuid: 79237cfb-0967-333f-8d90-379b0512a2d2
   alterId: 2
   cipher: auto
   tls: false
@@ -866,11 +866,19 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: USA-德州-1(Trojan) - 麻雀加速器 Sparrow
+  server: us1.n305.dynu.net
+  port: 16389
+  type: trojan
+  password: c0aeab85-0e75-48bb-98a5-65092b120e64
+  sni: us1.n305.dynu.net
+  skip-cert-verify: true
+  udp: true
 - name: ℹ 🔰 TG客服@uucocc - 共享流量
   server: 112.29.200.93
   port: 29711
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -883,7 +891,7 @@ proxies:
   server: jzyd.12ip.cc
   port: 24252
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -898,7 +906,7 @@ proxies:
   server: 188.253.6.35
   port: 20009
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -911,7 +919,7 @@ proxies:
   server: jp-osaka-oracle-d9311f.ip1.shop
   port: 64702
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -926,7 +934,7 @@ proxies:
   server: sg-singapore-oracle-4f34e8.ip1.shop
   port: 64952
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -941,7 +949,7 @@ proxies:
   server: it-milan-oracle-2b2d63.ip1.shop
   port: 54252
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -956,7 +964,7 @@ proxies:
   server: in-mumbai-oracle-2de5d7.ip1.shop
   port: 21152
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -971,7 +979,7 @@ proxies:
   server: uk-london-oracle-51b798.ip1.shop
   port: 36902
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -986,7 +994,7 @@ proxies:
   server: duocloudhkv6.12ip.cc
   port: 443
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1001,7 +1009,7 @@ proxies:
   server: wawotwv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1016,7 +1024,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1031,7 +1039,7 @@ proxies:
   server: wawonlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1046,7 +1054,7 @@ proxies:
   server: akdev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1061,7 +1069,7 @@ proxies:
   server: xmusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1076,7 +1084,7 @@ proxies:
   server: hoyoversenlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1091,7 +1099,7 @@ proxies:
   server: hoyoversedev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1106,7 +1114,7 @@ proxies:
   server: acusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1121,7 +1129,7 @@ proxies:
   server: wawojpv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1136,7 +1144,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 0099cfda-f381-42d8-889f-09981096304a
+  uuid: 287b32ab-9d3a-4810-9817-39954ea66f61
   alterId: 0
   cipher: auto
   tls: false
@@ -1316,7 +1324,7 @@ proxies:
   server: gy.58n.net
   port: 20301
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z301.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1324,7 +1332,7 @@ proxies:
   server: gy.58n.net
   port: 17629
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z258.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1332,7 +1340,7 @@ proxies:
   server: gy.58n.net
   port: 28678
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z143.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1340,7 +1348,7 @@ proxies:
   server: gy.58n.net
   port: 22741
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: dufu.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1348,7 +1356,7 @@ proxies:
   server: gy.58n.net
   port: 20294
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z294.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1356,7 +1364,7 @@ proxies:
   server: gy.58n.net
   port: 43337
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z102.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1364,7 +1372,7 @@ proxies:
   server: gy.58n.net
   port: 24603
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z259.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1372,7 +1380,7 @@ proxies:
   server: gy.58n.net
   port: 20278
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z278.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1380,7 +1388,7 @@ proxies:
   server: gy.58n.net
   port: 20279
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z279.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1388,7 +1396,7 @@ proxies:
   server: gy.58n.net
   port: 59021
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x100.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1396,7 +1404,7 @@ proxies:
   server: gy.58n.net
   port: 21247
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x91.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1404,7 +1412,7 @@ proxies:
   server: gy.58n.net
   port: 20302
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z302.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1412,7 +1420,7 @@ proxies:
   server: gy.58n.net
   port: 20303
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z303.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1420,7 +1428,7 @@ proxies:
   server: gy.58n.net
   port: 20304
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z304.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1428,7 +1436,7 @@ proxies:
   server: gy.58n.net
   port: 20305
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z305.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1436,7 +1444,7 @@ proxies:
   server: gy.58n.net
   port: 20306
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z306.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1444,7 +1452,7 @@ proxies:
   server: gy.58n.net
   port: 20299
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x299.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1452,7 +1460,7 @@ proxies:
   server: gy.58n.net
   port: 17806
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x65.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1460,7 +1468,7 @@ proxies:
   server: gy.58n.net
   port: 30712
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x83.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1468,7 +1476,7 @@ proxies:
   server: gy.58n.net
   port: 20298
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z298.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1476,7 +1484,7 @@ proxies:
   server: gy.58n.net
   port: 20300
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z300.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1484,7 +1492,7 @@ proxies:
   server: gy.58n.net
   port: 20295
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z295.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1492,7 +1500,7 @@ proxies:
   server: gy.58n.net
   port: 20296
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z296.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1500,7 +1508,7 @@ proxies:
   server: gy.58n.net
   port: 20308
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z308.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1508,7 +1516,7 @@ proxies:
   server: gy.58n.net
   port: 16895
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x40.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1516,7 +1524,7 @@ proxies:
   server: gy.58n.net
   port: 21970
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x41.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1524,7 +1532,7 @@ proxies:
   server: gy.58n.net
   port: 14846
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x46.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1532,7 +1540,7 @@ proxies:
   server: gy.58n.net
   port: 30767
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z61.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1540,7 +1548,7 @@ proxies:
   server: gy.58n.net
   port: 25238
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z267.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1548,7 +1556,7 @@ proxies:
   server: gy.58n.net
   port: 11215
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z268.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1556,7 +1564,7 @@ proxies:
   server: gy.58n.net
   port: 20307
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z307.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1564,7 +1572,7 @@ proxies:
   server: gy.58n.net
   port: 33323
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z261.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1572,7 +1580,7 @@ proxies:
   server: gy.58n.net
   port: 36821
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z262.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1580,7 +1588,7 @@ proxies:
   server: gy.58n.net
   port: 56783
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z266.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1588,7 +1596,7 @@ proxies:
   server: gy.58n.net
   port: 20288
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z288.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1596,7 +1604,7 @@ proxies:
   server: gy.58n.net
   port: 45168
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z263.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1604,7 +1612,7 @@ proxies:
   server: gy.58n.net
   port: 50355
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z264.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1612,7 +1620,7 @@ proxies:
   server: gy.58n.net
   port: 20129
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x129.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1620,7 +1628,7 @@ proxies:
   server: gy.58n.net
   port: 20130
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x130.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1628,7 +1636,7 @@ proxies:
   server: gy.58n.net
   port: 41767
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x114.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1636,7 +1644,7 @@ proxies:
   server: gy.58n.net
   port: 54178
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x115.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1644,7 +1652,7 @@ proxies:
   server: gy.58n.net
   port: 20139
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z139.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1652,7 +1660,7 @@ proxies:
   server: gy.58n.net
   port: 20140
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z140.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1660,7 +1668,7 @@ proxies:
   server: gy.58n.net
   port: 20141
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z141.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1668,7 +1676,7 @@ proxies:
   server: gy.58n.net
   port: 20142
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: z142.hongkongnode.top
   skip-cert-verify: true
   udp: true
@@ -1676,7 +1684,7 @@ proxies:
   server: gy.58n.net
   port: 20059
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x59.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1684,7 +1692,7 @@ proxies:
   server: gy.58n.net
   port: 20071
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x71.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1692,7 +1700,7 @@ proxies:
   server: gy.58n.net
   port: 20076
   type: trojan
-  password: 7f100f1c-59ae-3f77-bcbb-74c968f601bc
+  password: 88162b23-5e95-3f01-87cc-08844fa10e47
   sni: x76.flybar.work
   skip-cert-verify: true
   udp: true
@@ -1700,7 +1708,7 @@ proxies:
   server: www.flybar.top
   port: 10086
   type: trojan
-  password: gKJD80M4MbfDvEL8
+  password: uswCmybLnTYHqQTV
   skip-cert-verify: true
   udp: true
 - name: 免费-日本 - bee.sulepay.com
@@ -1839,6 +1847,7 @@ proxy-groups:
   - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
+  - USA-德州-1(Trojan) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
   - 台湾(ipv4)BV BGP直连 - 共享流量
@@ -2008,6 +2017,7 @@ proxy-groups:
   - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
+  - USA-德州-1(Trojan) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
   - 台湾(ipv4)BV BGP直连 - 共享流量
@@ -2179,6 +2189,7 @@ proxy-groups:
   - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
+  - USA-德州-1(Trojan) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
   - 台湾(ipv4)BV BGP直连 - 共享流量
@@ -2349,6 +2360,7 @@ proxy-groups:
   - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
+  - USA-德州-1(Trojan) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
   - 台湾(ipv4)BV BGP直连 - 共享流量
@@ -2575,6 +2587,7 @@ proxy-groups:
   - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
+  - USA-德州-1(Trojan) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
   - 台湾(ipv4)BV BGP直连 - 共享流量
@@ -2744,6 +2757,7 @@ proxy-groups:
   - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
+  - USA-德州-1(Trojan) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
   - 台湾(ipv4)BV BGP直连 - 共享流量
@@ -2914,6 +2928,7 @@ proxy-groups:
   - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
   - TW-台中1-2(TCP) - 麻雀加速器 Sparrow
+  - USA-德州-1(Trojan) - 麻雀加速器 Sparrow
   - ℹ 🔰 TG客服@uucocc - 共享流量
   - 美国(ipv4)鸡仔V6转 - 共享流量
   - 台湾(ipv4)BV BGP直连 - 共享流量
