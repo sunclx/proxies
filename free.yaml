@@ -5,33 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: 3e1a1f29-c2bc-457c-a74d-79a4cc9a51c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
-  - {name: 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: jp.littleqqq.co, port: 62193, type: vmess, uuid: 3e1a1f29-c2bc-457c-a74d-79a4cc9a51c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
-  - {name: 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: us.littleqqq.co, port: 21859, type: vmess, uuid: 3e1a1f29-c2bc-457c-a74d-79a4cc9a51c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
-  - {name: 日本01 - 都是梦, server: jp.doushimeng.com, port: 51653, type: ss, cipher: chacha20-ietf-poly1305, password: e8dec382-24ae-47ba-b942-29d679cd42b3, udp: true}
-  - {name: 美国01 - 都是梦, server: dl4.doushimeng.com, port: 2086, type: vmess, uuid: e8dec382-24ae-47ba-b942-29d679cd42b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-us.doushimeng.free.hr}}, udp: true}
-  - {name: 美国02|V6 - 都是梦, server: us5.doushimeng.free.hr, port: 20060, type: ss, cipher: chacha20-ietf-poly1305, password: e8dec382-24ae-47ba-b942-29d679cd42b3, udp: true}
-  - {name: 德国01 - 都是梦, server: dl3s.doushimeng.com, port: 2082, type: vmess, uuid: e8dec382-24ae-47ba-b942-29d679cd42b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-de13.doushimeng.com}}, udp: true}
-  - {name: 法国01 - 都是梦, server: dl1.doushimeng.com, port: 2082, type: vmess, uuid: e8dec382-24ae-47ba-b942-29d679cd42b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-frsss6.nicehand.top}}, udp: true}
-  - {name: 香港|【免费领1TB流量】前往-注册|公益 - 大白, server: 185.214.103.156, port: 34601, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
+  - {name: 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: 939b24d5-16f7-4208-b630-564aa88eae85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
+  - {name: 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: jp.littleqqq.co, port: 62193, type: vmess, uuid: 939b24d5-16f7-4208-b630-564aa88eae85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
+  - {name: 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: us.littleqqq.co, port: 21859, type: vmess, uuid: 939b24d5-16f7-4208-b630-564aa88eae85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
+  - {name: 日本01 - 都是梦, server: jp.doushimeng.com, port: 51653, type: ss, cipher: chacha20-ietf-poly1305, password: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3, udp: true}
+  - {name: 美国01 - 都是梦, server: dl4.doushimeng.com, port: 2086, type: vmess, uuid: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-us.doushimeng.free.hr}}, udp: true}
+  - {name: 美国02|V6 - 都是梦, server: us5.doushimeng.free.hr, port: 20060, type: ss, cipher: chacha20-ietf-poly1305, password: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3, udp: true}
+  - {name: 德国01 - 都是梦, server: dl3s.doushimeng.com, port: 2082, type: vmess, uuid: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-de13.doushimeng.com}}, udp: true}
+  - {name: 法国01 - 都是梦, server: dl1.doushimeng.com, port: 2082, type: vmess, uuid: 80501b4d-4ac0-42a7-8dae-907e75ebd1f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-frsss6.nicehand.top}}, udp: true}
+  - {name: 香港|【免费领1TB流量】前往-注册|公益 - 大白, server: 101.89.219.103, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
   - {name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白, server: 101.91.226.84, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-2.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白, server: 101.89.154.94, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白, server: 101.91.226.84, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白, server: 101.89.219.103, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白, server: 185.214.103.156, port: 34601, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
   - {name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白, server: 101.89.154.94, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-3.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白, server: 101.89.154.94, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白, server: 101.89.219.103, port: 48233, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
-  - {name: "香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白", server: 101.91.226.84, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-1.cn-db.top}}, udp: true}
-  - {name: V4-4001|日本|x1.5 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 14109, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4002|日本|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 14110, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4003|新加坡|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 12001, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4004|新加坡|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 12002, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4005|美国|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 11301, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c512ec2b8a61, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4006|美国|x1.5 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 11302, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c512ec2b8a61, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4007|台湾|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 14099, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4008|台湾|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 14000, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4009|香港|x1.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 13004, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4010|香港|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 13002, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: V4-4011|香港|x2.0 - 海豚云, server: dnspsdhaitun.ncsuwei.top, port: 17002, type: vmess, uuid: 403c3dc8-d4c2-341d-87e8-198c564002c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af483582-6269-468c-93af-c512ec2b1a61, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白, server: 185.214.103.249, port: 8002, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白, server: 101.91.226.84, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
+  - {name: "香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白", server: 101.89.154.94, port: 26068, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-1.cn-db.top}}, udp: true}
   - {name: 德国 法兰克福101 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 10443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 德国 法兰克福102 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 20443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 德国 法兰克福103 - 墙了个墙, server: fkvip101.qlgq1.pw, port: 30443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -60,33 +49,34 @@ proxies:
   - {name: 香港 108 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 30443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 香港 109 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 40443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 香港 110 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 50443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: JP日本 A - 可乐云, server: jp.colacloud.site, port: 51310, type: ss, cipher: chacha20-ietf-poly1305, password: 5c840881-6aef-46c4-8133-ce4202d6111e, udp: true}
-  - {name: SG新加坡 A - 可乐云, server: sg.colacloud.site, port: 42752, type: ss, cipher: chacha20-ietf-poly1305, password: 5c840881-6aef-46c4-8133-ce4202d6111e, udp: true}
-  - {name: KR韩国 A - 可乐云, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 5c840881-6aef-46c4-8133-ce4202d6111e, udp: true}
-  - {name: Japan 01 - 蓝天白云, server: jp01.bsawc.shop, port: 20602, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: jp01.bsawc.shop, skip-cert-verify: true, udp: true}
-  - {name: Japan 02 - 蓝天白云, server: jp02.bsawc.shop, port: 30014, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: jp02.bsawc.shop, skip-cert-verify: true, udp: true}
+  - {name: JP日本 A - 可乐云, server: jp.colacloud.site, port: 51310, type: ss, cipher: chacha20-ietf-poly1305, password: 5fc3ca59-3190-4211-9e75-3493b6e12551, udp: true}
+  - {name: SG新加坡 A - 可乐云, server: sg.colacloud.site, port: 42752, type: ss, cipher: chacha20-ietf-poly1305, password: 5fc3ca59-3190-4211-9e75-3493b6e12551, udp: true}
+  - {name: KR韩国 A - 可乐云, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 5fc3ca59-3190-4211-9e75-3493b6e12551, udp: true}
+  - {name: Japan 01 - 蓝天白云, server: jp01.bsawc.shop, port: 35902, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: jp01.bsawc.shop, skip-cert-verify: true, udp: true}
   - {name: Korea 01 - 蓝天白云, server: kr01.bsawc.shop, port: 34952, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: kr01.bsawc.shop, skip-cert-verify: true, udp: true}
   - {name: Korea 02 - 蓝天白云, server: kr02.bsawc.shop, port: 57602, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: kr02.bsawc.shop, skip-cert-verify: true, udp: true}
   - {name: Singapore 02 - 蓝天白云, server: sg02.bsawc.shop, port: 54952, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: sg02.bsawc.shop, skip-cert-verify: true, udp: true}
   - {name: Singapore 03 - 蓝天白云, server: sg03.bsawc.shop, port: 30008, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: sg03.bsawc.shop, skip-cert-verify: true, udp: true}
+  - {name: Antarctica 02 - 蓝天白云, server: au02.bsawc.shop, port: 38152, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: au02.bsawc.shop, skip-cert-verify: true, udp: true}
   - {name: Russia CN2 01 - 蓝天白云, server: ru01.bsawc.shop, port: 30005, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: ru01.bsawc.shop, skip-cert-verify: true, udp: true}
-  - {name: "[vip①]德国1 - MG Network", server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]德国2 - MG Network", server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]新加坡1 - MG Network", server: 12.v2-ray.cyou, port: 23612, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]新加坡2 - MG Network", server: 17.v2-ray.cyou, port: 23617, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]日本1 - MG Network", server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[vip①]日本2 - MG Network", server: 19.v2-ray.cyou, port: 23619, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]美国1 - MG Network", server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]美国2 - MG Network", server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]英国1 - MG Network", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]英国2 - MG Network", server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]韩国1 - MG Network", server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 3f08d0d6-d242-3072-8d92-44fe70ecbabf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
-  - {name: 美国CERA - 海陆空, server: us01.h.csznet.eu.org, port: 443, type: vmess, uuid: d61d0094-be77-42e0-a0d7-c04d8203b580, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: us01.h.csznet.eu.org}}, udp: true}
-  - {name: 香港QW - 海陆空, server: hk01.host.csznet.eu.org, port: 443, type: vmess, uuid: d61d0094-be77-42e0-a0d7-c04d8203b580, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: hk01.host.csznet.eu.org}}, udp: true}
-  - {name: 土耳其 - 海陆空, server: tr01.h.csznet.eu.org, port: 40660, type: vmess, uuid: d61d0094-be77-42e0-a0d7-c04d8203b580, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: tr01.h.csznet.eu.org}}, udp: true}
-  - {name: CF-WORK-美国CERA - 海陆空, server: cera.feedcc.workers.dev, port: 443, type: vmess, uuid: d61d0094-be77-42e0-a0d7-c04d8203b580, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: us01.h.csznet.eu.org}}, udp: true}
-  - {name: 日本IIJ2 - 海陆空, server: iij2.csznet.eu.org, port: 3306, type: vmess, uuid: d61d0094-be77-42e0-a0d7-c04d8203b580, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: iij2.csznet.eu.org}}, udp: true}
-  - {name: 韩国首尔 - 海陆空, server: kr01.host.csznet.eu.org, port: 443, type: vmess, uuid: d61d0094-be77-42e0-a0d7-c04d8203b580, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: kr01.host.csznet.eu.org}}, udp: true}
+  - {name: France 01 - 蓝天白云, server: fr01.bsawc.shop, port: 23752, type: trojan, password: 8f41de74-a6d6-4d80-b863-3ddbd67f6c38, sni: fr01.bsawc.shop, skip-cert-verify: true, udp: true}
+  - {name: "[vip①]德国1 - MG Network", server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]德国2 - MG Network", server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]新加坡1 - MG Network", server: 12.v2-ray.cyou, port: 23612, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]新加坡2 - MG Network", server: 17.v2-ray.cyou, port: 23617, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]日本1 - MG Network", server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[vip①]日本2 - MG Network", server: 19.v2-ray.cyou, port: 23619, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]美国1 - MG Network", server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]美国2 - MG Network", server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]英国1 - MG Network", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]英国2 - MG Network", server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]韩国1 - MG Network", server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: b8cc8ed2-aa7e-3943-bac8-11accfe145f6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
+  - {name: 美国CERA - 海陆空, server: us01.h.csznet.eu.org, port: 443, type: vmess, uuid: 0197c0bf-ddd4-48cf-b18d-8ae865d66f41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: us01.h.csznet.eu.org}}, udp: true}
+  - {name: 香港QW - 海陆空, server: hk01.host.csznet.eu.org, port: 443, type: vmess, uuid: 0197c0bf-ddd4-48cf-b18d-8ae865d66f41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: hk01.host.csznet.eu.org}}, udp: true}
+  - {name: 土耳其 - 海陆空, server: tr01.h.csznet.eu.org, port: 40660, type: vmess, uuid: 0197c0bf-ddd4-48cf-b18d-8ae865d66f41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: tr01.h.csznet.eu.org}}, udp: true}
+  - {name: CF-WORK-美国CERA - 海陆空, server: cera.feedcc.workers.dev, port: 443, type: vmess, uuid: 0197c0bf-ddd4-48cf-b18d-8ae865d66f41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: us01.h.csznet.eu.org}}, udp: true}
+  - {name: 日本IIJ2 - 海陆空, server: iij2.csznet.eu.org, port: 3306, type: vmess, uuid: 0197c0bf-ddd4-48cf-b18d-8ae865d66f41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: iij2.csznet.eu.org}}, udp: true}
+  - {name: 韩国首尔 - 海陆空, server: kr01.host.csznet.eu.org, port: 443, type: vmess, uuid: 0197c0bf-ddd4-48cf-b18d-8ae865d66f41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: kr01.host.csznet.eu.org}}, udp: true}
   - {name: TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: c0aeab85-0e75-48bb-98a5-65092b120e64, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: c0aeab85-0e75-48bb-98a5-65092b120e64, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: TW-板桥2-2(TCP) - 麻雀加速器 Sparrow, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: c0aeab85-0e75-48bb-98a5-65092b120e64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -96,31 +86,32 @@ proxies:
   - {name: TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: c0aeab85-0e75-48bb-98a5-65092b120e64, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: TW-台中1-1(Trojan) - 麻雀加速器 Sparrow, server: c11.twtc.dynu.net, port: 12388, type: trojan, password: c0aeab85-0e75-48bb-98a5-65092b120e64, sni: c11.twtc.dynu.net, skip-cert-verify: true, udp: true}
   - {name: TW-台中1-2(TCP) - 麻雀加速器 Sparrow, server: c12.twtc.dynu.net, port: 14431, type: vmess, uuid: c0aeab85-0e75-48bb-98a5-65092b120e64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ℹ 🔰 TG客服@uucocc - 共享流量, server: 112.29.200.93, port: 29711, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(ipv4)鸡仔V6转 - 共享流量, server: jzyd.12ip.cc, port: 24252, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jzyd.12ip.cc}}, udp: true}
-  - {name: 台湾(ipv4)BV BGP直连 - 共享流量, server: 188.253.6.35, port: 20009, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 日本(ipv4)DCI NAT直连 - 共享流量, server: jp-osaka-oracle-d9311f.ip1.shop, port: 64702, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-osaka-oracle-d9311f.ip1.shop}}, udp: true}
-  - {name: 新加坡(ipv4)DCI NAT直连 - 共享流量, server: sg-singapore-oracle-4f34e8.ip1.shop, port: 64952, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-singapore-oracle-4f34e8.ip1.shop}}, udp: true}
-  - {name: 米兰(ipv4)DCI NAT直连 - 共享流量, server: it-milan-oracle-2b2d63.ip1.shop, port: 54252, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it-milan-oracle-2b2d63.ip1.shop}}, udp: true}
-  - {name: 孟买(ipv4)DCI NAT直连 - 共享流量, server: in-mumbai-oracle-2de5d7.ip1.shop, port: 21152, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in-mumbai-oracle-2de5d7.ip1.shop}}, udp: true}
-  - {name: 英国(ipv4)DCI NAT直连 - 共享流量, server: uk-london-oracle-51b798.ip1.shop, port: 36902, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-london-oracle-51b798.ip1.shop}}, udp: true}
-  - {name: 香港(ipv6)duocloud - 共享流量, server: duocloudhkv6.12ip.cc, port: 443, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: duocloudhkv6.12ip.cc}}, udp: true}
-  - {name: 台湾(ipv6)wawo - 共享流量, server: wawotwv6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawotwv6.12ip.cc}}, udp: true}
-  - {name: 香港(ipv6)wawo - 共享流量, server: wawohkv6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawohkv6.12ip.cc}}, udp: true}
-  - {name: 荷兰(ipv6)wawo - 共享流量, server: wawonlv6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawonlv6.12ip.cc}}, udp: true}
-  - {name: 德国(ipv6)AK - 共享流量, server: akdev6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: akdev6.12ip.cc}}, udp: true}
-  - {name: 美国(ipv6)小埋 - 共享流量, server: xmusv6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xmusv6.12ip.cc}}, udp: true}
-  - {name: 荷兰(ipv6)hoyoverse - 共享流量, server: hoyoversenlv6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversenlv6.12ip.cc}}, udp: true}
-  - {name: 德国(ipv6)hoyoverse - 共享流量, server: hoyoversedev6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversedev6.12ip.cc}}, udp: true}
-  - {name: 美国(ipv6)AC - 共享流量, server: acusv6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: acusv6.12ip.cc}}, udp: true}
-  - {name: 日本(ipv6)wawo - 共享流量, server: wawojpv6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawojpv6.12ip.cc}}, udp: true}
-  - {name: 香港(ipv6)wawo2 - 共享流量, server: wawohkv6.12ip.cc, port: 20001, type: vmess, uuid: c8e2e441-827a-4f01-9d2c-418d11408692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawohkv6.12ip.cc}}, udp: true}
-  - {name: 新加坡-0 - 飞啦机场, server: fellayun.com, port: 2443, type: vmess, uuid: 618a16da-f524-4c52-bc95-b4f1e693646e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 香港-0 - 飞啦机场, server: fellayun.com, port: 2443, type: vmess, uuid: 618a16da-f524-4c52-bc95-b4f1e693646e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hk, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 🇨🇳台湾-0 - 飞啦机场, server: fellayun.com, port: 2443, type: vmess, uuid: 618a16da-f524-4c52-bc95-b4f1e693646e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tw, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 日本-0 - 飞啦机场, server: fellayun.com, port: 2443, type: vmess, uuid: 618a16da-f524-4c52-bc95-b4f1e693646e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /jp, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 美国-0 - 飞啦机场, server: fellayun.com, port: 2443, type: vmess, uuid: 618a16da-f524-4c52-bc95-b4f1e693646e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /us, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 英国-0 - 飞啦机场, server: fellayun.com, port: 2443, type: vmess, uuid: 618a16da-f524-4c52-bc95-b4f1e693646e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uk, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: ℹ 🔰 TG客服@uucocc - 共享流量, server: 112.29.200.93, port: 29711, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国(ipv4)鸡仔V6转 - 共享流量, server: jzyd.12ip.cc, port: 24252, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jzyd.12ip.cc}}, udp: true}
+  - {name: 台湾(ipv4)BV BGP直连 - 共享流量, server: 188.253.6.35, port: 20009, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本(ipv4)DCI NAT直连 - 共享流量, server: jp-osaka-oracle-d9311f.ip1.shop, port: 64702, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-osaka-oracle-d9311f.ip1.shop}}, udp: true}
+  - {name: 新加坡(ipv4)DCI NAT直连 - 共享流量, server: sg-singapore-oracle-4f34e8.ip1.shop, port: 64952, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-singapore-oracle-4f34e8.ip1.shop}}, udp: true}
+  - {name: 米兰(ipv4)DCI NAT直连 - 共享流量, server: it-milan-oracle-2b2d63.ip1.shop, port: 54252, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it-milan-oracle-2b2d63.ip1.shop}}, udp: true}
+  - {name: 孟买(ipv4)DCI NAT直连 - 共享流量, server: in-mumbai-oracle-2de5d7.ip1.shop, port: 21152, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in-mumbai-oracle-2de5d7.ip1.shop}}, udp: true}
+  - {name: 英国(ipv4)DCI NAT直连 - 共享流量, server: uk-london-oracle-51b798.ip1.shop, port: 36902, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-london-oracle-51b798.ip1.shop}}, udp: true}
+  - {name: 香港(ipv6)duocloud - 共享流量, server: duocloudhkv6.12ip.cc, port: 443, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: duocloudhkv6.12ip.cc}}, udp: true}
+  - {name: 台湾(ipv6)wawo - 共享流量, server: wawotwv6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawotwv6.12ip.cc}}, udp: true}
+  - {name: 香港(ipv6)wawo - 共享流量, server: wawohkv6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawohkv6.12ip.cc}}, udp: true}
+  - {name: 荷兰(ipv6)wawo - 共享流量, server: wawonlv6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawonlv6.12ip.cc}}, udp: true}
+  - {name: 德国(ipv6)AK - 共享流量, server: akdev6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: akdev6.12ip.cc}}, udp: true}
+  - {name: 美国(ipv6)小埋 - 共享流量, server: xmusv6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xmusv6.12ip.cc}}, udp: true}
+  - {name: 荷兰(ipv6)hoyoverse - 共享流量, server: hoyoversenlv6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversenlv6.12ip.cc}}, udp: true}
+  - {name: 德国(ipv6)hoyoverse - 共享流量, server: hoyoversedev6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversedev6.12ip.cc}}, udp: true}
+  - {name: 美国(ipv6)AC - 共享流量, server: acusv6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: acusv6.12ip.cc}}, udp: true}
+  - {name: 日本(ipv6)wawo - 共享流量, server: wawojpv6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawojpv6.12ip.cc}}, udp: true}
+  - {name: 香港(ipv6)wawo2 - 共享流量, server: wawohkv6.12ip.cc, port: 20001, type: vmess, uuid: 0099cfda-f381-42d8-889f-09981096304a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawohkv6.12ip.cc}}, udp: true}
+  - {name: 新加坡-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27500, type: vmess, uuid: a3a6aee6-480e-42d0-8522-ed2ef96deef3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 香港-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27600, type: vmess, uuid: a3a6aee6-480e-42d0-8522-ed2ef96deef3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hk, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 🇨🇳台湾-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27700, type: vmess, uuid: a3a6aee6-480e-42d0-8522-ed2ef96deef3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tw, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 日本-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27800, type: vmess, uuid: a3a6aee6-480e-42d0-8522-ed2ef96deef3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /jp, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 美国-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27900, type: vmess, uuid: a3a6aee6-480e-42d0-8522-ed2ef96deef3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /us, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 英国-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 28100, type: vmess, uuid: a3a6aee6-480e-42d0-8522-ed2ef96deef3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uk, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 南极洲-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27666, type: vmess, uuid: a3a6aee6-480e-42d0-8522-ed2ef96deef3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nanji, headers: {Host: www.rockeyxzy.com}}, udp: true}
   - {name: 邀请好友返利65% - 十元一年, server: IT-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: bing.com}}, udp: true}
   - {name: go.shiyuanyinian.xyz - 十元一年, server: IT-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: bing.com}}, udp: true}
   - {name: 意大利-未解锁-D - 十元一年, server: IT-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: bing.com}}, udp: true}
@@ -198,17 +189,6 @@ proxy-groups:
       - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-      - V4-4001|日本|x1.5 - 海豚云
-      - V4-4002|日本|x2.0 - 海豚云
-      - V4-4003|新加坡|x2.0 - 海豚云
-      - V4-4004|新加坡|x2.0 - 海豚云
-      - V4-4005|美国|x2.0 - 海豚云
-      - V4-4006|美国|x1.5 - 海豚云
-      - V4-4007|台湾|x2.0 - 海豚云
-      - V4-4008|台湾|x2.0 - 海豚云
-      - V4-4009|香港|x1.0 - 海豚云
-      - V4-4010|香港|x2.0 - 海豚云
-      - V4-4011|香港|x2.0 - 海豚云
       - 德国 法兰克福101 - 墙了个墙
       - 德国 法兰克福102 - 墙了个墙
       - 德国 法兰克福103 - 墙了个墙
@@ -241,12 +221,13 @@ proxy-groups:
       - SG新加坡 A - 可乐云
       - KR韩国 A - 可乐云
       - Japan 01 - 蓝天白云
-      - Japan 02 - 蓝天白云
       - Korea 01 - 蓝天白云
       - Korea 02 - 蓝天白云
       - Singapore 02 - 蓝天白云
       - Singapore 03 - 蓝天白云
+      - Antarctica 02 - 蓝天白云
       - Russia CN2 01 - 蓝天白云
+      - France 01 - 蓝天白云
       - "[vip①]德国1 - MG Network"
       - "[vip①]德国2 - MG Network"
       - "[vip①]新加坡1 - MG Network"
@@ -298,6 +279,7 @@ proxy-groups:
       - 日本-0 - 飞啦机场
       - 美国-0 - 飞啦机场
       - 英国-0 - 飞啦机场
+      - 南极洲-0 - 飞啦机场
       - 邀请好友返利65% - 十元一年
       - go.shiyuanyinian.xyz - 十元一年
       - 意大利-未解锁-D - 十元一年
@@ -377,17 +359,6 @@ proxy-groups:
       - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-      - V4-4001|日本|x1.5 - 海豚云
-      - V4-4002|日本|x2.0 - 海豚云
-      - V4-4003|新加坡|x2.0 - 海豚云
-      - V4-4004|新加坡|x2.0 - 海豚云
-      - V4-4005|美国|x2.0 - 海豚云
-      - V4-4006|美国|x1.5 - 海豚云
-      - V4-4007|台湾|x2.0 - 海豚云
-      - V4-4008|台湾|x2.0 - 海豚云
-      - V4-4009|香港|x1.0 - 海豚云
-      - V4-4010|香港|x2.0 - 海豚云
-      - V4-4011|香港|x2.0 - 海豚云
       - 德国 法兰克福101 - 墙了个墙
       - 德国 法兰克福102 - 墙了个墙
       - 德国 法兰克福103 - 墙了个墙
@@ -420,12 +391,13 @@ proxy-groups:
       - SG新加坡 A - 可乐云
       - KR韩国 A - 可乐云
       - Japan 01 - 蓝天白云
-      - Japan 02 - 蓝天白云
       - Korea 01 - 蓝天白云
       - Korea 02 - 蓝天白云
       - Singapore 02 - 蓝天白云
       - Singapore 03 - 蓝天白云
+      - Antarctica 02 - 蓝天白云
       - Russia CN2 01 - 蓝天白云
+      - France 01 - 蓝天白云
       - "[vip①]德国1 - MG Network"
       - "[vip①]德国2 - MG Network"
       - "[vip①]新加坡1 - MG Network"
@@ -477,6 +449,7 @@ proxy-groups:
       - 日本-0 - 飞啦机场
       - 美国-0 - 飞啦机场
       - 英国-0 - 飞啦机场
+      - 南极洲-0 - 飞啦机场
       - 邀请好友返利65% - 十元一年
       - go.shiyuanyinian.xyz - 十元一年
       - 意大利-未解锁-D - 十元一年
@@ -557,17 +530,6 @@ proxy-groups:
       - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-      - V4-4001|日本|x1.5 - 海豚云
-      - V4-4002|日本|x2.0 - 海豚云
-      - V4-4003|新加坡|x2.0 - 海豚云
-      - V4-4004|新加坡|x2.0 - 海豚云
-      - V4-4005|美国|x2.0 - 海豚云
-      - V4-4006|美国|x1.5 - 海豚云
-      - V4-4007|台湾|x2.0 - 海豚云
-      - V4-4008|台湾|x2.0 - 海豚云
-      - V4-4009|香港|x1.0 - 海豚云
-      - V4-4010|香港|x2.0 - 海豚云
-      - V4-4011|香港|x2.0 - 海豚云
       - 德国 法兰克福101 - 墙了个墙
       - 德国 法兰克福102 - 墙了个墙
       - 德国 法兰克福103 - 墙了个墙
@@ -600,12 +562,13 @@ proxy-groups:
       - SG新加坡 A - 可乐云
       - KR韩国 A - 可乐云
       - Japan 01 - 蓝天白云
-      - Japan 02 - 蓝天白云
       - Korea 01 - 蓝天白云
       - Korea 02 - 蓝天白云
       - Singapore 02 - 蓝天白云
       - Singapore 03 - 蓝天白云
+      - Antarctica 02 - 蓝天白云
       - Russia CN2 01 - 蓝天白云
+      - France 01 - 蓝天白云
       - "[vip①]德国1 - MG Network"
       - "[vip①]德国2 - MG Network"
       - "[vip①]新加坡1 - MG Network"
@@ -657,6 +620,7 @@ proxy-groups:
       - 日本-0 - 飞啦机场
       - 美国-0 - 飞啦机场
       - 英国-0 - 飞啦机场
+      - 南极洲-0 - 飞啦机场
       - 邀请好友返利65% - 十元一年
       - go.shiyuanyinian.xyz - 十元一年
       - 意大利-未解锁-D - 十元一年
@@ -726,11 +690,6 @@ proxy-groups:
       - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
       - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-      - V4-4007|台湾|x2.0 - 海豚云
-      - V4-4008|台湾|x2.0 - 海豚云
-      - V4-4009|香港|x1.0 - 海豚云
-      - V4-4010|香港|x2.0 - 海豚云
-      - V4-4011|香港|x2.0 - 海豚云
       - 香港 101 - 墙了个墙
       - 香港 102 - 墙了个墙
       - 香港 103 - 墙了个墙
@@ -779,8 +738,6 @@ proxy-groups:
     proxies:
       - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
       - 日本01 - 都是梦
-      - V4-4001|日本|x1.5 - 海豚云
-      - V4-4002|日本|x2.0 - 海豚云
       - 日本 101 - 墙了个墙
       - 日本 102 - 墙了个墙
       - 日本 103 - 墙了个墙
@@ -808,8 +765,6 @@ proxy-groups:
   - name: 新加坡节点
     type: select
     proxies:
-      - V4-4003|新加坡|x2.0 - 海豚云
-      - V4-4004|新加坡|x2.0 - 海豚云
       - 新加坡 101 - 墙了个墙
       - 新加坡 102 - 墙了个墙
       - 新加坡 103 - 墙了个墙
@@ -835,8 +790,6 @@ proxy-groups:
       - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
       - 美国01 - 都是梦
       - 美国02|V6 - 都是梦
-      - V4-4005|美国|x2.0 - 海豚云
-      - V4-4006|美国|x1.5 - 海豚云
       - 美国 洛杉矶101 - 墙了个墙
       - 美国 洛杉矶102 - 墙了个墙
       - 美国 洛杉矶103 - 墙了个墙
