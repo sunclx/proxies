@@ -9,7 +9,7 @@ proxies:
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: fbe4318d-7679-43c4-9662-3fd81cf4e425
+  uuid: 274c40c0-8e64-497d-a5e2-e396dab39945
   alterId: 0
   cipher: auto
   tls: false
@@ -24,7 +24,7 @@ proxies:
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: fbe4318d-7679-43c4-9662-3fd81cf4e425
+  uuid: 274c40c0-8e64-497d-a5e2-e396dab39945
   alterId: 0
   cipher: auto
   tls: false
@@ -39,7 +39,7 @@ proxies:
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: fbe4318d-7679-43c4-9662-3fd81cf4e425
+  uuid: 274c40c0-8e64-497d-a5e2-e396dab39945
   alterId: 0
   cipher: auto
   tls: false
@@ -71,8 +71,46 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 3ae5b76f-bef6-490a-b5cb-5989fdad1745
   udp: true
+- name: 美国02|V6 - 都是梦
+  server: us5.doushimeng.free.hr
+  port: 20061
+  type: trojan
+  password: 3ae5b76f-bef6-490a-b5cb-5989fdad1745
+  sni: us5.doushimeng.free.hr
+  skip-cert-verify: true
+  udp: true
+- name: 德国01 - 都是梦
+  server: dl3s.doushimeng.com
+  port: 2082
+  type: vmess
+  uuid: 3ae5b76f-bef6-490a-b5cb-5989fdad1745
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /asdas
+    headers:
+      Host: cf-de13.doushimeng.com
+  udp: true
+- name: 德国02 - 都是梦
+  server: dl3s.doushimeng.com
+  port: 2086
+  type: vmess
+  uuid: 3ae5b76f-bef6-490a-b5cb-5989fdad1745
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /asdas
+    headers:
+      Host: cf-dee1.doushimeng.free.hr
+  udp: true
 - name: 香港|【免费领1TB流量】前往-注册|公益 - 大白
-  server: 101.89.154.94
+  server: 101.91.226.84
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -87,7 +125,7 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
-  server: 101.89.154.94
+  server: 101.91.226.84
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -102,7 +140,7 @@ proxies:
       Host: data-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-  server: 101.89.219.103
+  server: 101.89.154.94
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -132,7 +170,7 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
-  server: 101.91.226.84
+  server: 101.89.219.103
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -147,7 +185,7 @@ proxies:
       Host: data-hk-3.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
-  server: 101.89.219.103
+  server: 101.89.154.94
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -162,7 +200,7 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
-  server: 101.91.226.84
+  server: 101.89.219.103
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -420,21 +458,21 @@ proxies:
   port: 51310
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 71c740aa-4b76-43be-a24c-5da21b6de726
+  password: 157b4bad-089f-4586-93ca-e2978efee7ea
   udp: true
 - name: SG新加坡 A - 可乐云
   server: sg.colacloud.site
   port: 42752
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 71c740aa-4b76-43be-a24c-5da21b6de726
+  password: 157b4bad-089f-4586-93ca-e2978efee7ea
   udp: true
 - name: KR韩国 A - 可乐云
   server: kr.colacloud.site
   port: 20352
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 71c740aa-4b76-43be-a24c-5da21b6de726
+  password: 157b4bad-089f-4586-93ca-e2978efee7ea
   udp: true
 - name: Japan 01 - 蓝天白云
   server: jp01.bsawc.shop
@@ -458,6 +496,14 @@ proxies:
   type: trojan
   password: 35093a65-fac8-4231-a623-0f13c6235484
   sni: kr02.bsawc.shop
+  skip-cert-verify: true
+  udp: true
+- name: Korea 03 - 蓝天白云
+  server: kr03.bsawc.shop
+  port: 38902
+  type: trojan
+  password: 35093a65-fac8-4231-a623-0f13c6235484
+  sni: kr03.bsawc.shop
   skip-cert-verify: true
   udp: true
 - name: Singapore 02 - 蓝天白云
@@ -484,6 +530,14 @@ proxies:
   sni: au02.bsawc.shop
   skip-cert-verify: true
   udp: true
+- name: Brasil 01 - 蓝天白云
+  server: br01.bsawc.shop
+  port: 64202
+  type: trojan
+  password: 35093a65-fac8-4231-a623-0f13c6235484
+  sni: br01.bsawc.shop
+  skip-cert-verify: true
+  udp: true
 - name: Russia CN2 01 - 蓝天白云
   server: ru01.bsawc.shop
   port: 30005
@@ -500,11 +554,19 @@ proxies:
   sni: fr01.bsawc.shop
   skip-cert-verify: true
   udp: true
+- name: United Kingdom 01 - 蓝天白云
+  server: uk01.bsawc.shop
+  port: 43452
+  type: trojan
+  password: 35093a65-fac8-4231-a623-0f13c6235484
+  sni: uk01.bsawc.shop
+  skip-cert-verify: true
+  udp: true
 - name: '[vip①]德国1 - MG Network'
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -519,7 +581,7 @@ proxies:
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -534,7 +596,7 @@ proxies:
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -549,7 +611,7 @@ proxies:
   server: 17.v2-ray.cyou
   port: 23617
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -564,7 +626,7 @@ proxies:
   server: 8.v2-ray.cyou
   port: 23608
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -574,7 +636,7 @@ proxies:
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -589,7 +651,7 @@ proxies:
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -604,7 +666,7 @@ proxies:
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -619,7 +681,7 @@ proxies:
   server: 5.v2-ray.cyou
   port: 23605
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -634,7 +696,7 @@ proxies:
   server: 13.v2-ray.cyou
   port: 23613
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -649,7 +711,7 @@ proxies:
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: 632fae5b-48c1-3238-a327-f11ee5a87d65
+  uuid: deccbcd5-bebe-362d-87b8-69124e829b33
   alterId: 2
   cipher: auto
   tls: false
@@ -664,7 +726,7 @@ proxies:
   server: us01.h.csznet.eu.org
   port: 443
   type: vmess
-  uuid: bbdbfac2-9bf6-420b-913d-97c17bee569e
+  uuid: db7b30ff-9cc8-4134-804c-a03aa75601d2
   alterId: 0
   cipher: auto
   tls: true
@@ -679,7 +741,7 @@ proxies:
   server: hk01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: bbdbfac2-9bf6-420b-913d-97c17bee569e
+  uuid: db7b30ff-9cc8-4134-804c-a03aa75601d2
   alterId: 0
   cipher: auto
   tls: true
@@ -694,7 +756,7 @@ proxies:
   server: tr01.h.csznet.eu.org
   port: 40660
   type: vmess
-  uuid: bbdbfac2-9bf6-420b-913d-97c17bee569e
+  uuid: db7b30ff-9cc8-4134-804c-a03aa75601d2
   alterId: 0
   cipher: auto
   tls: true
@@ -709,7 +771,7 @@ proxies:
   server: cera.feedcc.workers.dev
   port: 443
   type: vmess
-  uuid: bbdbfac2-9bf6-420b-913d-97c17bee569e
+  uuid: db7b30ff-9cc8-4134-804c-a03aa75601d2
   alterId: 0
   cipher: auto
   tls: true
@@ -724,7 +786,7 @@ proxies:
   server: iij2.csznet.eu.org
   port: 3306
   type: vmess
-  uuid: bbdbfac2-9bf6-420b-913d-97c17bee569e
+  uuid: db7b30ff-9cc8-4134-804c-a03aa75601d2
   alterId: 0
   cipher: auto
   tls: true
@@ -739,7 +801,7 @@ proxies:
   server: kr01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: bbdbfac2-9bf6-420b-913d-97c17bee569e
+  uuid: db7b30ff-9cc8-4134-804c-a03aa75601d2
   alterId: 0
   cipher: auto
   tls: true
@@ -834,7 +896,7 @@ proxies:
   server: 112.29.200.93
   port: 29711
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -847,7 +909,7 @@ proxies:
   server: jzyd.12ip.cc
   port: 24252
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -862,7 +924,7 @@ proxies:
   server: 188.253.6.35
   port: 20009
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -875,7 +937,7 @@ proxies:
   server: jp-osaka-oracle-d9311f.ip1.shop
   port: 64702
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -890,7 +952,7 @@ proxies:
   server: sg-singapore-oracle-4f34e8.ip1.shop
   port: 64952
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -905,7 +967,7 @@ proxies:
   server: it-milan-oracle-2b2d63.ip1.shop
   port: 54252
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -920,7 +982,7 @@ proxies:
   server: in-mumbai-oracle-2de5d7.ip1.shop
   port: 21152
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -935,7 +997,7 @@ proxies:
   server: uk-london-oracle-51b798.ip1.shop
   port: 36902
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -950,7 +1012,7 @@ proxies:
   server: duocloudhkv6.12ip.cc
   port: 443
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -965,7 +1027,7 @@ proxies:
   server: wawotwv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -980,7 +1042,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -995,7 +1057,7 @@ proxies:
   server: wawonlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -1010,7 +1072,7 @@ proxies:
   server: akdev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -1025,7 +1087,7 @@ proxies:
   server: xmusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -1040,7 +1102,7 @@ proxies:
   server: hoyoversenlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -1055,7 +1117,7 @@ proxies:
   server: hoyoversedev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -1070,7 +1132,7 @@ proxies:
   server: acusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -1085,7 +1147,7 @@ proxies:
   server: wawojpv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -1100,7 +1162,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 9fa8139f-b879-4531-87e5-00d0d08b3d15
+  uuid: 7a5b9e18-e978-4a5b-9945-845e5f1d7598
   alterId: 0
   cipher: auto
   tls: false
@@ -1112,8 +1174,8 @@ proxies:
       Host: wawohkv6.12ip.cc
   udp: true
 - name: 新加坡-0 - 飞啦机场
-  server: fellayun.com
-  port: 2443
+  server: cu1.guguyun.xyz
+  port: 27500
   type: vmess
   uuid: 4bcfc9f8-2452-44c1-b21f-5045e4147ee8
   alterId: 0
@@ -1127,8 +1189,8 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 香港-0 - 飞啦机场
-  server: fellayun.com
-  port: 2443
+  server: cu1.guguyun.xyz
+  port: 27600
   type: vmess
   uuid: 4bcfc9f8-2452-44c1-b21f-5045e4147ee8
   alterId: 0
@@ -1142,8 +1204,8 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 🇨🇳台湾-0 - 飞啦机场
-  server: fellayun.com
-  port: 2443
+  server: cu1.guguyun.xyz
+  port: 27700
   type: vmess
   uuid: 4bcfc9f8-2452-44c1-b21f-5045e4147ee8
   alterId: 0
@@ -1157,8 +1219,8 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 日本-0 - 飞啦机场
-  server: fellayun.com
-  port: 2443
+  server: cu1.guguyun.xyz
+  port: 27800
   type: vmess
   uuid: 4bcfc9f8-2452-44c1-b21f-5045e4147ee8
   alterId: 0
@@ -1172,8 +1234,8 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 美国-0 - 飞啦机场
-  server: fellayun.com
-  port: 2443
+  server: cu1.guguyun.xyz
+  port: 27900
   type: vmess
   uuid: 4bcfc9f8-2452-44c1-b21f-5045e4147ee8
   alterId: 0
@@ -1187,8 +1249,8 @@ proxies:
       Host: www.rockeyxzy.com
   udp: true
 - name: 英国-0 - 飞啦机场
-  server: fellayun.com
-  port: 2443
+  server: cu1.guguyun.xyz
+  port: 28100
   type: vmess
   uuid: 4bcfc9f8-2452-44c1-b21f-5045e4147ee8
   alterId: 0
@@ -1228,6 +1290,21 @@ proxies:
   network: ws
   ws-opts:
     path: /kr
+    headers:
+      Host: www.rockeyxzy.com
+  udp: true
+- name: 朝鲜-0 - 飞啦机场
+  server: cu1.guguyun.xyz
+  port: 28800
+  type: vmess
+  uuid: 4bcfc9f8-2452-44c1-b21f-5045e4147ee8
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /nk
     headers:
       Host: www.rockeyxzy.com
   udp: true
@@ -1690,8 +1767,8 @@ proxies:
   password: tsu9oi
   protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 20142:4ewJ0N
-  obfs-param: 2592a20142.microsoft.com
+  protocol-param: 20154:UPpe4o
+  obfs-param: 8ff7b20154.microsoft.com
   udp: true
 - name: 免费-新加坡 - bee.sulepay.com
   server: freeno1sg.beednsvip.top
@@ -1701,8 +1778,8 @@ proxies:
   password: tsu9oi
   protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 20142:4ewJ0N
-  obfs-param: 2592a20142.microsoft.com
+  protocol-param: 20154:UPpe4o
+  obfs-param: 8ff7b20154.microsoft.com
   udp: true
 - name: 免费-美国 - bee.sulepay.com
   server: freeno1us.beednsvip.top
@@ -1712,14 +1789,14 @@ proxies:
   password: tsu9oi
   protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 20142:4ewJ0N
-  obfs-param: 2592a20142.microsoft.com
+  protocol-param: 20154:UPpe4o
+  obfs-param: 8ff7b20154.microsoft.com
   udp: true
 - name: 美国 🌐「达拉斯」 - 北方航空
   server: cdn.chigua.tk
   port: 80
   type: vmess
-  uuid: bf91d1f1-a6ed-4f15-89b4-18ceb0c067c1
+  uuid: bcd1488f-42e4-473d-87f9-52f695e7a715
   alterId: 0
   cipher: auto
   tls: false
@@ -1743,6 +1820,9 @@ proxy-groups:
   - 日本01 - 都是梦
   - 韩国01|V6 - 都是梦
   - 美国01|V6 - 都是梦
+  - 美国02|V6 - 都是梦
+  - 德国01 - 都是梦
+  - 德国02 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -1785,11 +1865,14 @@ proxy-groups:
   - Japan 01 - 蓝天白云
   - Korea 01 - 蓝天白云
   - Korea 02 - 蓝天白云
+  - Korea 03 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Antarctica 02 - 蓝天白云
+  - Brasil 01 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
   - France 01 - 蓝天白云
+  - United Kingdom 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -1844,6 +1927,7 @@ proxy-groups:
   - 英国-0 - 飞啦机场
   - 南极洲-0 - 飞啦机场
   - 韩国-0 - 飞啦机场
+  - 朝鲜-0 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -1912,6 +1996,9 @@ proxy-groups:
   - 日本01 - 都是梦
   - 韩国01|V6 - 都是梦
   - 美国01|V6 - 都是梦
+  - 美国02|V6 - 都是梦
+  - 德国01 - 都是梦
+  - 德国02 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -1954,11 +2041,14 @@ proxy-groups:
   - Japan 01 - 蓝天白云
   - Korea 01 - 蓝天白云
   - Korea 02 - 蓝天白云
+  - Korea 03 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Antarctica 02 - 蓝天白云
+  - Brasil 01 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
   - France 01 - 蓝天白云
+  - United Kingdom 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2013,6 +2103,7 @@ proxy-groups:
   - 英国-0 - 飞啦机场
   - 南极洲-0 - 飞啦机场
   - 韩国-0 - 飞啦机场
+  - 朝鲜-0 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2083,6 +2174,9 @@ proxy-groups:
   - 日本01 - 都是梦
   - 韩国01|V6 - 都是梦
   - 美国01|V6 - 都是梦
+  - 美国02|V6 - 都是梦
+  - 德国01 - 都是梦
+  - 德国02 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2125,11 +2219,14 @@ proxy-groups:
   - Japan 01 - 蓝天白云
   - Korea 01 - 蓝天白云
   - Korea 02 - 蓝天白云
+  - Korea 03 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Antarctica 02 - 蓝天白云
+  - Brasil 01 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
   - France 01 - 蓝天白云
+  - United Kingdom 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2184,6 +2281,7 @@ proxy-groups:
   - 英国-0 - 飞啦机场
   - 南极洲-0 - 飞啦机场
   - 韩国-0 - 飞啦机场
+  - 朝鲜-0 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2253,6 +2351,9 @@ proxy-groups:
   - 日本01 - 都是梦
   - 韩国01|V6 - 都是梦
   - 美国01|V6 - 都是梦
+  - 美国02|V6 - 都是梦
+  - 德国01 - 都是梦
+  - 德国02 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2295,11 +2396,14 @@ proxy-groups:
   - Japan 01 - 蓝天白云
   - Korea 01 - 蓝天白云
   - Korea 02 - 蓝天白云
+  - Korea 03 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Antarctica 02 - 蓝天白云
+  - Brasil 01 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
   - France 01 - 蓝天白云
+  - United Kingdom 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2354,6 +2458,7 @@ proxy-groups:
   - 英国-0 - 飞啦机场
   - 南极洲-0 - 飞啦机场
   - 韩国-0 - 飞啦机场
+  - 朝鲜-0 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2479,6 +2584,9 @@ proxy-groups:
   - 日本01 - 都是梦
   - 韩国01|V6 - 都是梦
   - 美国01|V6 - 都是梦
+  - 美国02|V6 - 都是梦
+  - 德国01 - 都是梦
+  - 德国02 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2521,11 +2629,14 @@ proxy-groups:
   - Japan 01 - 蓝天白云
   - Korea 01 - 蓝天白云
   - Korea 02 - 蓝天白云
+  - Korea 03 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Antarctica 02 - 蓝天白云
+  - Brasil 01 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
   - France 01 - 蓝天白云
+  - United Kingdom 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2580,6 +2691,7 @@ proxy-groups:
   - 英国-0 - 飞啦机场
   - 南极洲-0 - 飞啦机场
   - 韩国-0 - 飞啦机场
+  - 朝鲜-0 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2648,6 +2760,9 @@ proxy-groups:
   - 日本01 - 都是梦
   - 韩国01|V6 - 都是梦
   - 美国01|V6 - 都是梦
+  - 美国02|V6 - 都是梦
+  - 德国01 - 都是梦
+  - 德国02 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2690,11 +2805,14 @@ proxy-groups:
   - Japan 01 - 蓝天白云
   - Korea 01 - 蓝天白云
   - Korea 02 - 蓝天白云
+  - Korea 03 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Antarctica 02 - 蓝天白云
+  - Brasil 01 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
   - France 01 - 蓝天白云
+  - United Kingdom 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2749,6 +2867,7 @@ proxy-groups:
   - 英国-0 - 飞啦机场
   - 南极洲-0 - 飞啦机场
   - 韩国-0 - 飞啦机场
+  - 朝鲜-0 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2818,6 +2937,9 @@ proxy-groups:
   - 日本01 - 都是梦
   - 韩国01|V6 - 都是梦
   - 美国01|V6 - 都是梦
+  - 美国02|V6 - 都是梦
+  - 德国01 - 都是梦
+  - 德国02 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2860,11 +2982,14 @@ proxy-groups:
   - Japan 01 - 蓝天白云
   - Korea 01 - 蓝天白云
   - Korea 02 - 蓝天白云
+  - Korea 03 - 蓝天白云
   - Singapore 02 - 蓝天白云
   - Singapore 03 - 蓝天白云
   - Antarctica 02 - 蓝天白云
+  - Brasil 01 - 蓝天白云
   - Russia CN2 01 - 蓝天白云
   - France 01 - 蓝天白云
+  - United Kingdom 01 - 蓝天白云
   - '[vip①]德国1 - MG Network'
   - '[vip①]德国2 - MG Network'
   - '[vip①]新加坡1 - MG Network'
@@ -2919,6 +3044,7 @@ proxy-groups:
   - 英国-0 - 飞啦机场
   - 南极洲-0 - 飞啦机场
   - 韩国-0 - 飞啦机场
+  - 朝鲜-0 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
