@@ -5,48 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: ℹ️ 官网：极迅游.com - Gegeth极迅游
-  server: mix.alidns.moe233.org
-  port: 80
-  type: ss
-  cipher: aes-128-gcm
-  password: 87780c14-ed86-4d45-832f-e90f9de59656
-  udp: true
-- name: 公益免费 🇺🇸美国 - Gegeth极迅游
-  server: us-west-anycast.lnaspiring.com
-  port: 80
-  type: vmess
-  uuid: 87780c14-ed86-4d45-832f-e90f9de59656
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /geg/44?ed=2048
-    headers:
-      Host: uspz.edge.233.tw
-  udp: true
-- name: 公益免费 🇯🇵日本 - Gegeth极迅游
-  server: ap-northeast-anycast.lnaspiring.com
-  port: 80
-  type: vmess
-  uuid: 87780c14-ed86-4d45-832f-e90f9de59656
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /geg/45?ed=2048
-    headers:
-      Host: jpli.edge.233.tw
-  udp: true
 - name: 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: f02ec9a8-8492-4205-a3d5-07f9cb44245e
+  uuid: e81e2634-1666-4e6a-ad73-34a6561e329e
   alterId: 0
   cipher: auto
   tls: false
@@ -61,7 +24,7 @@ proxies:
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: f02ec9a8-8492-4205-a3d5-07f9cb44245e
+  uuid: e81e2634-1666-4e6a-ad73-34a6561e329e
   alterId: 0
   cipher: auto
   tls: false
@@ -76,7 +39,7 @@ proxies:
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: f02ec9a8-8492-4205-a3d5-07f9cb44245e
+  uuid: e81e2634-1666-4e6a-ad73-34a6561e329e
   alterId: 0
   cipher: auto
   tls: false
@@ -92,20 +55,20 @@ proxies:
   port: 51653
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 0b9d3539-c716-4bba-bbf0-66eed41c3bd2
+  password: d45b3a93-2a0a-4ccc-b031-072d836a4052
   udp: true
 - name: 韩国01|V6 - 都是梦
   server: krv6.doushimeng.free.hr
   port: 55257
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 0b9d3539-c716-4bba-bbf0-66eed41c3bd2
+  password: d45b3a93-2a0a-4ccc-b031-072d836a4052
   udp: true
 - name: 美国01 - 都是梦
   server: dl3s.doushimeng.com
   port: 2086
   type: vmess
-  uuid: 0b9d3539-c716-4bba-bbf0-66eed41c3bd2
+  uuid: d45b3a93-2a0a-4ccc-b031-072d836a4052
   alterId: 0
   cipher: auto
   tls: false
@@ -114,13 +77,13 @@ proxies:
   ws-opts:
     path: /asdas
     headers:
-      Host: cf-us3.doushimeng.free.hr
+      Host: cf-us4.doushimeng.free.hr
   udp: true
 - name: 德国01 - 都是梦
   server: dl3s.doushimeng.com
   port: 2082
   type: vmess
-  uuid: 0b9d3539-c716-4bba-bbf0-66eed41c3bd2
+  uuid: d45b3a93-2a0a-4ccc-b031-072d836a4052
   alterId: 0
   cipher: auto
   tls: false
@@ -129,13 +92,13 @@ proxies:
   ws-opts:
     path: /asdas
     headers:
-      Host: cf-de14.doushimeng.com
+      Host: cf-de15.doushimeng.com
   udp: true
 - name: 德国02 - 都是梦
   server: dl3s.doushimeng.com
   port: 2086
   type: vmess
-  uuid: 0b9d3539-c716-4bba-bbf0-66eed41c3bd2
+  uuid: d45b3a93-2a0a-4ccc-b031-072d836a4052
   alterId: 0
   cipher: auto
   tls: false
@@ -146,14 +109,29 @@ proxies:
     headers:
       Host: cf-dee2.doushimeng.free.hr
   udp: true
+- name: 法国01 - 都是梦
+  server: dl3s.doushimeng.com
+  port: 2086
+  type: vmess
+  uuid: d45b3a93-2a0a-4ccc-b031-072d836a4052
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /asdas
+    headers:
+      Host: cf-frsss9.nicehand.top
+  udp: true
 - name: 香港|【免费领1TB流量】前往-注册|公益 - 大白
-  server: 185.214.103.156
-  port: 34601
+  server: 101.89.219.103
+  port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -162,7 +140,7 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
-  server: 101.91.226.84
+  server: 101.89.154.94
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -177,7 +155,7 @@ proxies:
       Host: data-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-  server: 101.89.154.94
+  server: 101.91.226.84
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -192,7 +170,7 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
-  server: 101.89.154.94
+  server: 101.91.226.84
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -207,13 +185,13 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
-  server: 185.214.103.156
-  port: 34601
+  server: 101.89.219.103
+  port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -222,7 +200,7 @@ proxies:
       Host: data-hk-3.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
-  server: 101.91.226.84
+  server: 101.89.154.94
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -237,7 +215,7 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
-  server: 101.89.154.94
+  server: 101.91.226.84
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -252,7 +230,7 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-  server: 101.91.226.84
+  server: 101.89.154.94
   port: 26068
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
@@ -495,27 +473,27 @@ proxies:
   port: 51310
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 32a3f203-87c5-4178-9431-73177edc13b4
+  password: 5ebeec46-50ed-4c1b-bbf7-a515b8136e72
   udp: true
 - name: SG新加坡 A - 可乐云
   server: sg.colacloud.site
   port: 42752
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 32a3f203-87c5-4178-9431-73177edc13b4
+  password: 5ebeec46-50ed-4c1b-bbf7-a515b8136e72
   udp: true
 - name: KR韩国 A - 可乐云
   server: kr.colacloud.site
   port: 20352
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 32a3f203-87c5-4178-9431-73177edc13b4
+  password: 5ebeec46-50ed-4c1b-bbf7-a515b8136e72
   udp: true
 - name: '[vip①]德国1 - MG Network'
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -530,7 +508,7 @@ proxies:
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -545,7 +523,7 @@ proxies:
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -560,7 +538,7 @@ proxies:
   server: 17.v2-ray.cyou
   port: 23617
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -575,7 +553,7 @@ proxies:
   server: 8.v2-ray.cyou
   port: 23608
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -585,7 +563,7 @@ proxies:
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -600,7 +578,7 @@ proxies:
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -615,7 +593,7 @@ proxies:
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -630,7 +608,7 @@ proxies:
   server: 5.v2-ray.cyou
   port: 23605
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -645,7 +623,7 @@ proxies:
   server: 13.v2-ray.cyou
   port: 23613
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -660,7 +638,7 @@ proxies:
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: a5508ce4-de58-36d8-b9b4-55ad53aae36e
+  uuid: 1e1eaf34-5298-31b2-9729-806f8d654cb2
   alterId: 2
   cipher: auto
   tls: false
@@ -676,244 +654,132 @@ proxies:
   port: 21881
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 香港 / HK｜A - 小白云
+- name: 香港 / A｜HK - 小白云
   server: hk1.iepl.cooc.icu
   port: 21881
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 香港 / HK｜B - 小白云
+- name: 香港 / B｜HK - 小白云
   server: hk2.iepl.cooc.icu
   port: 22881
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 日本 / JP｜A - 小白云
+- name: 日本 / A｜JP - 小白云
   server: jp1.iepl.cooc.icu
   port: 47100
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 日本 / JP｜B - 小白云
+- name: 日本 / B｜JP - 小白云
   server: jp2.iepl.cooc.icu
   port: 47101
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 美国 / US｜A - 小白云
+- name: 美国 / A｜US - 小白云
   server: usa1.iepl.cooc.icu
   port: 31881
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 美国 / US｜B - 小白云
+- name: 美国 / B｜US - 小白云
   server: usa2.iepl.cooc.icu
   port: 32881
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 新加坡 / SG｜A - 小白云
-  server: sg1.iepl.cooc.icu
-  port: 35105
-  type: ss
-  cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: 新加坡 / SG｜B - 小白云
-  server: sg2.iepl.cooc.icu
-  port: 35106
-  type: ss
-  cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: 台湾 / TW｜A - 小白云
+- name: 台湾 / A｜TW - 小白云
   server: tw1.iepl.cooc.icu
   port: 35109
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 台湾 / TW｜B - 小白云
+- name: 台湾 / B｜TW - 小白云
   server: tw2.iepl.cooc.icu
   port: 35110
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 美国 / US | BIZ - 小白云
+- name: 新加坡 / A｜SG - 小白云
+  server: sg1.iepl.cooc.icu
+  port: 35105
+  type: ss
+  cipher: aes-256-gcm
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
+  udp: true
+- name: 新加坡 / B｜SG - 小白云
+  server: sg2.iepl.cooc.icu
+  port: 35106
+  type: ss
+  cipher: aes-256-gcm
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
+  udp: true
+- name: 美国 / US｜BIZ - 小白云
   server: usa4.iepl.cooc.icu
   port: 34881
   type: ss
   cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
 - name: 韩国 / KR｜BIZ - 小白云
   server: kr1.iepl.cooc.icu
   port: 35101
   type: ss
   cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 越南 / 华东 | 原生 - 小白云
+- name: 越南 / VN | BIZ - 小白云
   server: vn1.iepl.cooc.icu
   port: 35601
   type: ss
   cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 越南 / 华南 | 原生 - 小白云
-  server: vn2.iepl.cooc.icu
-  port: 35602
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: 马来 / 华南 | 原生 - 小白云
+- name: 大马 / MY | BIZ - 小白云
   server: mas1.iepl.cooc.icu
   port: 35603
   type: ss
   cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 马来 / 华东 | 原生 - 小白云
-  server: mas2.iepl.cooc.icu
-  port: 35604
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: 英国 / 华东 | 原生 - 小白云
+- name: 英国 / UK | BIZ - 小白云
   server: uk1.iepl.cooc.icu
   port: 35605
   type: ss
   cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 英国 / 华南 | 原生 - 小白云
-  server: uk2.iepl.cooc.icu
-  port: 35606
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: 德国 / 华南 | 原生 - 小白云
+- name: 德国 / DE | BIZ - 小白云
   server: ger1.iepl.cooc.icu
   port: 35607
   type: ss
   cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
-- name: 德国 / 华东 | 原生 - 小白云
-  server: ger2.iepl.cooc.icu
-  port: 35608
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: 法国 / 华南 | 原生 - 小白云
+- name: 法国 / FR | BIZ - 小白云
   server: fr1.iepl.cooc.icu
   port: 35611
   type: ss
   cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: 法国 / 华东 | 原生 - 小白云
-  server: fr2.iepl.cooc.icu
-  port: 35612
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: 海外用户｜HK - 小白云
-  server: hk.cooc.icu
-  port: 31511
-  type: ss
-  cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: JP｜Overseas users - 小白云
-  server: jp.cooc.icu
-  port: 33881
-  type: ss
-  cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: US｜Overseas users - 小白云
-  server: 154.9.249.29
-  port: 35881
-  type: ss
-  cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: KR｜Overseas users - 小白云
-  server: kr.cooc.icu
-  port: 37882
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: SG｜Overseas users - 小白云
-  server: sg.cooc.icu
-  port: 34881
-  type: ss
-  cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: TW｜Overseas users - 小白云
-  server: tw.cooc.icu
-  port: 36881
-  type: ss
-  cipher: aes-256-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: VN｜Overseas users - 小白云
-  server: vn.cooc.icu
-  port: 31511
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: MAS｜Overseas users - 小白云
-  server: mas.cooc.icu
-  port: 31511
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: UK｜Overseas users - 小白云
-  server: uk.cooc.icu
-  port: 31511
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: GER｜Overseas users - 小白云
-  server: 185.39.51.197
-  port: 31511
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
-  udp: true
-- name: FR｜Overseas users - 小白云
-  server: fr.cooc.icu
-  port: 31511
-  type: ss
-  cipher: aes-128-gcm
-  password: defd314e-33f5-471a-ad7b-f4ba7cd8d8e1
+  password: 46ed33c5-0a70-45fb-b18d-8ad4a98d8df7
   udp: true
 - name: 美国CERA - 海陆空
   server: us01.h.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 6480abab-ca09-461c-9739-ef5de759bc47
+  uuid: 64401d36-5603-4321-9a58-528da29ad6aa
   alterId: 0
   cipher: auto
   tls: true
@@ -928,7 +794,7 @@ proxies:
   server: hk01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 6480abab-ca09-461c-9739-ef5de759bc47
+  uuid: 64401d36-5603-4321-9a58-528da29ad6aa
   alterId: 0
   cipher: auto
   tls: true
@@ -943,7 +809,7 @@ proxies:
   server: tr01.h.csznet.eu.org
   port: 40660
   type: vmess
-  uuid: 6480abab-ca09-461c-9739-ef5de759bc47
+  uuid: 64401d36-5603-4321-9a58-528da29ad6aa
   alterId: 0
   cipher: auto
   tls: true
@@ -958,7 +824,7 @@ proxies:
   server: cera.feedcc.workers.dev
   port: 443
   type: vmess
-  uuid: 6480abab-ca09-461c-9739-ef5de759bc47
+  uuid: 64401d36-5603-4321-9a58-528da29ad6aa
   alterId: 0
   cipher: auto
   tls: true
@@ -973,7 +839,7 @@ proxies:
   server: iij2.csznet.eu.org
   port: 3306
   type: vmess
-  uuid: 6480abab-ca09-461c-9739-ef5de759bc47
+  uuid: 64401d36-5603-4321-9a58-528da29ad6aa
   alterId: 0
   cipher: auto
   tls: true
@@ -988,7 +854,7 @@ proxies:
   server: kr01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 6480abab-ca09-461c-9739-ef5de759bc47
+  uuid: 64401d36-5603-4321-9a58-528da29ad6aa
   alterId: 0
   cipher: auto
   tls: true
@@ -1083,7 +949,7 @@ proxies:
   server: 112.29.200.93
   port: 29711
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1096,7 +962,7 @@ proxies:
   server: jzyd.12ip.cc
   port: 24252
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1111,7 +977,7 @@ proxies:
   server: 188.253.6.35
   port: 20009
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1124,7 +990,7 @@ proxies:
   server: jp-osaka-oracle-d9311f.ip1.shop
   port: 64702
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1139,7 +1005,7 @@ proxies:
   server: sg-singapore-oracle-4f34e8.ip1.shop
   port: 64952
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1154,7 +1020,7 @@ proxies:
   server: it-milan-oracle-2b2d63.ip1.shop
   port: 54252
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1169,7 +1035,7 @@ proxies:
   server: in-mumbai-oracle-2de5d7.ip1.shop
   port: 21152
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1184,7 +1050,7 @@ proxies:
   server: uk-london-oracle-51b798.ip1.shop
   port: 36902
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1199,7 +1065,7 @@ proxies:
   server: duocloudhkv6.12ip.cc
   port: 443
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1214,7 +1080,7 @@ proxies:
   server: wawotwv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1229,7 +1095,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1244,7 +1110,7 @@ proxies:
   server: wawonlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1259,7 +1125,7 @@ proxies:
   server: akdev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1274,7 +1140,7 @@ proxies:
   server: xmusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1289,7 +1155,7 @@ proxies:
   server: hoyoversenlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1304,7 +1170,7 @@ proxies:
   server: hoyoversedev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1319,7 +1185,7 @@ proxies:
   server: acusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1334,7 +1200,7 @@ proxies:
   server: wawojpv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1349,7 +1215,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb
+  uuid: 334912e5-3b75-4e11-8a6f-fdd96ecf6a23
   alterId: 0
   cipher: auto
   tls: false
@@ -1359,156 +1225,6 @@ proxies:
     path: /
     headers:
       Host: wawohkv6.12ip.cc
-  udp: true
-- name: 新加坡-0 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 27500
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sg
-    headers:
-      Host: www.rockeyxzy.com
-  udp: true
-- name: 香港-0 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 27600
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hk
-    headers:
-      Host: www.rockeyxzy.com
-  udp: true
-- name: 🇨🇳台湾-0 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 27700
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /tw
-    headers:
-      Host: www.rockeyxzy.com
-  udp: true
-- name: 日本-0 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 27800
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /jp
-    headers:
-      Host: www.rockeyxzy.com
-  udp: true
-- name: 美国-0 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 27900
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /us
-    headers:
-      Host: www.rockeyxzy.com
-  udp: true
-- name: 英国-0 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 28100
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /uk
-    headers:
-      Host: www.rockeyxzy.com
-  udp: true
-- name: 南极洲-0 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 27666
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /nanji
-    headers:
-      Host: www.rockeyxzy.com
-  udp: true
-- name: 韩国-0 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 28700
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /kr
-    headers:
-      Host: www.rockeyxzy.com
-  udp: true
-- name: 朝鲜-0 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 28800
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /nk
-    headers:
-      Host: www.rockeyxzy.com
-  udp: true
-- name: 香港-CN2 - 飞啦机场
-  server: cu1.guguyun.xyz
-  port: 27605
-  type: vmess
-  uuid: 704a055f-42d3-493a-ac28-11ed63c972ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hk
-    headers:
-      Host: www.rockeyxzy.com
   udp: true
 - name: 邀请好友返利65% - 十元一年
   server: IT-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz
@@ -1994,6 +1710,70 @@ proxies:
   protocol-param: 20166:tVC9Ce
   obfs-param: b94cf20166.microsoft.com
   udp: true
+- name: ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+  server: www.a.com
+  port: 80
+  type: vmess
+  uuid: f1b9112c-b26c-4746-9e19-a1ba380732c9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.a.com
+  udp: true
+- name: 美国2 - vip666.xyz
+  server: node.websitea.xyz
+  port: 20032
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f1b9112c-b26c-4746-9e19-a1ba380732c9
+  udp: true
+- name: 美国（用前更新订阅） - vip666.xyz
+  server: node.websitea.xyz
+  port: 20031
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f1b9112c-b26c-4746-9e19-a1ba380732c9
+  udp: true
+- name: 新加坡 - vip666.xyz
+  server: node.websitea.xyz
+  port: 20035
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f1b9112c-b26c-4746-9e19-a1ba380732c9
+  udp: true
+- name: 香港-https://new.vip666.xyz - vip666.xyz
+  server: node.websitea.xyz
+  port: 20036
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f1b9112c-b26c-4746-9e19-a1ba380732c9
+  udp: true
+- name: 荷兰 - vip666.xyz
+  server: node.websitea.xyz
+  port: 20037
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f1b9112c-b26c-4746-9e19-a1ba380732c9
+  udp: true
+- name: 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+  server: node.websitea.xyz
+  port: 20039
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f1b9112c-b26c-4746-9e19-a1ba380732c9
+  udp: true
+- name: 中国香港2 - vip666.xyz
+  server: node.websitea.xyz
+  port: 20041
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f1b9112c-b26c-4746-9e19-a1ba380732c9
+  udp: true
 - name: 美国 🌐「达拉斯」 - 北方航空
   server: cdn.chigua.tk
   port: 80
@@ -2016,9 +1796,6 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 负载均衡
-  - ℹ️ 官网：极迅游.com - Gegeth极迅游
-  - 公益免费 🇺🇸美国 - Gegeth极迅游
-  - 公益免费 🇯🇵日本 - Gegeth极迅游
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
@@ -2027,6 +1804,7 @@ proxy-groups:
   - 美国01 - 都是梦
   - 德国01 - 都是梦
   - 德国02 - 都是梦
+  - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2078,39 +1856,23 @@ proxy-groups:
   - '[vip①]英国2 - MG Network'
   - '[vip①]韩国1 - MG Network'
   - ℹ️ 官网:cooc.wiki - 小白云
-  - 香港 / HK｜A - 小白云
-  - 香港 / HK｜B - 小白云
-  - 日本 / JP｜A - 小白云
-  - 日本 / JP｜B - 小白云
-  - 美国 / US｜A - 小白云
-  - 美国 / US｜B - 小白云
-  - 新加坡 / SG｜A - 小白云
-  - 新加坡 / SG｜B - 小白云
-  - 台湾 / TW｜A - 小白云
-  - 台湾 / TW｜B - 小白云
-  - 美国 / US | BIZ - 小白云
+  - 香港 / A｜HK - 小白云
+  - 香港 / B｜HK - 小白云
+  - 日本 / A｜JP - 小白云
+  - 日本 / B｜JP - 小白云
+  - 美国 / A｜US - 小白云
+  - 美国 / B｜US - 小白云
+  - 台湾 / A｜TW - 小白云
+  - 台湾 / B｜TW - 小白云
+  - 新加坡 / A｜SG - 小白云
+  - 新加坡 / B｜SG - 小白云
+  - 美国 / US｜BIZ - 小白云
   - 韩国 / KR｜BIZ - 小白云
-  - 越南 / 华东 | 原生 - 小白云
-  - 越南 / 华南 | 原生 - 小白云
-  - 马来 / 华南 | 原生 - 小白云
-  - 马来 / 华东 | 原生 - 小白云
-  - 英国 / 华东 | 原生 - 小白云
-  - 英国 / 华南 | 原生 - 小白云
-  - 德国 / 华南 | 原生 - 小白云
-  - 德国 / 华东 | 原生 - 小白云
-  - 法国 / 华南 | 原生 - 小白云
-  - 法国 / 华东 | 原生 - 小白云
-  - 海外用户｜HK - 小白云
-  - JP｜Overseas users - 小白云
-  - US｜Overseas users - 小白云
-  - KR｜Overseas users - 小白云
-  - SG｜Overseas users - 小白云
-  - TW｜Overseas users - 小白云
-  - VN｜Overseas users - 小白云
-  - MAS｜Overseas users - 小白云
-  - UK｜Overseas users - 小白云
-  - GER｜Overseas users - 小白云
-  - FR｜Overseas users - 小白云
+  - 越南 / VN | BIZ - 小白云
+  - 大马 / MY | BIZ - 小白云
+  - 英国 / UK | BIZ - 小白云
+  - 德国 / DE | BIZ - 小白云
+  - 法国 / FR | BIZ - 小白云
   - 美国CERA - 海陆空
   - 香港QW - 海陆空
   - 土耳其 - 海陆空
@@ -2146,16 +1908,6 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
-  - 新加坡-0 - 飞啦机场
-  - 香港-0 - 飞啦机场
-  - 🇨🇳台湾-0 - 飞啦机场
-  - 日本-0 - 飞啦机场
-  - 美国-0 - 飞啦机场
-  - 英国-0 - 飞啦机场
-  - 南极洲-0 - 飞啦机场
-  - 韩国-0 - 飞啦机场
-  - 朝鲜-0 - 飞啦机场
-  - 香港-CN2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2212,15 +1964,20 @@ proxy-groups:
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
+  - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+  - 美国2 - vip666.xyz
+  - 美国（用前更新订阅） - vip666.xyz
+  - 新加坡 - vip666.xyz
+  - 香港-https://new.vip666.xyz - vip666.xyz
+  - 荷兰 - vip666.xyz
+  - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+  - 中国香港2 - vip666.xyz
   - 美国 🌐「达拉斯」 - 北方航空
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - ℹ️ 官网：极迅游.com - Gegeth极迅游
-  - 公益免费 🇺🇸美国 - Gegeth极迅游
-  - 公益免费 🇯🇵日本 - Gegeth极迅游
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
@@ -2229,6 +1986,7 @@ proxy-groups:
   - 美国01 - 都是梦
   - 德国01 - 都是梦
   - 德国02 - 都是梦
+  - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2280,39 +2038,23 @@ proxy-groups:
   - '[vip①]英国2 - MG Network'
   - '[vip①]韩国1 - MG Network'
   - ℹ️ 官网:cooc.wiki - 小白云
-  - 香港 / HK｜A - 小白云
-  - 香港 / HK｜B - 小白云
-  - 日本 / JP｜A - 小白云
-  - 日本 / JP｜B - 小白云
-  - 美国 / US｜A - 小白云
-  - 美国 / US｜B - 小白云
-  - 新加坡 / SG｜A - 小白云
-  - 新加坡 / SG｜B - 小白云
-  - 台湾 / TW｜A - 小白云
-  - 台湾 / TW｜B - 小白云
-  - 美国 / US | BIZ - 小白云
+  - 香港 / A｜HK - 小白云
+  - 香港 / B｜HK - 小白云
+  - 日本 / A｜JP - 小白云
+  - 日本 / B｜JP - 小白云
+  - 美国 / A｜US - 小白云
+  - 美国 / B｜US - 小白云
+  - 台湾 / A｜TW - 小白云
+  - 台湾 / B｜TW - 小白云
+  - 新加坡 / A｜SG - 小白云
+  - 新加坡 / B｜SG - 小白云
+  - 美国 / US｜BIZ - 小白云
   - 韩国 / KR｜BIZ - 小白云
-  - 越南 / 华东 | 原生 - 小白云
-  - 越南 / 华南 | 原生 - 小白云
-  - 马来 / 华南 | 原生 - 小白云
-  - 马来 / 华东 | 原生 - 小白云
-  - 英国 / 华东 | 原生 - 小白云
-  - 英国 / 华南 | 原生 - 小白云
-  - 德国 / 华南 | 原生 - 小白云
-  - 德国 / 华东 | 原生 - 小白云
-  - 法国 / 华南 | 原生 - 小白云
-  - 法国 / 华东 | 原生 - 小白云
-  - 海外用户｜HK - 小白云
-  - JP｜Overseas users - 小白云
-  - US｜Overseas users - 小白云
-  - KR｜Overseas users - 小白云
-  - SG｜Overseas users - 小白云
-  - TW｜Overseas users - 小白云
-  - VN｜Overseas users - 小白云
-  - MAS｜Overseas users - 小白云
-  - UK｜Overseas users - 小白云
-  - GER｜Overseas users - 小白云
-  - FR｜Overseas users - 小白云
+  - 越南 / VN | BIZ - 小白云
+  - 大马 / MY | BIZ - 小白云
+  - 英国 / UK | BIZ - 小白云
+  - 德国 / DE | BIZ - 小白云
+  - 法国 / FR | BIZ - 小白云
   - 美国CERA - 海陆空
   - 香港QW - 海陆空
   - 土耳其 - 海陆空
@@ -2348,16 +2090,6 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
-  - 新加坡-0 - 飞啦机场
-  - 香港-0 - 飞啦机场
-  - 🇨🇳台湾-0 - 飞啦机场
-  - 日本-0 - 飞啦机场
-  - 美国-0 - 飞啦机场
-  - 英国-0 - 飞啦机场
-  - 南极洲-0 - 飞啦机场
-  - 韩国-0 - 飞啦机场
-  - 朝鲜-0 - 飞啦机场
-  - 香港-CN2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2414,6 +2146,14 @@ proxy-groups:
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
+  - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+  - 美国2 - vip666.xyz
+  - 美国（用前更新订阅） - vip666.xyz
+  - 新加坡 - vip666.xyz
+  - 香港-https://new.vip666.xyz - vip666.xyz
+  - 荷兰 - vip666.xyz
+  - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+  - 中国香港2 - vip666.xyz
   - 美国 🌐「达拉斯」 - 北方航空
 - name: 负载均衡
   type: load-balance
@@ -2422,9 +2162,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - ℹ️ 官网：极迅游.com - Gegeth极迅游
-  - 公益免费 🇺🇸美国 - Gegeth极迅游
-  - 公益免费 🇯🇵日本 - Gegeth极迅游
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
@@ -2433,6 +2170,7 @@ proxy-groups:
   - 美国01 - 都是梦
   - 德国01 - 都是梦
   - 德国02 - 都是梦
+  - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2484,39 +2222,23 @@ proxy-groups:
   - '[vip①]英国2 - MG Network'
   - '[vip①]韩国1 - MG Network'
   - ℹ️ 官网:cooc.wiki - 小白云
-  - 香港 / HK｜A - 小白云
-  - 香港 / HK｜B - 小白云
-  - 日本 / JP｜A - 小白云
-  - 日本 / JP｜B - 小白云
-  - 美国 / US｜A - 小白云
-  - 美国 / US｜B - 小白云
-  - 新加坡 / SG｜A - 小白云
-  - 新加坡 / SG｜B - 小白云
-  - 台湾 / TW｜A - 小白云
-  - 台湾 / TW｜B - 小白云
-  - 美国 / US | BIZ - 小白云
+  - 香港 / A｜HK - 小白云
+  - 香港 / B｜HK - 小白云
+  - 日本 / A｜JP - 小白云
+  - 日本 / B｜JP - 小白云
+  - 美国 / A｜US - 小白云
+  - 美国 / B｜US - 小白云
+  - 台湾 / A｜TW - 小白云
+  - 台湾 / B｜TW - 小白云
+  - 新加坡 / A｜SG - 小白云
+  - 新加坡 / B｜SG - 小白云
+  - 美国 / US｜BIZ - 小白云
   - 韩国 / KR｜BIZ - 小白云
-  - 越南 / 华东 | 原生 - 小白云
-  - 越南 / 华南 | 原生 - 小白云
-  - 马来 / 华南 | 原生 - 小白云
-  - 马来 / 华东 | 原生 - 小白云
-  - 英国 / 华东 | 原生 - 小白云
-  - 英国 / 华南 | 原生 - 小白云
-  - 德国 / 华南 | 原生 - 小白云
-  - 德国 / 华东 | 原生 - 小白云
-  - 法国 / 华南 | 原生 - 小白云
-  - 法国 / 华东 | 原生 - 小白云
-  - 海外用户｜HK - 小白云
-  - JP｜Overseas users - 小白云
-  - US｜Overseas users - 小白云
-  - KR｜Overseas users - 小白云
-  - SG｜Overseas users - 小白云
-  - TW｜Overseas users - 小白云
-  - VN｜Overseas users - 小白云
-  - MAS｜Overseas users - 小白云
-  - UK｜Overseas users - 小白云
-  - GER｜Overseas users - 小白云
-  - FR｜Overseas users - 小白云
+  - 越南 / VN | BIZ - 小白云
+  - 大马 / MY | BIZ - 小白云
+  - 英国 / UK | BIZ - 小白云
+  - 德国 / DE | BIZ - 小白云
+  - 法国 / FR | BIZ - 小白云
   - 美国CERA - 海陆空
   - 香港QW - 海陆空
   - 土耳其 - 海陆空
@@ -2552,16 +2274,6 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
-  - 新加坡-0 - 飞啦机场
-  - 香港-0 - 飞啦机场
-  - 🇨🇳台湾-0 - 飞啦机场
-  - 日本-0 - 飞啦机场
-  - 美国-0 - 飞啦机场
-  - 英国-0 - 飞啦机场
-  - 南极洲-0 - 飞啦机场
-  - 韩国-0 - 飞啦机场
-  - 朝鲜-0 - 飞啦机场
-  - 香港-CN2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2618,6 +2330,14 @@ proxy-groups:
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
+  - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+  - 美国2 - vip666.xyz
+  - 美国（用前更新订阅） - vip666.xyz
+  - 新加坡 - vip666.xyz
+  - 香港-https://new.vip666.xyz - vip666.xyz
+  - 荷兰 - vip666.xyz
+  - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+  - 中国香港2 - vip666.xyz
   - 美国 🌐「达拉斯」 - 北方航空
 - name: 🌍 国外媒体
   type: select
@@ -2625,9 +2345,6 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - ℹ️ 官网：极迅游.com - Gegeth极迅游
-  - 公益免费 🇺🇸美国 - Gegeth极迅游
-  - 公益免费 🇯🇵日本 - Gegeth极迅游
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
@@ -2636,6 +2353,7 @@ proxy-groups:
   - 美国01 - 都是梦
   - 德国01 - 都是梦
   - 德国02 - 都是梦
+  - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2687,39 +2405,23 @@ proxy-groups:
   - '[vip①]英国2 - MG Network'
   - '[vip①]韩国1 - MG Network'
   - ℹ️ 官网:cooc.wiki - 小白云
-  - 香港 / HK｜A - 小白云
-  - 香港 / HK｜B - 小白云
-  - 日本 / JP｜A - 小白云
-  - 日本 / JP｜B - 小白云
-  - 美国 / US｜A - 小白云
-  - 美国 / US｜B - 小白云
-  - 新加坡 / SG｜A - 小白云
-  - 新加坡 / SG｜B - 小白云
-  - 台湾 / TW｜A - 小白云
-  - 台湾 / TW｜B - 小白云
-  - 美国 / US | BIZ - 小白云
+  - 香港 / A｜HK - 小白云
+  - 香港 / B｜HK - 小白云
+  - 日本 / A｜JP - 小白云
+  - 日本 / B｜JP - 小白云
+  - 美国 / A｜US - 小白云
+  - 美国 / B｜US - 小白云
+  - 台湾 / A｜TW - 小白云
+  - 台湾 / B｜TW - 小白云
+  - 新加坡 / A｜SG - 小白云
+  - 新加坡 / B｜SG - 小白云
+  - 美国 / US｜BIZ - 小白云
   - 韩国 / KR｜BIZ - 小白云
-  - 越南 / 华东 | 原生 - 小白云
-  - 越南 / 华南 | 原生 - 小白云
-  - 马来 / 华南 | 原生 - 小白云
-  - 马来 / 华东 | 原生 - 小白云
-  - 英国 / 华东 | 原生 - 小白云
-  - 英国 / 华南 | 原生 - 小白云
-  - 德国 / 华南 | 原生 - 小白云
-  - 德国 / 华东 | 原生 - 小白云
-  - 法国 / 华南 | 原生 - 小白云
-  - 法国 / 华东 | 原生 - 小白云
-  - 海外用户｜HK - 小白云
-  - JP｜Overseas users - 小白云
-  - US｜Overseas users - 小白云
-  - KR｜Overseas users - 小白云
-  - SG｜Overseas users - 小白云
-  - TW｜Overseas users - 小白云
-  - VN｜Overseas users - 小白云
-  - MAS｜Overseas users - 小白云
-  - UK｜Overseas users - 小白云
-  - GER｜Overseas users - 小白云
-  - FR｜Overseas users - 小白云
+  - 越南 / VN | BIZ - 小白云
+  - 大马 / MY | BIZ - 小白云
+  - 英国 / UK | BIZ - 小白云
+  - 德国 / DE | BIZ - 小白云
+  - 法国 / FR | BIZ - 小白云
   - 美国CERA - 海陆空
   - 香港QW - 海陆空
   - 土耳其 - 海陆空
@@ -2755,16 +2457,6 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
-  - 新加坡-0 - 飞啦机场
-  - 香港-0 - 飞啦机场
-  - 🇨🇳台湾-0 - 飞啦机场
-  - 日本-0 - 飞啦机场
-  - 美国-0 - 飞啦机场
-  - 英国-0 - 飞啦机场
-  - 南极洲-0 - 飞啦机场
-  - 韩国-0 - 飞啦机场
-  - 朝鲜-0 - 飞啦机场
-  - 香港-CN2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -2821,6 +2513,14 @@ proxy-groups:
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
+  - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+  - 美国2 - vip666.xyz
+  - 美国（用前更新订阅） - vip666.xyz
+  - 新加坡 - vip666.xyz
+  - 香港-https://new.vip666.xyz - vip666.xyz
+  - 荷兰 - vip666.xyz
+  - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+  - 中国香港2 - vip666.xyz
   - 美国 🌐「达拉斯」 - 北方航空
 - name: 🌏 国内媒体
   type: select
@@ -2846,12 +2546,10 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
-  - 香港 / HK｜A - 小白云
-  - 香港 / HK｜B - 小白云
-  - 台湾 / TW｜A - 小白云
-  - 台湾 / TW｜B - 小白云
-  - 海外用户｜HK - 小白云
-  - TW｜Overseas users - 小白云
+  - 香港 / A｜HK - 小白云
+  - 香港 / B｜HK - 小白云
+  - 台湾 / A｜TW - 小白云
+  - 台湾 / B｜TW - 小白云
   - 香港QW - 海陆空
   - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
   - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
@@ -2867,9 +2565,6 @@ proxy-groups:
   - 台湾(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
-  - 香港-0 - 飞啦机场
-  - 🇨🇳台湾-0 - 飞啦机场
-  - 香港-CN2 - 飞啦机场
   - 香港-台湾中转 - 十元一年
   - 中转•香港301•高速 - 飞翔吧
   - 广港•台湾258•高速 - 飞翔吧
@@ -2885,14 +2580,13 @@ proxy-groups:
   - 中转•香港307•高速 - 飞翔吧
   - 广港•台湾261•高速 - 飞翔吧
   - 广港•台湾262•高速 - 飞翔吧
+  - 香港-https://new.vip666.xyz - vip666.xyz
+  - 中国香港2 - vip666.xyz
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - ℹ️ 官网：极迅游.com - Gegeth极迅游
-  - 公益免费 🇺🇸美国 - Gegeth极迅游
-  - 公益免费 🇯🇵日本 - Gegeth极迅游
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
@@ -2901,6 +2595,7 @@ proxy-groups:
   - 美国01 - 都是梦
   - 德国01 - 都是梦
   - 德国02 - 都是梦
+  - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -2952,39 +2647,23 @@ proxy-groups:
   - '[vip①]英国2 - MG Network'
   - '[vip①]韩国1 - MG Network'
   - ℹ️ 官网:cooc.wiki - 小白云
-  - 香港 / HK｜A - 小白云
-  - 香港 / HK｜B - 小白云
-  - 日本 / JP｜A - 小白云
-  - 日本 / JP｜B - 小白云
-  - 美国 / US｜A - 小白云
-  - 美国 / US｜B - 小白云
-  - 新加坡 / SG｜A - 小白云
-  - 新加坡 / SG｜B - 小白云
-  - 台湾 / TW｜A - 小白云
-  - 台湾 / TW｜B - 小白云
-  - 美国 / US | BIZ - 小白云
+  - 香港 / A｜HK - 小白云
+  - 香港 / B｜HK - 小白云
+  - 日本 / A｜JP - 小白云
+  - 日本 / B｜JP - 小白云
+  - 美国 / A｜US - 小白云
+  - 美国 / B｜US - 小白云
+  - 台湾 / A｜TW - 小白云
+  - 台湾 / B｜TW - 小白云
+  - 新加坡 / A｜SG - 小白云
+  - 新加坡 / B｜SG - 小白云
+  - 美国 / US｜BIZ - 小白云
   - 韩国 / KR｜BIZ - 小白云
-  - 越南 / 华东 | 原生 - 小白云
-  - 越南 / 华南 | 原生 - 小白云
-  - 马来 / 华南 | 原生 - 小白云
-  - 马来 / 华东 | 原生 - 小白云
-  - 英国 / 华东 | 原生 - 小白云
-  - 英国 / 华南 | 原生 - 小白云
-  - 德国 / 华南 | 原生 - 小白云
-  - 德国 / 华东 | 原生 - 小白云
-  - 法国 / 华南 | 原生 - 小白云
-  - 法国 / 华东 | 原生 - 小白云
-  - 海外用户｜HK - 小白云
-  - JP｜Overseas users - 小白云
-  - US｜Overseas users - 小白云
-  - KR｜Overseas users - 小白云
-  - SG｜Overseas users - 小白云
-  - TW｜Overseas users - 小白云
-  - VN｜Overseas users - 小白云
-  - MAS｜Overseas users - 小白云
-  - UK｜Overseas users - 小白云
-  - GER｜Overseas users - 小白云
-  - FR｜Overseas users - 小白云
+  - 越南 / VN | BIZ - 小白云
+  - 大马 / MY | BIZ - 小白云
+  - 英国 / UK | BIZ - 小白云
+  - 德国 / DE | BIZ - 小白云
+  - 法国 / FR | BIZ - 小白云
   - 美国CERA - 海陆空
   - 香港QW - 海陆空
   - 土耳其 - 海陆空
@@ -3020,16 +2699,6 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
-  - 新加坡-0 - 飞啦机场
-  - 香港-0 - 飞啦机场
-  - 🇨🇳台湾-0 - 飞啦机场
-  - 日本-0 - 飞啦机场
-  - 美国-0 - 飞啦机场
-  - 英国-0 - 飞啦机场
-  - 南极洲-0 - 飞啦机场
-  - 韩国-0 - 飞啦机场
-  - 朝鲜-0 - 飞啦机场
-  - 香港-CN2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -3086,15 +2755,20 @@ proxy-groups:
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
+  - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+  - 美国2 - vip666.xyz
+  - 美国（用前更新订阅） - vip666.xyz
+  - 新加坡 - vip666.xyz
+  - 香港-https://new.vip666.xyz - vip666.xyz
+  - 荷兰 - vip666.xyz
+  - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+  - 中国香港2 - vip666.xyz
   - 美国 🌐「达拉斯」 - 北方航空
 - name: 📲 电报信息
   type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - ℹ️ 官网：极迅游.com - Gegeth极迅游
-  - 公益免费 🇺🇸美国 - Gegeth极迅游
-  - 公益免费 🇯🇵日本 - Gegeth极迅游
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
@@ -3103,6 +2777,7 @@ proxy-groups:
   - 美国01 - 都是梦
   - 德国01 - 都是梦
   - 德国02 - 都是梦
+  - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -3154,39 +2829,23 @@ proxy-groups:
   - '[vip①]英国2 - MG Network'
   - '[vip①]韩国1 - MG Network'
   - ℹ️ 官网:cooc.wiki - 小白云
-  - 香港 / HK｜A - 小白云
-  - 香港 / HK｜B - 小白云
-  - 日本 / JP｜A - 小白云
-  - 日本 / JP｜B - 小白云
-  - 美国 / US｜A - 小白云
-  - 美国 / US｜B - 小白云
-  - 新加坡 / SG｜A - 小白云
-  - 新加坡 / SG｜B - 小白云
-  - 台湾 / TW｜A - 小白云
-  - 台湾 / TW｜B - 小白云
-  - 美国 / US | BIZ - 小白云
+  - 香港 / A｜HK - 小白云
+  - 香港 / B｜HK - 小白云
+  - 日本 / A｜JP - 小白云
+  - 日本 / B｜JP - 小白云
+  - 美国 / A｜US - 小白云
+  - 美国 / B｜US - 小白云
+  - 台湾 / A｜TW - 小白云
+  - 台湾 / B｜TW - 小白云
+  - 新加坡 / A｜SG - 小白云
+  - 新加坡 / B｜SG - 小白云
+  - 美国 / US｜BIZ - 小白云
   - 韩国 / KR｜BIZ - 小白云
-  - 越南 / 华东 | 原生 - 小白云
-  - 越南 / 华南 | 原生 - 小白云
-  - 马来 / 华南 | 原生 - 小白云
-  - 马来 / 华东 | 原生 - 小白云
-  - 英国 / 华东 | 原生 - 小白云
-  - 英国 / 华南 | 原生 - 小白云
-  - 德国 / 华南 | 原生 - 小白云
-  - 德国 / 华东 | 原生 - 小白云
-  - 法国 / 华南 | 原生 - 小白云
-  - 法国 / 华东 | 原生 - 小白云
-  - 海外用户｜HK - 小白云
-  - JP｜Overseas users - 小白云
-  - US｜Overseas users - 小白云
-  - KR｜Overseas users - 小白云
-  - SG｜Overseas users - 小白云
-  - TW｜Overseas users - 小白云
-  - VN｜Overseas users - 小白云
-  - MAS｜Overseas users - 小白云
-  - UK｜Overseas users - 小白云
-  - GER｜Overseas users - 小白云
-  - FR｜Overseas users - 小白云
+  - 越南 / VN | BIZ - 小白云
+  - 大马 / MY | BIZ - 小白云
+  - 英国 / UK | BIZ - 小白云
+  - 德国 / DE | BIZ - 小白云
+  - 法国 / FR | BIZ - 小白云
   - 美国CERA - 海陆空
   - 香港QW - 海陆空
   - 土耳其 - 海陆空
@@ -3222,16 +2881,6 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
-  - 新加坡-0 - 飞啦机场
-  - 香港-0 - 飞啦机场
-  - 🇨🇳台湾-0 - 飞啦机场
-  - 日本-0 - 飞啦机场
-  - 美国-0 - 飞啦机场
-  - 英国-0 - 飞啦机场
-  - 南极洲-0 - 飞啦机场
-  - 韩国-0 - 飞啦机场
-  - 朝鲜-0 - 飞啦机场
-  - 香港-CN2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -3288,6 +2937,14 @@ proxy-groups:
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
+  - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+  - 美国2 - vip666.xyz
+  - 美国（用前更新订阅） - vip666.xyz
+  - 新加坡 - vip666.xyz
+  - 香港-https://new.vip666.xyz - vip666.xyz
+  - 荷兰 - vip666.xyz
+  - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+  - 中国香港2 - vip666.xyz
   - 美国 🌐「达拉斯」 - 北方航空
 - name: 🍎 苹果服务
   type: select
@@ -3295,9 +2952,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🔰 节点选择
   - ♻️ 自动选择
-  - ℹ️ 官网：极迅游.com - Gegeth极迅游
-  - 公益免费 🇺🇸美国 - Gegeth极迅游
-  - 公益免费 🇯🇵日本 - Gegeth极迅游
   - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
   - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
@@ -3306,6 +2960,7 @@ proxy-groups:
   - 美国01 - 都是梦
   - 德国01 - 都是梦
   - 德国02 - 都是梦
+  - 法国01 - 都是梦
   - 香港|【免费领1TB流量】前往-注册|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
@@ -3357,39 +3012,23 @@ proxy-groups:
   - '[vip①]英国2 - MG Network'
   - '[vip①]韩国1 - MG Network'
   - ℹ️ 官网:cooc.wiki - 小白云
-  - 香港 / HK｜A - 小白云
-  - 香港 / HK｜B - 小白云
-  - 日本 / JP｜A - 小白云
-  - 日本 / JP｜B - 小白云
-  - 美国 / US｜A - 小白云
-  - 美国 / US｜B - 小白云
-  - 新加坡 / SG｜A - 小白云
-  - 新加坡 / SG｜B - 小白云
-  - 台湾 / TW｜A - 小白云
-  - 台湾 / TW｜B - 小白云
-  - 美国 / US | BIZ - 小白云
+  - 香港 / A｜HK - 小白云
+  - 香港 / B｜HK - 小白云
+  - 日本 / A｜JP - 小白云
+  - 日本 / B｜JP - 小白云
+  - 美国 / A｜US - 小白云
+  - 美国 / B｜US - 小白云
+  - 台湾 / A｜TW - 小白云
+  - 台湾 / B｜TW - 小白云
+  - 新加坡 / A｜SG - 小白云
+  - 新加坡 / B｜SG - 小白云
+  - 美国 / US｜BIZ - 小白云
   - 韩国 / KR｜BIZ - 小白云
-  - 越南 / 华东 | 原生 - 小白云
-  - 越南 / 华南 | 原生 - 小白云
-  - 马来 / 华南 | 原生 - 小白云
-  - 马来 / 华东 | 原生 - 小白云
-  - 英国 / 华东 | 原生 - 小白云
-  - 英国 / 华南 | 原生 - 小白云
-  - 德国 / 华南 | 原生 - 小白云
-  - 德国 / 华东 | 原生 - 小白云
-  - 法国 / 华南 | 原生 - 小白云
-  - 法国 / 华东 | 原生 - 小白云
-  - 海外用户｜HK - 小白云
-  - JP｜Overseas users - 小白云
-  - US｜Overseas users - 小白云
-  - KR｜Overseas users - 小白云
-  - SG｜Overseas users - 小白云
-  - TW｜Overseas users - 小白云
-  - VN｜Overseas users - 小白云
-  - MAS｜Overseas users - 小白云
-  - UK｜Overseas users - 小白云
-  - GER｜Overseas users - 小白云
-  - FR｜Overseas users - 小白云
+  - 越南 / VN | BIZ - 小白云
+  - 大马 / MY | BIZ - 小白云
+  - 英国 / UK | BIZ - 小白云
+  - 德国 / DE | BIZ - 小白云
+  - 法国 / FR | BIZ - 小白云
   - 美国CERA - 海陆空
   - 香港QW - 海陆空
   - 土耳其 - 海陆空
@@ -3425,16 +3064,6 @@ proxy-groups:
   - 美国(ipv6)AC - 共享流量
   - 日本(ipv6)wawo - 共享流量
   - 香港(ipv6)wawo2 - 共享流量
-  - 新加坡-0 - 飞啦机场
-  - 香港-0 - 飞啦机场
-  - 🇨🇳台湾-0 - 飞啦机场
-  - 日本-0 - 飞啦机场
-  - 美国-0 - 飞啦机场
-  - 英国-0 - 飞啦机场
-  - 南极洲-0 - 飞啦机场
-  - 韩国-0 - 飞啦机场
-  - 朝鲜-0 - 飞啦机场
-  - 香港-CN2 - 飞啦机场
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
@@ -3491,6 +3120,14 @@ proxy-groups:
   - 免费-日本 - bee.sulepay.com
   - 免费-新加坡 - bee.sulepay.com
   - 免费-美国 - bee.sulepay.com
+  - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+  - 美国2 - vip666.xyz
+  - 美国（用前更新订阅） - vip666.xyz
+  - 新加坡 - vip666.xyz
+  - 香港-https://new.vip666.xyz - vip666.xyz
+  - 荷兰 - vip666.xyz
+  - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+  - 中国香港2 - vip666.xyz
   - 美国 🌐「达拉斯」 - 北方航空
 - name: 🎯 全球直连
   type: select
