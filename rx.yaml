@@ -5,124 +5,130 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1.--欧洲(欢迎订阅Youtube破解资源君)+12, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 2.--_US_美国->🇩🇪_DE_德国, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 3.--_NL_荷兰, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 4.--_US_美国+18, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 5.--美国(欢迎订阅Youtube破解资源君)+3, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 6.--Relay_-🇺🇸US_767 |39.77Mb, server: nngxxx.link, port: 443, type: vmess, uuid: 7fdc9ae0-4b55-4da2-f234-31079092b323, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nngxxx.link}}, udp: true}
-  - {name: 7.--加拿大 022, server: 104.21.226.128, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 8.--21@oneclickvpnkeys, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
-  - {name: 9.--VPN招代理电报联系@xiaoying229, server: 104.21.225.34, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 1.--美国(欢迎订阅Youtube破解资源君)+4, server: 167.88.61.175, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 2.--_US_美国+1, server: 165.1.79.252, port: 19344, type: vmess, uuid: ac9dd407-d053-4c67-e44e-31d6a5833ff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ac9dd407, headers: {Host: soe.cheeshon.cyou}}, udp: true}
+  - {name: 3.--欧洲(欢迎订阅Youtube破解资源君)+6, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 4.--_US_美国->🇩🇪_DE_德国, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 5.--_NL_荷兰, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 6.--_US_美国+17, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 7.--29@oneclickvpnkeys, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
+  - {name: 8.--US_youtube@资源分享师_199, server: 129.80.151.246, port: 40059, type: vmess, uuid: 1b359f51-72df-4435-81df-b92cf75262d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 9.--8@oneclickvpnkeys, server: 172.67.68.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: vip2323.cfd}}, udp: true}
   - {name: 10.--加拿大 024, server: 104.21.226.43, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 11.--VPN招代理电报联系@xiaoying229+1, server: 104.21.225.195, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 12.--加拿大 041, server: 104.21.226.251, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 13.--加拿大 023, server: 104.21.226.78, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 14.--加拿大 026, server: 104.21.226.122, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 15.--长期更新节点@mftizi, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
-  - {name: 16.--_NZ_新西兰, server: 216.73.156.230, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, sni: 216.73.156.230, skip-cert-verify: true, udp: true}
-  - {name: 17.--加拿大 059, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
-  - {name: 18.--加拿大 030, server: 104.21.226.196, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 19.--加拿大 021, server: 172.67.241.39, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 20.--Router, server: soe.cheeshon.cyou, port: 19344, type: vmess, uuid: ac9dd407-d053-4c67-e44e-31d6a5833ff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ac9dd407, headers: {Host: soe.cheeshon.cyou}}, udp: true}
-  - {name: 21.--加拿大 028, server: 104.21.226.61, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 22.--伊朗 V2CROSS.COM, server: 5.78.92.197, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: tspcV86WXAeP5Sr9CaaWew, udp: true}
-  - {name: 23.--美国 059, server: 38.14.107.229, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.23179753.xyz}}, udp: true}
-  - {name: 24.--加拿大 025, server: 104.21.226.100, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 25.--美国 CloudFlare节点, server: 104.21.225.200, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 26.--16@oneclickvpnkeys, server: maggiy.shop, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: maggiy.shop}}, udp: true}
-  - {name: 27.--USA美国1-流媒体解锁, server: us.lbxjc.site, port: 80, type: vmess, uuid: 05b06b66-f860-40d9-8186-0ce8cbdc814b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xn--mes53ddysu0o3gl, headers: {Host: newus1.xn--mes53ddysu0o3gl.top}}, udp: true}
-  - {name: 28.--加拿大 027, server: 104.21.226.136, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 29.--美国【TG：@ccbaohe】定时更新节点订阅 89, server: 104.21.46.66, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
-  - {name: 30.--美国_Telegram@kxswa 14, server: www.ywnouvbale.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
-  - {name: 31.--美国【TG：@ccbaohe】定时更新节点订阅 4, server: 172.67.136.12, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
-  - {name: 32.--19@oneclickvpnkeys, server: 188.114.96.7, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}, udp: true}
-  - {name: 33.--|US|美国|@wxgqlfx|62, server: it-full.privateip.net, port: 443, type: trojan, password: 31583130-de1f-44ce-a433-1dbb108e1846, skip-cert-verify: true, udp: true}
-  - {name: 34.--3@oneclickvpnkeys, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 217.160.45.31}}, udp: true}
-  - {name: 35.--28@oneclickvpnkeys, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}, udp: true}
-  - {name: 36.--法国 巴黎Online S.A.S, server: 51.158.146.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 11.--加拿大 036, server: 104.21.226.254, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 12.--VPN招代理电报联系@xiaoying229, server: 104.21.225.34, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 13.--加拿大 025, server: 104.21.226.100, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 14.--|US|美国|@wxgqlfx|199, server: 104.21.228.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 15.--加拿大 030, server: 104.21.226.196, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 16.--in-34084, server: 57.128.159.109, port: 34084, type: vmess, uuid: f66b8a67-8e35-4662-d4c7-8b0cf694e3e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgf, headers: {Host: 57.128.159.109}}, udp: true}
+  - {name: "17.--[美国]Node-Temp", server: by.funhub.cc, port: 8443, type: vmess, uuid: b33155f0-7429-4f1c-97c4-a9ba24a3b1cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /by, headers: {Host: by.funhub.cc}}, udp: true}
+  - {name: 18.--30@oneclickvpnkeys, server: 172.67.152.214, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
+  - {name: 19.--加拿大 028, server: 104.21.226.61, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 20.--加拿大 027, server: 104.21.226.136, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 21.--VPN招代理电报联系@xiaoying229+1, server: 104.21.225.195, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 22.--加拿大 021, server: 172.67.241.39, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 23.--27@oneclickvpnkeys, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
+  - {name: 24.--|US|美国|@wxgqlfx|207, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
+  - {name: 25.--_US_美国+29, server: 104.21.226.251, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 26.--|TW|台湾|@wxgqlfx|17, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 7c252929-6ac0-4681-a835-e52af701f151, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 27.--加拿大 022, server: 104.21.226.128, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 28.--加拿大 026, server: 104.21.226.122, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 29.--24@oneclickvpnkeys, server: 188.244.117.31, port: 28320, type: vmess, uuid: 236fa6e3-683b-4c3f-a07c-56061ee393c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 30.--加拿大 023, server: 104.21.226.78, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 31.--TW-桃园1-1(Trojan) 2, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 7c252929-6ac0-4681-a835-e52af701f151, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 32.--3@oneclickvpnkeys, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
+  - {name: 33.--34@oneclickvpnkeys, server: meroiy.icu, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
+  - {name: 34.--美国 Amazon数据中心, server: v1.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
+  - {name: 35.--6@oneclickvpnkeys, server: 94.131.8.32, port: 2082, type: vmess, uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.8.32}}, udp: true}
+  - {name: 36.--乌克兰 V2CROSS.COM, server: tr-full.privateip.net, port: 443, type: trojan, password: 01f378e3-16fb-41ba-be7e-e23a7813275e, skip-cert-verify: true, udp: true}
+  - {name: "37.--[德国]Node-B", server: de-b.funhub.cc, port: 8443, type: vmess, uuid: b33155f0-7429-4f1c-97c4-a9ba24a3b1cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /de-b, headers: {Host: de-b.funhub.cc}}, udp: true}
+  - {name: 38.--US_youtube@资源分享师_119, server: 104.21.20.16, port: 80, type: vmess, uuid: c9e99213-170b-458a-b45b-79454ac7cf4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: fi2-vmess.sshmax.xyz}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 1.--欧洲(欢迎订阅Youtube破解资源君)+12
-      - 2.--_US_美国->🇩🇪_DE_德国
-      - 3.--_NL_荷兰
-      - 4.--_US_美国+18
-      - 5.--美国(欢迎订阅Youtube破解资源君)+3
-      - 6.--Relay_-🇺🇸US_767 |39.77Mb
-      - 7.--加拿大 022
-      - 8.--21@oneclickvpnkeys
-      - 9.--VPN招代理电报联系@xiaoying229
+      - 1.--美国(欢迎订阅Youtube破解资源君)+4
+      - 2.--_US_美国+1
+      - 3.--欧洲(欢迎订阅Youtube破解资源君)+6
+      - 4.--_US_美国->🇩🇪_DE_德国
+      - 5.--_NL_荷兰
+      - 6.--_US_美国+17
+      - 7.--29@oneclickvpnkeys
+      - 8.--US_youtube@资源分享师_199
+      - 9.--8@oneclickvpnkeys
       - 10.--加拿大 024
-      - 11.--VPN招代理电报联系@xiaoying229+1
-      - 12.--加拿大 041
-      - 13.--加拿大 023
-      - 14.--加拿大 026
-      - 15.--长期更新节点@mftizi
-      - 16.--_NZ_新西兰
-      - 17.--加拿大 059
-      - 18.--加拿大 030
-      - 19.--加拿大 021
-      - 20.--Router
-      - 21.--加拿大 028
-      - 22.--伊朗 V2CROSS.COM
-      - 23.--美国 059
-      - 24.--加拿大 025
-      - 25.--美国 CloudFlare节点
-      - 26.--16@oneclickvpnkeys
-      - 27.--USA美国1-流媒体解锁
-      - 28.--加拿大 027
-      - 29.--美国【TG：@ccbaohe】定时更新节点订阅 89
-      - 30.--美国_Telegram@kxswa 14
-      - 31.--美国【TG：@ccbaohe】定时更新节点订阅 4
-      - 32.--19@oneclickvpnkeys
-      - 33.--|US|美国|@wxgqlfx|62
-      - 34.--3@oneclickvpnkeys
-      - 35.--28@oneclickvpnkeys
-      - 36.--法国 巴黎Online S.A.S
+      - 11.--加拿大 036
+      - 12.--VPN招代理电报联系@xiaoying229
+      - 13.--加拿大 025
+      - 14.--|US|美国|@wxgqlfx|199
+      - 15.--加拿大 030
+      - 16.--in-34084
+      - 17.--[美国]Node-Temp
+      - 18.--30@oneclickvpnkeys
+      - 19.--加拿大 028
+      - 20.--加拿大 027
+      - 21.--VPN招代理电报联系@xiaoying229+1
+      - 22.--加拿大 021
+      - 23.--27@oneclickvpnkeys
+      - 24.--|US|美国|@wxgqlfx|207
+      - 25.--_US_美国+29
+      - 26.--|TW|台湾|@wxgqlfx|17
+      - 27.--加拿大 022
+      - 28.--加拿大 026
+      - 29.--24@oneclickvpnkeys
+      - 30.--加拿大 023
+      - 31.--TW-桃园1-1(Trojan) 2
+      - 32.--3@oneclickvpnkeys
+      - 33.--34@oneclickvpnkeys
+      - 34.--美国 Amazon数据中心
+      - 35.--6@oneclickvpnkeys
+      - 36.--乌克兰 V2CROSS.COM
+      - 37.--[德国]Node-B
+      - 38.--US_youtube@资源分享师_119
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--欧洲(欢迎订阅Youtube破解资源君)+12
-      - 2.--_US_美国->🇩🇪_DE_德国
-      - 3.--_NL_荷兰
-      - 4.--_US_美国+18
-      - 5.--美国(欢迎订阅Youtube破解资源君)+3
-      - 6.--Relay_-🇺🇸US_767 |39.77Mb
-      - 7.--加拿大 022
-      - 8.--21@oneclickvpnkeys
-      - 9.--VPN招代理电报联系@xiaoying229
+      - 1.--美国(欢迎订阅Youtube破解资源君)+4
+      - 2.--_US_美国+1
+      - 3.--欧洲(欢迎订阅Youtube破解资源君)+6
+      - 4.--_US_美国->🇩🇪_DE_德国
+      - 5.--_NL_荷兰
+      - 6.--_US_美国+17
+      - 7.--29@oneclickvpnkeys
+      - 8.--US_youtube@资源分享师_199
+      - 9.--8@oneclickvpnkeys
       - 10.--加拿大 024
-      - 11.--VPN招代理电报联系@xiaoying229+1
-      - 12.--加拿大 041
-      - 13.--加拿大 023
-      - 14.--加拿大 026
-      - 15.--长期更新节点@mftizi
-      - 16.--_NZ_新西兰
-      - 17.--加拿大 059
-      - 18.--加拿大 030
-      - 19.--加拿大 021
-      - 20.--Router
-      - 21.--加拿大 028
-      - 22.--伊朗 V2CROSS.COM
-      - 23.--美国 059
-      - 24.--加拿大 025
-      - 25.--美国 CloudFlare节点
-      - 26.--16@oneclickvpnkeys
-      - 27.--USA美国1-流媒体解锁
-      - 28.--加拿大 027
-      - 29.--美国【TG：@ccbaohe】定时更新节点订阅 89
-      - 30.--美国_Telegram@kxswa 14
-      - 31.--美国【TG：@ccbaohe】定时更新节点订阅 4
-      - 32.--19@oneclickvpnkeys
-      - 33.--|US|美国|@wxgqlfx|62
-      - 34.--3@oneclickvpnkeys
-      - 35.--28@oneclickvpnkeys
-      - 36.--法国 巴黎Online S.A.S
+      - 11.--加拿大 036
+      - 12.--VPN招代理电报联系@xiaoying229
+      - 13.--加拿大 025
+      - 14.--|US|美国|@wxgqlfx|199
+      - 15.--加拿大 030
+      - 16.--in-34084
+      - 17.--[美国]Node-Temp
+      - 18.--30@oneclickvpnkeys
+      - 19.--加拿大 028
+      - 20.--加拿大 027
+      - 21.--VPN招代理电报联系@xiaoying229+1
+      - 22.--加拿大 021
+      - 23.--27@oneclickvpnkeys
+      - 24.--|US|美国|@wxgqlfx|207
+      - 25.--_US_美国+29
+      - 26.--|TW|台湾|@wxgqlfx|17
+      - 27.--加拿大 022
+      - 28.--加拿大 026
+      - 29.--24@oneclickvpnkeys
+      - 30.--加拿大 023
+      - 31.--TW-桃园1-1(Trojan) 2
+      - 32.--3@oneclickvpnkeys
+      - 33.--34@oneclickvpnkeys
+      - 34.--美国 Amazon数据中心
+      - 35.--6@oneclickvpnkeys
+      - 36.--乌克兰 V2CROSS.COM
+      - 37.--[德国]Node-B
+      - 38.--US_youtube@资源分享师_119
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -130,46 +136,49 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--欧洲(欢迎订阅Youtube破解资源君)+12
-      - 2.--_US_美国->🇩🇪_DE_德国
-      - 3.--_NL_荷兰
-      - 4.--_US_美国+18
-      - 5.--美国(欢迎订阅Youtube破解资源君)+3
-      - 6.--Relay_-🇺🇸US_767 |39.77Mb
-      - 7.--加拿大 022
-      - 8.--21@oneclickvpnkeys
-      - 9.--VPN招代理电报联系@xiaoying229
+      - 1.--美国(欢迎订阅Youtube破解资源君)+4
+      - 2.--_US_美国+1
+      - 3.--欧洲(欢迎订阅Youtube破解资源君)+6
+      - 4.--_US_美国->🇩🇪_DE_德国
+      - 5.--_NL_荷兰
+      - 6.--_US_美国+17
+      - 7.--29@oneclickvpnkeys
+      - 8.--US_youtube@资源分享师_199
+      - 9.--8@oneclickvpnkeys
       - 10.--加拿大 024
-      - 11.--VPN招代理电报联系@xiaoying229+1
-      - 12.--加拿大 041
-      - 13.--加拿大 023
-      - 14.--加拿大 026
-      - 15.--长期更新节点@mftizi
-      - 16.--_NZ_新西兰
-      - 17.--加拿大 059
-      - 18.--加拿大 030
-      - 19.--加拿大 021
-      - 20.--Router
-      - 21.--加拿大 028
-      - 22.--伊朗 V2CROSS.COM
-      - 23.--美国 059
-      - 24.--加拿大 025
-      - 25.--美国 CloudFlare节点
-      - 26.--16@oneclickvpnkeys
-      - 27.--USA美国1-流媒体解锁
-      - 28.--加拿大 027
-      - 29.--美国【TG：@ccbaohe】定时更新节点订阅 89
-      - 30.--美国_Telegram@kxswa 14
-      - 31.--美国【TG：@ccbaohe】定时更新节点订阅 4
-      - 32.--19@oneclickvpnkeys
-      - 33.--|US|美国|@wxgqlfx|62
-      - 34.--3@oneclickvpnkeys
-      - 35.--28@oneclickvpnkeys
-      - 36.--法国 巴黎Online S.A.S
+      - 11.--加拿大 036
+      - 12.--VPN招代理电报联系@xiaoying229
+      - 13.--加拿大 025
+      - 14.--|US|美国|@wxgqlfx|199
+      - 15.--加拿大 030
+      - 16.--in-34084
+      - 17.--[美国]Node-Temp
+      - 18.--30@oneclickvpnkeys
+      - 19.--加拿大 028
+      - 20.--加拿大 027
+      - 21.--VPN招代理电报联系@xiaoying229+1
+      - 22.--加拿大 021
+      - 23.--27@oneclickvpnkeys
+      - 24.--|US|美国|@wxgqlfx|207
+      - 25.--_US_美国+29
+      - 26.--|TW|台湾|@wxgqlfx|17
+      - 27.--加拿大 022
+      - 28.--加拿大 026
+      - 29.--24@oneclickvpnkeys
+      - 30.--加拿大 023
+      - 31.--TW-桃园1-1(Trojan) 2
+      - 32.--3@oneclickvpnkeys
+      - 33.--34@oneclickvpnkeys
+      - 34.--美国 Amazon数据中心
+      - 35.--6@oneclickvpnkeys
+      - 36.--乌克兰 V2CROSS.COM
+      - 37.--[德国]Node-B
+      - 38.--US_youtube@资源分享师_119
   - name: 中国节点
     type: select
     proxies:
-      - DIRECT
+      - 26.--|TW|台湾|@wxgqlfx|17
+      - 31.--TW-桃园1-1(Trojan) 2
   - name: 日本节点
     type: select
     proxies:
@@ -184,16 +193,16 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 2.--_US_美国->🇩🇪_DE_德国
-      - 4.--_US_美国+18
-      - 5.--美国(欢迎订阅Youtube破解资源君)+3
-      - 6.--Relay_-🇺🇸US_767 |39.77Mb
-      - 23.--美国 059
-      - 25.--美国 CloudFlare节点
-      - 27.--USA美国1-流媒体解锁
-      - 29.--美国【TG：@ccbaohe】定时更新节点订阅 89
-      - 30.--美国_Telegram@kxswa 14
-      - 31.--美国【TG：@ccbaohe】定时更新节点订阅 4
-      - 33.--|US|美国|@wxgqlfx|62
+      - 1.--美国(欢迎订阅Youtube破解资源君)+4
+      - 2.--_US_美国+1
+      - 4.--_US_美国->🇩🇪_DE_德国
+      - 6.--_US_美国+17
+      - 8.--US_youtube@资源分享师_199
+      - 14.--|US|美国|@wxgqlfx|199
+      - 17.--[美国]Node-Temp
+      - 24.--|US|美国|@wxgqlfx|207
+      - 25.--_US_美国+29
+      - 34.--美国 Amazon数据中心
+      - 38.--US_youtube@资源分享师_119
 rules:
   - MATCH,手动切换
