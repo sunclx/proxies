@@ -5,109 +5,58 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1.--_US_美国+9, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 2.--_NZ_新西兰, server: 216.73.156.230, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, sni: 216.73.156.230, skip-cert-verify: true, udp: true}
-  - {name: 3.--_US_美国->🇩🇪_DE_德国, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 4.--_NL_荷兰, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 5.--US_youtube@资源分享师_34, server: muriel.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: muriel.makeup}}, udp: true}
-  - {name: 6.--US_youtube@资源分享师_10, server: irene.lat, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: irene.lat}}, udp: true}
-  - {name: 7.--US美国(mibei77.com 米贝节点分享), server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
-  - {name: 8.--加拿大 023, server: 104.21.226.78, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 9.--加拿大 027, server: 104.21.226.136, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 10.--加拿大 030, server: 104.21.226.196, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 11.--加拿大 041, server: 104.21.226.251, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 12.--德国 005, server: 193.36.84.67, port: 41731, type: vmess, uuid: d7d122fa-76b8-41f8-8436-9f2b6cbac1ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13.--US_youtube@资源分享师_92, server: 104.21.25.98, port: 80, type: vmess, uuid: e2e25aa2-aab9-486c-9ab4-495bcbcea4d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: se2-vmess.sshmax.xyz}}, udp: true}
-  - {name: 14.--加拿大 073, server: 104.21.94.251, port: 80, type: vmess, uuid: c7421a39-020d-4a01-97ed-9eacbce0a7ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: de2.xv2ray.net}}, udp: true}
-  - {name: 15.--俄罗斯 002, server: 185.221.160.163, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kellie.makeup/linkvws, headers: {Host: worker-lingering-fog-c021.gesofog870.workers.dev}}, udp: true}
-  - {name: 16.--VPN招代理电报联系@xiaoying229, server: 104.21.225.34, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 17.--德国 - 杜塞尔多夫 - myLoc managed IT AG - 16, server: 5.104.108.109, port: 443, type: trojan, password: e86e242e-b5d5-46ae-a410-3684f7d70ac2, skip-cert-verify: true, udp: true}
-  - {name: 18.--加拿大 025, server: 104.21.226.100, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "19.--[德国]Node-B", server: de-b.funhub.cc, port: 8443, type: vmess, uuid: b33155f0-7429-4f1c-97c4-a9ba24a3b1cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /de-b, headers: {Host: de-b.funhub.cc}}, udp: true}
-  - {name: 20.--美国 059, server: 38.14.107.229, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.23179753.xyz}}, udp: true}
-  - {name: 21.--西班牙 001, server: es-full.privateip.net, port: 443, type: trojan, password: e2486b91-71a6-421b-9d53-3c080fb0edb8, skip-cert-verify: true, udp: true}
-  - {name: 22.--加拿大 024, server: 104.21.226.43, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 23.--美国 047, server: 38.14.107.227, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.23179753.xyz}}, udp: true}
-  - {name: 24.--加拿大 070, server: 172.67.220.64, port: 443, type: vmess, uuid: f24bba0f-8656-44f8-b21e-a0e3a190c4c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /df97b21e-3943-4865-af18-b5ea9676b037, headers: {Host: www.31000oooowe2.bf}}, udp: true}
-  - {name: 25.--法国 OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 26.--加拿大 021, server: 172.67.241.39, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 27.--加拿大 071, server: 104.21.25.78, port: 443, type: vmess, uuid: 1cbb309d-cf3f-464d-a61d-ebaa91983f24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: dk2-vmess.sshmax.xyz}}, udp: true}
-  - {name: 28.--法国 OVH机房SAS硬盘BGP主机+1, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 29.--|DE|德国|@wxgqlfx|76, server: 188.34.157.121, port: 8880, type: vmess, uuid: 3eaada6e-e3c7-4117-9a7f-7bc1dc5b60c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vip.melodyshopone2.ir}}, udp: true}
-  - {name: 30.--US_youtube@资源分享师_122, server: kittiy.sbs, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kittiy.sbs}}, udp: true}
-  - {name: 31.--美国 021, server: 38.14.107.226, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.23179753.xyz}}, udp: true}
+  - {name: 1.--_NZ_新西兰, server: 216.73.156.230, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, sni: 216.73.156.230, skip-cert-verify: true, udp: true}
+  - {name: 2.--_US_美国+12, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 3.--21@oneclickvpnkeys, server: 172.67.168.34, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: marien.motorcycles}}, udp: true}
+  - {name: 4.--加拿大 008, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: 5.--@Hope_Net-join-us-on-Telegram+1, server: muriel.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: muriel.makeup}}, udp: true}
+  - {name: 6.--美国(yudou66.com 玉豆免费节点)\r, server: tr-full.privateip.net, port: 443, type: trojan, password: 01f378e3-16fb-41ba-be7e-e23a7813275e, skip-cert-verify: true, udp: true}
+  - {name: 7.--美国 V2CROSS.COM, server: 137.175.40.18, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.75596620.xyz}}, udp: true}
+  - {name: 8.--美国 麻省理工学院, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: "9.--[德国]Node-B", server: de-b.funhub.cc, port: 8443, type: vmess, uuid: b33155f0-7429-4f1c-97c4-a9ba24a3b1cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /de-b, headers: {Host: de-b.funhub.cc}}, udp: true}
+  - {name: 10.--荷兰 005, server: 188.114.99.150, port: 443, type: vmess, uuid: e4c7e0ce-ed93-40d9-8f38-90497cb83864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fi1.xv2ray.net}}, udp: true}
+  - {name: 11.--@Hope_Net-join-us-on-Telegram, server: 104.21.33.32, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: nelly.homes}}, udp: true}
+  - {name: 12.--28@oneclickvpnkeys, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}, udp: true}
+  - {name: 13.--@Hope_Net-join-us-on-Telegram+2, server: 172.67.196.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}, udp: true}
+  - {name: 14.--19@oneclickvpnkeys, server: auth.speedtest.net, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: nelly.homes}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 1.--_US_美国+9
-      - 2.--_NZ_新西兰
-      - 3.--_US_美国->🇩🇪_DE_德国
-      - 4.--_NL_荷兰
-      - 5.--US_youtube@资源分享师_34
-      - 6.--US_youtube@资源分享师_10
-      - 7.--US美国(mibei77.com 米贝节点分享)
-      - 8.--加拿大 023
-      - 9.--加拿大 027
-      - 10.--加拿大 030
-      - 11.--加拿大 041
-      - 12.--德国 005
-      - 13.--US_youtube@资源分享师_92
-      - 14.--加拿大 073
-      - 15.--俄罗斯 002
-      - 16.--VPN招代理电报联系@xiaoying229
-      - 17.--德国 - 杜塞尔多夫 - myLoc managed IT AG - 16
-      - 18.--加拿大 025
-      - 19.--[德国]Node-B
-      - 20.--美国 059
-      - 21.--西班牙 001
-      - 22.--加拿大 024
-      - 23.--美国 047
-      - 24.--加拿大 070
-      - 25.--法国 OVH机房SAS硬盘BGP主机
-      - 26.--加拿大 021
-      - 27.--加拿大 071
-      - 28.--法国 OVH机房SAS硬盘BGP主机+1
-      - 29.--|DE|德国|@wxgqlfx|76
-      - 30.--US_youtube@资源分享师_122
-      - 31.--美国 021
+      - 1.--_NZ_新西兰
+      - 2.--_US_美国+12
+      - 3.--21@oneclickvpnkeys
+      - 4.--加拿大 008
+      - 5.--@Hope_Net-join-us-on-Telegram+1
+      - 6.--美国(yudou66.com 玉豆免费节点)\r
+      - 7.--美国 V2CROSS.COM
+      - 8.--美国 麻省理工学院
+      - 9.--[德国]Node-B
+      - 10.--荷兰 005
+      - 11.--@Hope_Net-join-us-on-Telegram
+      - 12.--28@oneclickvpnkeys
+      - 13.--@Hope_Net-join-us-on-Telegram+2
+      - 14.--19@oneclickvpnkeys
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国+9
-      - 2.--_NZ_新西兰
-      - 3.--_US_美国->🇩🇪_DE_德国
-      - 4.--_NL_荷兰
-      - 5.--US_youtube@资源分享师_34
-      - 6.--US_youtube@资源分享师_10
-      - 7.--US美国(mibei77.com 米贝节点分享)
-      - 8.--加拿大 023
-      - 9.--加拿大 027
-      - 10.--加拿大 030
-      - 11.--加拿大 041
-      - 12.--德国 005
-      - 13.--US_youtube@资源分享师_92
-      - 14.--加拿大 073
-      - 15.--俄罗斯 002
-      - 16.--VPN招代理电报联系@xiaoying229
-      - 17.--德国 - 杜塞尔多夫 - myLoc managed IT AG - 16
-      - 18.--加拿大 025
-      - 19.--[德国]Node-B
-      - 20.--美国 059
-      - 21.--西班牙 001
-      - 22.--加拿大 024
-      - 23.--美国 047
-      - 24.--加拿大 070
-      - 25.--法国 OVH机房SAS硬盘BGP主机
-      - 26.--加拿大 021
-      - 27.--加拿大 071
-      - 28.--法国 OVH机房SAS硬盘BGP主机+1
-      - 29.--|DE|德国|@wxgqlfx|76
-      - 30.--US_youtube@资源分享师_122
-      - 31.--美国 021
+      - 1.--_NZ_新西兰
+      - 2.--_US_美国+12
+      - 3.--21@oneclickvpnkeys
+      - 4.--加拿大 008
+      - 5.--@Hope_Net-join-us-on-Telegram+1
+      - 6.--美国(yudou66.com 玉豆免费节点)\r
+      - 7.--美国 V2CROSS.COM
+      - 8.--美国 麻省理工学院
+      - 9.--[德国]Node-B
+      - 10.--荷兰 005
+      - 11.--@Hope_Net-join-us-on-Telegram
+      - 12.--28@oneclickvpnkeys
+      - 13.--@Hope_Net-join-us-on-Telegram+2
+      - 14.--19@oneclickvpnkeys
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -115,37 +64,20 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国+9
-      - 2.--_NZ_新西兰
-      - 3.--_US_美国->🇩🇪_DE_德国
-      - 4.--_NL_荷兰
-      - 5.--US_youtube@资源分享师_34
-      - 6.--US_youtube@资源分享师_10
-      - 7.--US美国(mibei77.com 米贝节点分享)
-      - 8.--加拿大 023
-      - 9.--加拿大 027
-      - 10.--加拿大 030
-      - 11.--加拿大 041
-      - 12.--德国 005
-      - 13.--US_youtube@资源分享师_92
-      - 14.--加拿大 073
-      - 15.--俄罗斯 002
-      - 16.--VPN招代理电报联系@xiaoying229
-      - 17.--德国 - 杜塞尔多夫 - myLoc managed IT AG - 16
-      - 18.--加拿大 025
-      - 19.--[德国]Node-B
-      - 20.--美国 059
-      - 21.--西班牙 001
-      - 22.--加拿大 024
-      - 23.--美国 047
-      - 24.--加拿大 070
-      - 25.--法国 OVH机房SAS硬盘BGP主机
-      - 26.--加拿大 021
-      - 27.--加拿大 071
-      - 28.--法国 OVH机房SAS硬盘BGP主机+1
-      - 29.--|DE|德国|@wxgqlfx|76
-      - 30.--US_youtube@资源分享师_122
-      - 31.--美国 021
+      - 1.--_NZ_新西兰
+      - 2.--_US_美国+12
+      - 3.--21@oneclickvpnkeys
+      - 4.--加拿大 008
+      - 5.--@Hope_Net-join-us-on-Telegram+1
+      - 6.--美国(yudou66.com 玉豆免费节点)\r
+      - 7.--美国 V2CROSS.COM
+      - 8.--美国 麻省理工学院
+      - 9.--[德国]Node-B
+      - 10.--荷兰 005
+      - 11.--@Hope_Net-join-us-on-Telegram
+      - 12.--28@oneclickvpnkeys
+      - 13.--@Hope_Net-join-us-on-Telegram+2
+      - 14.--19@oneclickvpnkeys
   - name: 中国节点
     type: select
     proxies:
@@ -164,15 +96,9 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 1.--_US_美国+9
-      - 3.--_US_美国->🇩🇪_DE_德国
-      - 5.--US_youtube@资源分享师_34
-      - 6.--US_youtube@资源分享师_10
-      - 7.--US美国(mibei77.com 米贝节点分享)
-      - 13.--US_youtube@资源分享师_92
-      - 20.--美国 059
-      - 23.--美国 047
-      - 30.--US_youtube@资源分享师_122
-      - 31.--美国 021
+      - 2.--_US_美国+12
+      - 6.--美国(yudou66.com 玉豆免费节点)\r
+      - 7.--美国 V2CROSS.COM
+      - 8.--美国 麻省理工学院
 rules:
   - MATCH,手动切换
