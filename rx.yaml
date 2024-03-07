@@ -5,58 +5,58 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1.--_NZ_新西兰, server: 216.73.156.230, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, sni: 216.73.156.230, skip-cert-verify: true, udp: true}
-  - {name: 2.--_US_美国+12, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 3.--21@oneclickvpnkeys, server: 172.67.168.34, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: marien.motorcycles}}, udp: true}
-  - {name: 4.--加拿大 008, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
-  - {name: 5.--@Hope_Net-join-us-on-Telegram+1, server: muriel.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: muriel.makeup}}, udp: true}
-  - {name: 6.--美国(yudou66.com 玉豆免费节点)\r, server: tr-full.privateip.net, port: 443, type: trojan, password: 01f378e3-16fb-41ba-be7e-e23a7813275e, skip-cert-verify: true, udp: true}
-  - {name: 7.--美国 V2CROSS.COM, server: 137.175.40.18, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.75596620.xyz}}, udp: true}
-  - {name: 8.--美国 麻省理工学院, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: "9.--[德国]Node-B", server: de-b.funhub.cc, port: 8443, type: vmess, uuid: b33155f0-7429-4f1c-97c4-a9ba24a3b1cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /de-b, headers: {Host: de-b.funhub.cc}}, udp: true}
-  - {name: 10.--荷兰 005, server: 188.114.99.150, port: 443, type: vmess, uuid: e4c7e0ce-ed93-40d9-8f38-90497cb83864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fi1.xv2ray.net}}, udp: true}
-  - {name: 11.--@Hope_Net-join-us-on-Telegram, server: 104.21.33.32, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: nelly.homes}}, udp: true}
-  - {name: 12.--28@oneclickvpnkeys, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}, udp: true}
-  - {name: 13.--@Hope_Net-join-us-on-Telegram+2, server: 172.67.196.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}, udp: true}
-  - {name: 14.--19@oneclickvpnkeys, server: auth.speedtest.net, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: nelly.homes}}, udp: true}
+  - {name: 1.--_US_美国+17, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 2.--_NZ_新西兰, server: 216.73.156.230, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, sni: 216.73.156.230, skip-cert-verify: true, udp: true}
+  - {name: 3.--_RU_俄罗斯联邦, server: 176.120.74.142, port: 443, type: vmess, uuid: 75695f5a-b6af-44f4-9983-ae250b53ff9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}, udp: true}
+  - {name: 4.--@Hope_Net-join-us-on-Telegram+1, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}, udp: true}
+  - {name: 5.--7@oneclickvpnkeys, server: 104.21.4.6, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
+  - {name: 6.--19@oneclickvpnkeys, server: muriel.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: muriel.makeup}}, udp: true}
+  - {name: 7.--英国 伦敦Amazon数据中心, server: 18.130.140.105, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: 8.--17@oneclickvpnkeys, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}, udp: true}
+  - {name: 9.--12@oneclickvpnkeys, server: 104.21.75.244, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: janett.click}}, udp: true}
+  - {name: 10.--@Hope_Net-join-us-on-Telegram, server: lt2-vmess.sshmax.xyz, port: 80, type: vmess, uuid: a23a9cde-e563-4461-9b45-7843e7c28d00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: lt2-vmess.sshmax.xyz}}, udp: true}
+  - {name: "11.--[德国]Node-B", server: de-b.funhub.cc, port: 8443, type: vmess, uuid: b33155f0-7429-4f1c-97c4-a9ba24a3b1cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /de-b, headers: {Host: de-b.funhub.cc}}, udp: true}
+  - {name: 12.--14@oneclickvpnkeys, server: meroiy.icu, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
+  - {name: 13.--@Hope_Net-join-us-on-Telegram+2, server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 14.--@Hope_Net-join-us-on-Telegram+3, server: 172.67.152.214, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 1.--_NZ_新西兰
-      - 2.--_US_美国+12
-      - 3.--21@oneclickvpnkeys
-      - 4.--加拿大 008
-      - 5.--@Hope_Net-join-us-on-Telegram+1
-      - 6.--美国(yudou66.com 玉豆免费节点)\r
-      - 7.--美国 V2CROSS.COM
-      - 8.--美国 麻省理工学院
-      - 9.--[德国]Node-B
-      - 10.--荷兰 005
-      - 11.--@Hope_Net-join-us-on-Telegram
-      - 12.--28@oneclickvpnkeys
+      - 1.--_US_美国+17
+      - 2.--_NZ_新西兰
+      - 3.--_RU_俄罗斯联邦
+      - 4.--@Hope_Net-join-us-on-Telegram+1
+      - 5.--7@oneclickvpnkeys
+      - 6.--19@oneclickvpnkeys
+      - 7.--英国 伦敦Amazon数据中心
+      - 8.--17@oneclickvpnkeys
+      - 9.--12@oneclickvpnkeys
+      - 10.--@Hope_Net-join-us-on-Telegram
+      - 11.--[德国]Node-B
+      - 12.--14@oneclickvpnkeys
       - 13.--@Hope_Net-join-us-on-Telegram+2
-      - 14.--19@oneclickvpnkeys
+      - 14.--@Hope_Net-join-us-on-Telegram+3
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_NZ_新西兰
-      - 2.--_US_美国+12
-      - 3.--21@oneclickvpnkeys
-      - 4.--加拿大 008
-      - 5.--@Hope_Net-join-us-on-Telegram+1
-      - 6.--美国(yudou66.com 玉豆免费节点)\r
-      - 7.--美国 V2CROSS.COM
-      - 8.--美国 麻省理工学院
-      - 9.--[德国]Node-B
-      - 10.--荷兰 005
-      - 11.--@Hope_Net-join-us-on-Telegram
-      - 12.--28@oneclickvpnkeys
+      - 1.--_US_美国+17
+      - 2.--_NZ_新西兰
+      - 3.--_RU_俄罗斯联邦
+      - 4.--@Hope_Net-join-us-on-Telegram+1
+      - 5.--7@oneclickvpnkeys
+      - 6.--19@oneclickvpnkeys
+      - 7.--英国 伦敦Amazon数据中心
+      - 8.--17@oneclickvpnkeys
+      - 9.--12@oneclickvpnkeys
+      - 10.--@Hope_Net-join-us-on-Telegram
+      - 11.--[德国]Node-B
+      - 12.--14@oneclickvpnkeys
       - 13.--@Hope_Net-join-us-on-Telegram+2
-      - 14.--19@oneclickvpnkeys
+      - 14.--@Hope_Net-join-us-on-Telegram+3
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -64,20 +64,20 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_NZ_新西兰
-      - 2.--_US_美国+12
-      - 3.--21@oneclickvpnkeys
-      - 4.--加拿大 008
-      - 5.--@Hope_Net-join-us-on-Telegram+1
-      - 6.--美国(yudou66.com 玉豆免费节点)\r
-      - 7.--美国 V2CROSS.COM
-      - 8.--美国 麻省理工学院
-      - 9.--[德国]Node-B
-      - 10.--荷兰 005
-      - 11.--@Hope_Net-join-us-on-Telegram
-      - 12.--28@oneclickvpnkeys
+      - 1.--_US_美国+17
+      - 2.--_NZ_新西兰
+      - 3.--_RU_俄罗斯联邦
+      - 4.--@Hope_Net-join-us-on-Telegram+1
+      - 5.--7@oneclickvpnkeys
+      - 6.--19@oneclickvpnkeys
+      - 7.--英国 伦敦Amazon数据中心
+      - 8.--17@oneclickvpnkeys
+      - 9.--12@oneclickvpnkeys
+      - 10.--@Hope_Net-join-us-on-Telegram
+      - 11.--[德国]Node-B
+      - 12.--14@oneclickvpnkeys
       - 13.--@Hope_Net-join-us-on-Telegram+2
-      - 14.--19@oneclickvpnkeys
+      - 14.--@Hope_Net-join-us-on-Telegram+3
   - name: 中国节点
     type: select
     proxies:
@@ -96,9 +96,6 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 2.--_US_美国+12
-      - 6.--美国(yudou66.com 玉豆免费节点)\r
-      - 7.--美国 V2CROSS.COM
-      - 8.--美国 麻省理工学院
+      - 1.--_US_美国+17
 rules:
   - MATCH,手动切换
