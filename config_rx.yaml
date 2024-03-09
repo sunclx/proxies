@@ -5,1532 +5,229 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 1.--_US_美国+8
-  server: 212.102.47.198
-  port: 443
+- name: 1.--_US_美国+7
+  server: 138.124.184.209
+  port: 32955
   type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
+  cipher: chacha20-ietf-poly1305
+  password: s2S9dyaGAPRY0N3LYz838G
   udp: true
-- name: 2.--US_ 7022
-  server: 104.21.226.10
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 3.--US_ 7022+1
-  server: 104.21.225.9
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 4.--US_ 7022+4
-  server: 104.21.230.34
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 5.--US_ 7022+2
-  server: 104.21.239.97
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 6.--US_ 7022+12
-  server: 104.21.231.39
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 7.--US_ 7022+5
-  server: 104.21.228.20
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 8.--US_ 7022 21
-  server: 104.21.234.70
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 9.--US_ 7022+8
-  server: 104.21.239.76
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 10.--VPN招代理电报联系@xiaoying229
-  server: 104.21.225.113
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt5.ir
-  udp: true
-- name: 11.--US_ 7022+11
-  server: 104.21.235.59
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 12.--US_ 7022+7
-  server: 104.21.234.74
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 13.--US_ 7022+10
-  server: 104.21.232.44
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 14.--US_ 7022+9
-  server: 104.21.238.74
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 15.--US_ 7022+15
-  server: 104.21.235.77
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 16.--US_ 7022+13
-  server: 104.21.229.47
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 17.--US_ 7022+14
-  server: 104.21.225.27
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 18.--US_ 7022+16
-  server: 104.21.228.42
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 19.--美国(1) 16
-  server: 104.21.225.181
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt5.ir
-  udp: true
-- name: 20.--US_ 7022+17
-  server: 104.21.233.49
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 21.--US_ 7022+19
-  server: 104.21.236.80
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 22.--US_ 7022 206
-  server: 104.21.229.46
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 23.--US_ 7022+18
-  server: 104.21.239.95
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 24.--US_ 7022+23
-  server: 104.21.236.61
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 25.--US_ 7022+20
-  server: 104.21.224.22
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 26.--US_ 7022+21
-  server: 104.21.229.48
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 27.--US_ 7022 274
-  server: 104.21.226.33
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 28.--US_ 7022+22
-  server: 104.21.227.36
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 29.--US_ 7022+24
-  server: 104.21.234.51
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 30.--US_ 7022+26
-  server: 104.21.227.16
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 31.--US_ 7022+25
-  server: 104.21.232.60
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 32.--US_ 7022+27
-  server: 104.21.224.2
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 33.--美国(1) 11
-  server: 104.21.225.241
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt5.ir
-  udp: true
-- name: 34.--US_ 7022+30
-  server: 104.21.237.69
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 35.--US_ 7022+28
-  server: 104.21.230.52
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 36.--US_ 7022+33
-  server: 104.21.225.6
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 37.--US_ 7022+34
-  server: 104.21.226.14
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 38.--US_ 7022+31
-  server: 104.21.228.23
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 39.--US_ 7022+29
-  server: 104.21.236.64
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 40.--US_ 7022+35
-  server: 104.21.230.30
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 41.--US_ 7022+32
-  server: 104.21.237.88
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 42.--US_ 7022+36
-  server: 104.21.226.12
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 43.--US_ 7022+38
-  server: 104.21.233.67
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 44.--US_ 7022+37
-  server: 104.21.230.54
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 45.--美国 惠普公司
-  server: 15.222.104.26
+- name: 2.--_CA_加拿大
+  server: 15.157.113.141
   port: 22222
   type: trojan
   password: telegram-id-directvpn
   sni: trojan.miwan.co.uk
   skip-cert-verify: true
   udp: true
-- name: 46.--US_ 7022+39
-  server: 104.21.236.60
+- name: 3.--_US_美国+16
+  server: 212.102.47.198
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
+  udp: true
+- name: 4.--_AR_阿根廷
+  server: 190.103.176.29
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+  udp: true
+- name: 5.--33@oneclickvpnkeys
+  server: 188.114.97.7
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: waynn.makeup
+  udp: true
+- name: 6.--21@oneclickvpnkeys
+  server: 188.114.97.18
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: odelia.autos
+  udp: true
+- name: 7.--28@oneclickvpnkeys
+  server: 172.67.207.114
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: ophelia.mom
+  udp: true
+- name: 8.--27@oneclickvpnkeys
+  server: 104.21.50.177
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: alvvin.click
+  udp: true
+- name: 9.--25@oneclickvpnkeys
+  server: 188.114.97.3
+  port: 443
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: afrhms16v.bestxray.buzz
+  udp: true
+- name: 10.--@Hope_Net-join-us-on-Telegram
+  server: 172.67.131.108
+  port: 443
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: glweidf.cfd
+  udp: true
+- name: 11.--英国 Microsoft公司
+  server: 51.11.104.69
+  port: 16550
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: qFqqKf78FuMHnBqoxeWz4R
+  udp: true
+- name: 12.--美国 加利福尼亚州圣克拉拉Microsoft公司
+  server: 52.178.196.34
+  port: 54559
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: wP1HHo24lGRUoVTBJwv92o
+  udp: true
+- name: 13.--29@oneclickvpnkeys
+  server: obdii.cfd
+  port: 443
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: obdii.cfd
+  udp: true
+- name: 14.--@Hope_Net-join-us-on-Telegram+1
+  server: de3-vmess.sshmax.xyz
   port: 80
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 4ec2f1b0-b45d-41bf-b1d1-ec6ad7206cc8
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /vmess
     headers:
-      Host: a.prapt4.ir
+      Host: de3-vmess.sshmax.xyz
   udp: true
-- name: 47.--US_ 7022+40
-  server: 104.21.231.57
-  port: 80
+- name: 15.--30@oneclickvpnkeys
+  server: 172.67.179.37
+  port: 443
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 1
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: linkvws
     headers:
-      Host: a.prapt4.ir
+      Host: octavi.cfd
   udp: true
-- name: 48.--US_ 7022+42
-  server: 104.21.233.48
-  port: 80
+- name: 16.--俄罗斯 002
+  server: 185.221.160.163
+  port: 443
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /kellie.makeup/linkvws
     headers:
-      Host: a.prapt1.ir
+      Host: worker-lingering-fog-c021.gesofog870.workers.dev
   udp: true
-- name: 49.--德国(1) 3
-  server: 104.21.225.118
-  port: 80
+- name: 17.--美国科罗拉多州布隆菲尔德市 Level3
+  server: series-a2-me.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2LVVFxxHJSBMdGdl
+  udp: true
+- name: 18.--韩国 KT电信
+  server: series-a2-mec.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
+  udp: true
+- name: 19.--@Hope_Net-join-us-on-Telegram+3
+  server: 172.67.166.170
+  port: 443
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /linkvws
     headers:
-      Host: a.prapt5.ir
+      Host: irene.lat
   udp: true
-- name: 50.--US_ 7022+41
-  server: 104.21.232.40
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 51.--US_ 7022+43
-  server: 104.21.231.37
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 52.--美国(1) 14
-  server: 104.21.225.120
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt5.ir
-  udp: true
-- name: 53.--US_ 7022 116
-  server: 104.21.234.54
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 54.--US_ 7022+45
-  server: 104.21.231.55
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 55.--US_ 7022+47
-  server: 104.21.232.64
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 56.--US_youtube@资源分享师_4
-  server: 104.21.46.66
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.ywnouvbale.biz
-  udp: true
-- name: 57.--US_ 7022+46
-  server: 104.21.226.11
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 58.--US_ 7022+44
-  server: 104.21.224.4
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 59.--US_ 7022 86
-  server: 104.21.229.49
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 60.--US_ 7022+48
-  server: 104.21.228.44
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 61.--US_ 7022+51
-  server: 104.21.236.62
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 62.--US_ 7022+49
-  server: 104.21.238.72
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 63.--US_ 7022+53
-  server: 104.21.224.23
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 64.--US_ 7022+52
-  server: 104.21.229.25
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 65.--US_ 7022+50
-  server: 104.21.237.66
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 66.--US_ 7022+57
-  server: 104.21.226.31
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 67.--US_ 7022+54
-  server: 104.21.235.78
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 68.--US_ 7022+55
-  server: 104.21.238.93
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 69.--US_ 7022+56
-  server: 104.21.235.55
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 70.--US_ 7022+58
-  server: 104.21.237.67
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 71.--US_ 7022+60
-  server: 104.21.238.91
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 72.--US_ 7022+61
-  server: 104.21.239.99
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 73.--US_ 7022+59
-  server: 104.21.224.21
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 74.--US_ 7022+64
-  server: 104.21.227.38
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 75.--US_ 7022+62
-  server: 104.21.238.94
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 76.--US_ 7022+65
-  server: 104.21.239.77
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 77.--US_ 7022 96
-  server: 104.21.232.61
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 78.--US_ 7022+63
-  server: 104.21.233.69
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 79.--US_ 7022 40
-  server: 104.21.239.79
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 80.--美国(1) 10
-  server: 104.21.225.250
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt5.ir
-  udp: true
-- name: 81.--US_ 7022 113
-  server: 104.21.225.28
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 82.--US_ 7022+68
-  server: 104.21.233.65
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 83.--US_ 7022 69
-  server: 104.21.231.35
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 84.--@Hope_Net-join-us-on-Telegram+1
-  server: 129.80.151.246
-  port: 40059
-  type: vmess
-  uuid: 1b359f51-72df-4435-81df-b92cf75262d9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 85.--US_ 7022+67
-  server: 104.21.237.89
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 86.--US_ 7022+69
-  server: 104.21.233.68
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 87.--US_ 7022+72
-  server: 104.21.225.26
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 88.--US_ 7022+74
-  server: 104.21.230.32
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 89.--US_ 7022+70
-  server: 104.21.227.19
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 90.--US_ 7022+71
-  server: 104.21.235.75
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 91.--US_ 7022+75
-  server: 104.21.228.24
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 92.--US_ 7022 131
-  server: 104.21.232.41
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 93.--US_ 7022+76
-  server: 104.21.225.7
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 94.--US_ 7022+78
-  server: 104.21.237.85
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 95.--US_ 7022+73
-  server: 104.21.238.71
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 96.--US_ 7022 165
-  server: 104.21.224.0
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 97.--US_ 7022+79
-  server: 104.21.227.39
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 98.--US_ 7022+77
-  server: 104.21.229.28
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 99.--VPN招代理电报联系@xiaoying229+1
-  server: 104.21.225.195
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt5.ir
-  udp: true
-- name: 100.--US_ 7022+80
-  server: 104.21.227.35
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 101.--US_ 7022+81
-  server: 104.21.233.47
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 102.--US_ 7022+88
-  server: 104.21.238.90
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 103.--US_ 7022+82
-  server: 104.21.227.17
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 104.--US_ 7022+83
+- name: 20.--美国 CloudFlare节点+2
   server: 104.21.226.30
   port: 80
   type: vmess
@@ -1545,383 +242,60 @@ proxies:
     headers:
       Host: a.prapt4.ir
   udp: true
-- name: 105.--US_ 7022+90
-  server: 104.21.232.42
+- name: 21.--24@oneclickvpnkeys
+  server: 188.114.96.3
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: oliv.beauty
+  udp: true
+- name: 22.--@Hope_Net-join-us-on-Telegram+2
+  server: 92.223.124.34
   port: 80
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 5e529016-d961-438e-9a99-0dcc5c0df208
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /@forwardv2ray
     headers:
-      Host: a.prapt1.ir
+      Host: rahyaft.serveirc.com
   udp: true
-- name: 106.--US_ 7022+92
-  server: 104.21.231.38
-  port: 80
+- name: 23.--瑞典 V2CROSS.COM
+  server: 167.88.61.175
+  port: 5001
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 24.--美国 032
+  server: 38.14.107.234
+  port: 38100
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /path/153428133302
     headers:
-      Host: a.prapt1.ir
+      Host: www.23179753.xyz
   udp: true
-- name: 107.--US_ 7022+84
-  server: 104.21.230.33
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 108.--US_ 7022+91
-  server: 104.21.234.50
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 109.--US_ 7022+89
-  server: 104.21.228.22
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 110.--US_ 7022+87
-  server: 104.21.235.57
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 111.--US_ 7022+85
-  server: 104.21.234.72
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 112.--US_ 7022+86
-  server: 104.21.232.43
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 113.--US_ 7022+97
-  server: 104.21.224.1
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 114.--US_ 7022+105
-  server: 104.21.229.29
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 115.--US_ 7022+101
-  server: 104.21.238.70
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 116.--US_ 7022+93
-  server: 104.21.226.34
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 117.--US_ 7022 223
-  server: 104.21.225.29
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 118.--US_ 7022+95
-  server: 104.21.227.15
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 119.--US_ 7022+104
-  server: 104.21.234.53
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 120.--US_ 7022+96
-  server: 104.21.234.71
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 121.--US_ 7022+94
-  server: 104.21.226.13
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 122.--US_ 7022+98
-  server: 104.21.236.83
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 123.--US_ 7022+99
-  server: 104.21.231.59
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 124.--US_ 7022 10
-  server: 104.21.237.65
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 125.--US_ 7022+106
-  server: 104.21.232.62
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 126.--US_ 7022+100
-  server: 104.21.230.31
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 127.--US_ 7022+107
-  server: 104.21.226.32
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 128.--US_ 7022+108
-  server: 104.21.228.40
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 129.--US_ 7022+112
-  server: 104.21.239.96
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 130.--7@oneclickvpnkeys
-  server: 104.26.8.202
+- name: 25.--加拿大 020
+  server: 104.24.0.11
   port: 443
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -1935,561 +309,6 @@ proxies:
     headers:
       Host: vip2323.cfd
   udp: true
-- name: 131.--US_ 7022+109
-  server: 104.21.224.24
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 132.--US_ 7022+110
-  server: 104.21.235.56
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 133.--加拿大 004
-  server: www.ywnouvbale.biz
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.ywnouvbale.biz
-  udp: true
-- name: 134.--US_ 7022+111
-  server: 104.21.239.98
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 135.--US_ 7022 214
-  server: 104.21.228.41
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 136.--US_ 7022+116
-  server: 104.21.237.68
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 137.--US_ 7022+113
-  server: 104.21.229.26
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 138.--US_ 7022+114
-  server: 104.21.227.37
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 139.--US_ 7022+115
-  server: 104.21.231.36
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 140.--US_ 7022+117
-  server: 104.21.233.66
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 141.--US_ 7022+119
-  server: 104.21.239.78
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 142.--US_ 7022 7
-  server: 104.21.225.8
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 143.--US_ 7022+122
-  server: 104.21.229.27
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 144.--US_ 7022+125
-  server: 104.21.229.45
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 145.--US_ 7022+118
-  server: 104.21.230.51
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 146.--US_ 7022+126
-  server: 104.21.231.56
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 147.--US_ 7022+120
-  server: 104.21.224.3
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 148.--US_ 7022+124
-  server: 104.21.239.75
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 149.--28@oneclickvpnkeys
-  server: 104.21.69.44
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 150.--US_ 7022+123
-  server: 104.21.225.5
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 151.--US_ 7022+121
-  server: 104.21.235.76
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 152.--US_ 7022 98
-  server: 104.21.225.25
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 153.--US_ 7022+127
-  server: 104.21.230.53
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 154.--US_ 7022+129
-  server: 104.21.233.46
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 155.--US_ 7022+131
-  server: 104.21.235.79
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 156.--US_ 7022+132
-  server: 104.21.231.58
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 157.--US_ 7022+134
-  server: 104.21.235.58
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 158.--17@oneclickvpnkeys
-  server: 172.67.196.112
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: kellie.makeup
-  udp: true
-- name: 159.--US_ 7022+133
-  server: 104.21.224.20
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 160.--US_ 7022+137
-  server: 104.21.238.92
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 161.--US_ 7022 177
-  server: 104.21.236.81
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 162.--US_ 7022+138
-  server: 104.21.234.52
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 163.--US_ 7022 81
-  server: 104.21.236.63
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 164.--VPN招代理电报联系@xiaoying229+2
-  server: 104.21.225.34
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt5.ir
-  udp: true
-- name: 165.--US_ 7022+136
-  server: 104.21.228.21
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 166.--美国 CloudFlare节点+1
-  server: 104.21.233.45
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 167.--US_ 7022+135
-  server: 104.21.236.82
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
 proxy-groups:
 - name: 🔰 节点选择
   type: select
@@ -2497,345 +316,61 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 负载均衡
-  - 1.--_US_美国+8
-  - 2.--US_ 7022
-  - 3.--US_ 7022+1
-  - 4.--US_ 7022+4
-  - 5.--US_ 7022+2
-  - 6.--US_ 7022+12
-  - 7.--US_ 7022+5
-  - 8.--US_ 7022 21
-  - 9.--US_ 7022+8
-  - 10.--VPN招代理电报联系@xiaoying229
-  - 11.--US_ 7022+11
-  - 12.--US_ 7022+7
-  - 13.--US_ 7022+10
-  - 14.--US_ 7022+9
-  - 15.--US_ 7022+15
-  - 16.--US_ 7022+13
-  - 17.--US_ 7022+14
-  - 18.--US_ 7022+16
-  - 19.--美国(1) 16
-  - 20.--US_ 7022+17
-  - 21.--US_ 7022+19
-  - 22.--US_ 7022 206
-  - 23.--US_ 7022+18
-  - 24.--US_ 7022+23
-  - 25.--US_ 7022+20
-  - 26.--US_ 7022+21
-  - 27.--US_ 7022 274
-  - 28.--US_ 7022+22
-  - 29.--US_ 7022+24
-  - 30.--US_ 7022+26
-  - 31.--US_ 7022+25
-  - 32.--US_ 7022+27
-  - 33.--美国(1) 11
-  - 34.--US_ 7022+30
-  - 35.--US_ 7022+28
-  - 36.--US_ 7022+33
-  - 37.--US_ 7022+34
-  - 38.--US_ 7022+31
-  - 39.--US_ 7022+29
-  - 40.--US_ 7022+35
-  - 41.--US_ 7022+32
-  - 42.--US_ 7022+36
-  - 43.--US_ 7022+38
-  - 44.--US_ 7022+37
-  - 45.--美国 惠普公司
-  - 46.--US_ 7022+39
-  - 47.--US_ 7022+40
-  - 48.--US_ 7022+42
-  - 49.--德国(1) 3
-  - 50.--US_ 7022+41
-  - 51.--US_ 7022+43
-  - 52.--美国(1) 14
-  - 53.--US_ 7022 116
-  - 54.--US_ 7022+45
-  - 55.--US_ 7022+47
-  - 56.--US_youtube@资源分享师_4
-  - 57.--US_ 7022+46
-  - 58.--US_ 7022+44
-  - 59.--US_ 7022 86
-  - 60.--US_ 7022+48
-  - 61.--US_ 7022+51
-  - 62.--US_ 7022+49
-  - 63.--US_ 7022+53
-  - 64.--US_ 7022+52
-  - 65.--US_ 7022+50
-  - 66.--US_ 7022+57
-  - 67.--US_ 7022+54
-  - 68.--US_ 7022+55
-  - 69.--US_ 7022+56
-  - 70.--US_ 7022+58
-  - 71.--US_ 7022+60
-  - 72.--US_ 7022+61
-  - 73.--US_ 7022+59
-  - 74.--US_ 7022+64
-  - 75.--US_ 7022+62
-  - 76.--US_ 7022+65
-  - 77.--US_ 7022 96
-  - 78.--US_ 7022+63
-  - 79.--US_ 7022 40
-  - 80.--美国(1) 10
-  - 81.--US_ 7022 113
-  - 82.--US_ 7022+68
-  - 83.--US_ 7022 69
-  - 84.--@Hope_Net-join-us-on-Telegram+1
-  - 85.--US_ 7022+67
-  - 86.--US_ 7022+69
-  - 87.--US_ 7022+72
-  - 88.--US_ 7022+74
-  - 89.--US_ 7022+70
-  - 90.--US_ 7022+71
-  - 91.--US_ 7022+75
-  - 92.--US_ 7022 131
-  - 93.--US_ 7022+76
-  - 94.--US_ 7022+78
-  - 95.--US_ 7022+73
-  - 96.--US_ 7022 165
-  - 97.--US_ 7022+79
-  - 98.--US_ 7022+77
-  - 99.--VPN招代理电报联系@xiaoying229+1
-  - 100.--US_ 7022+80
-  - 101.--US_ 7022+81
-  - 102.--US_ 7022+88
-  - 103.--US_ 7022+82
-  - 104.--US_ 7022+83
-  - 105.--US_ 7022+90
-  - 106.--US_ 7022+92
-  - 107.--US_ 7022+84
-  - 108.--US_ 7022+91
-  - 109.--US_ 7022+89
-  - 110.--US_ 7022+87
-  - 111.--US_ 7022+85
-  - 112.--US_ 7022+86
-  - 113.--US_ 7022+97
-  - 114.--US_ 7022+105
-  - 115.--US_ 7022+101
-  - 116.--US_ 7022+93
-  - 117.--US_ 7022 223
-  - 118.--US_ 7022+95
-  - 119.--US_ 7022+104
-  - 120.--US_ 7022+96
-  - 121.--US_ 7022+94
-  - 122.--US_ 7022+98
-  - 123.--US_ 7022+99
-  - 124.--US_ 7022 10
-  - 125.--US_ 7022+106
-  - 126.--US_ 7022+100
-  - 127.--US_ 7022+107
-  - 128.--US_ 7022+108
-  - 129.--US_ 7022+112
-  - 130.--7@oneclickvpnkeys
-  - 131.--US_ 7022+109
-  - 132.--US_ 7022+110
-  - 133.--加拿大 004
-  - 134.--US_ 7022+111
-  - 135.--US_ 7022 214
-  - 136.--US_ 7022+116
-  - 137.--US_ 7022+113
-  - 138.--US_ 7022+114
-  - 139.--US_ 7022+115
-  - 140.--US_ 7022+117
-  - 141.--US_ 7022+119
-  - 142.--US_ 7022 7
-  - 143.--US_ 7022+122
-  - 144.--US_ 7022+125
-  - 145.--US_ 7022+118
-  - 146.--US_ 7022+126
-  - 147.--US_ 7022+120
-  - 148.--US_ 7022+124
-  - 149.--28@oneclickvpnkeys
-  - 150.--US_ 7022+123
-  - 151.--US_ 7022+121
-  - 152.--US_ 7022 98
-  - 153.--US_ 7022+127
-  - 154.--US_ 7022+129
-  - 155.--US_ 7022+131
-  - 156.--US_ 7022+132
-  - 157.--US_ 7022+134
-  - 158.--17@oneclickvpnkeys
-  - 159.--US_ 7022+133
-  - 160.--US_ 7022+137
-  - 161.--US_ 7022 177
-  - 162.--US_ 7022+138
-  - 163.--US_ 7022 81
-  - 164.--VPN招代理电报联系@xiaoying229+2
-  - 165.--US_ 7022+136
-  - 166.--美国 CloudFlare节点+1
-  - 167.--US_ 7022+135
+  - 1.--_US_美国+7
+  - 2.--_CA_加拿大
+  - 3.--_US_美国+16
+  - 4.--_AR_阿根廷
+  - 5.--33@oneclickvpnkeys
+  - 6.--21@oneclickvpnkeys
+  - 7.--28@oneclickvpnkeys
+  - 8.--27@oneclickvpnkeys
+  - 9.--25@oneclickvpnkeys
+  - 10.--@Hope_Net-join-us-on-Telegram
+  - 11.--英国 Microsoft公司
+  - 12.--美国 加利福尼亚州圣克拉拉Microsoft公司
+  - 13.--29@oneclickvpnkeys
+  - 14.--@Hope_Net-join-us-on-Telegram+1
+  - 15.--30@oneclickvpnkeys
+  - 16.--俄罗斯 002
+  - 17.--美国科罗拉多州布隆菲尔德市 Level3
+  - 18.--韩国 KT电信
+  - 19.--@Hope_Net-join-us-on-Telegram+3
+  - 20.--美国 CloudFlare节点+2
+  - 21.--24@oneclickvpnkeys
+  - 22.--@Hope_Net-join-us-on-Telegram+2
+  - 23.--瑞典 V2CROSS.COM
+  - 24.--美国 032
+  - 25.--加拿大 020
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 1.--_US_美国+8
-  - 2.--US_ 7022
-  - 3.--US_ 7022+1
-  - 4.--US_ 7022+4
-  - 5.--US_ 7022+2
-  - 6.--US_ 7022+12
-  - 7.--US_ 7022+5
-  - 8.--US_ 7022 21
-  - 9.--US_ 7022+8
-  - 10.--VPN招代理电报联系@xiaoying229
-  - 11.--US_ 7022+11
-  - 12.--US_ 7022+7
-  - 13.--US_ 7022+10
-  - 14.--US_ 7022+9
-  - 15.--US_ 7022+15
-  - 16.--US_ 7022+13
-  - 17.--US_ 7022+14
-  - 18.--US_ 7022+16
-  - 19.--美国(1) 16
-  - 20.--US_ 7022+17
-  - 21.--US_ 7022+19
-  - 22.--US_ 7022 206
-  - 23.--US_ 7022+18
-  - 24.--US_ 7022+23
-  - 25.--US_ 7022+20
-  - 26.--US_ 7022+21
-  - 27.--US_ 7022 274
-  - 28.--US_ 7022+22
-  - 29.--US_ 7022+24
-  - 30.--US_ 7022+26
-  - 31.--US_ 7022+25
-  - 32.--US_ 7022+27
-  - 33.--美国(1) 11
-  - 34.--US_ 7022+30
-  - 35.--US_ 7022+28
-  - 36.--US_ 7022+33
-  - 37.--US_ 7022+34
-  - 38.--US_ 7022+31
-  - 39.--US_ 7022+29
-  - 40.--US_ 7022+35
-  - 41.--US_ 7022+32
-  - 42.--US_ 7022+36
-  - 43.--US_ 7022+38
-  - 44.--US_ 7022+37
-  - 45.--美国 惠普公司
-  - 46.--US_ 7022+39
-  - 47.--US_ 7022+40
-  - 48.--US_ 7022+42
-  - 49.--德国(1) 3
-  - 50.--US_ 7022+41
-  - 51.--US_ 7022+43
-  - 52.--美国(1) 14
-  - 53.--US_ 7022 116
-  - 54.--US_ 7022+45
-  - 55.--US_ 7022+47
-  - 56.--US_youtube@资源分享师_4
-  - 57.--US_ 7022+46
-  - 58.--US_ 7022+44
-  - 59.--US_ 7022 86
-  - 60.--US_ 7022+48
-  - 61.--US_ 7022+51
-  - 62.--US_ 7022+49
-  - 63.--US_ 7022+53
-  - 64.--US_ 7022+52
-  - 65.--US_ 7022+50
-  - 66.--US_ 7022+57
-  - 67.--US_ 7022+54
-  - 68.--US_ 7022+55
-  - 69.--US_ 7022+56
-  - 70.--US_ 7022+58
-  - 71.--US_ 7022+60
-  - 72.--US_ 7022+61
-  - 73.--US_ 7022+59
-  - 74.--US_ 7022+64
-  - 75.--US_ 7022+62
-  - 76.--US_ 7022+65
-  - 77.--US_ 7022 96
-  - 78.--US_ 7022+63
-  - 79.--US_ 7022 40
-  - 80.--美国(1) 10
-  - 81.--US_ 7022 113
-  - 82.--US_ 7022+68
-  - 83.--US_ 7022 69
-  - 84.--@Hope_Net-join-us-on-Telegram+1
-  - 85.--US_ 7022+67
-  - 86.--US_ 7022+69
-  - 87.--US_ 7022+72
-  - 88.--US_ 7022+74
-  - 89.--US_ 7022+70
-  - 90.--US_ 7022+71
-  - 91.--US_ 7022+75
-  - 92.--US_ 7022 131
-  - 93.--US_ 7022+76
-  - 94.--US_ 7022+78
-  - 95.--US_ 7022+73
-  - 96.--US_ 7022 165
-  - 97.--US_ 7022+79
-  - 98.--US_ 7022+77
-  - 99.--VPN招代理电报联系@xiaoying229+1
-  - 100.--US_ 7022+80
-  - 101.--US_ 7022+81
-  - 102.--US_ 7022+88
-  - 103.--US_ 7022+82
-  - 104.--US_ 7022+83
-  - 105.--US_ 7022+90
-  - 106.--US_ 7022+92
-  - 107.--US_ 7022+84
-  - 108.--US_ 7022+91
-  - 109.--US_ 7022+89
-  - 110.--US_ 7022+87
-  - 111.--US_ 7022+85
-  - 112.--US_ 7022+86
-  - 113.--US_ 7022+97
-  - 114.--US_ 7022+105
-  - 115.--US_ 7022+101
-  - 116.--US_ 7022+93
-  - 117.--US_ 7022 223
-  - 118.--US_ 7022+95
-  - 119.--US_ 7022+104
-  - 120.--US_ 7022+96
-  - 121.--US_ 7022+94
-  - 122.--US_ 7022+98
-  - 123.--US_ 7022+99
-  - 124.--US_ 7022 10
-  - 125.--US_ 7022+106
-  - 126.--US_ 7022+100
-  - 127.--US_ 7022+107
-  - 128.--US_ 7022+108
-  - 129.--US_ 7022+112
-  - 130.--7@oneclickvpnkeys
-  - 131.--US_ 7022+109
-  - 132.--US_ 7022+110
-  - 133.--加拿大 004
-  - 134.--US_ 7022+111
-  - 135.--US_ 7022 214
-  - 136.--US_ 7022+116
-  - 137.--US_ 7022+113
-  - 138.--US_ 7022+114
-  - 139.--US_ 7022+115
-  - 140.--US_ 7022+117
-  - 141.--US_ 7022+119
-  - 142.--US_ 7022 7
-  - 143.--US_ 7022+122
-  - 144.--US_ 7022+125
-  - 145.--US_ 7022+118
-  - 146.--US_ 7022+126
-  - 147.--US_ 7022+120
-  - 148.--US_ 7022+124
-  - 149.--28@oneclickvpnkeys
-  - 150.--US_ 7022+123
-  - 151.--US_ 7022+121
-  - 152.--US_ 7022 98
-  - 153.--US_ 7022+127
-  - 154.--US_ 7022+129
-  - 155.--US_ 7022+131
-  - 156.--US_ 7022+132
-  - 157.--US_ 7022+134
-  - 158.--17@oneclickvpnkeys
-  - 159.--US_ 7022+133
-  - 160.--US_ 7022+137
-  - 161.--US_ 7022 177
-  - 162.--US_ 7022+138
-  - 163.--US_ 7022 81
-  - 164.--VPN招代理电报联系@xiaoying229+2
-  - 165.--US_ 7022+136
-  - 166.--美国 CloudFlare节点+1
-  - 167.--US_ 7022+135
+  - 1.--_US_美国+7
+  - 2.--_CA_加拿大
+  - 3.--_US_美国+16
+  - 4.--_AR_阿根廷
+  - 5.--33@oneclickvpnkeys
+  - 6.--21@oneclickvpnkeys
+  - 7.--28@oneclickvpnkeys
+  - 8.--27@oneclickvpnkeys
+  - 9.--25@oneclickvpnkeys
+  - 10.--@Hope_Net-join-us-on-Telegram
+  - 11.--英国 Microsoft公司
+  - 12.--美国 加利福尼亚州圣克拉拉Microsoft公司
+  - 13.--29@oneclickvpnkeys
+  - 14.--@Hope_Net-join-us-on-Telegram+1
+  - 15.--30@oneclickvpnkeys
+  - 16.--俄罗斯 002
+  - 17.--美国科罗拉多州布隆菲尔德市 Level3
+  - 18.--韩国 KT电信
+  - 19.--@Hope_Net-join-us-on-Telegram+3
+  - 20.--美国 CloudFlare节点+2
+  - 21.--24@oneclickvpnkeys
+  - 22.--@Hope_Net-join-us-on-Telegram+2
+  - 23.--瑞典 V2CROSS.COM
+  - 24.--美国 032
+  - 25.--加拿大 020
 - name: 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -2843,346 +378,62 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 1.--_US_美国+8
-  - 2.--US_ 7022
-  - 3.--US_ 7022+1
-  - 4.--US_ 7022+4
-  - 5.--US_ 7022+2
-  - 6.--US_ 7022+12
-  - 7.--US_ 7022+5
-  - 8.--US_ 7022 21
-  - 9.--US_ 7022+8
-  - 10.--VPN招代理电报联系@xiaoying229
-  - 11.--US_ 7022+11
-  - 12.--US_ 7022+7
-  - 13.--US_ 7022+10
-  - 14.--US_ 7022+9
-  - 15.--US_ 7022+15
-  - 16.--US_ 7022+13
-  - 17.--US_ 7022+14
-  - 18.--US_ 7022+16
-  - 19.--美国(1) 16
-  - 20.--US_ 7022+17
-  - 21.--US_ 7022+19
-  - 22.--US_ 7022 206
-  - 23.--US_ 7022+18
-  - 24.--US_ 7022+23
-  - 25.--US_ 7022+20
-  - 26.--US_ 7022+21
-  - 27.--US_ 7022 274
-  - 28.--US_ 7022+22
-  - 29.--US_ 7022+24
-  - 30.--US_ 7022+26
-  - 31.--US_ 7022+25
-  - 32.--US_ 7022+27
-  - 33.--美国(1) 11
-  - 34.--US_ 7022+30
-  - 35.--US_ 7022+28
-  - 36.--US_ 7022+33
-  - 37.--US_ 7022+34
-  - 38.--US_ 7022+31
-  - 39.--US_ 7022+29
-  - 40.--US_ 7022+35
-  - 41.--US_ 7022+32
-  - 42.--US_ 7022+36
-  - 43.--US_ 7022+38
-  - 44.--US_ 7022+37
-  - 45.--美国 惠普公司
-  - 46.--US_ 7022+39
-  - 47.--US_ 7022+40
-  - 48.--US_ 7022+42
-  - 49.--德国(1) 3
-  - 50.--US_ 7022+41
-  - 51.--US_ 7022+43
-  - 52.--美国(1) 14
-  - 53.--US_ 7022 116
-  - 54.--US_ 7022+45
-  - 55.--US_ 7022+47
-  - 56.--US_youtube@资源分享师_4
-  - 57.--US_ 7022+46
-  - 58.--US_ 7022+44
-  - 59.--US_ 7022 86
-  - 60.--US_ 7022+48
-  - 61.--US_ 7022+51
-  - 62.--US_ 7022+49
-  - 63.--US_ 7022+53
-  - 64.--US_ 7022+52
-  - 65.--US_ 7022+50
-  - 66.--US_ 7022+57
-  - 67.--US_ 7022+54
-  - 68.--US_ 7022+55
-  - 69.--US_ 7022+56
-  - 70.--US_ 7022+58
-  - 71.--US_ 7022+60
-  - 72.--US_ 7022+61
-  - 73.--US_ 7022+59
-  - 74.--US_ 7022+64
-  - 75.--US_ 7022+62
-  - 76.--US_ 7022+65
-  - 77.--US_ 7022 96
-  - 78.--US_ 7022+63
-  - 79.--US_ 7022 40
-  - 80.--美国(1) 10
-  - 81.--US_ 7022 113
-  - 82.--US_ 7022+68
-  - 83.--US_ 7022 69
-  - 84.--@Hope_Net-join-us-on-Telegram+1
-  - 85.--US_ 7022+67
-  - 86.--US_ 7022+69
-  - 87.--US_ 7022+72
-  - 88.--US_ 7022+74
-  - 89.--US_ 7022+70
-  - 90.--US_ 7022+71
-  - 91.--US_ 7022+75
-  - 92.--US_ 7022 131
-  - 93.--US_ 7022+76
-  - 94.--US_ 7022+78
-  - 95.--US_ 7022+73
-  - 96.--US_ 7022 165
-  - 97.--US_ 7022+79
-  - 98.--US_ 7022+77
-  - 99.--VPN招代理电报联系@xiaoying229+1
-  - 100.--US_ 7022+80
-  - 101.--US_ 7022+81
-  - 102.--US_ 7022+88
-  - 103.--US_ 7022+82
-  - 104.--US_ 7022+83
-  - 105.--US_ 7022+90
-  - 106.--US_ 7022+92
-  - 107.--US_ 7022+84
-  - 108.--US_ 7022+91
-  - 109.--US_ 7022+89
-  - 110.--US_ 7022+87
-  - 111.--US_ 7022+85
-  - 112.--US_ 7022+86
-  - 113.--US_ 7022+97
-  - 114.--US_ 7022+105
-  - 115.--US_ 7022+101
-  - 116.--US_ 7022+93
-  - 117.--US_ 7022 223
-  - 118.--US_ 7022+95
-  - 119.--US_ 7022+104
-  - 120.--US_ 7022+96
-  - 121.--US_ 7022+94
-  - 122.--US_ 7022+98
-  - 123.--US_ 7022+99
-  - 124.--US_ 7022 10
-  - 125.--US_ 7022+106
-  - 126.--US_ 7022+100
-  - 127.--US_ 7022+107
-  - 128.--US_ 7022+108
-  - 129.--US_ 7022+112
-  - 130.--7@oneclickvpnkeys
-  - 131.--US_ 7022+109
-  - 132.--US_ 7022+110
-  - 133.--加拿大 004
-  - 134.--US_ 7022+111
-  - 135.--US_ 7022 214
-  - 136.--US_ 7022+116
-  - 137.--US_ 7022+113
-  - 138.--US_ 7022+114
-  - 139.--US_ 7022+115
-  - 140.--US_ 7022+117
-  - 141.--US_ 7022+119
-  - 142.--US_ 7022 7
-  - 143.--US_ 7022+122
-  - 144.--US_ 7022+125
-  - 145.--US_ 7022+118
-  - 146.--US_ 7022+126
-  - 147.--US_ 7022+120
-  - 148.--US_ 7022+124
-  - 149.--28@oneclickvpnkeys
-  - 150.--US_ 7022+123
-  - 151.--US_ 7022+121
-  - 152.--US_ 7022 98
-  - 153.--US_ 7022+127
-  - 154.--US_ 7022+129
-  - 155.--US_ 7022+131
-  - 156.--US_ 7022+132
-  - 157.--US_ 7022+134
-  - 158.--17@oneclickvpnkeys
-  - 159.--US_ 7022+133
-  - 160.--US_ 7022+137
-  - 161.--US_ 7022 177
-  - 162.--US_ 7022+138
-  - 163.--US_ 7022 81
-  - 164.--VPN招代理电报联系@xiaoying229+2
-  - 165.--US_ 7022+136
-  - 166.--美国 CloudFlare节点+1
-  - 167.--US_ 7022+135
+  - 1.--_US_美国+7
+  - 2.--_CA_加拿大
+  - 3.--_US_美国+16
+  - 4.--_AR_阿根廷
+  - 5.--33@oneclickvpnkeys
+  - 6.--21@oneclickvpnkeys
+  - 7.--28@oneclickvpnkeys
+  - 8.--27@oneclickvpnkeys
+  - 9.--25@oneclickvpnkeys
+  - 10.--@Hope_Net-join-us-on-Telegram
+  - 11.--英国 Microsoft公司
+  - 12.--美国 加利福尼亚州圣克拉拉Microsoft公司
+  - 13.--29@oneclickvpnkeys
+  - 14.--@Hope_Net-join-us-on-Telegram+1
+  - 15.--30@oneclickvpnkeys
+  - 16.--俄罗斯 002
+  - 17.--美国科罗拉多州布隆菲尔德市 Level3
+  - 18.--韩国 KT电信
+  - 19.--@Hope_Net-join-us-on-Telegram+3
+  - 20.--美国 CloudFlare节点+2
+  - 21.--24@oneclickvpnkeys
+  - 22.--@Hope_Net-join-us-on-Telegram+2
+  - 23.--瑞典 V2CROSS.COM
+  - 24.--美国 032
+  - 25.--加拿大 020
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 1.--_US_美国+8
-  - 2.--US_ 7022
-  - 3.--US_ 7022+1
-  - 4.--US_ 7022+4
-  - 5.--US_ 7022+2
-  - 6.--US_ 7022+12
-  - 7.--US_ 7022+5
-  - 8.--US_ 7022 21
-  - 9.--US_ 7022+8
-  - 10.--VPN招代理电报联系@xiaoying229
-  - 11.--US_ 7022+11
-  - 12.--US_ 7022+7
-  - 13.--US_ 7022+10
-  - 14.--US_ 7022+9
-  - 15.--US_ 7022+15
-  - 16.--US_ 7022+13
-  - 17.--US_ 7022+14
-  - 18.--US_ 7022+16
-  - 19.--美国(1) 16
-  - 20.--US_ 7022+17
-  - 21.--US_ 7022+19
-  - 22.--US_ 7022 206
-  - 23.--US_ 7022+18
-  - 24.--US_ 7022+23
-  - 25.--US_ 7022+20
-  - 26.--US_ 7022+21
-  - 27.--US_ 7022 274
-  - 28.--US_ 7022+22
-  - 29.--US_ 7022+24
-  - 30.--US_ 7022+26
-  - 31.--US_ 7022+25
-  - 32.--US_ 7022+27
-  - 33.--美国(1) 11
-  - 34.--US_ 7022+30
-  - 35.--US_ 7022+28
-  - 36.--US_ 7022+33
-  - 37.--US_ 7022+34
-  - 38.--US_ 7022+31
-  - 39.--US_ 7022+29
-  - 40.--US_ 7022+35
-  - 41.--US_ 7022+32
-  - 42.--US_ 7022+36
-  - 43.--US_ 7022+38
-  - 44.--US_ 7022+37
-  - 45.--美国 惠普公司
-  - 46.--US_ 7022+39
-  - 47.--US_ 7022+40
-  - 48.--US_ 7022+42
-  - 49.--德国(1) 3
-  - 50.--US_ 7022+41
-  - 51.--US_ 7022+43
-  - 52.--美国(1) 14
-  - 53.--US_ 7022 116
-  - 54.--US_ 7022+45
-  - 55.--US_ 7022+47
-  - 56.--US_youtube@资源分享师_4
-  - 57.--US_ 7022+46
-  - 58.--US_ 7022+44
-  - 59.--US_ 7022 86
-  - 60.--US_ 7022+48
-  - 61.--US_ 7022+51
-  - 62.--US_ 7022+49
-  - 63.--US_ 7022+53
-  - 64.--US_ 7022+52
-  - 65.--US_ 7022+50
-  - 66.--US_ 7022+57
-  - 67.--US_ 7022+54
-  - 68.--US_ 7022+55
-  - 69.--US_ 7022+56
-  - 70.--US_ 7022+58
-  - 71.--US_ 7022+60
-  - 72.--US_ 7022+61
-  - 73.--US_ 7022+59
-  - 74.--US_ 7022+64
-  - 75.--US_ 7022+62
-  - 76.--US_ 7022+65
-  - 77.--US_ 7022 96
-  - 78.--US_ 7022+63
-  - 79.--US_ 7022 40
-  - 80.--美国(1) 10
-  - 81.--US_ 7022 113
-  - 82.--US_ 7022+68
-  - 83.--US_ 7022 69
-  - 84.--@Hope_Net-join-us-on-Telegram+1
-  - 85.--US_ 7022+67
-  - 86.--US_ 7022+69
-  - 87.--US_ 7022+72
-  - 88.--US_ 7022+74
-  - 89.--US_ 7022+70
-  - 90.--US_ 7022+71
-  - 91.--US_ 7022+75
-  - 92.--US_ 7022 131
-  - 93.--US_ 7022+76
-  - 94.--US_ 7022+78
-  - 95.--US_ 7022+73
-  - 96.--US_ 7022 165
-  - 97.--US_ 7022+79
-  - 98.--US_ 7022+77
-  - 99.--VPN招代理电报联系@xiaoying229+1
-  - 100.--US_ 7022+80
-  - 101.--US_ 7022+81
-  - 102.--US_ 7022+88
-  - 103.--US_ 7022+82
-  - 104.--US_ 7022+83
-  - 105.--US_ 7022+90
-  - 106.--US_ 7022+92
-  - 107.--US_ 7022+84
-  - 108.--US_ 7022+91
-  - 109.--US_ 7022+89
-  - 110.--US_ 7022+87
-  - 111.--US_ 7022+85
-  - 112.--US_ 7022+86
-  - 113.--US_ 7022+97
-  - 114.--US_ 7022+105
-  - 115.--US_ 7022+101
-  - 116.--US_ 7022+93
-  - 117.--US_ 7022 223
-  - 118.--US_ 7022+95
-  - 119.--US_ 7022+104
-  - 120.--US_ 7022+96
-  - 121.--US_ 7022+94
-  - 122.--US_ 7022+98
-  - 123.--US_ 7022+99
-  - 124.--US_ 7022 10
-  - 125.--US_ 7022+106
-  - 126.--US_ 7022+100
-  - 127.--US_ 7022+107
-  - 128.--US_ 7022+108
-  - 129.--US_ 7022+112
-  - 130.--7@oneclickvpnkeys
-  - 131.--US_ 7022+109
-  - 132.--US_ 7022+110
-  - 133.--加拿大 004
-  - 134.--US_ 7022+111
-  - 135.--US_ 7022 214
-  - 136.--US_ 7022+116
-  - 137.--US_ 7022+113
-  - 138.--US_ 7022+114
-  - 139.--US_ 7022+115
-  - 140.--US_ 7022+117
-  - 141.--US_ 7022+119
-  - 142.--US_ 7022 7
-  - 143.--US_ 7022+122
-  - 144.--US_ 7022+125
-  - 145.--US_ 7022+118
-  - 146.--US_ 7022+126
-  - 147.--US_ 7022+120
-  - 148.--US_ 7022+124
-  - 149.--28@oneclickvpnkeys
-  - 150.--US_ 7022+123
-  - 151.--US_ 7022+121
-  - 152.--US_ 7022 98
-  - 153.--US_ 7022+127
-  - 154.--US_ 7022+129
-  - 155.--US_ 7022+131
-  - 156.--US_ 7022+132
-  - 157.--US_ 7022+134
-  - 158.--17@oneclickvpnkeys
-  - 159.--US_ 7022+133
-  - 160.--US_ 7022+137
-  - 161.--US_ 7022 177
-  - 162.--US_ 7022+138
-  - 163.--US_ 7022 81
-  - 164.--VPN招代理电报联系@xiaoying229+2
-  - 165.--US_ 7022+136
-  - 166.--美国 CloudFlare节点+1
-  - 167.--US_ 7022+135
+  - 1.--_US_美国+7
+  - 2.--_CA_加拿大
+  - 3.--_US_美国+16
+  - 4.--_AR_阿根廷
+  - 5.--33@oneclickvpnkeys
+  - 6.--21@oneclickvpnkeys
+  - 7.--28@oneclickvpnkeys
+  - 8.--27@oneclickvpnkeys
+  - 9.--25@oneclickvpnkeys
+  - 10.--@Hope_Net-join-us-on-Telegram
+  - 11.--英国 Microsoft公司
+  - 12.--美国 加利福尼亚州圣克拉拉Microsoft公司
+  - 13.--29@oneclickvpnkeys
+  - 14.--@Hope_Net-join-us-on-Telegram+1
+  - 15.--30@oneclickvpnkeys
+  - 16.--俄罗斯 002
+  - 17.--美国科罗拉多州布隆菲尔德市 Level3
+  - 18.--韩国 KT电信
+  - 19.--@Hope_Net-join-us-on-Telegram+3
+  - 20.--美国 CloudFlare节点+2
+  - 21.--24@oneclickvpnkeys
+  - 22.--@Hope_Net-join-us-on-Telegram+2
+  - 23.--瑞典 V2CROSS.COM
+  - 24.--美国 032
+  - 25.--加拿大 020
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -3194,518 +445,92 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 1.--_US_美国+8
-  - 2.--US_ 7022
-  - 3.--US_ 7022+1
-  - 4.--US_ 7022+4
-  - 5.--US_ 7022+2
-  - 6.--US_ 7022+12
-  - 7.--US_ 7022+5
-  - 8.--US_ 7022 21
-  - 9.--US_ 7022+8
-  - 10.--VPN招代理电报联系@xiaoying229
-  - 11.--US_ 7022+11
-  - 12.--US_ 7022+7
-  - 13.--US_ 7022+10
-  - 14.--US_ 7022+9
-  - 15.--US_ 7022+15
-  - 16.--US_ 7022+13
-  - 17.--US_ 7022+14
-  - 18.--US_ 7022+16
-  - 19.--美国(1) 16
-  - 20.--US_ 7022+17
-  - 21.--US_ 7022+19
-  - 22.--US_ 7022 206
-  - 23.--US_ 7022+18
-  - 24.--US_ 7022+23
-  - 25.--US_ 7022+20
-  - 26.--US_ 7022+21
-  - 27.--US_ 7022 274
-  - 28.--US_ 7022+22
-  - 29.--US_ 7022+24
-  - 30.--US_ 7022+26
-  - 31.--US_ 7022+25
-  - 32.--US_ 7022+27
-  - 33.--美国(1) 11
-  - 34.--US_ 7022+30
-  - 35.--US_ 7022+28
-  - 36.--US_ 7022+33
-  - 37.--US_ 7022+34
-  - 38.--US_ 7022+31
-  - 39.--US_ 7022+29
-  - 40.--US_ 7022+35
-  - 41.--US_ 7022+32
-  - 42.--US_ 7022+36
-  - 43.--US_ 7022+38
-  - 44.--US_ 7022+37
-  - 45.--美国 惠普公司
-  - 46.--US_ 7022+39
-  - 47.--US_ 7022+40
-  - 48.--US_ 7022+42
-  - 49.--德国(1) 3
-  - 50.--US_ 7022+41
-  - 51.--US_ 7022+43
-  - 52.--美国(1) 14
-  - 53.--US_ 7022 116
-  - 54.--US_ 7022+45
-  - 55.--US_ 7022+47
-  - 56.--US_youtube@资源分享师_4
-  - 57.--US_ 7022+46
-  - 58.--US_ 7022+44
-  - 59.--US_ 7022 86
-  - 60.--US_ 7022+48
-  - 61.--US_ 7022+51
-  - 62.--US_ 7022+49
-  - 63.--US_ 7022+53
-  - 64.--US_ 7022+52
-  - 65.--US_ 7022+50
-  - 66.--US_ 7022+57
-  - 67.--US_ 7022+54
-  - 68.--US_ 7022+55
-  - 69.--US_ 7022+56
-  - 70.--US_ 7022+58
-  - 71.--US_ 7022+60
-  - 72.--US_ 7022+61
-  - 73.--US_ 7022+59
-  - 74.--US_ 7022+64
-  - 75.--US_ 7022+62
-  - 76.--US_ 7022+65
-  - 77.--US_ 7022 96
-  - 78.--US_ 7022+63
-  - 79.--US_ 7022 40
-  - 80.--美国(1) 10
-  - 81.--US_ 7022 113
-  - 82.--US_ 7022+68
-  - 83.--US_ 7022 69
-  - 84.--@Hope_Net-join-us-on-Telegram+1
-  - 85.--US_ 7022+67
-  - 86.--US_ 7022+69
-  - 87.--US_ 7022+72
-  - 88.--US_ 7022+74
-  - 89.--US_ 7022+70
-  - 90.--US_ 7022+71
-  - 91.--US_ 7022+75
-  - 92.--US_ 7022 131
-  - 93.--US_ 7022+76
-  - 94.--US_ 7022+78
-  - 95.--US_ 7022+73
-  - 96.--US_ 7022 165
-  - 97.--US_ 7022+79
-  - 98.--US_ 7022+77
-  - 99.--VPN招代理电报联系@xiaoying229+1
-  - 100.--US_ 7022+80
-  - 101.--US_ 7022+81
-  - 102.--US_ 7022+88
-  - 103.--US_ 7022+82
-  - 104.--US_ 7022+83
-  - 105.--US_ 7022+90
-  - 106.--US_ 7022+92
-  - 107.--US_ 7022+84
-  - 108.--US_ 7022+91
-  - 109.--US_ 7022+89
-  - 110.--US_ 7022+87
-  - 111.--US_ 7022+85
-  - 112.--US_ 7022+86
-  - 113.--US_ 7022+97
-  - 114.--US_ 7022+105
-  - 115.--US_ 7022+101
-  - 116.--US_ 7022+93
-  - 117.--US_ 7022 223
-  - 118.--US_ 7022+95
-  - 119.--US_ 7022+104
-  - 120.--US_ 7022+96
-  - 121.--US_ 7022+94
-  - 122.--US_ 7022+98
-  - 123.--US_ 7022+99
-  - 124.--US_ 7022 10
-  - 125.--US_ 7022+106
-  - 126.--US_ 7022+100
-  - 127.--US_ 7022+107
-  - 128.--US_ 7022+108
-  - 129.--US_ 7022+112
-  - 130.--7@oneclickvpnkeys
-  - 131.--US_ 7022+109
-  - 132.--US_ 7022+110
-  - 133.--加拿大 004
-  - 134.--US_ 7022+111
-  - 135.--US_ 7022 214
-  - 136.--US_ 7022+116
-  - 137.--US_ 7022+113
-  - 138.--US_ 7022+114
-  - 139.--US_ 7022+115
-  - 140.--US_ 7022+117
-  - 141.--US_ 7022+119
-  - 142.--US_ 7022 7
-  - 143.--US_ 7022+122
-  - 144.--US_ 7022+125
-  - 145.--US_ 7022+118
-  - 146.--US_ 7022+126
-  - 147.--US_ 7022+120
-  - 148.--US_ 7022+124
-  - 149.--28@oneclickvpnkeys
-  - 150.--US_ 7022+123
-  - 151.--US_ 7022+121
-  - 152.--US_ 7022 98
-  - 153.--US_ 7022+127
-  - 154.--US_ 7022+129
-  - 155.--US_ 7022+131
-  - 156.--US_ 7022+132
-  - 157.--US_ 7022+134
-  - 158.--17@oneclickvpnkeys
-  - 159.--US_ 7022+133
-  - 160.--US_ 7022+137
-  - 161.--US_ 7022 177
-  - 162.--US_ 7022+138
-  - 163.--US_ 7022 81
-  - 164.--VPN招代理电报联系@xiaoying229+2
-  - 165.--US_ 7022+136
-  - 166.--美国 CloudFlare节点+1
-  - 167.--US_ 7022+135
+  - 1.--_US_美国+7
+  - 2.--_CA_加拿大
+  - 3.--_US_美国+16
+  - 4.--_AR_阿根廷
+  - 5.--33@oneclickvpnkeys
+  - 6.--21@oneclickvpnkeys
+  - 7.--28@oneclickvpnkeys
+  - 8.--27@oneclickvpnkeys
+  - 9.--25@oneclickvpnkeys
+  - 10.--@Hope_Net-join-us-on-Telegram
+  - 11.--英国 Microsoft公司
+  - 12.--美国 加利福尼亚州圣克拉拉Microsoft公司
+  - 13.--29@oneclickvpnkeys
+  - 14.--@Hope_Net-join-us-on-Telegram+1
+  - 15.--30@oneclickvpnkeys
+  - 16.--俄罗斯 002
+  - 17.--美国科罗拉多州布隆菲尔德市 Level3
+  - 18.--韩国 KT电信
+  - 19.--@Hope_Net-join-us-on-Telegram+3
+  - 20.--美国 CloudFlare节点+2
+  - 21.--24@oneclickvpnkeys
+  - 22.--@Hope_Net-join-us-on-Telegram+2
+  - 23.--瑞典 V2CROSS.COM
+  - 24.--美国 032
+  - 25.--加拿大 020
 - name: 📲 电报信息
   type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 1.--_US_美国+8
-  - 2.--US_ 7022
-  - 3.--US_ 7022+1
-  - 4.--US_ 7022+4
-  - 5.--US_ 7022+2
-  - 6.--US_ 7022+12
-  - 7.--US_ 7022+5
-  - 8.--US_ 7022 21
-  - 9.--US_ 7022+8
-  - 10.--VPN招代理电报联系@xiaoying229
-  - 11.--US_ 7022+11
-  - 12.--US_ 7022+7
-  - 13.--US_ 7022+10
-  - 14.--US_ 7022+9
-  - 15.--US_ 7022+15
-  - 16.--US_ 7022+13
-  - 17.--US_ 7022+14
-  - 18.--US_ 7022+16
-  - 19.--美国(1) 16
-  - 20.--US_ 7022+17
-  - 21.--US_ 7022+19
-  - 22.--US_ 7022 206
-  - 23.--US_ 7022+18
-  - 24.--US_ 7022+23
-  - 25.--US_ 7022+20
-  - 26.--US_ 7022+21
-  - 27.--US_ 7022 274
-  - 28.--US_ 7022+22
-  - 29.--US_ 7022+24
-  - 30.--US_ 7022+26
-  - 31.--US_ 7022+25
-  - 32.--US_ 7022+27
-  - 33.--美国(1) 11
-  - 34.--US_ 7022+30
-  - 35.--US_ 7022+28
-  - 36.--US_ 7022+33
-  - 37.--US_ 7022+34
-  - 38.--US_ 7022+31
-  - 39.--US_ 7022+29
-  - 40.--US_ 7022+35
-  - 41.--US_ 7022+32
-  - 42.--US_ 7022+36
-  - 43.--US_ 7022+38
-  - 44.--US_ 7022+37
-  - 45.--美国 惠普公司
-  - 46.--US_ 7022+39
-  - 47.--US_ 7022+40
-  - 48.--US_ 7022+42
-  - 49.--德国(1) 3
-  - 50.--US_ 7022+41
-  - 51.--US_ 7022+43
-  - 52.--美国(1) 14
-  - 53.--US_ 7022 116
-  - 54.--US_ 7022+45
-  - 55.--US_ 7022+47
-  - 56.--US_youtube@资源分享师_4
-  - 57.--US_ 7022+46
-  - 58.--US_ 7022+44
-  - 59.--US_ 7022 86
-  - 60.--US_ 7022+48
-  - 61.--US_ 7022+51
-  - 62.--US_ 7022+49
-  - 63.--US_ 7022+53
-  - 64.--US_ 7022+52
-  - 65.--US_ 7022+50
-  - 66.--US_ 7022+57
-  - 67.--US_ 7022+54
-  - 68.--US_ 7022+55
-  - 69.--US_ 7022+56
-  - 70.--US_ 7022+58
-  - 71.--US_ 7022+60
-  - 72.--US_ 7022+61
-  - 73.--US_ 7022+59
-  - 74.--US_ 7022+64
-  - 75.--US_ 7022+62
-  - 76.--US_ 7022+65
-  - 77.--US_ 7022 96
-  - 78.--US_ 7022+63
-  - 79.--US_ 7022 40
-  - 80.--美国(1) 10
-  - 81.--US_ 7022 113
-  - 82.--US_ 7022+68
-  - 83.--US_ 7022 69
-  - 84.--@Hope_Net-join-us-on-Telegram+1
-  - 85.--US_ 7022+67
-  - 86.--US_ 7022+69
-  - 87.--US_ 7022+72
-  - 88.--US_ 7022+74
-  - 89.--US_ 7022+70
-  - 90.--US_ 7022+71
-  - 91.--US_ 7022+75
-  - 92.--US_ 7022 131
-  - 93.--US_ 7022+76
-  - 94.--US_ 7022+78
-  - 95.--US_ 7022+73
-  - 96.--US_ 7022 165
-  - 97.--US_ 7022+79
-  - 98.--US_ 7022+77
-  - 99.--VPN招代理电报联系@xiaoying229+1
-  - 100.--US_ 7022+80
-  - 101.--US_ 7022+81
-  - 102.--US_ 7022+88
-  - 103.--US_ 7022+82
-  - 104.--US_ 7022+83
-  - 105.--US_ 7022+90
-  - 106.--US_ 7022+92
-  - 107.--US_ 7022+84
-  - 108.--US_ 7022+91
-  - 109.--US_ 7022+89
-  - 110.--US_ 7022+87
-  - 111.--US_ 7022+85
-  - 112.--US_ 7022+86
-  - 113.--US_ 7022+97
-  - 114.--US_ 7022+105
-  - 115.--US_ 7022+101
-  - 116.--US_ 7022+93
-  - 117.--US_ 7022 223
-  - 118.--US_ 7022+95
-  - 119.--US_ 7022+104
-  - 120.--US_ 7022+96
-  - 121.--US_ 7022+94
-  - 122.--US_ 7022+98
-  - 123.--US_ 7022+99
-  - 124.--US_ 7022 10
-  - 125.--US_ 7022+106
-  - 126.--US_ 7022+100
-  - 127.--US_ 7022+107
-  - 128.--US_ 7022+108
-  - 129.--US_ 7022+112
-  - 130.--7@oneclickvpnkeys
-  - 131.--US_ 7022+109
-  - 132.--US_ 7022+110
-  - 133.--加拿大 004
-  - 134.--US_ 7022+111
-  - 135.--US_ 7022 214
-  - 136.--US_ 7022+116
-  - 137.--US_ 7022+113
-  - 138.--US_ 7022+114
-  - 139.--US_ 7022+115
-  - 140.--US_ 7022+117
-  - 141.--US_ 7022+119
-  - 142.--US_ 7022 7
-  - 143.--US_ 7022+122
-  - 144.--US_ 7022+125
-  - 145.--US_ 7022+118
-  - 146.--US_ 7022+126
-  - 147.--US_ 7022+120
-  - 148.--US_ 7022+124
-  - 149.--28@oneclickvpnkeys
-  - 150.--US_ 7022+123
-  - 151.--US_ 7022+121
-  - 152.--US_ 7022 98
-  - 153.--US_ 7022+127
-  - 154.--US_ 7022+129
-  - 155.--US_ 7022+131
-  - 156.--US_ 7022+132
-  - 157.--US_ 7022+134
-  - 158.--17@oneclickvpnkeys
-  - 159.--US_ 7022+133
-  - 160.--US_ 7022+137
-  - 161.--US_ 7022 177
-  - 162.--US_ 7022+138
-  - 163.--US_ 7022 81
-  - 164.--VPN招代理电报联系@xiaoying229+2
-  - 165.--US_ 7022+136
-  - 166.--美国 CloudFlare节点+1
-  - 167.--US_ 7022+135
+  - 1.--_US_美国+7
+  - 2.--_CA_加拿大
+  - 3.--_US_美国+16
+  - 4.--_AR_阿根廷
+  - 5.--33@oneclickvpnkeys
+  - 6.--21@oneclickvpnkeys
+  - 7.--28@oneclickvpnkeys
+  - 8.--27@oneclickvpnkeys
+  - 9.--25@oneclickvpnkeys
+  - 10.--@Hope_Net-join-us-on-Telegram
+  - 11.--英国 Microsoft公司
+  - 12.--美国 加利福尼亚州圣克拉拉Microsoft公司
+  - 13.--29@oneclickvpnkeys
+  - 14.--@Hope_Net-join-us-on-Telegram+1
+  - 15.--30@oneclickvpnkeys
+  - 16.--俄罗斯 002
+  - 17.--美国科罗拉多州布隆菲尔德市 Level3
+  - 18.--韩国 KT电信
+  - 19.--@Hope_Net-join-us-on-Telegram+3
+  - 20.--美国 CloudFlare节点+2
+  - 21.--24@oneclickvpnkeys
+  - 22.--@Hope_Net-join-us-on-Telegram+2
+  - 23.--瑞典 V2CROSS.COM
+  - 24.--美国 032
+  - 25.--加拿大 020
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - ♻️ 自动选择
-  - 1.--_US_美国+8
-  - 2.--US_ 7022
-  - 3.--US_ 7022+1
-  - 4.--US_ 7022+4
-  - 5.--US_ 7022+2
-  - 6.--US_ 7022+12
-  - 7.--US_ 7022+5
-  - 8.--US_ 7022 21
-  - 9.--US_ 7022+8
-  - 10.--VPN招代理电报联系@xiaoying229
-  - 11.--US_ 7022+11
-  - 12.--US_ 7022+7
-  - 13.--US_ 7022+10
-  - 14.--US_ 7022+9
-  - 15.--US_ 7022+15
-  - 16.--US_ 7022+13
-  - 17.--US_ 7022+14
-  - 18.--US_ 7022+16
-  - 19.--美国(1) 16
-  - 20.--US_ 7022+17
-  - 21.--US_ 7022+19
-  - 22.--US_ 7022 206
-  - 23.--US_ 7022+18
-  - 24.--US_ 7022+23
-  - 25.--US_ 7022+20
-  - 26.--US_ 7022+21
-  - 27.--US_ 7022 274
-  - 28.--US_ 7022+22
-  - 29.--US_ 7022+24
-  - 30.--US_ 7022+26
-  - 31.--US_ 7022+25
-  - 32.--US_ 7022+27
-  - 33.--美国(1) 11
-  - 34.--US_ 7022+30
-  - 35.--US_ 7022+28
-  - 36.--US_ 7022+33
-  - 37.--US_ 7022+34
-  - 38.--US_ 7022+31
-  - 39.--US_ 7022+29
-  - 40.--US_ 7022+35
-  - 41.--US_ 7022+32
-  - 42.--US_ 7022+36
-  - 43.--US_ 7022+38
-  - 44.--US_ 7022+37
-  - 45.--美国 惠普公司
-  - 46.--US_ 7022+39
-  - 47.--US_ 7022+40
-  - 48.--US_ 7022+42
-  - 49.--德国(1) 3
-  - 50.--US_ 7022+41
-  - 51.--US_ 7022+43
-  - 52.--美国(1) 14
-  - 53.--US_ 7022 116
-  - 54.--US_ 7022+45
-  - 55.--US_ 7022+47
-  - 56.--US_youtube@资源分享师_4
-  - 57.--US_ 7022+46
-  - 58.--US_ 7022+44
-  - 59.--US_ 7022 86
-  - 60.--US_ 7022+48
-  - 61.--US_ 7022+51
-  - 62.--US_ 7022+49
-  - 63.--US_ 7022+53
-  - 64.--US_ 7022+52
-  - 65.--US_ 7022+50
-  - 66.--US_ 7022+57
-  - 67.--US_ 7022+54
-  - 68.--US_ 7022+55
-  - 69.--US_ 7022+56
-  - 70.--US_ 7022+58
-  - 71.--US_ 7022+60
-  - 72.--US_ 7022+61
-  - 73.--US_ 7022+59
-  - 74.--US_ 7022+64
-  - 75.--US_ 7022+62
-  - 76.--US_ 7022+65
-  - 77.--US_ 7022 96
-  - 78.--US_ 7022+63
-  - 79.--US_ 7022 40
-  - 80.--美国(1) 10
-  - 81.--US_ 7022 113
-  - 82.--US_ 7022+68
-  - 83.--US_ 7022 69
-  - 84.--@Hope_Net-join-us-on-Telegram+1
-  - 85.--US_ 7022+67
-  - 86.--US_ 7022+69
-  - 87.--US_ 7022+72
-  - 88.--US_ 7022+74
-  - 89.--US_ 7022+70
-  - 90.--US_ 7022+71
-  - 91.--US_ 7022+75
-  - 92.--US_ 7022 131
-  - 93.--US_ 7022+76
-  - 94.--US_ 7022+78
-  - 95.--US_ 7022+73
-  - 96.--US_ 7022 165
-  - 97.--US_ 7022+79
-  - 98.--US_ 7022+77
-  - 99.--VPN招代理电报联系@xiaoying229+1
-  - 100.--US_ 7022+80
-  - 101.--US_ 7022+81
-  - 102.--US_ 7022+88
-  - 103.--US_ 7022+82
-  - 104.--US_ 7022+83
-  - 105.--US_ 7022+90
-  - 106.--US_ 7022+92
-  - 107.--US_ 7022+84
-  - 108.--US_ 7022+91
-  - 109.--US_ 7022+89
-  - 110.--US_ 7022+87
-  - 111.--US_ 7022+85
-  - 112.--US_ 7022+86
-  - 113.--US_ 7022+97
-  - 114.--US_ 7022+105
-  - 115.--US_ 7022+101
-  - 116.--US_ 7022+93
-  - 117.--US_ 7022 223
-  - 118.--US_ 7022+95
-  - 119.--US_ 7022+104
-  - 120.--US_ 7022+96
-  - 121.--US_ 7022+94
-  - 122.--US_ 7022+98
-  - 123.--US_ 7022+99
-  - 124.--US_ 7022 10
-  - 125.--US_ 7022+106
-  - 126.--US_ 7022+100
-  - 127.--US_ 7022+107
-  - 128.--US_ 7022+108
-  - 129.--US_ 7022+112
-  - 130.--7@oneclickvpnkeys
-  - 131.--US_ 7022+109
-  - 132.--US_ 7022+110
-  - 133.--加拿大 004
-  - 134.--US_ 7022+111
-  - 135.--US_ 7022 214
-  - 136.--US_ 7022+116
-  - 137.--US_ 7022+113
-  - 138.--US_ 7022+114
-  - 139.--US_ 7022+115
-  - 140.--US_ 7022+117
-  - 141.--US_ 7022+119
-  - 142.--US_ 7022 7
-  - 143.--US_ 7022+122
-  - 144.--US_ 7022+125
-  - 145.--US_ 7022+118
-  - 146.--US_ 7022+126
-  - 147.--US_ 7022+120
-  - 148.--US_ 7022+124
-  - 149.--28@oneclickvpnkeys
-  - 150.--US_ 7022+123
-  - 151.--US_ 7022+121
-  - 152.--US_ 7022 98
-  - 153.--US_ 7022+127
-  - 154.--US_ 7022+129
-  - 155.--US_ 7022+131
-  - 156.--US_ 7022+132
-  - 157.--US_ 7022+134
-  - 158.--17@oneclickvpnkeys
-  - 159.--US_ 7022+133
-  - 160.--US_ 7022+137
-  - 161.--US_ 7022 177
-  - 162.--US_ 7022+138
-  - 163.--US_ 7022 81
-  - 164.--VPN招代理电报联系@xiaoying229+2
-  - 165.--US_ 7022+136
-  - 166.--美国 CloudFlare节点+1
-  - 167.--US_ 7022+135
+  - 1.--_US_美国+7
+  - 2.--_CA_加拿大
+  - 3.--_US_美国+16
+  - 4.--_AR_阿根廷
+  - 5.--33@oneclickvpnkeys
+  - 6.--21@oneclickvpnkeys
+  - 7.--28@oneclickvpnkeys
+  - 8.--27@oneclickvpnkeys
+  - 9.--25@oneclickvpnkeys
+  - 10.--@Hope_Net-join-us-on-Telegram
+  - 11.--英国 Microsoft公司
+  - 12.--美国 加利福尼亚州圣克拉拉Microsoft公司
+  - 13.--29@oneclickvpnkeys
+  - 14.--@Hope_Net-join-us-on-Telegram+1
+  - 15.--30@oneclickvpnkeys
+  - 16.--俄罗斯 002
+  - 17.--美国科罗拉多州布隆菲尔德市 Level3
+  - 18.--韩国 KT电信
+  - 19.--@Hope_Net-join-us-on-Telegram+3
+  - 20.--美国 CloudFlare节点+2
+  - 21.--24@oneclickvpnkeys
+  - 22.--@Hope_Net-join-us-on-Telegram+2
+  - 23.--瑞典 V2CROSS.COM
+  - 24.--美国 032
+  - 25.--加拿大 020
 - name: 🎯 全球直连
   type: select
   proxies:
