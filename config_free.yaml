@@ -9,7 +9,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 27500
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -24,7 +24,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 27600
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -39,7 +39,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 27700
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -54,7 +54,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 27800
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -69,7 +69,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 27900
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -84,7 +84,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 28100
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -99,7 +99,7 @@ proxies:
   server: nat.fellayun.com
   port: 15810
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -114,7 +114,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 27666
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -129,7 +129,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 28700
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -144,7 +144,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 28800
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -159,7 +159,7 @@ proxies:
   server: cu1.guguyun.xyz
   port: 27605
   type: vmess
-  uuid: 63ce0851-83c1-42e1-8c73-b54cd95af3c3
+  uuid: 680d1a98-2e7f-4ea9-8a2b-3edac7139051
   alterId: 0
   cipher: auto
   tls: true
@@ -208,20 +208,20 @@ proxies:
   port: 51653
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 1e61281e-9fc4-4daa-a724-ffbba1d7ed36
+  password: 97a39bb3-d94d-44db-aed0-36fad134a23c
   udp: true
 - name: 韩国01|V6 - 都是梦
   server: krv6.doushimeng.free.hr
   port: 55257
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 1e61281e-9fc4-4daa-a724-ffbba1d7ed36
+  password: 97a39bb3-d94d-44db-aed0-36fad134a23c
   udp: true
 - name: 美国01 - 都是梦
   server: dl3s.doushimeng.com
   port: 2086
   type: vmess
-  uuid: 1e61281e-9fc4-4daa-a724-ffbba1d7ed36
+  uuid: 97a39bb3-d94d-44db-aed0-36fad134a23c
   alterId: 0
   cipher: auto
   tls: false
@@ -236,7 +236,7 @@ proxies:
   server: dl3s.doushimeng.com
   port: 2082
   type: vmess
-  uuid: 1e61281e-9fc4-4daa-a724-ffbba1d7ed36
+  uuid: 97a39bb3-d94d-44db-aed0-36fad134a23c
   alterId: 0
   cipher: auto
   tls: false
@@ -251,7 +251,7 @@ proxies:
   server: dl3s.doushimeng.com
   port: 2086
   type: vmess
-  uuid: 1e61281e-9fc4-4daa-a724-ffbba1d7ed36
+  uuid: 97a39bb3-d94d-44db-aed0-36fad134a23c
   alterId: 0
   cipher: auto
   tls: false
@@ -266,7 +266,7 @@ proxies:
   server: dl3s.doushimeng.com
   port: 2086
   type: vmess
-  uuid: 1e61281e-9fc4-4daa-a724-ffbba1d7ed36
+  uuid: 97a39bb3-d94d-44db-aed0-36fad134a23c
   alterId: 0
   cipher: auto
   tls: false
@@ -664,7 +664,7 @@ proxies:
   server: us01.h.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 061cf121-86bf-4cac-9163-77c1a46746ad
+  uuid: 50fc928c-13f9-47e2-8fa3-604456ee5294
   alterId: 0
   cipher: auto
   tls: true
@@ -679,7 +679,7 @@ proxies:
   server: hk01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 061cf121-86bf-4cac-9163-77c1a46746ad
+  uuid: 50fc928c-13f9-47e2-8fa3-604456ee5294
   alterId: 0
   cipher: auto
   tls: true
@@ -694,7 +694,7 @@ proxies:
   server: tr01.h.csznet.eu.org
   port: 40660
   type: vmess
-  uuid: 061cf121-86bf-4cac-9163-77c1a46746ad
+  uuid: 50fc928c-13f9-47e2-8fa3-604456ee5294
   alterId: 0
   cipher: auto
   tls: true
@@ -709,7 +709,7 @@ proxies:
   server: cera.feedcc.workers.dev
   port: 443
   type: vmess
-  uuid: 061cf121-86bf-4cac-9163-77c1a46746ad
+  uuid: 50fc928c-13f9-47e2-8fa3-604456ee5294
   alterId: 0
   cipher: auto
   tls: true
@@ -724,7 +724,7 @@ proxies:
   server: iij2.csznet.eu.org
   port: 3306
   type: vmess
-  uuid: 061cf121-86bf-4cac-9163-77c1a46746ad
+  uuid: 50fc928c-13f9-47e2-8fa3-604456ee5294
   alterId: 0
   cipher: auto
   tls: true
@@ -739,7 +739,7 @@ proxies:
   server: kr01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 061cf121-86bf-4cac-9163-77c1a46746ad
+  uuid: 50fc928c-13f9-47e2-8fa3-604456ee5294
   alterId: 0
   cipher: auto
   tls: true
@@ -755,93 +755,21 @@ proxies:
   port: 51310
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a83dca67-84c3-48b5-be13-57f20929e935
+  password: 0e98395e-1cd4-46f1-8ea4-a4e49dfe3523
   udp: true
 - name: SG新加坡 A - 可乐云
   server: sg.colacloud.site
   port: 42752
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a83dca67-84c3-48b5-be13-57f20929e935
+  password: 0e98395e-1cd4-46f1-8ea4-a4e49dfe3523
   udp: true
 - name: KR韩国 A - 可乐云
   server: kr.colacloud.site
   port: 20352
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a83dca67-84c3-48b5-be13-57f20929e935
-  udp: true
-- name: TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  server: b12.ntbq.dynu.net
-  port: 9755
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b12.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  server: b13.ntbq.dynu.net
-  port: 9489
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b13.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  server: b22.ntbq.dynu.net
-  port: 19489
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b22.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  server: b23.ntbq.dynu.net
-  port: 18701
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b23.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  server: b24.ntbq.dynu.net
-  port: 3271
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b24.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  server: ty11t.twty.dynu.net
-  port: 13761
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: ty11t.twty.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  server: ty12t.twty.dynu.net
-  port: 18912
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: ty12t.twty.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  server: c11.twtc.dynu.net
-  port: 13989
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: c11.twtc.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
-  server: nc12.twtc.dynu.net
-  port: 14656
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: nc12.twtc.dynu.net
-  skip-cert-verify: true
+  password: 0e98395e-1cd4-46f1-8ea4-a4e49dfe3523
   udp: true
 - name: 德国 法兰克福101 - 墙了个墙
   server: fkvip101.qlgq1.pw
@@ -1088,22 +1016,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f
   udp: true
-- name: 香港-台湾-未解锁 - 十元一年
-  server: opiyxu1hd2pu09xuev99jx6bm1vtxn.fly64jfgwhale.xyz
-  port: 10000
-  type: vmess
-  uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /WER3R21T
-    headers:
-      Host: bing.com
-  udp: true
-- name: 香港-中转1-未解锁 - 十元一年
+- name: 香港1-未解锁 - 十元一年
   server: xn--fiqq40n.fly64jfgwhale.xyz
   port: 10000
   type: vmess
@@ -1118,7 +1031,7 @@ proxies:
     headers:
       Host: bing.com
   udp: true
-- name: 香港-中转2-未解锁 - 十元一年
+- name: 香港2-未解锁 - 十元一年
   server: xn--fiqq40n.fly64jfgwhale.xyz
   port: 10001
   type: vmess
@@ -1133,7 +1046,7 @@ proxies:
     headers:
       Host: bing.com
   udp: true
-- name: 香港-中转3-未解锁 - 十元一年
+- name: 香港3-未解锁 - 十元一年
   server: xn--fiqq40n.fly64jfgwhale.xyz
   port: 10002
   type: vmess
@@ -1148,7 +1061,7 @@ proxies:
     headers:
       Host: bing.com
   udp: true
-- name: 香港-中转4-未解锁 - 十元一年
+- name: 香港4-未解锁 - 十元一年
   server: xn--fiqq40n.fly64jfgwhale.xyz
   port: 10003
   type: vmess
@@ -1163,9 +1076,24 @@ proxies:
     headers:
       Host: bing.com
   udp: true
-- name: 香港-中转5-未解锁 - 十元一年
+- name: 香港5-未解锁 - 十元一年
   server: xn--fiqq40n.fly64jfgwhale.xyz
   port: 10004
+  type: vmess
+  uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /WER3R21T
+    headers:
+      Host: bing.com
+  udp: true
+- name: 香港6-未解锁 - 十元一年
+  server: xn--fiqq40n.fly64jfgwhale.xyz
+  port: 10005
   type: vmess
   uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f
   alterId: 0
@@ -1182,7 +1110,7 @@ proxies:
   server: cdn.chigua.tk
   port: 80
   type: vmess
-  uuid: 1f015c63-3794-4f8c-9a3d-84b38f99f4e7
+  uuid: 6ef9d8dc-1f98-4cf1-a118-94bb726f197f
   alterId: 0
   cipher: auto
   tls: false
@@ -1198,151 +1126,151 @@ proxies:
   port: 21881
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 香港 / A｜HK - 小白云
   server: hk1.iepl.cooc.icu
   port: 21881
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 香港 / B｜HK - 小白云
   server: hk2.iepl.cooc.icu
   port: 22881
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 日本 / A｜JP - 小白云
   server: jp1.iepl.cooc.icu
   port: 47100
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 日本 / B｜JP - 小白云
   server: jp2.iepl.cooc.icu
   port: 47101
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 美国 / A｜US - 小白云
   server: usa1.iepl.cooc.icu
   port: 31881
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 美国 / B｜US - 小白云
   server: usa2.iepl.cooc.icu
   port: 32881
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 台湾 / A｜TW - 小白云
   server: tw1.iepl.cooc.icu
   port: 35109
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 台湾 / B｜TW - 小白云
   server: tw2.iepl.cooc.icu
   port: 35110
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 新加坡 / A｜SG - 小白云
   server: sg1.iepl.cooc.icu
   port: 35105
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 新加坡 / B｜SG - 小白云
   server: sg2.iepl.cooc.icu
   port: 35106
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 美国 / US｜BIZ - 小白云
   server: usa4.iepl.cooc.icu
   port: 34881
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 韩国 / KR｜BIZ - 小白云
   server: kr1.iepl.cooc.icu
   port: 35101
   type: ss
   cipher: aes-128-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 泰国 / TH｜BIZ - 小白云
   server: th.iepl.cooc.icu
   port: 35613
   type: ss
   cipher: aes-128-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 越南 / VN | BIZ - 小白云
   server: vn1.iepl.cooc.icu
   port: 35601
   type: ss
   cipher: aes-128-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 英国 / UK | BIZ - 小白云
   server: uk1.iepl.cooc.icu
   port: 35605
   type: ss
   cipher: aes-128-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 德国 / DE | BIZ - 小白云
   server: ger1.iepl.cooc.icu
   port: 35607
   type: ss
   cipher: aes-128-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 法国 / FR｜BIZ - 小白云
   server: fr1.iepl.cooc.icu
   port: 35611
   type: ss
   cipher: aes-128-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 俄罗斯 / RU｜BIZ - 小白云
   server: ru.iepl.cooc.icu
   port: 35612
   type: ss
   cipher: aes-128-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 马来西亚 / MY | BIZ - 小白云
   server: mas1.iepl.cooc.icu
   port: 35603
   type: ss
   cipher: aes-128-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: TW｜海外用户 - 小白云
   server: tw.cooc.icu
   port: 36881
   type: ss
   cipher: aes-256-gcm
-  password: 3a325f51-11f2-4cd3-845c-8d068cfb2691
+  password: 5bbc5af2-00b2-4393-97a5-a7536625446f
   udp: true
 - name: 香港|【免费领1TB流量】前往-注册|公益 - 大白
   server: 223.113.130.55
-  port: 52052
+  port: 2095
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1357,7 +1285,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
   server: 223.113.130.55
-  port: 58080
+  port: 50080
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1372,7 +1300,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
   server: 223.113.130.55
-  port: 52052
+  port: 2095
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1387,7 +1315,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
   server: 223.113.130.55
-  port: 2095
+  port: 58080
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1402,7 +1330,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
   server: 223.113.130.55
-  port: 52086
+  port: 52052
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1417,7 +1345,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
   server: 223.113.130.55
-  port: 50080
+  port: 52086
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1432,7 +1360,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
   server: 223.113.130.55
-  port: 58080
+  port: 50080
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1447,7 +1375,7 @@ proxies:
   udp: true
 - name: 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
   server: 223.113.130.55
-  port: 52086
+  port: 52052
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1464,7 +1392,7 @@ proxies:
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: 40ec436e-b5c6-46da-9dfa-802f155b84fe
+  uuid: f44540df-10ca-4288-89f0-a89db02d4724
   alterId: 0
   cipher: auto
   tls: false
@@ -1479,7 +1407,7 @@ proxies:
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: 40ec436e-b5c6-46da-9dfa-802f155b84fe
+  uuid: f44540df-10ca-4288-89f0-a89db02d4724
   alterId: 0
   cipher: auto
   tls: false
@@ -1494,7 +1422,7 @@ proxies:
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: 40ec436e-b5c6-46da-9dfa-802f155b84fe
+  uuid: f44540df-10ca-4288-89f0-a89db02d4724
   alterId: 0
   cipher: auto
   tls: false
@@ -1509,7 +1437,7 @@ proxies:
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1524,7 +1452,7 @@ proxies:
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1539,7 +1467,7 @@ proxies:
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1554,7 +1482,7 @@ proxies:
   server: 17.v2-ray.cyou
   port: 23617
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1569,7 +1497,7 @@ proxies:
   server: 8.v2-ray.cyou
   port: 23608
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1579,7 +1507,7 @@ proxies:
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1594,7 +1522,7 @@ proxies:
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1609,7 +1537,7 @@ proxies:
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1624,7 +1552,7 @@ proxies:
   server: 5.v2-ray.cyou
   port: 23605
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1639,7 +1567,7 @@ proxies:
   server: 13.v2-ray.cyou
   port: 23613
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1654,7 +1582,7 @@ proxies:
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: b02dbbe6-210b-3cea-bbec-c052f19c3213
+  uuid: a48346c0-f845-398f-a28e-ab8a9b3d5589
   alterId: 2
   cipher: auto
   tls: false
@@ -1669,7 +1597,7 @@ proxies:
   server: www.a.com
   port: 80
   type: vmess
-  uuid: d78c3e89-3b71-4310-a758-082e5d2c525f
+  uuid: 73f6d5a7-f8f9-4a5b-9352-a1e996f1719c
   alterId: 0
   cipher: auto
   tls: false
@@ -1685,55 +1613,55 @@ proxies:
   port: 20032
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: d78c3e89-3b71-4310-a758-082e5d2c525f
+  password: 73f6d5a7-f8f9-4a5b-9352-a1e996f1719c
   udp: true
 - name: 美国（用前更新订阅） - vip666.xyz
   server: aa.websitea.xyz
   port: 20031
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: d78c3e89-3b71-4310-a758-082e5d2c525f
+  password: 73f6d5a7-f8f9-4a5b-9352-a1e996f1719c
   udp: true
 - name: 新加坡 - vip666.xyz
   server: aa.websitea.xyz
   port: 20035
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: d78c3e89-3b71-4310-a758-082e5d2c525f
+  password: 73f6d5a7-f8f9-4a5b-9352-a1e996f1719c
   udp: true
 - name: 香港-https://new.vip666.xyz - vip666.xyz
   server: aa.websitea.xyz
   port: 20036
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: d78c3e89-3b71-4310-a758-082e5d2c525f
+  password: 73f6d5a7-f8f9-4a5b-9352-a1e996f1719c
   udp: true
 - name: 荷兰 - vip666.xyz
   server: aa.websitea.xyz
   port: 20037
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: d78c3e89-3b71-4310-a758-082e5d2c525f
+  password: 73f6d5a7-f8f9-4a5b-9352-a1e996f1719c
   udp: true
 - name: 韩国（最新地址：help.vip666.xyz） - vip666.xyz
   server: aa.websitea.xyz
   port: 20039
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: d78c3e89-3b71-4310-a758-082e5d2c525f
+  password: 73f6d5a7-f8f9-4a5b-9352-a1e996f1719c
   udp: true
 - name: 中国香港2 - vip666.xyz
   server: aa.websitea.xyz
   port: 20041
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: d78c3e89-3b71-4310-a758-082e5d2c525f
+  password: 73f6d5a7-f8f9-4a5b-9352-a1e996f1719c
   udp: true
 - name: ℹ️ 🔰 TG客服@uucocc - 共享流量
   server: 112.29.200.93
   port: 29711
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1746,7 +1674,7 @@ proxies:
   server: jzyd.12ip.cc
   port: 24252
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1761,7 +1689,7 @@ proxies:
   server: 188.253.6.35
   port: 20009
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1774,7 +1702,7 @@ proxies:
   server: jp-osaka-oracle-d9311f.ip1.shop
   port: 64702
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1789,7 +1717,7 @@ proxies:
   server: sg-singapore-oracle-4f34e8.ip1.shop
   port: 64952
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1804,7 +1732,7 @@ proxies:
   server: it-milan-oracle-2b2d63.ip1.shop
   port: 54252
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1819,7 +1747,7 @@ proxies:
   server: in-mumbai-oracle-2de5d7.ip1.shop
   port: 21152
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1834,7 +1762,7 @@ proxies:
   server: uk-london-oracle-51b798.ip1.shop
   port: 36902
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1849,7 +1777,7 @@ proxies:
   server: duocloudhkv6.12ip.cc
   port: 443
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1864,7 +1792,7 @@ proxies:
   server: wawotwv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1879,7 +1807,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1894,7 +1822,7 @@ proxies:
   server: wawonlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1909,7 +1837,7 @@ proxies:
   server: akdev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1924,7 +1852,7 @@ proxies:
   server: xmusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1939,7 +1867,7 @@ proxies:
   server: hoyoversenlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1954,7 +1882,7 @@ proxies:
   server: hoyoversedev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1969,7 +1897,7 @@ proxies:
   server: acusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1984,7 +1912,7 @@ proxies:
   server: wawojpv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -1999,7 +1927,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: e073ecd6-175a-4700-acdd-08a3652c9237
+  uuid: 31970168-7ef5-44fe-9e84-515e3b855159
   alterId: 0
   cipher: auto
   tls: false
@@ -2094,15 +2022,6 @@ proxy-groups:
   - JP日本 A - 可乐云
   - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - 德国 法兰克福101 - 墙了个墙
   - 德国 法兰克福102 - 墙了个墙
   - 德国 法兰克福103 - 墙了个墙
@@ -2134,12 +2053,12 @@ proxy-groups:
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
-  - 香港-台湾-未解锁 - 十元一年
-  - 香港-中转1-未解锁 - 十元一年
-  - 香港-中转2-未解锁 - 十元一年
-  - 香港-中转3-未解锁 - 十元一年
-  - 香港-中转4-未解锁 - 十元一年
-  - 香港-中转5-未解锁 - 十元一年
+  - 香港1-未解锁 - 十元一年
+  - 香港2-未解锁 - 十元一年
+  - 香港3-未解锁 - 十元一年
+  - 香港4-未解锁 - 十元一年
+  - 香港5-未解锁 - 十元一年
+  - 香港6-未解锁 - 十元一年
   - 美国 🌐「达拉斯」 - 北方航空
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
@@ -2293,15 +2212,6 @@ proxy-groups:
   - JP日本 A - 可乐云
   - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - 德国 法兰克福101 - 墙了个墙
   - 德国 法兰克福102 - 墙了个墙
   - 德国 法兰克福103 - 墙了个墙
@@ -2333,12 +2243,12 @@ proxy-groups:
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
-  - 香港-台湾-未解锁 - 十元一年
-  - 香港-中转1-未解锁 - 十元一年
-  - 香港-中转2-未解锁 - 十元一年
-  - 香港-中转3-未解锁 - 十元一年
-  - 香港-中转4-未解锁 - 十元一年
-  - 香港-中转5-未解锁 - 十元一年
+  - 香港1-未解锁 - 十元一年
+  - 香港2-未解锁 - 十元一年
+  - 香港3-未解锁 - 十元一年
+  - 香港4-未解锁 - 十元一年
+  - 香港5-未解锁 - 十元一年
+  - 香港6-未解锁 - 十元一年
   - 美国 🌐「达拉斯」 - 北方航空
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
@@ -2494,15 +2404,6 @@ proxy-groups:
   - JP日本 A - 可乐云
   - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - 德国 法兰克福101 - 墙了个墙
   - 德国 法兰克福102 - 墙了个墙
   - 德国 法兰克福103 - 墙了个墙
@@ -2534,12 +2435,12 @@ proxy-groups:
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
-  - 香港-台湾-未解锁 - 十元一年
-  - 香港-中转1-未解锁 - 十元一年
-  - 香港-中转2-未解锁 - 十元一年
-  - 香港-中转3-未解锁 - 十元一年
-  - 香港-中转4-未解锁 - 十元一年
-  - 香港-中转5-未解锁 - 十元一年
+  - 香港1-未解锁 - 十元一年
+  - 香港2-未解锁 - 十元一年
+  - 香港3-未解锁 - 十元一年
+  - 香港4-未解锁 - 十元一年
+  - 香港5-未解锁 - 十元一年
+  - 香港6-未解锁 - 十元一年
   - 美国 🌐「达拉斯」 - 北方航空
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
@@ -2694,15 +2595,6 @@ proxy-groups:
   - JP日本 A - 可乐云
   - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - 德国 法兰克福101 - 墙了个墙
   - 德国 法兰克福102 - 墙了个墙
   - 德国 法兰克福103 - 墙了个墙
@@ -2734,12 +2626,12 @@ proxy-groups:
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
-  - 香港-台湾-未解锁 - 十元一年
-  - 香港-中转1-未解锁 - 十元一年
-  - 香港-中转2-未解锁 - 十元一年
-  - 香港-中转3-未解锁 - 十元一年
-  - 香港-中转4-未解锁 - 十元一年
-  - 香港-中转5-未解锁 - 十元一年
+  - 香港1-未解锁 - 十元一年
+  - 香港2-未解锁 - 十元一年
+  - 香港3-未解锁 - 十元一年
+  - 香港4-未解锁 - 十元一年
+  - 香港5-未解锁 - 十元一年
+  - 香港6-未解锁 - 十元一年
   - 美国 🌐「达拉斯」 - 北方航空
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
@@ -2834,15 +2726,6 @@ proxy-groups:
   - 广港•台湾261•高速 - 飞翔吧
   - 广港•台湾262•高速 - 飞翔吧
   - 香港QW - 海陆空
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - 香港 101 - 墙了个墙
   - 香港 102 - 墙了个墙
   - 香港 103 - 墙了个墙
@@ -2853,12 +2736,12 @@ proxy-groups:
   - 香港 108 - 墙了个墙
   - 香港 109 - 墙了个墙
   - 香港 110 - 墙了个墙
-  - 香港-台湾-未解锁 - 十元一年
-  - 香港-中转1-未解锁 - 十元一年
-  - 香港-中转2-未解锁 - 十元一年
-  - 香港-中转3-未解锁 - 十元一年
-  - 香港-中转4-未解锁 - 十元一年
-  - 香港-中转5-未解锁 - 十元一年
+  - 香港1-未解锁 - 十元一年
+  - 香港2-未解锁 - 十元一年
+  - 香港3-未解锁 - 十元一年
+  - 香港4-未解锁 - 十元一年
+  - 香港5-未解锁 - 十元一年
+  - 香港6-未解锁 - 十元一年
   - 香港 / A｜HK - 小白云
   - 香港 / B｜HK - 小白云
   - 台湾 / A｜TW - 小白云
@@ -2962,15 +2845,6 @@ proxy-groups:
   - JP日本 A - 可乐云
   - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - 德国 法兰克福101 - 墙了个墙
   - 德国 法兰克福102 - 墙了个墙
   - 德国 法兰克福103 - 墙了个墙
@@ -3002,12 +2876,12 @@ proxy-groups:
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
-  - 香港-台湾-未解锁 - 十元一年
-  - 香港-中转1-未解锁 - 十元一年
-  - 香港-中转2-未解锁 - 十元一年
-  - 香港-中转3-未解锁 - 十元一年
-  - 香港-中转4-未解锁 - 十元一年
-  - 香港-中转5-未解锁 - 十元一年
+  - 香港1-未解锁 - 十元一年
+  - 香港2-未解锁 - 十元一年
+  - 香港3-未解锁 - 十元一年
+  - 香港4-未解锁 - 十元一年
+  - 香港5-未解锁 - 十元一年
+  - 香港6-未解锁 - 十元一年
   - 美国 🌐「达拉斯」 - 北方航空
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
@@ -3161,15 +3035,6 @@ proxy-groups:
   - JP日本 A - 可乐云
   - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - 德国 法兰克福101 - 墙了个墙
   - 德国 法兰克福102 - 墙了个墙
   - 德国 法兰克福103 - 墙了个墙
@@ -3201,12 +3066,12 @@ proxy-groups:
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
-  - 香港-台湾-未解锁 - 十元一年
-  - 香港-中转1-未解锁 - 十元一年
-  - 香港-中转2-未解锁 - 十元一年
-  - 香港-中转3-未解锁 - 十元一年
-  - 香港-中转4-未解锁 - 十元一年
-  - 香港-中转5-未解锁 - 十元一年
+  - 香港1-未解锁 - 十元一年
+  - 香港2-未解锁 - 十元一年
+  - 香港3-未解锁 - 十元一年
+  - 香港4-未解锁 - 十元一年
+  - 香港5-未解锁 - 十元一年
+  - 香港6-未解锁 - 十元一年
   - 美国 🌐「达拉斯」 - 北方航空
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
@@ -3361,15 +3226,6 @@ proxy-groups:
   - JP日本 A - 可乐云
   - SG新加坡 A - 可乐云
   - KR韩国 A - 可乐云
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - 德国 法兰克福101 - 墙了个墙
   - 德国 法兰克福102 - 墙了个墙
   - 德国 法兰克福103 - 墙了个墙
@@ -3401,12 +3257,12 @@ proxy-groups:
   - 邀请好友返利65% - 十元一年
   - go.shiyuanyinian.xyz - 十元一年
   - 意大利-未解锁-D - 十元一年
-  - 香港-台湾-未解锁 - 十元一年
-  - 香港-中转1-未解锁 - 十元一年
-  - 香港-中转2-未解锁 - 十元一年
-  - 香港-中转3-未解锁 - 十元一年
-  - 香港-中转4-未解锁 - 十元一年
-  - 香港-中转5-未解锁 - 十元一年
+  - 香港1-未解锁 - 十元一年
+  - 香港2-未解锁 - 十元一年
+  - 香港3-未解锁 - 十元一年
+  - 香港4-未解锁 - 十元一年
+  - 香港5-未解锁 - 十元一年
+  - 香港6-未解锁 - 十元一年
   - 美国 🌐「达拉斯」 - 北方航空
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
