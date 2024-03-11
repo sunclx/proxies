@@ -5,472 +5,118 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1.--美国(欢迎订阅Youtube破解资源君)+40, server: 38.114.114.77, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 2.--_US_美国+21, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 3.--_AR_阿根廷, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4.--US_youtube@资源分享师_6, server: 104.21.238.90, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 5.--US_youtube@资源分享师_69, server: 104.21.228.41, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 6.--US_youtube@资源分享师_248, server: 104.21.226.10, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 7.--US_youtube@资源分享师_167, server: 104.21.227.19, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 8.--美国 CloudFlare节点, server: 104.21.238.70, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 9.--US_ 7022, server: 104.21.227.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 10.--US_youtube@资源分享师_66, server: 104.21.229.26, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 11.--US_youtube@资源分享师_96, server: 104.21.234.53, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 12.--|US|美国|@wxgqlfx|48, server: 104.21.234.73, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 13.--US_youtube@资源分享师_203, server: 104.21.225.7, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 14.--美国 CloudFlare节点+1, server: 104.21.225.5, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 15.--US_ 7022+1, server: 104.21.238.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 16.--US_youtube@资源分享师_72, server: 104.21.236.63, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 17.--US_youtube@资源分享师_156, server: 104.21.224.1, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 18.--美国 CloudFlare节点（ccbaohe.com）免费机场节点, server: 104.21.235.58, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 19.--10@oneclickvpnkeys, server: 104.21.55.223, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: jader.fun}}, udp: true}
-  - {name: 20.--US_ 7022+2, server: 104.21.229.27, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 21.--美国 CloudFlare节点+2, server: 104.21.233.46, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 22.--US_youtube@资源分享师_157, server: 104.21.230.31, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 23.--US_ 7022+3, server: 104.21.228.42, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 24.--美国 CloudFlare节点 4, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
-  - {name: 25.--US_ 7022+4, server: 104.21.227.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 26.--US_ 7022+7, server: 104.21.224.23, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 27.--US_ 7022+6, server: 104.21.226.32, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 28.--US_youtube@资源分享师_34, server: 104.21.237.85, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 29.--US_ 7022+8, server: 104.21.234.72, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 30.--US_ 7022+9, server: 104.21.234.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 31.--US_ 7022 89, server: 104.21.234.51, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 32.--US_youtube@资源分享师_94, server: 104.21.228.22, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 33.--1@oneclickvpnkeys, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
-  - {name: 34.--|US|美国|@wxgqlfx|45, server: 104.21.236.81, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 35.--美国 CloudFlare节点+4, server: 104.21.226.12, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 36.--|US|美国|@wxgqlfx|50, server: 104.21.237.65, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 37.--US_ 7022+10, server: 104.21.229.29, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 38.--美国【TG：@ccbaohe】定时更新节点订阅+1, server: 104.21.233.68, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 39.--US_youtube@资源分享师_117, server: 104.21.233.47, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 40.--US_ 7022+11, server: 104.21.227.36, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 41.--US_ 7022+12, server: 104.21.229.47, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 42.--US_youtube@资源分享师_122, server: 104.21.237.66, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 43.--US_ 7022+13, server: 104.21.226.14, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 44.--US_ 7022+14, server: 104.21.232.43, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 45.--US_youtube@资源分享师_61, server: 104.21.225.29, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 46.--美国  17〖电报：@ccbaohe】免费节点定时更新, server: 104.21.228.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 47.--US_youtube@资源分享师_139, server: 104.21.238.93, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&amp;Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 48.--US_ 7022+15, server: 104.21.235.76, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 49.--|US|美国|@wxgqlfx|55, server: 104.21.227.35, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 50.--US_ 7022 75, server: 104.21.236.64, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 51.--美国 CloudFlare节点+5, server: 104.21.231.55, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 52.--美国【TG：@ccbaohe】定时更新节点订阅+2, server: 104.21.235.75, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 53.--US_youtube@资源分享师_128, server: 104.21.224.3, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 54.--US_ 7022+16, server: 104.21.231.57, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 55.--US_youtube@资源分享师_42, server: 104.21.237.86, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 56.--US_ 7022+17, server: 104.21.238.91, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 57.--US_youtube@资源分享师_19, server: 104.21.232.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 58.--US_youtube@资源分享师_79, server: 104.21.225.9, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 59.--US_ 7022 175, server: 104.21.235.55, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 60.--US_ 7022+18, server: 104.21.232.63, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 61.--|US|美国|@wxgqlfx|49, server: 104.21.227.18, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 62.--US_ 7022+20, server: 104.21.228.40, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 63.--US_youtube@资源分享师_88, server: 104.21.225.6, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 64.--US_ 7022+19, server: 104.21.224.2, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 65.--US_ 7022+21, server: 104.21.233.67, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 66.--美国 CloudFlare节点 22《ccbaohe.com〉免费机场节点, server: 104.21.233.65, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 67.--US_youtube@资源分享师_7, server: 104.21.232.60, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 68.--US_youtube@资源分享师_113, server: 104.21.236.83, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 69.--美国 CloudFlare节点+6, server: 104.21.238.71, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 70.--US_youtube@资源分享师_4, server: 104.21.237.69, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 71.--|US|美国|@wxgqlfx|47, server: 104.21.225.26, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 72.--|NL|荷兰|@wxgqlfx|32, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 73.--US_ 7022+22, server: 104.21.229.45, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 74.--14@oneclickvpnkeys, server: 104.21.12.173, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
-  - {name: 75.--US_youtube@资源分享师_5, server: 104.21.237.87, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 76.--US_youtube@资源分享师_37, server: 104.21.226.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 77.--US_youtube@资源分享师_1, server: 104.21.234.54, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 78.--US_youtube@资源分享师_65, server: 104.21.226.34, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 79.--US_ 7022+23, server: 104.21.229.49, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 80.--US_ 7022+25, server: 104.21.230.53, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 81.--US_ 7022+27, server: 104.21.224.24, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 82.--US_ 7022+30, server: 104.21.238.73, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 83.--US_ 7022+24, server: 104.21.239.75, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 84.--US_ 7022+29, server: 104.21.235.79, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 85.--US_ 7022+26, server: 104.21.225.27, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 86.--US_ 7022+28, server: 104.21.231.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 87.--US_youtube@资源分享师_15, server: 104.21.232.40, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 88.--|US|美国|@wxgqlfx|43, server: 104.21.228.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 89.--US_youtube@资源分享师_52, server: 104.21.236.84, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 90.--US_youtube@资源分享师_27, server: 104.21.226.13, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 91.--美国 CloudFlare节点+7, server: 104.21.230.54, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 92.--|US|美国|@wxgqlfx|40, server: 104.21.231.39, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 93.--US_ 7022+31, server: 104.21.225.25, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 94.--6@oneclickvpnkeys, server: rahyaft.serveirc.com, port: 80, type: vmess, uuid: 5e529016-d961-438e-9a99-0dcc5c0df208, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: rahyaft.serveirc.com}}, udp: true}
-  - {name: 95.--US_ 7022+32, server: 104.21.238.94, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 96.--US_ 7022+33, server: 104.21.224.22, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 97.--US_ 7022+34, server: 104.21.229.46, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 98.--VPN招代理电报联系@xiaoying229, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 217.160.45.31}}, udp: true}
-  - {name: 99.--US_youtube@资源分享师_45, server: 104.21.229.25, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 100.--US_ 7022+36, server: 104.21.234.50, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 101.--US_ 7022+35, server: 104.21.239.78, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 102.--US_ 7022+38, server: 104.21.238.72, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 103.--US_ 7022+37, server: 104.21.228.20, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 104.--US_youtube@资源分享师_128+1, server: 104.21.235.56, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 105.--美国 CloudFlare节点+8, server: 104.21.231.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 106.--US_youtube@资源分享师_56, server: 104.21.230.52, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 107.--♿40@oneclickvpnkeys, server: 172.67.168.34, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: marien.motorcycles}}, udp: true}
-  - {name: 108.--US_ 7022 82, server: 104.21.232.62, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 109.--US_youtube@资源分享师_17, server: 104.21.231.58, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 110.--US_ 7022+39, server: 104.21.231.36, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 111.--|US|美国|@wxgqlfx|6, server: 104.21.232.61, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 112.--US_youtube@资源分享师_198, server: 104.21.227.15, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 113.--US_ 7022+40, server: 104.21.239.98, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 114.--US_ 7022+41, server: 104.21.233.66, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 115.--US_youtube@资源分享师_31, server: 104.21.239.96, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 116.--US_youtube@资源分享师_93, server: 104.21.236.80, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 117.--US_youtube@资源分享师_143, server: 104.21.239.76, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 118.--美国 CloudFlare节点+9, server: 104.21.236.60, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 119.--|US|美国|@wxgqlfx|38, server: 104.21.230.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 120.--US_ 7022+44, server: 104.21.227.16, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 121.--|US|美国|@wxgqlfx|56, server: 104.21.224.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 122.--US_ 7022+43, server: 104.21.224.20, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 123.--美国 CloudFlare节点+10, server: 104.21.238.92, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 124.--US_ 7022+42, server: 104.21.234.52, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 125.--US_youtube@资源分享师_12, server: 104.21.231.35, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 126.--US_ 7022 6, server: 104.21.239.79, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 127.--US_ 7022+45, server: 104.21.239.77, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 128.--|US|美国|@wxgqlfx|36, server: 104.21.231.59, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 129.--14@oneclickvpnkeys+1, server: 92.223.124.34, port: 80, type: vmess, uuid: 5e529016-d961-438e-9a99-0dcc5c0df208, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: rahyaft.serveirc.com}}, udp: true}
-  - {name: 130.--US_youtube@资源分享师_91, server: 104.21.239.97, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 131.--美国 CloudFlare节点+11, server: 104.21.236.62, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 132.--美国62〖电报：@ccbaohe】免费节点定时更新, server: 104.21.228.43, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 133.--US_ 7022+46, server: 104.21.232.64, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 134.--US_ 7022 122, server: 104.21.226.33, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 135.--US_youtube@资源分享师_13, server: 104.21.232.41, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 136.--US_ 7022+47, server: 104.21.229.28, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 137.--US_ 7022+48, server: 104.21.237.88, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 138.--US_youtube@资源分享师_165, server: 104.21.230.33, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 139.--美国 CloudFlare节点+12, server: 104.21.235.57, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 140.--US_ 7022 107, server: 104.21.225.8, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 141.--US_ 7022+49, server: 104.21.236.61, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 142.--US_ 7022+51, server: 104.21.224.4, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 143.--美国 Amazon数据中心, server: v1.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
-  - {name: 144.--|US|美国|@wxgqlfx|46, server: 104.21.224.0, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 145.--US_ 7022+50, server: 104.21.230.51, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 146.--美国 Amazon数据中心+1, server: 18.168.48.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
-  - {name: 147.--|US|美国|@wxgqlfx|35, server: 104.21.231.56, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 148.--|US|美国|@wxgqlfx|41, server: 104.21.228.24, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 149.--美国 CloudFlare节点+15, server: 104.21.230.50, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 150.--美国 CloudFlare节点+28, server: 104.21.46.66, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
-  - {name: 151.--US_ 7022 69, server: 104.21.227.39, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 152.--美国 CloudFlare节点+19, server: 104.21.229.48, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 1.--_US_美国+3, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: 2.--_US_美国+5, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: 3.--_US_美国+25, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 4.--_US_美国+6, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: 5.--18@oneclickvpnkeys, server: kittiy.sbs, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kittiy.sbs}}, udp: true}
+  - {name: 6.--8@oneclickvpnkeys, server: 172.67.196.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}, udp: true}
+  - {name: 7.--US_ 7022, server: 104.21.233.69, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 8.--US_youtube@资源分享师_298, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
+  - {name: 9.--US_youtube@资源分享师_269, server: 129.80.151.246, port: 40059, type: vmess, uuid: 1b359f51-72df-4435-81df-b92cf75262d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 10.--|US|美国|@wxgqlfx|16, server: 64.23.208.27, port: 18906, type: vmess, uuid: 31209467-5b1b-4f53-87b3-36789c213659, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 64.23.208.27}}, udp: true}
+  - {name: 11.--US美国(mibei77.com 米贝节点分享), server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
+  - {name: 12.--US_ 7022 13, server: 104.21.229.28, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 13.--US_ 7022+1, server: 104.21.231.39, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 14.--US_ 7022+2, server: 104.21.227.18, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 15.--9@oneclickvpnkeys, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}, udp: true}
+  - {name: 16.--美国 CloudFlare节点+1, server: 104.21.232.40, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 17.--美国 CloudFlare节点, server: 104.21.228.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 18.--美国 CloudFlare节点+5, server: 104.21.238.92, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 19.--美国 CloudFlare节点+2, server: 104.21.236.80, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 20.--美国 CloudFlare节点+4, server: 104.21.236.64, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 21.--美国 CloudFlare节点+6, server: 104.21.228.22, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 22.--美国 CloudFlare节点+3, server: 104.21.225.6, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 23.--美国 CloudFlare节点+8, server: 104.21.235.76, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 24.--美国 CloudFlare节点+10, server: 104.21.229.29, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 25.--美国 CloudFlare节点+11, server: 104.21.237.85, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 26.--美国 CloudFlare节点+12, server: 104.21.224.3, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 27.--美国 CloudFlare节点+13, server: 104.21.237.88, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 28.--美国 CloudFlare节点+14, server: 104.21.239.95, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 29.--|RU|俄罗斯联邦|@wxgqlfx|32, server: 45.14.244.133, port: 2024, type: vmess, uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.14.244.133}}, udp: true}
+  - {name: 30.--TW-板桥2-3(Trojan)\r, server: b23.ntbq.dynu.net, port: 18701, type: trojan, password: 1194cb2a-af73-465b-bf0c-c66a28e58200, sni: b23.ntbq.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 31.--TW-板桥2-2(Trojan)\r, server: b22.ntbq.dynu.net, port: 19489, type: trojan, password: 1194cb2a-af73-465b-bf0c-c66a28e58200, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 32.--加拿大 022, server: 104.21.25.94, port: 443, type: vmess, uuid: 4d74f126-0ef1-4579-b0a3-78e7b48ef067, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: de2-vmess.sshmax.xyz}}, udp: true}
+  - {name: 33.--TW-桃园1-1(Trojan)\r, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 1194cb2a-af73-465b-bf0c-c66a28e58200, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 34.--3@oneclickvpnkeys, server: 91.107.169.215, port: 36201, type: vmess, uuid: a780eb73-03ad-4097-a822-1b11c3b5011f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 91.107.169.215}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 1.--美国(欢迎订阅Youtube破解资源君)+40
-      - 2.--_US_美国+21
-      - 3.--_AR_阿根廷
-      - 4.--US_youtube@资源分享师_6
-      - 5.--US_youtube@资源分享师_69
-      - 6.--US_youtube@资源分享师_248
-      - 7.--US_youtube@资源分享师_167
-      - 8.--美国 CloudFlare节点
-      - 9.--US_ 7022
-      - 10.--US_youtube@资源分享师_66
-      - 11.--US_youtube@资源分享师_96
-      - 12.--|US|美国|@wxgqlfx|48
-      - 13.--US_youtube@资源分享师_203
-      - 14.--美国 CloudFlare节点+1
-      - 15.--US_ 7022+1
-      - 16.--US_youtube@资源分享师_72
-      - 17.--US_youtube@资源分享师_156
-      - 18.--美国 CloudFlare节点（ccbaohe.com）免费机场节点
-      - 19.--10@oneclickvpnkeys
-      - 20.--US_ 7022+2
-      - 21.--美国 CloudFlare节点+2
-      - 22.--US_youtube@资源分享师_157
-      - 23.--US_ 7022+3
-      - 24.--美国 CloudFlare节点 4
-      - 25.--US_ 7022+4
-      - 26.--US_ 7022+7
-      - 27.--US_ 7022+6
-      - 28.--US_youtube@资源分享师_34
-      - 29.--US_ 7022+8
-      - 30.--US_ 7022+9
-      - 31.--US_ 7022 89
-      - 32.--US_youtube@资源分享师_94
-      - 33.--1@oneclickvpnkeys
-      - 34.--|US|美国|@wxgqlfx|45
-      - 35.--美国 CloudFlare节点+4
-      - 36.--|US|美国|@wxgqlfx|50
-      - 37.--US_ 7022+10
-      - 38.--美国【TG：@ccbaohe】定时更新节点订阅+1
-      - 39.--US_youtube@资源分享师_117
-      - 40.--US_ 7022+11
-      - 41.--US_ 7022+12
-      - 42.--US_youtube@资源分享师_122
-      - 43.--US_ 7022+13
-      - 44.--US_ 7022+14
-      - 45.--US_youtube@资源分享师_61
-      - 46.--美国  17〖电报：@ccbaohe】免费节点定时更新
-      - 47.--US_youtube@资源分享师_139
-      - 48.--US_ 7022+15
-      - 49.--|US|美国|@wxgqlfx|55
-      - 50.--US_ 7022 75
-      - 51.--美国 CloudFlare节点+5
-      - 52.--美国【TG：@ccbaohe】定时更新节点订阅+2
-      - 53.--US_youtube@资源分享师_128
-      - 54.--US_ 7022+16
-      - 55.--US_youtube@资源分享师_42
-      - 56.--US_ 7022+17
-      - 57.--US_youtube@资源分享师_19
-      - 58.--US_youtube@资源分享师_79
-      - 59.--US_ 7022 175
-      - 60.--US_ 7022+18
-      - 61.--|US|美国|@wxgqlfx|49
-      - 62.--US_ 7022+20
-      - 63.--US_youtube@资源分享师_88
-      - 64.--US_ 7022+19
-      - 65.--US_ 7022+21
-      - 66.--美国 CloudFlare节点 22《ccbaohe.com〉免费机场节点
-      - 67.--US_youtube@资源分享师_7
-      - 68.--US_youtube@资源分享师_113
-      - 69.--美国 CloudFlare节点+6
-      - 70.--US_youtube@资源分享师_4
-      - 71.--|US|美国|@wxgqlfx|47
-      - 72.--|NL|荷兰|@wxgqlfx|32
-      - 73.--US_ 7022+22
-      - 74.--14@oneclickvpnkeys
-      - 75.--US_youtube@资源分享师_5
-      - 76.--US_youtube@资源分享师_37
-      - 77.--US_youtube@资源分享师_1
-      - 78.--US_youtube@资源分享师_65
-      - 79.--US_ 7022+23
-      - 80.--US_ 7022+25
-      - 81.--US_ 7022+27
-      - 82.--US_ 7022+30
-      - 83.--US_ 7022+24
-      - 84.--US_ 7022+29
-      - 85.--US_ 7022+26
-      - 86.--US_ 7022+28
-      - 87.--US_youtube@资源分享师_15
-      - 88.--|US|美国|@wxgqlfx|43
-      - 89.--US_youtube@资源分享师_52
-      - 90.--US_youtube@资源分享师_27
-      - 91.--美国 CloudFlare节点+7
-      - 92.--|US|美国|@wxgqlfx|40
-      - 93.--US_ 7022+31
-      - 94.--6@oneclickvpnkeys
-      - 95.--US_ 7022+32
-      - 96.--US_ 7022+33
-      - 97.--US_ 7022+34
-      - 98.--VPN招代理电报联系@xiaoying229
-      - 99.--US_youtube@资源分享师_45
-      - 100.--US_ 7022+36
-      - 101.--US_ 7022+35
-      - 102.--US_ 7022+38
-      - 103.--US_ 7022+37
-      - 104.--US_youtube@资源分享师_128+1
-      - 105.--美国 CloudFlare节点+8
-      - 106.--US_youtube@资源分享师_56
-      - 107.--♿40@oneclickvpnkeys
-      - 108.--US_ 7022 82
-      - 109.--US_youtube@资源分享师_17
-      - 110.--US_ 7022+39
-      - 111.--|US|美国|@wxgqlfx|6
-      - 112.--US_youtube@资源分享师_198
-      - 113.--US_ 7022+40
-      - 114.--US_ 7022+41
-      - 115.--US_youtube@资源分享师_31
-      - 116.--US_youtube@资源分享师_93
-      - 117.--US_youtube@资源分享师_143
-      - 118.--美国 CloudFlare节点+9
-      - 119.--|US|美国|@wxgqlfx|38
-      - 120.--US_ 7022+44
-      - 121.--|US|美国|@wxgqlfx|56
-      - 122.--US_ 7022+43
-      - 123.--美国 CloudFlare节点+10
-      - 124.--US_ 7022+42
-      - 125.--US_youtube@资源分享师_12
-      - 126.--US_ 7022 6
-      - 127.--US_ 7022+45
-      - 128.--|US|美国|@wxgqlfx|36
-      - 129.--14@oneclickvpnkeys+1
-      - 130.--US_youtube@资源分享师_91
-      - 131.--美国 CloudFlare节点+11
-      - 132.--美国62〖电报：@ccbaohe】免费节点定时更新
-      - 133.--US_ 7022+46
-      - 134.--US_ 7022 122
-      - 135.--US_youtube@资源分享师_13
-      - 136.--US_ 7022+47
-      - 137.--US_ 7022+48
-      - 138.--US_youtube@资源分享师_165
-      - 139.--美国 CloudFlare节点+12
-      - 140.--US_ 7022 107
-      - 141.--US_ 7022+49
-      - 142.--US_ 7022+51
-      - 143.--美国 Amazon数据中心
-      - 144.--|US|美国|@wxgqlfx|46
-      - 145.--US_ 7022+50
-      - 146.--美国 Amazon数据中心+1
-      - 147.--|US|美国|@wxgqlfx|35
-      - 148.--|US|美国|@wxgqlfx|41
-      - 149.--美国 CloudFlare节点+15
-      - 150.--美国 CloudFlare节点+28
-      - 151.--US_ 7022 69
-      - 152.--美国 CloudFlare节点+19
+      - 1.--_US_美国+3
+      - 2.--_US_美国+5
+      - 3.--_US_美国+25
+      - 4.--_US_美国+6
+      - 5.--18@oneclickvpnkeys
+      - 6.--8@oneclickvpnkeys
+      - 7.--US_ 7022
+      - 8.--US_youtube@资源分享师_298
+      - 9.--US_youtube@资源分享师_269
+      - 10.--|US|美国|@wxgqlfx|16
+      - 11.--US美国(mibei77.com 米贝节点分享)
+      - 12.--US_ 7022 13
+      - 13.--US_ 7022+1
+      - 14.--US_ 7022+2
+      - 15.--9@oneclickvpnkeys
+      - 16.--美国 CloudFlare节点+1
+      - 17.--美国 CloudFlare节点
+      - 18.--美国 CloudFlare节点+5
+      - 19.--美国 CloudFlare节点+2
+      - 20.--美国 CloudFlare节点+4
+      - 21.--美国 CloudFlare节点+6
+      - 22.--美国 CloudFlare节点+3
+      - 23.--美国 CloudFlare节点+8
+      - 24.--美国 CloudFlare节点+10
+      - 25.--美国 CloudFlare节点+11
+      - 26.--美国 CloudFlare节点+12
+      - 27.--美国 CloudFlare节点+13
+      - 28.--美国 CloudFlare节点+14
+      - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
+      - 30.--TW-板桥2-3(Trojan)\r
+      - 31.--TW-板桥2-2(Trojan)\r
+      - 32.--加拿大 022
+      - 33.--TW-桃园1-1(Trojan)\r
+      - 34.--3@oneclickvpnkeys
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--美国(欢迎订阅Youtube破解资源君)+40
-      - 2.--_US_美国+21
-      - 3.--_AR_阿根廷
-      - 4.--US_youtube@资源分享师_6
-      - 5.--US_youtube@资源分享师_69
-      - 6.--US_youtube@资源分享师_248
-      - 7.--US_youtube@资源分享师_167
-      - 8.--美国 CloudFlare节点
-      - 9.--US_ 7022
-      - 10.--US_youtube@资源分享师_66
-      - 11.--US_youtube@资源分享师_96
-      - 12.--|US|美国|@wxgqlfx|48
-      - 13.--US_youtube@资源分享师_203
-      - 14.--美国 CloudFlare节点+1
-      - 15.--US_ 7022+1
-      - 16.--US_youtube@资源分享师_72
-      - 17.--US_youtube@资源分享师_156
-      - 18.--美国 CloudFlare节点（ccbaohe.com）免费机场节点
-      - 19.--10@oneclickvpnkeys
-      - 20.--US_ 7022+2
-      - 21.--美国 CloudFlare节点+2
-      - 22.--US_youtube@资源分享师_157
-      - 23.--US_ 7022+3
-      - 24.--美国 CloudFlare节点 4
-      - 25.--US_ 7022+4
-      - 26.--US_ 7022+7
-      - 27.--US_ 7022+6
-      - 28.--US_youtube@资源分享师_34
-      - 29.--US_ 7022+8
-      - 30.--US_ 7022+9
-      - 31.--US_ 7022 89
-      - 32.--US_youtube@资源分享师_94
-      - 33.--1@oneclickvpnkeys
-      - 34.--|US|美国|@wxgqlfx|45
-      - 35.--美国 CloudFlare节点+4
-      - 36.--|US|美国|@wxgqlfx|50
-      - 37.--US_ 7022+10
-      - 38.--美国【TG：@ccbaohe】定时更新节点订阅+1
-      - 39.--US_youtube@资源分享师_117
-      - 40.--US_ 7022+11
-      - 41.--US_ 7022+12
-      - 42.--US_youtube@资源分享师_122
-      - 43.--US_ 7022+13
-      - 44.--US_ 7022+14
-      - 45.--US_youtube@资源分享师_61
-      - 46.--美国  17〖电报：@ccbaohe】免费节点定时更新
-      - 47.--US_youtube@资源分享师_139
-      - 48.--US_ 7022+15
-      - 49.--|US|美国|@wxgqlfx|55
-      - 50.--US_ 7022 75
-      - 51.--美国 CloudFlare节点+5
-      - 52.--美国【TG：@ccbaohe】定时更新节点订阅+2
-      - 53.--US_youtube@资源分享师_128
-      - 54.--US_ 7022+16
-      - 55.--US_youtube@资源分享师_42
-      - 56.--US_ 7022+17
-      - 57.--US_youtube@资源分享师_19
-      - 58.--US_youtube@资源分享师_79
-      - 59.--US_ 7022 175
-      - 60.--US_ 7022+18
-      - 61.--|US|美国|@wxgqlfx|49
-      - 62.--US_ 7022+20
-      - 63.--US_youtube@资源分享师_88
-      - 64.--US_ 7022+19
-      - 65.--US_ 7022+21
-      - 66.--美国 CloudFlare节点 22《ccbaohe.com〉免费机场节点
-      - 67.--US_youtube@资源分享师_7
-      - 68.--US_youtube@资源分享师_113
-      - 69.--美国 CloudFlare节点+6
-      - 70.--US_youtube@资源分享师_4
-      - 71.--|US|美国|@wxgqlfx|47
-      - 72.--|NL|荷兰|@wxgqlfx|32
-      - 73.--US_ 7022+22
-      - 74.--14@oneclickvpnkeys
-      - 75.--US_youtube@资源分享师_5
-      - 76.--US_youtube@资源分享师_37
-      - 77.--US_youtube@资源分享师_1
-      - 78.--US_youtube@资源分享师_65
-      - 79.--US_ 7022+23
-      - 80.--US_ 7022+25
-      - 81.--US_ 7022+27
-      - 82.--US_ 7022+30
-      - 83.--US_ 7022+24
-      - 84.--US_ 7022+29
-      - 85.--US_ 7022+26
-      - 86.--US_ 7022+28
-      - 87.--US_youtube@资源分享师_15
-      - 88.--|US|美国|@wxgqlfx|43
-      - 89.--US_youtube@资源分享师_52
-      - 90.--US_youtube@资源分享师_27
-      - 91.--美国 CloudFlare节点+7
-      - 92.--|US|美国|@wxgqlfx|40
-      - 93.--US_ 7022+31
-      - 94.--6@oneclickvpnkeys
-      - 95.--US_ 7022+32
-      - 96.--US_ 7022+33
-      - 97.--US_ 7022+34
-      - 98.--VPN招代理电报联系@xiaoying229
-      - 99.--US_youtube@资源分享师_45
-      - 100.--US_ 7022+36
-      - 101.--US_ 7022+35
-      - 102.--US_ 7022+38
-      - 103.--US_ 7022+37
-      - 104.--US_youtube@资源分享师_128+1
-      - 105.--美国 CloudFlare节点+8
-      - 106.--US_youtube@资源分享师_56
-      - 107.--♿40@oneclickvpnkeys
-      - 108.--US_ 7022 82
-      - 109.--US_youtube@资源分享师_17
-      - 110.--US_ 7022+39
-      - 111.--|US|美国|@wxgqlfx|6
-      - 112.--US_youtube@资源分享师_198
-      - 113.--US_ 7022+40
-      - 114.--US_ 7022+41
-      - 115.--US_youtube@资源分享师_31
-      - 116.--US_youtube@资源分享师_93
-      - 117.--US_youtube@资源分享师_143
-      - 118.--美国 CloudFlare节点+9
-      - 119.--|US|美国|@wxgqlfx|38
-      - 120.--US_ 7022+44
-      - 121.--|US|美国|@wxgqlfx|56
-      - 122.--US_ 7022+43
-      - 123.--美国 CloudFlare节点+10
-      - 124.--US_ 7022+42
-      - 125.--US_youtube@资源分享师_12
-      - 126.--US_ 7022 6
-      - 127.--US_ 7022+45
-      - 128.--|US|美国|@wxgqlfx|36
-      - 129.--14@oneclickvpnkeys+1
-      - 130.--US_youtube@资源分享师_91
-      - 131.--美国 CloudFlare节点+11
-      - 132.--美国62〖电报：@ccbaohe】免费节点定时更新
-      - 133.--US_ 7022+46
-      - 134.--US_ 7022 122
-      - 135.--US_youtube@资源分享师_13
-      - 136.--US_ 7022+47
-      - 137.--US_ 7022+48
-      - 138.--US_youtube@资源分享师_165
-      - 139.--美国 CloudFlare节点+12
-      - 140.--US_ 7022 107
-      - 141.--US_ 7022+49
-      - 142.--US_ 7022+51
-      - 143.--美国 Amazon数据中心
-      - 144.--|US|美国|@wxgqlfx|46
-      - 145.--US_ 7022+50
-      - 146.--美国 Amazon数据中心+1
-      - 147.--|US|美国|@wxgqlfx|35
-      - 148.--|US|美国|@wxgqlfx|41
-      - 149.--美国 CloudFlare节点+15
-      - 150.--美国 CloudFlare节点+28
-      - 151.--US_ 7022 69
-      - 152.--美国 CloudFlare节点+19
+      - 1.--_US_美国+3
+      - 2.--_US_美国+5
+      - 3.--_US_美国+25
+      - 4.--_US_美国+6
+      - 5.--18@oneclickvpnkeys
+      - 6.--8@oneclickvpnkeys
+      - 7.--US_ 7022
+      - 8.--US_youtube@资源分享师_298
+      - 9.--US_youtube@资源分享师_269
+      - 10.--|US|美国|@wxgqlfx|16
+      - 11.--US美国(mibei77.com 米贝节点分享)
+      - 12.--US_ 7022 13
+      - 13.--US_ 7022+1
+      - 14.--US_ 7022+2
+      - 15.--9@oneclickvpnkeys
+      - 16.--美国 CloudFlare节点+1
+      - 17.--美国 CloudFlare节点
+      - 18.--美国 CloudFlare节点+5
+      - 19.--美国 CloudFlare节点+2
+      - 20.--美国 CloudFlare节点+4
+      - 21.--美国 CloudFlare节点+6
+      - 22.--美国 CloudFlare节点+3
+      - 23.--美国 CloudFlare节点+8
+      - 24.--美国 CloudFlare节点+10
+      - 25.--美国 CloudFlare节点+11
+      - 26.--美国 CloudFlare节点+12
+      - 27.--美国 CloudFlare节点+13
+      - 28.--美国 CloudFlare节点+14
+      - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
+      - 30.--TW-板桥2-3(Trojan)\r
+      - 31.--TW-板桥2-2(Trojan)\r
+      - 32.--加拿大 022
+      - 33.--TW-桃园1-1(Trojan)\r
+      - 34.--3@oneclickvpnkeys
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -478,162 +124,46 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--美国(欢迎订阅Youtube破解资源君)+40
-      - 2.--_US_美国+21
-      - 3.--_AR_阿根廷
-      - 4.--US_youtube@资源分享师_6
-      - 5.--US_youtube@资源分享师_69
-      - 6.--US_youtube@资源分享师_248
-      - 7.--US_youtube@资源分享师_167
-      - 8.--美国 CloudFlare节点
-      - 9.--US_ 7022
-      - 10.--US_youtube@资源分享师_66
-      - 11.--US_youtube@资源分享师_96
-      - 12.--|US|美国|@wxgqlfx|48
-      - 13.--US_youtube@资源分享师_203
-      - 14.--美国 CloudFlare节点+1
-      - 15.--US_ 7022+1
-      - 16.--US_youtube@资源分享师_72
-      - 17.--US_youtube@资源分享师_156
-      - 18.--美国 CloudFlare节点（ccbaohe.com）免费机场节点
-      - 19.--10@oneclickvpnkeys
-      - 20.--US_ 7022+2
-      - 21.--美国 CloudFlare节点+2
-      - 22.--US_youtube@资源分享师_157
-      - 23.--US_ 7022+3
-      - 24.--美国 CloudFlare节点 4
-      - 25.--US_ 7022+4
-      - 26.--US_ 7022+7
-      - 27.--US_ 7022+6
-      - 28.--US_youtube@资源分享师_34
-      - 29.--US_ 7022+8
-      - 30.--US_ 7022+9
-      - 31.--US_ 7022 89
-      - 32.--US_youtube@资源分享师_94
-      - 33.--1@oneclickvpnkeys
-      - 34.--|US|美国|@wxgqlfx|45
-      - 35.--美国 CloudFlare节点+4
-      - 36.--|US|美国|@wxgqlfx|50
-      - 37.--US_ 7022+10
-      - 38.--美国【TG：@ccbaohe】定时更新节点订阅+1
-      - 39.--US_youtube@资源分享师_117
-      - 40.--US_ 7022+11
-      - 41.--US_ 7022+12
-      - 42.--US_youtube@资源分享师_122
-      - 43.--US_ 7022+13
-      - 44.--US_ 7022+14
-      - 45.--US_youtube@资源分享师_61
-      - 46.--美国  17〖电报：@ccbaohe】免费节点定时更新
-      - 47.--US_youtube@资源分享师_139
-      - 48.--US_ 7022+15
-      - 49.--|US|美国|@wxgqlfx|55
-      - 50.--US_ 7022 75
-      - 51.--美国 CloudFlare节点+5
-      - 52.--美国【TG：@ccbaohe】定时更新节点订阅+2
-      - 53.--US_youtube@资源分享师_128
-      - 54.--US_ 7022+16
-      - 55.--US_youtube@资源分享师_42
-      - 56.--US_ 7022+17
-      - 57.--US_youtube@资源分享师_19
-      - 58.--US_youtube@资源分享师_79
-      - 59.--US_ 7022 175
-      - 60.--US_ 7022+18
-      - 61.--|US|美国|@wxgqlfx|49
-      - 62.--US_ 7022+20
-      - 63.--US_youtube@资源分享师_88
-      - 64.--US_ 7022+19
-      - 65.--US_ 7022+21
-      - 66.--美国 CloudFlare节点 22《ccbaohe.com〉免费机场节点
-      - 67.--US_youtube@资源分享师_7
-      - 68.--US_youtube@资源分享师_113
-      - 69.--美国 CloudFlare节点+6
-      - 70.--US_youtube@资源分享师_4
-      - 71.--|US|美国|@wxgqlfx|47
-      - 72.--|NL|荷兰|@wxgqlfx|32
-      - 73.--US_ 7022+22
-      - 74.--14@oneclickvpnkeys
-      - 75.--US_youtube@资源分享师_5
-      - 76.--US_youtube@资源分享师_37
-      - 77.--US_youtube@资源分享师_1
-      - 78.--US_youtube@资源分享师_65
-      - 79.--US_ 7022+23
-      - 80.--US_ 7022+25
-      - 81.--US_ 7022+27
-      - 82.--US_ 7022+30
-      - 83.--US_ 7022+24
-      - 84.--US_ 7022+29
-      - 85.--US_ 7022+26
-      - 86.--US_ 7022+28
-      - 87.--US_youtube@资源分享师_15
-      - 88.--|US|美国|@wxgqlfx|43
-      - 89.--US_youtube@资源分享师_52
-      - 90.--US_youtube@资源分享师_27
-      - 91.--美国 CloudFlare节点+7
-      - 92.--|US|美国|@wxgqlfx|40
-      - 93.--US_ 7022+31
-      - 94.--6@oneclickvpnkeys
-      - 95.--US_ 7022+32
-      - 96.--US_ 7022+33
-      - 97.--US_ 7022+34
-      - 98.--VPN招代理电报联系@xiaoying229
-      - 99.--US_youtube@资源分享师_45
-      - 100.--US_ 7022+36
-      - 101.--US_ 7022+35
-      - 102.--US_ 7022+38
-      - 103.--US_ 7022+37
-      - 104.--US_youtube@资源分享师_128+1
-      - 105.--美国 CloudFlare节点+8
-      - 106.--US_youtube@资源分享师_56
-      - 107.--♿40@oneclickvpnkeys
-      - 108.--US_ 7022 82
-      - 109.--US_youtube@资源分享师_17
-      - 110.--US_ 7022+39
-      - 111.--|US|美国|@wxgqlfx|6
-      - 112.--US_youtube@资源分享师_198
-      - 113.--US_ 7022+40
-      - 114.--US_ 7022+41
-      - 115.--US_youtube@资源分享师_31
-      - 116.--US_youtube@资源分享师_93
-      - 117.--US_youtube@资源分享师_143
-      - 118.--美国 CloudFlare节点+9
-      - 119.--|US|美国|@wxgqlfx|38
-      - 120.--US_ 7022+44
-      - 121.--|US|美国|@wxgqlfx|56
-      - 122.--US_ 7022+43
-      - 123.--美国 CloudFlare节点+10
-      - 124.--US_ 7022+42
-      - 125.--US_youtube@资源分享师_12
-      - 126.--US_ 7022 6
-      - 127.--US_ 7022+45
-      - 128.--|US|美国|@wxgqlfx|36
-      - 129.--14@oneclickvpnkeys+1
-      - 130.--US_youtube@资源分享师_91
-      - 131.--美国 CloudFlare节点+11
-      - 132.--美国62〖电报：@ccbaohe】免费节点定时更新
-      - 133.--US_ 7022+46
-      - 134.--US_ 7022 122
-      - 135.--US_youtube@资源分享师_13
-      - 136.--US_ 7022+47
-      - 137.--US_ 7022+48
-      - 138.--US_youtube@资源分享师_165
-      - 139.--美国 CloudFlare节点+12
-      - 140.--US_ 7022 107
-      - 141.--US_ 7022+49
-      - 142.--US_ 7022+51
-      - 143.--美国 Amazon数据中心
-      - 144.--|US|美国|@wxgqlfx|46
-      - 145.--US_ 7022+50
-      - 146.--美国 Amazon数据中心+1
-      - 147.--|US|美国|@wxgqlfx|35
-      - 148.--|US|美国|@wxgqlfx|41
-      - 149.--美国 CloudFlare节点+15
-      - 150.--美国 CloudFlare节点+28
-      - 151.--US_ 7022 69
-      - 152.--美国 CloudFlare节点+19
+      - 1.--_US_美国+3
+      - 2.--_US_美国+5
+      - 3.--_US_美国+25
+      - 4.--_US_美国+6
+      - 5.--18@oneclickvpnkeys
+      - 6.--8@oneclickvpnkeys
+      - 7.--US_ 7022
+      - 8.--US_youtube@资源分享师_298
+      - 9.--US_youtube@资源分享师_269
+      - 10.--|US|美国|@wxgqlfx|16
+      - 11.--US美国(mibei77.com 米贝节点分享)
+      - 12.--US_ 7022 13
+      - 13.--US_ 7022+1
+      - 14.--US_ 7022+2
+      - 15.--9@oneclickvpnkeys
+      - 16.--美国 CloudFlare节点+1
+      - 17.--美国 CloudFlare节点
+      - 18.--美国 CloudFlare节点+5
+      - 19.--美国 CloudFlare节点+2
+      - 20.--美国 CloudFlare节点+4
+      - 21.--美国 CloudFlare节点+6
+      - 22.--美国 CloudFlare节点+3
+      - 23.--美国 CloudFlare节点+8
+      - 24.--美国 CloudFlare节点+10
+      - 25.--美国 CloudFlare节点+11
+      - 26.--美国 CloudFlare节点+12
+      - 27.--美国 CloudFlare节点+13
+      - 28.--美国 CloudFlare节点+14
+      - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
+      - 30.--TW-板桥2-3(Trojan)\r
+      - 31.--TW-板桥2-2(Trojan)\r
+      - 32.--加拿大 022
+      - 33.--TW-桃园1-1(Trojan)\r
+      - 34.--3@oneclickvpnkeys
   - name: 中国节点
     type: select
     proxies:
-      - DIRECT
+      - 30.--TW-板桥2-3(Trojan)\r
+      - 31.--TW-板桥2-2(Trojan)\r
+      - 33.--TW-桃园1-1(Trojan)\r
   - name: 日本节点
     type: select
     proxies:
@@ -648,148 +178,30 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 1.--美国(欢迎订阅Youtube破解资源君)+40
-      - 2.--_US_美国+21
-      - 4.--US_youtube@资源分享师_6
-      - 5.--US_youtube@资源分享师_69
-      - 6.--US_youtube@资源分享师_248
-      - 7.--US_youtube@资源分享师_167
-      - 8.--美国 CloudFlare节点
-      - 9.--US_ 7022
-      - 10.--US_youtube@资源分享师_66
-      - 11.--US_youtube@资源分享师_96
-      - 12.--|US|美国|@wxgqlfx|48
-      - 13.--US_youtube@资源分享师_203
-      - 14.--美国 CloudFlare节点+1
-      - 15.--US_ 7022+1
-      - 16.--US_youtube@资源分享师_72
-      - 17.--US_youtube@资源分享师_156
-      - 18.--美国 CloudFlare节点（ccbaohe.com）免费机场节点
-      - 20.--US_ 7022+2
-      - 21.--美国 CloudFlare节点+2
-      - 22.--US_youtube@资源分享师_157
-      - 23.--US_ 7022+3
-      - 24.--美国 CloudFlare节点 4
-      - 25.--US_ 7022+4
-      - 26.--US_ 7022+7
-      - 27.--US_ 7022+6
-      - 28.--US_youtube@资源分享师_34
-      - 29.--US_ 7022+8
-      - 30.--US_ 7022+9
-      - 31.--US_ 7022 89
-      - 32.--US_youtube@资源分享师_94
-      - 34.--|US|美国|@wxgqlfx|45
-      - 35.--美国 CloudFlare节点+4
-      - 36.--|US|美国|@wxgqlfx|50
-      - 37.--US_ 7022+10
-      - 38.--美国【TG：@ccbaohe】定时更新节点订阅+1
-      - 39.--US_youtube@资源分享师_117
-      - 40.--US_ 7022+11
-      - 41.--US_ 7022+12
-      - 42.--US_youtube@资源分享师_122
-      - 43.--US_ 7022+13
-      - 44.--US_ 7022+14
-      - 45.--US_youtube@资源分享师_61
-      - 46.--美国  17〖电报：@ccbaohe】免费节点定时更新
-      - 47.--US_youtube@资源分享师_139
-      - 48.--US_ 7022+15
-      - 49.--|US|美国|@wxgqlfx|55
-      - 50.--US_ 7022 75
-      - 51.--美国 CloudFlare节点+5
-      - 52.--美国【TG：@ccbaohe】定时更新节点订阅+2
-      - 53.--US_youtube@资源分享师_128
-      - 54.--US_ 7022+16
-      - 55.--US_youtube@资源分享师_42
-      - 56.--US_ 7022+17
-      - 57.--US_youtube@资源分享师_19
-      - 58.--US_youtube@资源分享师_79
-      - 59.--US_ 7022 175
-      - 60.--US_ 7022+18
-      - 61.--|US|美国|@wxgqlfx|49
-      - 62.--US_ 7022+20
-      - 63.--US_youtube@资源分享师_88
-      - 64.--US_ 7022+19
-      - 65.--US_ 7022+21
-      - 66.--美国 CloudFlare节点 22《ccbaohe.com〉免费机场节点
-      - 67.--US_youtube@资源分享师_7
-      - 68.--US_youtube@资源分享师_113
-      - 69.--美国 CloudFlare节点+6
-      - 70.--US_youtube@资源分享师_4
-      - 71.--|US|美国|@wxgqlfx|47
-      - 73.--US_ 7022+22
-      - 75.--US_youtube@资源分享师_5
-      - 76.--US_youtube@资源分享师_37
-      - 77.--US_youtube@资源分享师_1
-      - 78.--US_youtube@资源分享师_65
-      - 79.--US_ 7022+23
-      - 80.--US_ 7022+25
-      - 81.--US_ 7022+27
-      - 82.--US_ 7022+30
-      - 83.--US_ 7022+24
-      - 84.--US_ 7022+29
-      - 85.--US_ 7022+26
-      - 86.--US_ 7022+28
-      - 87.--US_youtube@资源分享师_15
-      - 88.--|US|美国|@wxgqlfx|43
-      - 89.--US_youtube@资源分享师_52
-      - 90.--US_youtube@资源分享师_27
-      - 91.--美国 CloudFlare节点+7
-      - 92.--|US|美国|@wxgqlfx|40
-      - 93.--US_ 7022+31
-      - 95.--US_ 7022+32
-      - 96.--US_ 7022+33
-      - 97.--US_ 7022+34
-      - 99.--US_youtube@资源分享师_45
-      - 100.--US_ 7022+36
-      - 101.--US_ 7022+35
-      - 102.--US_ 7022+38
-      - 103.--US_ 7022+37
-      - 104.--US_youtube@资源分享师_128+1
-      - 105.--美国 CloudFlare节点+8
-      - 106.--US_youtube@资源分享师_56
-      - 108.--US_ 7022 82
-      - 109.--US_youtube@资源分享师_17
-      - 110.--US_ 7022+39
-      - 111.--|US|美国|@wxgqlfx|6
-      - 112.--US_youtube@资源分享师_198
-      - 113.--US_ 7022+40
-      - 114.--US_ 7022+41
-      - 115.--US_youtube@资源分享师_31
-      - 116.--US_youtube@资源分享师_93
-      - 117.--US_youtube@资源分享师_143
-      - 118.--美国 CloudFlare节点+9
-      - 119.--|US|美国|@wxgqlfx|38
-      - 120.--US_ 7022+44
-      - 121.--|US|美国|@wxgqlfx|56
-      - 122.--US_ 7022+43
-      - 123.--美国 CloudFlare节点+10
-      - 124.--US_ 7022+42
-      - 125.--US_youtube@资源分享师_12
-      - 126.--US_ 7022 6
-      - 127.--US_ 7022+45
-      - 128.--|US|美国|@wxgqlfx|36
-      - 130.--US_youtube@资源分享师_91
-      - 131.--美国 CloudFlare节点+11
-      - 132.--美国62〖电报：@ccbaohe】免费节点定时更新
-      - 133.--US_ 7022+46
-      - 134.--US_ 7022 122
-      - 135.--US_youtube@资源分享师_13
-      - 136.--US_ 7022+47
-      - 137.--US_ 7022+48
-      - 138.--US_youtube@资源分享师_165
-      - 139.--美国 CloudFlare节点+12
-      - 140.--US_ 7022 107
-      - 141.--US_ 7022+49
-      - 142.--US_ 7022+51
-      - 143.--美国 Amazon数据中心
-      - 144.--|US|美国|@wxgqlfx|46
-      - 145.--US_ 7022+50
-      - 146.--美国 Amazon数据中心+1
-      - 147.--|US|美国|@wxgqlfx|35
-      - 148.--|US|美国|@wxgqlfx|41
-      - 149.--美国 CloudFlare节点+15
-      - 150.--美国 CloudFlare节点+28
-      - 151.--US_ 7022 69
-      - 152.--美国 CloudFlare节点+19
+      - 1.--_US_美国+3
+      - 2.--_US_美国+5
+      - 3.--_US_美国+25
+      - 4.--_US_美国+6
+      - 7.--US_ 7022
+      - 8.--US_youtube@资源分享师_298
+      - 9.--US_youtube@资源分享师_269
+      - 10.--|US|美国|@wxgqlfx|16
+      - 11.--US美国(mibei77.com 米贝节点分享)
+      - 12.--US_ 7022 13
+      - 13.--US_ 7022+1
+      - 14.--US_ 7022+2
+      - 16.--美国 CloudFlare节点+1
+      - 17.--美国 CloudFlare节点
+      - 18.--美国 CloudFlare节点+5
+      - 19.--美国 CloudFlare节点+2
+      - 20.--美国 CloudFlare节点+4
+      - 21.--美国 CloudFlare节点+6
+      - 22.--美国 CloudFlare节点+3
+      - 23.--美国 CloudFlare节点+8
+      - 24.--美国 CloudFlare节点+10
+      - 25.--美国 CloudFlare节点+11
+      - 26.--美国 CloudFlare节点+12
+      - 27.--美国 CloudFlare节点+13
+      - 28.--美国 CloudFlare节点+14
 rules:
   - MATCH,手动切换
