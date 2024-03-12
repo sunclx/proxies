@@ -5,414 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 1.--_US_美国+3
-  server: 172.67.143.192
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.shop
-  udp: true
-- name: 2.--_US_美国+5
-  server: 104.21.54.252
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.shop
-  udp: true
-- name: 3.--_US_美国+25
+- name: 1.--_US_美国+27
   server: 212.102.47.198
   port: 443
   type: ss
   cipher: aes-128-cfb
   password: shadowsocks
   udp: true
-- name: 4.--_US_美国+6
-  server: www.velvetmountain.shop
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.shop
-  udp: true
-- name: 5.--18@oneclickvpnkeys
-  server: kittiy.sbs
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: kittiy.sbs
-  udp: true
-- name: 6.--8@oneclickvpnkeys
-  server: 172.67.196.110
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: kellie.makeup
-  udp: true
-- name: 7.--US_ 7022
-  server: 104.21.233.69
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 8.--US_youtube@资源分享师_298
-  server: 104.21.63.52
-  port: 80
-  type: vmess
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us65.netfilx.live
-  udp: true
-- name: 9.--US_youtube@资源分享师_269
-  server: 129.80.151.246
-  port: 40059
-  type: vmess
-  uuid: 1b359f51-72df-4435-81df-b92cf75262d9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 10.--|US|美国|@wxgqlfx|16
-  server: 64.23.208.27
-  port: 18906
-  type: vmess
-  uuid: 31209467-5b1b-4f53-87b3-36789c213659
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 64.23.208.27
-  udp: true
-- name: 11.--US美国(mibei77.com 米贝节点分享)
-  server: us65.netfilx.live
-  port: 80
-  type: vmess
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us65.netfilx.live
-  udp: true
-- name: 12.--US_ 7022 13
-  server: 104.21.229.28
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 13.--US_ 7022+1
-  server: 104.21.231.39
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 14.--US_ 7022+2
-  server: 104.21.227.18
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 15.--9@oneclickvpnkeys
-  server: kellie.makeup
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: kellie.makeup
-  udp: true
-- name: 16.--美国 CloudFlare节点+1
-  server: 104.21.232.40
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-  udp: true
-- name: 17.--美国 CloudFlare节点
-  server: 104.21.228.44
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 18.--美国 CloudFlare节点+5
-  server: 104.21.238.92
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 19.--美国 CloudFlare节点+2
-  server: 104.21.236.80
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 20.--美国 CloudFlare节点+4
-  server: 104.21.236.64
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 21.--美国 CloudFlare节点+6
-  server: 104.21.228.22
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 22.--美国 CloudFlare节点+3
-  server: 104.21.225.6
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳 @WangCai08
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 23.--美国 CloudFlare节点+8
-  server: 104.21.235.76
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 24.--美国 CloudFlare节点+10
-  server: 104.21.229.29
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 25.--美国 CloudFlare节点+11
-  server: 104.21.237.85
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 26.--美国 CloudFlare节点+12
-  server: 104.21.224.3
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 27.--美国 CloudFlare节点+13
-  server: 104.21.237.88
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 28.--美国 CloudFlare节点+14
-  server: 104.21.239.95
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-  udp: true
-- name: 29.--|RU|俄罗斯联邦|@wxgqlfx|32
+- name: 2.--3@oneclickvpnkeys
   server: 45.14.244.133
   port: 2024
   type: vmess
@@ -427,50 +27,36 @@ proxies:
     headers:
       Host: 45.14.244.133
   udp: true
-- name: 30.--TW-板桥2-3(Trojan)\r
-  server: b23.ntbq.dynu.net
-  port: 18701
-  type: trojan
-  password: 1194cb2a-af73-465b-bf0c-c66a28e58200
-  sni: b23.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: 31.--TW-板桥2-2(Trojan)\r
-  server: b22.ntbq.dynu.net
-  port: 19489
-  type: trojan
-  password: 1194cb2a-af73-465b-bf0c-c66a28e58200
-  sni: b22.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: 32.--加拿大 022
-  server: 104.21.25.94
-  port: 443
+- name: 3.--US_youtube@资源分享师_37
+  server: 104.21.226.11
+  port: 80
   type: vmess
-  uuid: 4d74f126-0ef1-4579-b0a3-78e7b48ef067
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vmess
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
     headers:
-      Host: de2-vmess.sshmax.xyz
+      Host: a.prapt1.ir
   udp: true
-- name: 33.--TW-桃园1-1(Trojan)\r
-  server: ty11t.twty.dynu.net
-  port: 13761
-  type: trojan
-  password: 1194cb2a-af73-465b-bf0c-c66a28e58200
-  sni: ty11t.twty.dynu.net
+- name: 4.--US_youtube@资源分享师_269
+  server: 129.80.151.246
+  port: 40059
+  type: vmess
+  uuid: 1b359f51-72df-4435-81df-b92cf75262d9
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
   udp: true
-- name: 34.--3@oneclickvpnkeys
-  server: 91.107.169.215
-  port: 36201
+- name: 5.--美国 CloudFlare节点
+  server: 104.21.63.52
+  port: 80
   type: vmess
-  uuid: a780eb73-03ad-4097-a822-1b11c3b5011f
+  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
   alterId: 0
   cipher: auto
   tls: false
@@ -479,7 +65,134 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 91.107.169.215
+      Host: us65.netfilx.live
+  udp: true
+- name: 6.--加拿大 014
+  server: 104.16.216.241
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: nelly.homes
+  udp: true
+- name: 7.---0956-JP【ccbaohe.com〗 永久免费节点机场\r
+  server: 3.113.249.52
+  port: 443
+  type: trojan
+  password: 5a723262-9e27-3f07-bdce-dfdb76d3428d
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  skip-cert-verify: true
+  udp: true
+- name: 8.--US美国(mibei77.com 米贝节点分享)+2
+  server: us65.netfilx.live
+  port: 80
+  type: vmess
+  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us65.netfilx.live
+  udp: true
+- name: 9.--荷兰 020
+  server: 188.114.97.43
+  port: 443
+  type: vmess
+  uuid: 0e4d17ea-1332-481a-aae2-ef9b790201cf
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ua2-vmess.sshmax.xyz
+  udp: true
+- name: 10.--19@oneclickvpnkeys
+  server: 104.21.44.64
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: kellie.makeup
+  udp: true
+- name: 11.--俄罗斯 002
+  server: 185.221.160.163
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /kellie.makeup/linkvws
+    headers:
+      Host: worker-lingering-fog-c021.gesofog870.workers.dev
+  udp: true
+- name: 12.--@Hope_Net-join-us-on-Telegram+2
+  server: cfcdn1.sanfencdn9.com
+  port: 2052
+  type: vmess
+  uuid: 8e0fc6e0-1313-4767-b51c-5506680d534e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /video/QXjZG5u4F2
+    headers:
+      Host: us3AJ8biuQx.fzbqfrse.xyz
+  udp: true
+- name: 13.--英国 伦敦Microsoft公司
+  server: 51.140.62.211
+  port: 49476
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: nuOFdvcnqeTQ81ybijCZZp
+  udp: true
+- name: 14.--美国 Amazon数据中心
+  server: series-a2-me.varzesh360.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+  udp: true
+- name: 15.--英国 伦敦Amazon数据中心+1
+  server: java.ct.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 16.---0955-JP【ccbaohe.com〗 永久免费节点机场\r
+  server: 18.183.202.123
+  port: 443
+  type: trojan
+  password: 5a723262-9e27-3f07-bdce-dfdb76d3428d
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: 🔰 节点选择
@@ -488,79 +201,43 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 负载均衡
-  - 1.--_US_美国+3
-  - 2.--_US_美国+5
-  - 3.--_US_美国+25
-  - 4.--_US_美国+6
-  - 5.--18@oneclickvpnkeys
-  - 6.--8@oneclickvpnkeys
-  - 7.--US_ 7022
-  - 8.--US_youtube@资源分享师_298
-  - 9.--US_youtube@资源分享师_269
-  - 10.--|US|美国|@wxgqlfx|16
-  - 11.--US美国(mibei77.com 米贝节点分享)
-  - 12.--US_ 7022 13
-  - 13.--US_ 7022+1
-  - 14.--US_ 7022+2
-  - 15.--9@oneclickvpnkeys
-  - 16.--美国 CloudFlare节点+1
-  - 17.--美国 CloudFlare节点
-  - 18.--美国 CloudFlare节点+5
-  - 19.--美国 CloudFlare节点+2
-  - 20.--美国 CloudFlare节点+4
-  - 21.--美国 CloudFlare节点+6
-  - 22.--美国 CloudFlare节点+3
-  - 23.--美国 CloudFlare节点+8
-  - 24.--美国 CloudFlare节点+10
-  - 25.--美国 CloudFlare节点+11
-  - 26.--美国 CloudFlare节点+12
-  - 27.--美国 CloudFlare节点+13
-  - 28.--美国 CloudFlare节点+14
-  - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
-  - 30.--TW-板桥2-3(Trojan)\r
-  - 31.--TW-板桥2-2(Trojan)\r
-  - 32.--加拿大 022
-  - 33.--TW-桃园1-1(Trojan)\r
-  - 34.--3@oneclickvpnkeys
+  - 1.--_US_美国+27
+  - 2.--3@oneclickvpnkeys
+  - 3.--US_youtube@资源分享师_37
+  - 4.--US_youtube@资源分享师_269
+  - 5.--美国 CloudFlare节点
+  - 6.--加拿大 014
+  - 7.---0956-JP【ccbaohe.com〗 永久免费节点机场\r
+  - 8.--US美国(mibei77.com 米贝节点分享)+2
+  - 9.--荷兰 020
+  - 10.--19@oneclickvpnkeys
+  - 11.--俄罗斯 002
+  - 12.--@Hope_Net-join-us-on-Telegram+2
+  - 13.--英国 伦敦Microsoft公司
+  - 14.--美国 Amazon数据中心
+  - 15.--英国 伦敦Amazon数据中心+1
+  - 16.---0955-JP【ccbaohe.com〗 永久免费节点机场\r
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 1.--_US_美国+3
-  - 2.--_US_美国+5
-  - 3.--_US_美国+25
-  - 4.--_US_美国+6
-  - 5.--18@oneclickvpnkeys
-  - 6.--8@oneclickvpnkeys
-  - 7.--US_ 7022
-  - 8.--US_youtube@资源分享师_298
-  - 9.--US_youtube@资源分享师_269
-  - 10.--|US|美国|@wxgqlfx|16
-  - 11.--US美国(mibei77.com 米贝节点分享)
-  - 12.--US_ 7022 13
-  - 13.--US_ 7022+1
-  - 14.--US_ 7022+2
-  - 15.--9@oneclickvpnkeys
-  - 16.--美国 CloudFlare节点+1
-  - 17.--美国 CloudFlare节点
-  - 18.--美国 CloudFlare节点+5
-  - 19.--美国 CloudFlare节点+2
-  - 20.--美国 CloudFlare节点+4
-  - 21.--美国 CloudFlare节点+6
-  - 22.--美国 CloudFlare节点+3
-  - 23.--美国 CloudFlare节点+8
-  - 24.--美国 CloudFlare节点+10
-  - 25.--美国 CloudFlare节点+11
-  - 26.--美国 CloudFlare节点+12
-  - 27.--美国 CloudFlare节点+13
-  - 28.--美国 CloudFlare节点+14
-  - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
-  - 30.--TW-板桥2-3(Trojan)\r
-  - 31.--TW-板桥2-2(Trojan)\r
-  - 32.--加拿大 022
-  - 33.--TW-桃园1-1(Trojan)\r
-  - 34.--3@oneclickvpnkeys
+  - 1.--_US_美国+27
+  - 2.--3@oneclickvpnkeys
+  - 3.--US_youtube@资源分享师_37
+  - 4.--US_youtube@资源分享师_269
+  - 5.--美国 CloudFlare节点
+  - 6.--加拿大 014
+  - 7.---0956-JP【ccbaohe.com〗 永久免费节点机场\r
+  - 8.--US美国(mibei77.com 米贝节点分享)+2
+  - 9.--荷兰 020
+  - 10.--19@oneclickvpnkeys
+  - 11.--俄罗斯 002
+  - 12.--@Hope_Net-join-us-on-Telegram+2
+  - 13.--英国 伦敦Microsoft公司
+  - 14.--美国 Amazon数据中心
+  - 15.--英国 伦敦Amazon数据中心+1
+  - 16.---0955-JP【ccbaohe.com〗 永久免费节点机场\r
 - name: 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -568,206 +245,114 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 1.--_US_美国+3
-  - 2.--_US_美国+5
-  - 3.--_US_美国+25
-  - 4.--_US_美国+6
-  - 5.--18@oneclickvpnkeys
-  - 6.--8@oneclickvpnkeys
-  - 7.--US_ 7022
-  - 8.--US_youtube@资源分享师_298
-  - 9.--US_youtube@资源分享师_269
-  - 10.--|US|美国|@wxgqlfx|16
-  - 11.--US美国(mibei77.com 米贝节点分享)
-  - 12.--US_ 7022 13
-  - 13.--US_ 7022+1
-  - 14.--US_ 7022+2
-  - 15.--9@oneclickvpnkeys
-  - 16.--美国 CloudFlare节点+1
-  - 17.--美国 CloudFlare节点
-  - 18.--美国 CloudFlare节点+5
-  - 19.--美国 CloudFlare节点+2
-  - 20.--美国 CloudFlare节点+4
-  - 21.--美国 CloudFlare节点+6
-  - 22.--美国 CloudFlare节点+3
-  - 23.--美国 CloudFlare节点+8
-  - 24.--美国 CloudFlare节点+10
-  - 25.--美国 CloudFlare节点+11
-  - 26.--美国 CloudFlare节点+12
-  - 27.--美国 CloudFlare节点+13
-  - 28.--美国 CloudFlare节点+14
-  - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
-  - 30.--TW-板桥2-3(Trojan)\r
-  - 31.--TW-板桥2-2(Trojan)\r
-  - 32.--加拿大 022
-  - 33.--TW-桃园1-1(Trojan)\r
-  - 34.--3@oneclickvpnkeys
+  - 1.--_US_美国+27
+  - 2.--3@oneclickvpnkeys
+  - 3.--US_youtube@资源分享师_37
+  - 4.--US_youtube@资源分享师_269
+  - 5.--美国 CloudFlare节点
+  - 6.--加拿大 014
+  - 7.---0956-JP【ccbaohe.com〗 永久免费节点机场\r
+  - 8.--US美国(mibei77.com 米贝节点分享)+2
+  - 9.--荷兰 020
+  - 10.--19@oneclickvpnkeys
+  - 11.--俄罗斯 002
+  - 12.--@Hope_Net-join-us-on-Telegram+2
+  - 13.--英国 伦敦Microsoft公司
+  - 14.--美国 Amazon数据中心
+  - 15.--英国 伦敦Amazon数据中心+1
+  - 16.---0955-JP【ccbaohe.com〗 永久免费节点机场\r
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 1.--_US_美国+3
-  - 2.--_US_美国+5
-  - 3.--_US_美国+25
-  - 4.--_US_美国+6
-  - 5.--18@oneclickvpnkeys
-  - 6.--8@oneclickvpnkeys
-  - 7.--US_ 7022
-  - 8.--US_youtube@资源分享师_298
-  - 9.--US_youtube@资源分享师_269
-  - 10.--|US|美国|@wxgqlfx|16
-  - 11.--US美国(mibei77.com 米贝节点分享)
-  - 12.--US_ 7022 13
-  - 13.--US_ 7022+1
-  - 14.--US_ 7022+2
-  - 15.--9@oneclickvpnkeys
-  - 16.--美国 CloudFlare节点+1
-  - 17.--美国 CloudFlare节点
-  - 18.--美国 CloudFlare节点+5
-  - 19.--美国 CloudFlare节点+2
-  - 20.--美国 CloudFlare节点+4
-  - 21.--美国 CloudFlare节点+6
-  - 22.--美国 CloudFlare节点+3
-  - 23.--美国 CloudFlare节点+8
-  - 24.--美国 CloudFlare节点+10
-  - 25.--美国 CloudFlare节点+11
-  - 26.--美国 CloudFlare节点+12
-  - 27.--美国 CloudFlare节点+13
-  - 28.--美国 CloudFlare节点+14
-  - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
-  - 30.--TW-板桥2-3(Trojan)\r
-  - 31.--TW-板桥2-2(Trojan)\r
-  - 32.--加拿大 022
-  - 33.--TW-桃园1-1(Trojan)\r
-  - 34.--3@oneclickvpnkeys
+  - 1.--_US_美国+27
+  - 2.--3@oneclickvpnkeys
+  - 3.--US_youtube@资源分享师_37
+  - 4.--US_youtube@资源分享师_269
+  - 5.--美国 CloudFlare节点
+  - 6.--加拿大 014
+  - 7.---0956-JP【ccbaohe.com〗 永久免费节点机场\r
+  - 8.--US美国(mibei77.com 米贝节点分享)+2
+  - 9.--荷兰 020
+  - 10.--19@oneclickvpnkeys
+  - 11.--俄罗斯 002
+  - 12.--@Hope_Net-join-us-on-Telegram+2
+  - 13.--英国 伦敦Microsoft公司
+  - 14.--美国 Amazon数据中心
+  - 15.--英国 伦敦Amazon数据中心+1
+  - 16.---0955-JP【ccbaohe.com〗 永久免费节点机场\r
 - name: 🌏 国内媒体
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 30.--TW-板桥2-3(Trojan)\r
-  - 31.--TW-板桥2-2(Trojan)\r
-  - 33.--TW-桃园1-1(Trojan)\r
+  - DIRECT
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 1.--_US_美国+3
-  - 2.--_US_美国+5
-  - 3.--_US_美国+25
-  - 4.--_US_美国+6
-  - 5.--18@oneclickvpnkeys
-  - 6.--8@oneclickvpnkeys
-  - 7.--US_ 7022
-  - 8.--US_youtube@资源分享师_298
-  - 9.--US_youtube@资源分享师_269
-  - 10.--|US|美国|@wxgqlfx|16
-  - 11.--US美国(mibei77.com 米贝节点分享)
-  - 12.--US_ 7022 13
-  - 13.--US_ 7022+1
-  - 14.--US_ 7022+2
-  - 15.--9@oneclickvpnkeys
-  - 16.--美国 CloudFlare节点+1
-  - 17.--美国 CloudFlare节点
-  - 18.--美国 CloudFlare节点+5
-  - 19.--美国 CloudFlare节点+2
-  - 20.--美国 CloudFlare节点+4
-  - 21.--美国 CloudFlare节点+6
-  - 22.--美国 CloudFlare节点+3
-  - 23.--美国 CloudFlare节点+8
-  - 24.--美国 CloudFlare节点+10
-  - 25.--美国 CloudFlare节点+11
-  - 26.--美国 CloudFlare节点+12
-  - 27.--美国 CloudFlare节点+13
-  - 28.--美国 CloudFlare节点+14
-  - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
-  - 30.--TW-板桥2-3(Trojan)\r
-  - 31.--TW-板桥2-2(Trojan)\r
-  - 32.--加拿大 022
-  - 33.--TW-桃园1-1(Trojan)\r
-  - 34.--3@oneclickvpnkeys
+  - 1.--_US_美国+27
+  - 2.--3@oneclickvpnkeys
+  - 3.--US_youtube@资源分享师_37
+  - 4.--US_youtube@资源分享师_269
+  - 5.--美国 CloudFlare节点
+  - 6.--加拿大 014
+  - 7.---0956-JP【ccbaohe.com〗 永久免费节点机场\r
+  - 8.--US美国(mibei77.com 米贝节点分享)+2
+  - 9.--荷兰 020
+  - 10.--19@oneclickvpnkeys
+  - 11.--俄罗斯 002
+  - 12.--@Hope_Net-join-us-on-Telegram+2
+  - 13.--英国 伦敦Microsoft公司
+  - 14.--美国 Amazon数据中心
+  - 15.--英国 伦敦Amazon数据中心+1
+  - 16.---0955-JP【ccbaohe.com〗 永久免费节点机场\r
 - name: 📲 电报信息
   type: select
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 1.--_US_美国+3
-  - 2.--_US_美国+5
-  - 3.--_US_美国+25
-  - 4.--_US_美国+6
-  - 5.--18@oneclickvpnkeys
-  - 6.--8@oneclickvpnkeys
-  - 7.--US_ 7022
-  - 8.--US_youtube@资源分享师_298
-  - 9.--US_youtube@资源分享师_269
-  - 10.--|US|美国|@wxgqlfx|16
-  - 11.--US美国(mibei77.com 米贝节点分享)
-  - 12.--US_ 7022 13
-  - 13.--US_ 7022+1
-  - 14.--US_ 7022+2
-  - 15.--9@oneclickvpnkeys
-  - 16.--美国 CloudFlare节点+1
-  - 17.--美国 CloudFlare节点
-  - 18.--美国 CloudFlare节点+5
-  - 19.--美国 CloudFlare节点+2
-  - 20.--美国 CloudFlare节点+4
-  - 21.--美国 CloudFlare节点+6
-  - 22.--美国 CloudFlare节点+3
-  - 23.--美国 CloudFlare节点+8
-  - 24.--美国 CloudFlare节点+10
-  - 25.--美国 CloudFlare节点+11
-  - 26.--美国 CloudFlare节点+12
-  - 27.--美国 CloudFlare节点+13
-  - 28.--美国 CloudFlare节点+14
-  - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
-  - 30.--TW-板桥2-3(Trojan)\r
-  - 31.--TW-板桥2-2(Trojan)\r
-  - 32.--加拿大 022
-  - 33.--TW-桃园1-1(Trojan)\r
-  - 34.--3@oneclickvpnkeys
+  - 1.--_US_美国+27
+  - 2.--3@oneclickvpnkeys
+  - 3.--US_youtube@资源分享师_37
+  - 4.--US_youtube@资源分享师_269
+  - 5.--美国 CloudFlare节点
+  - 6.--加拿大 014
+  - 7.---0956-JP【ccbaohe.com〗 永久免费节点机场\r
+  - 8.--US美国(mibei77.com 米贝节点分享)+2
+  - 9.--荷兰 020
+  - 10.--19@oneclickvpnkeys
+  - 11.--俄罗斯 002
+  - 12.--@Hope_Net-join-us-on-Telegram+2
+  - 13.--英国 伦敦Microsoft公司
+  - 14.--美国 Amazon数据中心
+  - 15.--英国 伦敦Amazon数据中心+1
+  - 16.---0955-JP【ccbaohe.com〗 永久免费节点机场\r
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
   - ♻️ 自动选择
-  - 1.--_US_美国+3
-  - 2.--_US_美国+5
-  - 3.--_US_美国+25
-  - 4.--_US_美国+6
-  - 5.--18@oneclickvpnkeys
-  - 6.--8@oneclickvpnkeys
-  - 7.--US_ 7022
-  - 8.--US_youtube@资源分享师_298
-  - 9.--US_youtube@资源分享师_269
-  - 10.--|US|美国|@wxgqlfx|16
-  - 11.--US美国(mibei77.com 米贝节点分享)
-  - 12.--US_ 7022 13
-  - 13.--US_ 7022+1
-  - 14.--US_ 7022+2
-  - 15.--9@oneclickvpnkeys
-  - 16.--美国 CloudFlare节点+1
-  - 17.--美国 CloudFlare节点
-  - 18.--美国 CloudFlare节点+5
-  - 19.--美国 CloudFlare节点+2
-  - 20.--美国 CloudFlare节点+4
-  - 21.--美国 CloudFlare节点+6
-  - 22.--美国 CloudFlare节点+3
-  - 23.--美国 CloudFlare节点+8
-  - 24.--美国 CloudFlare节点+10
-  - 25.--美国 CloudFlare节点+11
-  - 26.--美国 CloudFlare节点+12
-  - 27.--美国 CloudFlare节点+13
-  - 28.--美国 CloudFlare节点+14
-  - 29.--|RU|俄罗斯联邦|@wxgqlfx|32
-  - 30.--TW-板桥2-3(Trojan)\r
-  - 31.--TW-板桥2-2(Trojan)\r
-  - 32.--加拿大 022
-  - 33.--TW-桃园1-1(Trojan)\r
-  - 34.--3@oneclickvpnkeys
+  - 1.--_US_美国+27
+  - 2.--3@oneclickvpnkeys
+  - 3.--US_youtube@资源分享师_37
+  - 4.--US_youtube@资源分享师_269
+  - 5.--美国 CloudFlare节点
+  - 6.--加拿大 014
+  - 7.---0956-JP【ccbaohe.com〗 永久免费节点机场\r
+  - 8.--US美国(mibei77.com 米贝节点分享)+2
+  - 9.--荷兰 020
+  - 10.--19@oneclickvpnkeys
+  - 11.--俄罗斯 002
+  - 12.--@Hope_Net-join-us-on-Telegram+2
+  - 13.--英国 伦敦Microsoft公司
+  - 14.--美国 Amazon数据中心
+  - 15.--英国 伦敦Amazon数据中心+1
+  - 16.---0955-JP【ccbaohe.com〗 永久免费节点机场\r
 - name: 🎯 全球直连
   type: select
   proxies:
