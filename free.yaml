@@ -5,72 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27500, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 香港-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27600, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hk, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 🇨🇳台湾-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27700, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tw, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 日本-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27800, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /jp, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 美国-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27900, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /us, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 英国-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 28100, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uk, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 🇨🇳台湾-防失联 - 飞啦机场, server: nat.fellayun.com, port: 15810, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tw, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 南极洲-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27666, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nanji, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 韩国-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 28700, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kr, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 朝鲜-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 28800, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nk, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 香港-CN2 - 飞啦机场, server: cu1.guguyun.xyz, port: 27605, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hk, headers: {Host: www.rockeyxzy.com}}, udp: true}
-  - {name: 免费-日本 - bee.sulepay.com, server: freejpno1.beednsvip.top, port: 45613, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 20211:jRU5lR, obfs-param: 313bf20211.microsoft.com, udp: true}
-  - {name: 免费-新加坡 - bee.sulepay.com, server: freeno1sg.beednsvip.top, port: 19546, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 20211:jRU5lR, obfs-param: 313bf20211.microsoft.com, udp: true}
-  - {name: 免费-美国 - bee.sulepay.com, server: freeno1us.beednsvip.top, port: 19547, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 20211:jRU5lR, obfs-param: 313bf20211.microsoft.com, udp: true}
-  - {name: 中转•香港301•高速 - 飞翔吧, server: gy.58n.net, port: 20301, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港143•高速 - 飞翔吧, server: gy.58n.net, port: 28678, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港269•高速 - 飞翔吧, server: gy.58n.net, port: 22741, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: dufu.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港294•高速 - 飞翔吧, server: gy.58n.net, port: 20294, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z294.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•香港102•高速 - 飞翔吧, server: gy.58n.net, port: 43337, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港259•高速 - 飞翔吧, server: gy.58n.net, port: 24603, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港278•高速 - 飞翔吧, server: gy.58n.net, port: 20278, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z278.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•香港279•高速 - 飞翔吧, server: gy.58n.net, port: 20279, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z279.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•台湾100•高速 - 飞翔吧, server: gy.58n.net, port: 59021, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x100.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•台湾91•原生 - 飞翔吧, server: gy.58n.net, port: 21247, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x91.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国302•GPT - 飞翔吧, server: gy.58n.net, port: 20302, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z302.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国303•GPT - 飞翔吧, server: gy.58n.net, port: 20303, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z303.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国304•GPT - 飞翔吧, server: gy.58n.net, port: 20304, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国305•GPT - 飞翔吧, server: gy.58n.net, port: 20305, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•德国306•GPT - 飞翔吧, server: gy.58n.net, port: 20306, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•新加坡299•高速 - 飞翔吧, server: gy.58n.net, port: 20299, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•新加坡65•青铜 - 飞翔吧, server: gy.58n.net, port: 17806, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•新加坡83•高速 - 飞翔吧, server: gy.58n.net, port: 30712, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•日本298•高速 - 飞翔吧, server: gy.58n.net, port: 20298, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z298.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•日本300•原生 - 飞翔吧, server: gy.58n.net, port: 20300, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z300.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国295•高速 - 飞翔吧, server: gy.58n.net, port: 20295, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z295.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国296•高速 - 飞翔吧, server: gy.58n.net, port: 20296, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z296.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国308•高速 - 飞翔吧, server: gy.58n.net, port: 20308, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z308.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国40•高速 - 飞翔吧, server: gy.58n.net, port: 16895, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x40.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国41•原生 - 飞翔吧, server: gy.58n.net, port: 21970, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x41.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国46•原生 - 飞翔吧, server: gy.58n.net, port: 14846, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x46.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 中转•美国61•高速 - 飞翔吧, server: gy.58n.net, port: 30767, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z61.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•英国267•高速 - 飞翔吧, server: gy.58n.net, port: 25238, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z267.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•英国268•高速 - 飞翔吧, server: gy.58n.net, port: 11215, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z268.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 中转•香港307•高速 - 飞翔吧, server: gy.58n.net, port: 20307, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•台湾261•高速 - 飞翔吧, server: gy.58n.net, port: 33323, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z261.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•台湾262•高速 - 飞翔吧, server: gy.58n.net, port: 36821, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z262.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•美国266•高速 - 飞翔吧, server: gy.58n.net, port: 56783, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z266.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•美国288•高速 - 飞翔吧, server: gy.58n.net, port: 20288, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z288.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•韩国263•高速 - 飞翔吧, server: gy.58n.net, port: 45168, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 广港•韩国264•高速 - 飞翔吧, server: gy.58n.net, port: 50355, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z264.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 新加坡•高速129•高速 - 飞翔吧, server: gy.58n.net, port: 20129, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x129.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 新加坡•高速130•铂金 - 飞翔吧, server: gy.58n.net, port: 20130, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x130.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速114•高速 - 飞翔吧, server: gy.58n.net, port: 41767, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x114.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速115•高速 - 飞翔吧, server: gy.58n.net, port: 54178, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x115.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速139•铂金 - 飞翔吧, server: gy.58n.net, port: 20139, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z139.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速140•铂金 - 飞翔吧, server: gy.58n.net, port: 20140, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z140.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速141•铂金 - 飞翔吧, server: gy.58n.net, port: 20141, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z141.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速142•原生 - 飞翔吧, server: gy.58n.net, port: 20142, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: z142.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速59•青铜 - 飞翔吧, server: gy.58n.net, port: 20059, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x59.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速71•高速 - 飞翔吧, server: gy.58n.net, port: 20071, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x71.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 日本•高速76•高速 - 飞翔吧, server: gy.58n.net, port: 20076, type: trojan, password: 3c1739e0-6075-3b0d-9889-d5c6dae01911, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: ℹ️ 官网-2022.pet - 飞翔吧, server: www.flybar.top, port: 10086, type: trojan, password: nQEZAgHMYx5A5MU9, skip-cert-verify: true, udp: true}
-  - {name: AliHK - FlyCatPie, server: aliyunhk.caliburnonline.work, port: 443, type: vmess, uuid: c7ed604a-ab3d-46c2-9497-b6e90d4aad80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oscarspy, headers: {Host: aliyunhk.caliburnonline.work}}, udp: true}
-  - {name: VulUK - FlyCatPie, server: vultruk.caliburnonline.work, port: 8443, type: vmess, uuid: c7ed604a-ab3d-46c2-9497-b6e90d4aad80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oscarspy, headers: {Host: vultruk.caliburnonline.work}}, udp: true}
-  - {name: AliHK01 - FlyCatPie, server: aliyunhk01.caliburnonline.work, port: 443, type: vmess, uuid: c7ed604a-ab3d-46c2-9497-b6e90d4aad80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oscarspy, headers: {Host: aliyunhk01.caliburnonline.work}}, udp: true}
-  - {name: WacHK01 - FlyCatPie, server: wachk01.caliburnonline.work, port: 443, type: vmess, uuid: c7ed604a-ab3d-46c2-9497-b6e90d4aad80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oscarspy, headers: {Host: wachk01.caliburnonline.work}}, udp: true}
+  - {name: 美国圣克拉拉 - ClashX.app, server: clara.sfrae.net, port: 33475, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: clara.sfrae.net}}, udp: true}
+  - {name: 美国圣何塞1 - ClashX.app, server: sjc001.sfrae.net, port: 33441, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc001.sfrae.net}}, udp: true}
+  - {name: 美国圣何塞2 - ClashX.app, server: sjc002.sfrae.net, port: 33442, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc002.sfrae.net}}, udp: true}
+  - {name: 美国圣何塞3 - ClashX.app, server: sjc003.sfrae.net, port: 33443, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc003.sfrae.net}}, udp: true}
+  - {name: 美国圣何塞4 - ClashX.app, server: sjc004.sfrae.net, port: 33444, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc004.sfrae.net}}, udp: true}
+  - {name: 美国圣何塞5 - ClashX.app, server: sjc005.sfrae.net, port: 33445, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc005.sfrae.net}}, udp: true}
+  - {name: 美国圣何塞6 - ClashX.app, server: sjc006.sfrae.net, port: 33446, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc006.sfrae.net}}, udp: true}
+  - {name: 美国圣何塞7 - ClashX.app, server: curcoyn.sfrae.net, port: 33447, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
+  - {name: 美国圣何塞8 - ClashX.app, server: curcoyn.sfrae.net, port: 33448, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
+  - {name: 美国圣何塞9 - ClashX.app, server: curcoyn.sfrae.net, port: 33449, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
+  - {name: 南非 - ClashX.app, server: za001.sfrae.net, port: 33453, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: za001.sfrae.net}}, udp: true}
+  - {name: 德国 - ClashX.app, server: de001.sfrae.net, port: 33461, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: de001.sfrae.net}}, udp: true}
+  - {name: 香港1 - ClashX.app, server: hk001.sfrae.net, port: 33454, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: hk001.sfrae.net}}, udp: true}
+  - {name: 香港2 - ClashX.app, server: hk002.sfrae.net, port: 33455, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: hk002.sfrae.net}}, udp: true}
+  - {name: 台北1 - ClashX.app, server: tw001.sfrae.net, port: 33456, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: tw001.sfrae.net}}, udp: true}
+  - {name: 美国洛杉矶 - ClashX.app, server: curcoyn.sfrae.net, port: 33458, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
+  - {name: 瑞士苏黎世 - ClashX.app, server: sw001.sfrae.net, port: 33462, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sw001.sfrae.net}}, udp: true}
+  - {name: 新加坡1 - ClashX.app, server: sg007.sfrae.net, port: 33450, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg007.sfrae.net}}, udp: true}
+  - {name: 新加坡2(国际线路) - ClashX.app, server: sg008.sfrae.net, port: 33451, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg008.sfrae.net}}, udp: true}
+  - {name: 新加坡3 - ClashX.app, server: sg009.sfrae.net, port: 33452, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg009.sfrae.net}}, udp: true}
+  - {name: 新加坡4 - ClashX.app, server: sg001.sfrae.net, port: 33464, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg001.sfrae.net}}, udp: true}
+  - {name: 新加坡5 - ClashX.app, server: sg002.sfrae.net, port: 33465, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg002.sfrae.net}}, udp: true}
+  - {name: 新加坡6 - ClashX.app, server: sg003.sfrae.net, port: 33466, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg003.sfrae.net}}, udp: true}
+  - {name: 新加坡7 - ClashX.app, server: sg004.sfrae.net, port: 33467, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg004.sfrae.net}}, udp: true}
+  - {name: 新加坡8 - ClashX.app, server: sg005.sfrae.net, port: 33468, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg005.sfrae.net}}, udp: true}
+  - {name: 新加坡9 - ClashX.app, server: sg006.sfrae.net, port: 33469, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg006.sfrae.net}}, udp: true}
+  - {name: 日本大阪 - ClashX.app, server: curcoyn.sfrae.net, port: 33463, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
+  - {name: 日本东京1 - ClashX.app, server: jp001.sfrae.net, port: 33459, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp001.sfrae.net}}, udp: true}
+  - {name: 日本东京2 - ClashX.app, server: jp002.sfrae.net, port: 33470, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp002.sfrae.net}}, udp: true}
+  - {name: 日本东京3 - ClashX.app, server: jp003.sfrae.net, port: 33471, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp003.sfrae.net}}, udp: true}
+  - {name: 日本东京4 - ClashX.app, server: jp004.sfrae.net, port: 33472, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp004.sfrae.net}}, udp: true}
+  - {name: 日本东京5 - ClashX.app, server: jp005.sfrae.net, port: 33473, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp005.sfrae.net}}, udp: true}
+  - {name: 日本东京6 - ClashX.app, server: jp006.sfrae.net, port: 33474, type: vmess, uuid: 4807350a-7251-45a1-b91c-08d4d41676e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp006.sfrae.net}}, udp: true}
+  - {name: SS日本东京1 - ClashX.app, server: jp001.sfrae.net, port: 44201, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS日本东京2 - ClashX.app, server: jp002.sfrae.net, port: 44202, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS日本东京3 - ClashX.app, server: jp003.sfrae.net, port: 44203, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS日本东京4 - ClashX.app, server: jp004.sfrae.net, port: 44204, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS日本东京5 - ClashX.app, server: jp005.sfrae.net, port: 44205, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS日本东京6 - ClashX.app, server: jp006.sfrae.net, port: 44206, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS新加坡1 - ClashX.app, server: sg001.sfrae.net, port: 44207, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS新加坡2 - ClashX.app, server: sg002.sfrae.net, port: 44208, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS新加坡3 - ClashX.app, server: sg003.sfrae.net, port: 44209, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS新加坡4 - ClashX.app, server: sg004.sfrae.net, port: 44210, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS新加坡5 - ClashX.app, server: sg005.sfrae.net, port: 44211, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS新加坡6 - ClashX.app, server: sg006.sfrae.net, port: 44212, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣何塞1 - ClashX.app, server: sjc001.sfrae.net, port: 44213, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣何塞2 - ClashX.app, server: sjc002.sfrae.net, port: 44214, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣何塞3 - ClashX.app, server: sjc003.sfrae.net, port: 44215, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣何塞4 - ClashX.app, server: sjc004.sfrae.net, port: 44216, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣何塞5 - ClashX.app, server: sjc005.sfrae.net, port: 44217, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣何塞6 - ClashX.app, server: sjc006.sfrae.net, port: 44218, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣何塞7 - ClashX.app, server: sjc006.sfrae.net, port: 44219, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣何塞8 - ClashX.app, server: sjc006.sfrae.net, port: 44220, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣何塞9 - ClashX.app, server: sjc006.sfrae.net, port: 44221, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
+  - {name: SS美国圣克拉拉 - ClashX.app, server: clara.sfrae.net, port: 44207, type: ss, cipher: aes-256-gcm, password: 4807350a-7251-45a1-b91c-08d4d41676e8, udp: true}
   - {name: 美国CERA - 海陆空, server: us01.h.csznet.eu.org, port: 443, type: vmess, uuid: 341e4c0a-f6e2-4018-8cb8-8c4b7849320f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: us01.h.csznet.eu.org}}, udp: true}
   - {name: 香港QW - 海陆空, server: hk01.host.csznet.eu.org, port: 443, type: vmess, uuid: 341e4c0a-f6e2-4018-8cb8-8c4b7849320f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: hk01.host.csznet.eu.org}}, udp: true}
   - {name: 土耳其 - 海陆空, server: tr01.h.csznet.eu.org, port: 40660, type: vmess, uuid: 341e4c0a-f6e2-4018-8cb8-8c4b7849320f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: tr01.h.csznet.eu.org}}, udp: true}
@@ -105,10 +94,33 @@ proxies:
   - {name: 香港 108 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 30446, type: trojan, password: bdd6da3e-4db6-3512-8609-fda285be9761, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 香港 109 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 40446, type: trojan, password: bdd6da3e-4db6-3512-8609-fda285be9761, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 香港 110 - 墙了个墙, server: hkvip103.qlgq1.pw, port: 50446, type: trojan, password: bdd6da3e-4db6-3512-8609-fda285be9761, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 免费-日本 - bee.sulepay.com, server: freejpno1.beednsvip.top, port: 45613, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 20211:jRU5lR, obfs-param: 313bf20211.microsoft.com, udp: true}
+  - {name: 免费-新加坡 - bee.sulepay.com, server: freeno1sg.beednsvip.top, port: 19546, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 20211:jRU5lR, obfs-param: 313bf20211.microsoft.com, udp: true}
+  - {name: 免费-美国 - bee.sulepay.com, server: freeno1us.beednsvip.top, port: 19547, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 20211:jRU5lR, obfs-param: 313bf20211.microsoft.com, udp: true}
+  - {name: 香港|【免费领1TB流量】前往-注册|公益 - 大白, server: 223.113.130.55, port: 2095, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白, server: 223.113.130.55, port: 52052, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-2.cn-db.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白, server: 223.113.130.55, port: 2095, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白, server: 223.113.130.55, port: 52086, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白, server: 223.113.130.55, port: 58080, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-3.cn-db.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白, server: 223.113.130.55, port: 50080, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
+  - {name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白, server: 223.113.130.55, port: 52052, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
+  - {name: "香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白", server: 223.113.130.55, port: 58080, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-1.cn-db.top}}, udp: true}
+  - {name: ℹ️ 官网 https://help.vip666.xyz - vip666.xyz, server: www.a.com, port: 80, type: vmess, uuid: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.a.com}}, udp: true}
+  - {name: 美国2 - vip666.xyz, server: aa.websitea.xyz, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
+  - {name: 美国（用前更新订阅） - vip666.xyz, server: aa.websitea.xyz, port: 20031, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
+  - {name: 新加坡 - vip666.xyz, server: aa.websitea.xyz, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
+  - {name: 香港-https://new.vip666.xyz - vip666.xyz, server: aa.websitea.xyz, port: 20036, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
+  - {name: 荷兰 - vip666.xyz, server: aa.websitea.xyz, port: 20037, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
+  - {name: 韩国（最新地址：help.vip666.xyz） - vip666.xyz, server: aa.websitea.xyz, port: 20039, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
+  - {name: 中国香港2 - vip666.xyz, server: aa.websitea.xyz, port: 20041, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
   - {name: "[vmess]公益机场 xqc.best - XQC Retard", server: hkcft01.xqc.best, port: 443, type: vmess, uuid: fbf02cac-145a-4163-8fb8-d304d657aaac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: d26d41lxntyhp6.cloudfront.net}}, udp: true}
   - {name: "[vmess]🇭🇰 HK | 香港 LB - XQC Retard", server: hkcft01.xqc.best, port: 443, type: vmess, uuid: fbf02cac-145a-4163-8fb8-d304d657aaac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: d26d41lxntyhp6.cloudfront.net}}, udp: true}
   - {name: "[vmess]🇯🇵 JP | 日本 LB - XQC Retard", server: jpcft01.xqc.best, port: 443, type: vmess, uuid: fbf02cac-145a-4163-8fb8-d304d657aaac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: d3kh9mjh71ygeb.cloudfront.net}}, udp: true}
   - {name: "[vmess]🇸🇬 SG | 新加坡 LB - XQC Retard", server: sgcft01.xqc.best, port: 443, type: vmess, uuid: fbf02cac-145a-4163-8fb8-d304d657aaac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: d29fxo3fby7h57.cloudfront.net}}, udp: true}
+  - {name: AliHK - FlyCatPie, server: aliyunhk.caliburnonline.work, port: 443, type: vmess, uuid: 2ac6d282-3ce0-4bf0-9494-0b938edbfac6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oscarspy, headers: {Host: aliyunhk.caliburnonline.work}}, udp: true}
+  - {name: VulUK - FlyCatPie, server: vultruk.caliburnonline.work, port: 8443, type: vmess, uuid: 2ac6d282-3ce0-4bf0-9494-0b938edbfac6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oscarspy, headers: {Host: vultruk.caliburnonline.work}}, udp: true}
+  - {name: AliHK01 - FlyCatPie, server: aliyunhk01.caliburnonline.work, port: 443, type: vmess, uuid: 2ac6d282-3ce0-4bf0-9494-0b938edbfac6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oscarspy, headers: {Host: aliyunhk01.caliburnonline.work}}, udp: true}
+  - {name: WacHK01 - FlyCatPie, server: wachk01.caliburnonline.work, port: 443, type: vmess, uuid: 2ac6d282-3ce0-4bf0-9494-0b938edbfac6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oscarspy, headers: {Host: wachk01.caliburnonline.work}}, udp: true}
   - {name: 邀请好友返利65% - 十元一年, server: td7yw12kkj0w4cli2oe2hpu879gbcq.fly64jfgwhale.xyz, port: 10000, type: vmess, uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: bing.com}}, udp: true}
   - {name: go.shiyuanyinian.xyz - 十元一年, server: td7yw12kkj0w4cli2oe2hpu879gbcq.fly64jfgwhale.xyz, port: 10000, type: vmess, uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: bing.com}}, udp: true}
   - {name: 香港1-未解锁 - 十元一年, server: td7yw12kkj0w4cli2oe2hpu879gbcq.fly64jfgwhale.xyz, port: 10000, type: vmess, uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: bing.com}}, udp: true}
@@ -123,256 +135,125 @@ proxies:
   - {name: 随机4-未解锁 - 十元一年, server: td7yw12kkj0w4cli2oe2hpu879gbcq.fly64jfgwhale.xyz, port: 10074, type: vmess, uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: bing.com}}, udp: true}
   - {name: 随机5-未解锁 - 十元一年, server: td7yw12kkj0w4cli2oe2hpu879gbcq.fly64jfgwhale.xyz, port: 10075, type: vmess, uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: bing.com}}, udp: true}
   - {name: 随机6-未解锁 - 十元一年, server: td7yw12kkj0w4cli2oe2hpu879gbcq.fly64jfgwhale.xyz, port: 10076, type: vmess, uuid: ef2f83e2-0ca8-4b7f-9ef9-6597840ab72f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: bing.com}}, udp: true}
+  - {name: ℹ️ 官网:cooc.wiki - 小白云, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 香港 / A｜HK - 小白云, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 香港 / B｜HK - 小白云, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 日本 / A｜JP - 小白云, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 日本 / B｜JP - 小白云, server: jp2.iepl.cooc.icu, port: 47101, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 美国 / A｜US - 小白云, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 美国 / B｜US - 小白云, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 韩国 / A｜KR - 小白云, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: aes-128-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 韩国 / B｜KR - 小白云, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: aes-128-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 台湾 / A｜TW - 小白云, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 台湾 / B｜TW - 小白云, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 新加坡 / A｜SG - 小白云, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 新加坡 / B｜SG - 小白云, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 美国 / US｜BIZ - 小白云, server: usa4.iepl.cooc.icu, port: 34881, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 泰国 / TH｜BIZ - 小白云, server: th.iepl.cooc.icu, port: 35613, type: ss, cipher: aes-128-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 越南 / VN | BIZ - 小白云, server: vn1.iepl.cooc.icu, port: 35601, type: ss, cipher: aes-128-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 英国 / UK | BIZ - 小白云, server: uk1.iepl.cooc.icu, port: 35605, type: ss, cipher: aes-128-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 德国 / DE | BIZ - 小白云, server: ger1.iepl.cooc.icu, port: 35607, type: ss, cipher: aes-128-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 法国 / FR｜BIZ - 小白云, server: fr1.iepl.cooc.icu, port: 35611, type: ss, cipher: aes-128-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 俄罗斯 / RU｜BIZ - 小白云, server: ru.iepl.cooc.icu, port: 35612, type: ss, cipher: aes-128-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 马来西亚 / MY | BIZ - 小白云, server: mas1.iepl.cooc.icu, port: 35603, type: ss, cipher: aes-128-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: TW｜海外用户 - 小白云, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: 19ccfc74-a509-4e8f-b714-bc3c24de59df, udp: true}
+  - {name: 新加坡-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27500, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sg, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 香港-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27600, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hk, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 🇨🇳台湾-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27700, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tw, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 日本-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27800, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /jp, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 美国-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27900, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /us, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 英国-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 28100, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uk, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 🇨🇳台湾-防失联 - 飞啦机场, server: nat.fellayun.com, port: 15810, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tw, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 南极洲-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 27666, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nanji, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 韩国-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 28700, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kr, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 朝鲜-0 - 飞啦机场, server: cu1.guguyun.xyz, port: 28800, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nk, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: 香港-CN2 - 飞啦机场, server: cu1.guguyun.xyz, port: 27605, type: vmess, uuid: da4bc5c2-a3b8-4f14-9e9b-caafa4fe7894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hk, headers: {Host: www.rockeyxzy.com}}, udp: true}
+  - {name: "[vip①]德国1 - MG Network", server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]德国2 - MG Network", server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]新加坡1 - MG Network", server: 12.v2-ray.cyou, port: 23612, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]新加坡2 - MG Network", server: 17.v2-ray.cyou, port: 23617, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]日本1 - MG Network", server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[vip①]日本2 - MG Network", server: 19.v2-ray.cyou, port: 23619, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]美国1 - MG Network", server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]美国2 - MG Network", server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]英国1 - MG Network", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]英国2 - MG Network", server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
+  - {name: "[vip①]韩国1 - MG Network", server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 55008cc3-1e3d-3c59-b2dc-6a571315f3b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
+  - {name: ℹ️ 🔰 TG客服@uucocc - 共享流量, server: 112.29.200.93, port: 29711, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国(ipv4)鸡仔V6转 - 共享流量, server: jzyd.12ip.cc, port: 24252, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jzyd.12ip.cc}}, udp: true}
+  - {name: 台湾(ipv4)BV BGP直连 - 共享流量, server: 188.253.6.35, port: 20009, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本(ipv4)DCI NAT直连 - 共享流量, server: jp-osaka-oracle-d9311f.ip1.shop, port: 64702, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-osaka-oracle-d9311f.ip1.shop}}, udp: true}
+  - {name: 新加坡(ipv4)DCI NAT直连 - 共享流量, server: sg-singapore-oracle-4f34e8.ip1.shop, port: 64952, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-singapore-oracle-4f34e8.ip1.shop}}, udp: true}
+  - {name: 米兰(ipv4)DCI NAT直连 - 共享流量, server: it-milan-oracle-2b2d63.ip1.shop, port: 54252, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it-milan-oracle-2b2d63.ip1.shop}}, udp: true}
+  - {name: 孟买(ipv4)DCI NAT直连 - 共享流量, server: in-mumbai-oracle-2de5d7.ip1.shop, port: 21152, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in-mumbai-oracle-2de5d7.ip1.shop}}, udp: true}
+  - {name: 英国(ipv4)DCI NAT直连 - 共享流量, server: uk-london-oracle-51b798.ip1.shop, port: 36902, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-london-oracle-51b798.ip1.shop}}, udp: true}
+  - {name: 香港(ipv6)duocloud - 共享流量, server: duocloudhkv6.12ip.cc, port: 443, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: duocloudhkv6.12ip.cc}}, udp: true}
+  - {name: 台湾(ipv6)wawo - 共享流量, server: wawotwv6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawotwv6.12ip.cc}}, udp: true}
+  - {name: 香港(ipv6)wawo - 共享流量, server: wawohkv6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawohkv6.12ip.cc}}, udp: true}
+  - {name: 荷兰(ipv6)wawo - 共享流量, server: wawonlv6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawonlv6.12ip.cc}}, udp: true}
+  - {name: 德国(ipv6)AK - 共享流量, server: akdev6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: akdev6.12ip.cc}}, udp: true}
+  - {name: 美国(ipv6)小埋 - 共享流量, server: xmusv6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xmusv6.12ip.cc}}, udp: true}
+  - {name: 荷兰(ipv6)hoyoverse - 共享流量, server: hoyoversenlv6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversenlv6.12ip.cc}}, udp: true}
+  - {name: 德国(ipv6)hoyoverse - 共享流量, server: hoyoversedev6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversedev6.12ip.cc}}, udp: true}
+  - {name: 美国(ipv6)AC - 共享流量, server: acusv6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: acusv6.12ip.cc}}, udp: true}
+  - {name: 日本(ipv6)wawo - 共享流量, server: wawojpv6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawojpv6.12ip.cc}}, udp: true}
+  - {name: 香港(ipv6)wawo2 - 共享流量, server: wawohkv6.12ip.cc, port: 20001, type: vmess, uuid: ee528a4a-93e0-41eb-8c67-8d570c79fa94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawohkv6.12ip.cc}}, udp: true}
   - {name: 美国 🌐「达拉斯」 - 北方航空, server: cdn.chigua.tk, port: 80, type: vmess, uuid: b41d2375-6110-4e56-bf36-870ae5c4c310, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: usc03.galenet.online}}, udp: true}
-  - {name: 美国圣克拉拉 - ClashX.app, server: clara.sfrae.net, port: 33475, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: clara.sfrae.net}}, udp: true}
-  - {name: 美国圣何塞1 - ClashX.app, server: sjc001.sfrae.net, port: 33441, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc001.sfrae.net}}, udp: true}
-  - {name: 美国圣何塞2 - ClashX.app, server: sjc002.sfrae.net, port: 33442, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc002.sfrae.net}}, udp: true}
-  - {name: 美国圣何塞3 - ClashX.app, server: sjc003.sfrae.net, port: 33443, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc003.sfrae.net}}, udp: true}
-  - {name: 美国圣何塞4 - ClashX.app, server: sjc004.sfrae.net, port: 33444, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc004.sfrae.net}}, udp: true}
-  - {name: 美国圣何塞5 - ClashX.app, server: sjc005.sfrae.net, port: 33445, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc005.sfrae.net}}, udp: true}
-  - {name: 美国圣何塞6 - ClashX.app, server: sjc006.sfrae.net, port: 33446, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sjc006.sfrae.net}}, udp: true}
-  - {name: 美国圣何塞7 - ClashX.app, server: curcoyn.sfrae.net, port: 33447, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
-  - {name: 美国圣何塞8 - ClashX.app, server: curcoyn.sfrae.net, port: 33448, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
-  - {name: 美国圣何塞9 - ClashX.app, server: curcoyn.sfrae.net, port: 33449, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
-  - {name: 南非 - ClashX.app, server: za001.sfrae.net, port: 33453, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: za001.sfrae.net}}, udp: true}
-  - {name: 德国 - ClashX.app, server: de001.sfrae.net, port: 33461, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: de001.sfrae.net}}, udp: true}
-  - {name: 香港1 - ClashX.app, server: hk001.sfrae.net, port: 33454, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: hk001.sfrae.net}}, udp: true}
-  - {name: 香港2 - ClashX.app, server: hk002.sfrae.net, port: 33455, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: hk002.sfrae.net}}, udp: true}
-  - {name: 台北1 - ClashX.app, server: tw001.sfrae.net, port: 33456, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: tw001.sfrae.net}}, udp: true}
-  - {name: 美国洛杉矶 - ClashX.app, server: curcoyn.sfrae.net, port: 33458, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
-  - {name: 瑞士苏黎世 - ClashX.app, server: sw001.sfrae.net, port: 33462, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sw001.sfrae.net}}, udp: true}
-  - {name: 新加坡1 - ClashX.app, server: sg007.sfrae.net, port: 33450, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg007.sfrae.net}}, udp: true}
-  - {name: 新加坡2(国际线路) - ClashX.app, server: sg008.sfrae.net, port: 33451, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg008.sfrae.net}}, udp: true}
-  - {name: 新加坡3 - ClashX.app, server: sg009.sfrae.net, port: 33452, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg009.sfrae.net}}, udp: true}
-  - {name: 新加坡4 - ClashX.app, server: sg001.sfrae.net, port: 33464, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg001.sfrae.net}}, udp: true}
-  - {name: 新加坡5 - ClashX.app, server: sg002.sfrae.net, port: 33465, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg002.sfrae.net}}, udp: true}
-  - {name: 新加坡6 - ClashX.app, server: sg003.sfrae.net, port: 33466, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg003.sfrae.net}}, udp: true}
-  - {name: 新加坡7 - ClashX.app, server: sg004.sfrae.net, port: 33467, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg004.sfrae.net}}, udp: true}
-  - {name: 新加坡8 - ClashX.app, server: sg005.sfrae.net, port: 33468, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg005.sfrae.net}}, udp: true}
-  - {name: 新加坡9 - ClashX.app, server: sg006.sfrae.net, port: 33469, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: sg006.sfrae.net}}, udp: true}
-  - {name: 日本大阪 - ClashX.app, server: curcoyn.sfrae.net, port: 33463, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: curcoyn.sfrae.net}}, udp: true}
-  - {name: 日本东京1 - ClashX.app, server: jp001.sfrae.net, port: 33459, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp001.sfrae.net}}, udp: true}
-  - {name: 日本东京2 - ClashX.app, server: jp002.sfrae.net, port: 33470, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp002.sfrae.net}}, udp: true}
-  - {name: 日本东京3 - ClashX.app, server: jp003.sfrae.net, port: 33471, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp003.sfrae.net}}, udp: true}
-  - {name: 日本东京4 - ClashX.app, server: jp004.sfrae.net, port: 33472, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp004.sfrae.net}}, udp: true}
-  - {name: 日本东京5 - ClashX.app, server: jp005.sfrae.net, port: 33473, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp005.sfrae.net}}, udp: true}
-  - {name: 日本东京6 - ClashX.app, server: jp006.sfrae.net, port: 33474, type: vmess, uuid: a32ca583-e439-4acc-8e3a-0da35eb809bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /negotiate, headers: {Host: jp006.sfrae.net}}, udp: true}
-  - {name: SS日本东京1 - ClashX.app, server: jp001.sfrae.net, port: 44201, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS日本东京2 - ClashX.app, server: jp002.sfrae.net, port: 44202, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS日本东京3 - ClashX.app, server: jp003.sfrae.net, port: 44203, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS日本东京4 - ClashX.app, server: jp004.sfrae.net, port: 44204, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS日本东京5 - ClashX.app, server: jp005.sfrae.net, port: 44205, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS日本东京6 - ClashX.app, server: jp006.sfrae.net, port: 44206, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS新加坡1 - ClashX.app, server: sg001.sfrae.net, port: 44207, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS新加坡2 - ClashX.app, server: sg002.sfrae.net, port: 44208, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS新加坡3 - ClashX.app, server: sg003.sfrae.net, port: 44209, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS新加坡4 - ClashX.app, server: sg004.sfrae.net, port: 44210, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS新加坡5 - ClashX.app, server: sg005.sfrae.net, port: 44211, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS新加坡6 - ClashX.app, server: sg006.sfrae.net, port: 44212, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣何塞1 - ClashX.app, server: sjc001.sfrae.net, port: 44213, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣何塞2 - ClashX.app, server: sjc002.sfrae.net, port: 44214, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣何塞3 - ClashX.app, server: sjc003.sfrae.net, port: 44215, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣何塞4 - ClashX.app, server: sjc004.sfrae.net, port: 44216, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣何塞5 - ClashX.app, server: sjc005.sfrae.net, port: 44217, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣何塞6 - ClashX.app, server: sjc006.sfrae.net, port: 44218, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣何塞7 - ClashX.app, server: sjc006.sfrae.net, port: 44219, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣何塞8 - ClashX.app, server: sjc006.sfrae.net, port: 44220, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣何塞9 - ClashX.app, server: sjc006.sfrae.net, port: 44221, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: SS美国圣克拉拉 - ClashX.app, server: clara.sfrae.net, port: 44207, type: ss, cipher: aes-256-gcm, password: a32ca583-e439-4acc-8e3a-0da35eb809bc, udp: true}
-  - {name: ℹ️ 官网:cooc.wiki - 小白云, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 香港 / A｜HK - 小白云, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 香港 / B｜HK - 小白云, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 日本 / A｜JP - 小白云, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 日本 / B｜JP - 小白云, server: jp2.iepl.cooc.icu, port: 47101, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 美国 / A｜US - 小白云, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 美国 / B｜US - 小白云, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 韩国 / A｜KR - 小白云, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: aes-128-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 韩国 / B｜KR - 小白云, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: aes-128-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 台湾 / A｜TW - 小白云, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 台湾 / B｜TW - 小白云, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 新加坡 / A｜SG - 小白云, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 新加坡 / B｜SG - 小白云, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 美国 / US｜BIZ - 小白云, server: usa4.iepl.cooc.icu, port: 34881, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 泰国 / TH｜BIZ - 小白云, server: th.iepl.cooc.icu, port: 35613, type: ss, cipher: aes-128-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 越南 / VN | BIZ - 小白云, server: vn1.iepl.cooc.icu, port: 35601, type: ss, cipher: aes-128-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 英国 / UK | BIZ - 小白云, server: uk1.iepl.cooc.icu, port: 35605, type: ss, cipher: aes-128-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 德国 / DE | BIZ - 小白云, server: ger1.iepl.cooc.icu, port: 35607, type: ss, cipher: aes-128-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 法国 / FR｜BIZ - 小白云, server: fr1.iepl.cooc.icu, port: 35611, type: ss, cipher: aes-128-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 俄罗斯 / RU｜BIZ - 小白云, server: ru.iepl.cooc.icu, port: 35612, type: ss, cipher: aes-128-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 马来西亚 / MY | BIZ - 小白云, server: mas1.iepl.cooc.icu, port: 35603, type: ss, cipher: aes-128-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: TW｜海外用户 - 小白云, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: 359cfb07-a828-48a4-baf2-563595a6d7be, udp: true}
-  - {name: 香港|【免费领1TB流量】前往-注册|公益 - 大白, server: 223.113.130.55, port: 2095, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白, server: 223.113.130.55, port: 58080, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-2.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白, server: 223.113.130.55, port: 2095, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白, server: 223.113.130.55, port: 52052, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白, server: 223.113.130.55, port: 50080, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-3.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白, server: 223.113.130.55, port: 52086, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}, udp: true}
-  - {name: 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白, server: 223.113.130.55, port: 58080, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
-  - {name: "香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白", server: 223.113.130.55, port: 50080, type: vmess, uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-1.cn-db.top}}, udp: true}
-  - {name: 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: 9e5ca8f4-0abc-404e-926e-43a88b971d49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
-  - {name: 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: jp.littleqqq.co, port: 62193, type: vmess, uuid: 9e5ca8f4-0abc-404e-926e-43a88b971d49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
-  - {name: 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: us.littleqqq.co, port: 21859, type: vmess, uuid: 9e5ca8f4-0abc-404e-926e-43a88b971d49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
-  - {name: "[vip①]德国1 - MG Network", server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]德国2 - MG Network", server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]新加坡1 - MG Network", server: 12.v2-ray.cyou, port: 23612, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]新加坡2 - MG Network", server: 17.v2-ray.cyou, port: 23617, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]日本1 - MG Network", server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[vip①]日本2 - MG Network", server: 19.v2-ray.cyou, port: 23619, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]美国1 - MG Network", server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]美国2 - MG Network", server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]英国1 - MG Network", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]英国2 - MG Network", server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
-  - {name: "[vip①]韩国1 - MG Network", server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 9c8adae3-1e16-37d7-a1c9-00e36f5286ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
-  - {name: ℹ️ 官网 https://help.vip666.xyz - vip666.xyz, server: www.a.com, port: 80, type: vmess, uuid: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.a.com}}, udp: true}
-  - {name: 美国2 - vip666.xyz, server: aa.websitea.xyz, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
-  - {name: 美国（用前更新订阅） - vip666.xyz, server: aa.websitea.xyz, port: 20031, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
-  - {name: 新加坡 - vip666.xyz, server: aa.websitea.xyz, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
-  - {name: 香港-https://new.vip666.xyz - vip666.xyz, server: aa.websitea.xyz, port: 20036, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
-  - {name: 荷兰 - vip666.xyz, server: aa.websitea.xyz, port: 20037, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
-  - {name: 韩国（最新地址：help.vip666.xyz） - vip666.xyz, server: aa.websitea.xyz, port: 20039, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
-  - {name: 中国香港2 - vip666.xyz, server: aa.websitea.xyz, port: 20041, type: ss, cipher: chacha20-ietf-poly1305, password: 7ca2e5c1-d21e-4099-b51b-7ec7373f4a68, udp: true}
-  - {name: ℹ️ 🔰 TG客服@uucocc - 共享流量, server: 112.29.200.93, port: 29711, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国(ipv4)鸡仔V6转 - 共享流量, server: jzyd.12ip.cc, port: 24252, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jzyd.12ip.cc}}, udp: true}
-  - {name: 台湾(ipv4)BV BGP直连 - 共享流量, server: 188.253.6.35, port: 20009, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 日本(ipv4)DCI NAT直连 - 共享流量, server: jp-osaka-oracle-d9311f.ip1.shop, port: 64702, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-osaka-oracle-d9311f.ip1.shop}}, udp: true}
-  - {name: 新加坡(ipv4)DCI NAT直连 - 共享流量, server: sg-singapore-oracle-4f34e8.ip1.shop, port: 64952, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-singapore-oracle-4f34e8.ip1.shop}}, udp: true}
-  - {name: 米兰(ipv4)DCI NAT直连 - 共享流量, server: it-milan-oracle-2b2d63.ip1.shop, port: 54252, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it-milan-oracle-2b2d63.ip1.shop}}, udp: true}
-  - {name: 孟买(ipv4)DCI NAT直连 - 共享流量, server: in-mumbai-oracle-2de5d7.ip1.shop, port: 21152, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in-mumbai-oracle-2de5d7.ip1.shop}}, udp: true}
-  - {name: 英国(ipv4)DCI NAT直连 - 共享流量, server: uk-london-oracle-51b798.ip1.shop, port: 36902, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-london-oracle-51b798.ip1.shop}}, udp: true}
-  - {name: 香港(ipv6)duocloud - 共享流量, server: duocloudhkv6.12ip.cc, port: 443, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: duocloudhkv6.12ip.cc}}, udp: true}
-  - {name: 台湾(ipv6)wawo - 共享流量, server: wawotwv6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawotwv6.12ip.cc}}, udp: true}
-  - {name: 香港(ipv6)wawo - 共享流量, server: wawohkv6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawohkv6.12ip.cc}}, udp: true}
-  - {name: 荷兰(ipv6)wawo - 共享流量, server: wawonlv6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawonlv6.12ip.cc}}, udp: true}
-  - {name: 德国(ipv6)AK - 共享流量, server: akdev6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: akdev6.12ip.cc}}, udp: true}
-  - {name: 美国(ipv6)小埋 - 共享流量, server: xmusv6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xmusv6.12ip.cc}}, udp: true}
-  - {name: 荷兰(ipv6)hoyoverse - 共享流量, server: hoyoversenlv6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversenlv6.12ip.cc}}, udp: true}
-  - {name: 德国(ipv6)hoyoverse - 共享流量, server: hoyoversedev6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversedev6.12ip.cc}}, udp: true}
-  - {name: 美国(ipv6)AC - 共享流量, server: acusv6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: acusv6.12ip.cc}}, udp: true}
-  - {name: 日本(ipv6)wawo - 共享流量, server: wawojpv6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawojpv6.12ip.cc}}, udp: true}
-  - {name: 香港(ipv6)wawo2 - 共享流量, server: wawohkv6.12ip.cc, port: 20001, type: vmess, uuid: 8279736b-e902-47d1-87c6-d56c9f312c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawohkv6.12ip.cc}}, udp: true}
+  - {name: 中转•香港301•高速 - 飞翔吧, server: gy.58n.net, port: 20301, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港143•高速 - 飞翔吧, server: gy.58n.net, port: 28678, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港269•高速 - 飞翔吧, server: gy.58n.net, port: 22741, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: dufu.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港294•高速 - 飞翔吧, server: gy.58n.net, port: 20294, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z294.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•香港102•高速 - 飞翔吧, server: gy.58n.net, port: 43337, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港259•高速 - 飞翔吧, server: gy.58n.net, port: 24603, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港278•高速 - 飞翔吧, server: gy.58n.net, port: 20278, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z278.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•香港279•高速 - 飞翔吧, server: gy.58n.net, port: 20279, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z279.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•台湾100•高速 - 飞翔吧, server: gy.58n.net, port: 59021, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x100.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•台湾91•原生 - 飞翔吧, server: gy.58n.net, port: 21247, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x91.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国302•GPT - 飞翔吧, server: gy.58n.net, port: 20302, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z302.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国303•GPT - 飞翔吧, server: gy.58n.net, port: 20303, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z303.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国304•GPT - 飞翔吧, server: gy.58n.net, port: 20304, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国305•GPT - 飞翔吧, server: gy.58n.net, port: 20305, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•德国306•GPT - 飞翔吧, server: gy.58n.net, port: 20306, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•新加坡299•高速 - 飞翔吧, server: gy.58n.net, port: 20299, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•新加坡65•青铜 - 飞翔吧, server: gy.58n.net, port: 17806, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•新加坡83•高速 - 飞翔吧, server: gy.58n.net, port: 30712, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•日本298•高速 - 飞翔吧, server: gy.58n.net, port: 20298, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z298.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•日本300•原生 - 飞翔吧, server: gy.58n.net, port: 20300, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z300.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国295•高速 - 飞翔吧, server: gy.58n.net, port: 20295, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z295.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国296•高速 - 飞翔吧, server: gy.58n.net, port: 20296, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z296.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国308•高速 - 飞翔吧, server: gy.58n.net, port: 20308, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z308.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国40•高速 - 飞翔吧, server: gy.58n.net, port: 16895, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x40.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国41•原生 - 飞翔吧, server: gy.58n.net, port: 21970, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x41.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国46•原生 - 飞翔吧, server: gy.58n.net, port: 14846, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x46.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 中转•美国61•高速 - 飞翔吧, server: gy.58n.net, port: 30767, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z61.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•英国267•高速 - 飞翔吧, server: gy.58n.net, port: 25238, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z267.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•英国268•高速 - 飞翔吧, server: gy.58n.net, port: 11215, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z268.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转•香港307•高速 - 飞翔吧, server: gy.58n.net, port: 20307, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•台湾261•高速 - 飞翔吧, server: gy.58n.net, port: 33323, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z261.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•台湾262•高速 - 飞翔吧, server: gy.58n.net, port: 36821, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z262.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•美国266•高速 - 飞翔吧, server: gy.58n.net, port: 56783, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z266.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•美国288•高速 - 飞翔吧, server: gy.58n.net, port: 20288, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z288.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•韩国263•高速 - 飞翔吧, server: gy.58n.net, port: 45168, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 广港•韩国264•高速 - 飞翔吧, server: gy.58n.net, port: 50355, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z264.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡•高速129•高速 - 飞翔吧, server: gy.58n.net, port: 20129, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x129.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 新加坡•高速130•铂金 - 飞翔吧, server: gy.58n.net, port: 20130, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x130.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速114•高速 - 飞翔吧, server: gy.58n.net, port: 41767, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x114.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速115•高速 - 飞翔吧, server: gy.58n.net, port: 54178, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x115.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速139•铂金 - 飞翔吧, server: gy.58n.net, port: 20139, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z139.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速140•铂金 - 飞翔吧, server: gy.58n.net, port: 20140, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z140.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速141•铂金 - 飞翔吧, server: gy.58n.net, port: 20141, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z141.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速142•原生 - 飞翔吧, server: gy.58n.net, port: 20142, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: z142.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速59•青铜 - 飞翔吧, server: gy.58n.net, port: 20059, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x59.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速71•高速 - 飞翔吧, server: gy.58n.net, port: 20071, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x71.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 日本•高速76•高速 - 飞翔吧, server: gy.58n.net, port: 20076, type: trojan, password: 6bfeb783-114c-32e7-afef-9262557fbae4, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: ℹ️ 官网-2022.pet - 飞翔吧, server: www.flybar.top, port: 10086, type: trojan, password: Coh3WZnvlc3lmUHo, skip-cert-verify: true, udp: true}
+  - {name: 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: bfe3589e-2c69-4d09-9562-d48bfaad5176, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
+  - {name: 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: jp.littleqqq.co, port: 62193, type: vmess, uuid: bfe3589e-2c69-4d09-9562-d48bfaad5176, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
+  - {name: 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq, server: us.littleqqq.co, port: 21859, type: vmess, uuid: bfe3589e-2c69-4d09-9562-d48bfaad5176, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: www.tmall.com}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 新加坡-0 - 飞啦机场
-      - 香港-0 - 飞啦机场
-      - 🇨🇳台湾-0 - 飞啦机场
-      - 日本-0 - 飞啦机场
-      - 美国-0 - 飞啦机场
-      - 英国-0 - 飞啦机场
-      - 🇨🇳台湾-防失联 - 飞啦机场
-      - 南极洲-0 - 飞啦机场
-      - 韩国-0 - 飞啦机场
-      - 朝鲜-0 - 飞啦机场
-      - 香港-CN2 - 飞啦机场
-      - 免费-日本 - bee.sulepay.com
-      - 免费-新加坡 - bee.sulepay.com
-      - 免费-美国 - bee.sulepay.com
-      - 中转•香港301•高速 - 飞翔吧
-      - 广港•香港143•高速 - 飞翔吧
-      - 广港•香港269•高速 - 飞翔吧
-      - 广港•香港294•高速 - 飞翔吧
-      - 中转•香港102•高速 - 飞翔吧
-      - 广港•香港259•高速 - 飞翔吧
-      - 广港•香港278•高速 - 飞翔吧
-      - 广港•香港279•高速 - 飞翔吧
-      - 中转•台湾100•高速 - 飞翔吧
-      - 中转•台湾91•原生 - 飞翔吧
-      - 中转•德国302•GPT - 飞翔吧
-      - 中转•德国303•GPT - 飞翔吧
-      - 中转•德国304•GPT - 飞翔吧
-      - 中转•德国305•GPT - 飞翔吧
-      - 中转•德国306•GPT - 飞翔吧
-      - 中转•新加坡299•高速 - 飞翔吧
-      - 中转•新加坡65•青铜 - 飞翔吧
-      - 中转•新加坡83•高速 - 飞翔吧
-      - 中转•日本298•高速 - 飞翔吧
-      - 中转•日本300•原生 - 飞翔吧
-      - 中转•美国295•高速 - 飞翔吧
-      - 中转•美国296•高速 - 飞翔吧
-      - 中转•美国308•高速 - 飞翔吧
-      - 中转•美国40•高速 - 飞翔吧
-      - 中转•美国41•原生 - 飞翔吧
-      - 中转•美国46•原生 - 飞翔吧
-      - 中转•美国61•高速 - 飞翔吧
-      - 中转•英国267•高速 - 飞翔吧
-      - 中转•英国268•高速 - 飞翔吧
-      - 中转•香港307•高速 - 飞翔吧
-      - 广港•台湾261•高速 - 飞翔吧
-      - 广港•台湾262•高速 - 飞翔吧
-      - 广港•美国266•高速 - 飞翔吧
-      - 广港•美国288•高速 - 飞翔吧
-      - 广港•韩国263•高速 - 飞翔吧
-      - 广港•韩国264•高速 - 飞翔吧
-      - 新加坡•高速129•高速 - 飞翔吧
-      - 新加坡•高速130•铂金 - 飞翔吧
-      - 日本•高速114•高速 - 飞翔吧
-      - 日本•高速115•高速 - 飞翔吧
-      - 日本•高速139•铂金 - 飞翔吧
-      - 日本•高速140•铂金 - 飞翔吧
-      - 日本•高速141•铂金 - 飞翔吧
-      - 日本•高速142•原生 - 飞翔吧
-      - 日本•高速59•青铜 - 飞翔吧
-      - 日本•高速71•高速 - 飞翔吧
-      - 日本•高速76•高速 - 飞翔吧
-      - ℹ️ 官网-2022.pet - 飞翔吧
-      - AliHK - FlyCatPie
-      - VulUK - FlyCatPie
-      - AliHK01 - FlyCatPie
-      - WacHK01 - FlyCatPie
-      - 美国CERA - 海陆空
-      - 香港QW - 海陆空
-      - 土耳其 - 海陆空
-      - CF-WORK-美国CERA - 海陆空
-      - 日本IIJ2 - 海陆空
-      - 韩国首尔 - 海陆空
-      - 德国 法兰克福101 - 墙了个墙
-      - 德国 法兰克福102 - 墙了个墙
-      - 德国 法兰克福103 - 墙了个墙
-      - 德国 法兰克福104 - 墙了个墙
-      - 德国 法兰克福105 - 墙了个墙
-      - 新加坡 101 - 墙了个墙
-      - 新加坡 102 - 墙了个墙
-      - 新加坡 103 - 墙了个墙
-      - 新加坡 104 - 墙了个墙
-      - 新加坡 105 - 墙了个墙
-      - 日本 101 - 墙了个墙
-      - 日本 102 - 墙了个墙
-      - 日本 103 - 墙了个墙
-      - 日本 104 - 墙了个墙
-      - 日本 105 - 墙了个墙
-      - 美国 洛杉矶101 - 墙了个墙
-      - 美国 洛杉矶102 - 墙了个墙
-      - 美国 洛杉矶103 - 墙了个墙
-      - 香港 101 - 墙了个墙
-      - 香港 102 - 墙了个墙
-      - 香港 103 - 墙了个墙
-      - 香港 104 - 墙了个墙
-      - 香港 105 - 墙了个墙
-      - 香港 106 - 墙了个墙
-      - 香港 107 - 墙了个墙
-      - 香港 108 - 墙了个墙
-      - 香港 109 - 墙了个墙
-      - 香港 110 - 墙了个墙
-      - "[vmess]公益机场 xqc.best - XQC Retard"
-      - "[vmess]🇭🇰 HK | 香港 LB - XQC Retard"
-      - "[vmess]🇯🇵 JP | 日本 LB - XQC Retard"
-      - "[vmess]🇸🇬 SG | 新加坡 LB - XQC Retard"
-      - 邀请好友返利65% - 十元一年
-      - go.shiyuanyinian.xyz - 十元一年
-      - 香港1-未解锁 - 十元一年
-      - 香港2-未解锁 - 十元一年
-      - 香港3-未解锁 - 十元一年
-      - 香港4-未解锁 - 十元一年
-      - 香港5-未解锁 - 十元一年
-      - 香港6-未解锁 - 十元一年
-      - 随机1-未解锁 - 十元一年
-      - 随机2-未解锁 - 十元一年
-      - 随机3-未解锁 - 十元一年
-      - 随机4-未解锁 - 十元一年
-      - 随机5-未解锁 - 十元一年
-      - 随机6-未解锁 - 十元一年
-      - 美国 🌐「达拉斯」 - 北方航空
       - 美国圣克拉拉 - ClashX.app
       - 美国圣何塞1 - ClashX.app
       - 美国圣何塞2 - ClashX.app
@@ -428,6 +309,81 @@ proxy-groups:
       - SS美国圣何塞8 - ClashX.app
       - SS美国圣何塞9 - ClashX.app
       - SS美国圣克拉拉 - ClashX.app
+      - 美国CERA - 海陆空
+      - 香港QW - 海陆空
+      - 土耳其 - 海陆空
+      - CF-WORK-美国CERA - 海陆空
+      - 日本IIJ2 - 海陆空
+      - 韩国首尔 - 海陆空
+      - 德国 法兰克福101 - 墙了个墙
+      - 德国 法兰克福102 - 墙了个墙
+      - 德国 法兰克福103 - 墙了个墙
+      - 德国 法兰克福104 - 墙了个墙
+      - 德国 法兰克福105 - 墙了个墙
+      - 新加坡 101 - 墙了个墙
+      - 新加坡 102 - 墙了个墙
+      - 新加坡 103 - 墙了个墙
+      - 新加坡 104 - 墙了个墙
+      - 新加坡 105 - 墙了个墙
+      - 日本 101 - 墙了个墙
+      - 日本 102 - 墙了个墙
+      - 日本 103 - 墙了个墙
+      - 日本 104 - 墙了个墙
+      - 日本 105 - 墙了个墙
+      - 美国 洛杉矶101 - 墙了个墙
+      - 美国 洛杉矶102 - 墙了个墙
+      - 美国 洛杉矶103 - 墙了个墙
+      - 香港 101 - 墙了个墙
+      - 香港 102 - 墙了个墙
+      - 香港 103 - 墙了个墙
+      - 香港 104 - 墙了个墙
+      - 香港 105 - 墙了个墙
+      - 香港 106 - 墙了个墙
+      - 香港 107 - 墙了个墙
+      - 香港 108 - 墙了个墙
+      - 香港 109 - 墙了个墙
+      - 香港 110 - 墙了个墙
+      - 免费-日本 - bee.sulepay.com
+      - 免费-新加坡 - bee.sulepay.com
+      - 免费-美国 - bee.sulepay.com
+      - 香港|【免费领1TB流量】前往-注册|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
+      - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+      - 美国2 - vip666.xyz
+      - 美国（用前更新订阅） - vip666.xyz
+      - 新加坡 - vip666.xyz
+      - 香港-https://new.vip666.xyz - vip666.xyz
+      - 荷兰 - vip666.xyz
+      - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+      - 中国香港2 - vip666.xyz
+      - "[vmess]公益机场 xqc.best - XQC Retard"
+      - "[vmess]🇭🇰 HK | 香港 LB - XQC Retard"
+      - "[vmess]🇯🇵 JP | 日本 LB - XQC Retard"
+      - "[vmess]🇸🇬 SG | 新加坡 LB - XQC Retard"
+      - AliHK - FlyCatPie
+      - VulUK - FlyCatPie
+      - AliHK01 - FlyCatPie
+      - WacHK01 - FlyCatPie
+      - 邀请好友返利65% - 十元一年
+      - go.shiyuanyinian.xyz - 十元一年
+      - 香港1-未解锁 - 十元一年
+      - 香港2-未解锁 - 十元一年
+      - 香港3-未解锁 - 十元一年
+      - 香港4-未解锁 - 十元一年
+      - 香港5-未解锁 - 十元一年
+      - 香港6-未解锁 - 十元一年
+      - 随机1-未解锁 - 十元一年
+      - 随机2-未解锁 - 十元一年
+      - 随机3-未解锁 - 十元一年
+      - 随机4-未解锁 - 十元一年
+      - 随机5-未解锁 - 十元一年
+      - 随机6-未解锁 - 十元一年
       - ℹ️ 官网:cooc.wiki - 小白云
       - 香港 / A｜HK - 小白云
       - 香港 / B｜HK - 小白云
@@ -450,17 +406,17 @@ proxy-groups:
       - 俄罗斯 / RU｜BIZ - 小白云
       - 马来西亚 / MY | BIZ - 小白云
       - TW｜海外用户 - 小白云
-      - 香港|【免费领1TB流量】前往-注册|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-      - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
-      - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
-      - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
+      - 新加坡-0 - 飞啦机场
+      - 香港-0 - 飞啦机场
+      - 🇨🇳台湾-0 - 飞啦机场
+      - 日本-0 - 飞啦机场
+      - 美国-0 - 飞啦机场
+      - 英国-0 - 飞啦机场
+      - 🇨🇳台湾-防失联 - 飞啦机场
+      - 南极洲-0 - 飞啦机场
+      - 韩国-0 - 飞啦机场
+      - 朝鲜-0 - 飞啦机场
+      - 香港-CN2 - 飞啦机场
       - "[vip①]德国1 - MG Network"
       - "[vip①]德国2 - MG Network"
       - "[vip①]新加坡1 - MG Network"
@@ -472,14 +428,6 @@ proxy-groups:
       - "[vip①]英国1 - MG Network"
       - "[vip①]英国2 - MG Network"
       - "[vip①]韩国1 - MG Network"
-      - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
-      - 美国2 - vip666.xyz
-      - 美国（用前更新订阅） - vip666.xyz
-      - 新加坡 - vip666.xyz
-      - 香港-https://new.vip666.xyz - vip666.xyz
-      - 荷兰 - vip666.xyz
-      - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
-      - 中国香港2 - vip666.xyz
       - ℹ️ 🔰 TG客服@uucocc - 共享流量
       - 美国(ipv4)鸡仔V6转 - 共享流量
       - 台湾(ipv4)BV BGP直连 - 共享流量
@@ -499,131 +447,64 @@ proxy-groups:
       - 美国(ipv6)AC - 共享流量
       - 日本(ipv6)wawo - 共享流量
       - 香港(ipv6)wawo2 - 共享流量
+      - 美国 🌐「达拉斯」 - 北方航空
+      - 中转•香港301•高速 - 飞翔吧
+      - 广港•香港143•高速 - 飞翔吧
+      - 广港•香港269•高速 - 飞翔吧
+      - 广港•香港294•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 广港•香港259•高速 - 飞翔吧
+      - 广港•香港278•高速 - 飞翔吧
+      - 广港•香港279•高速 - 飞翔吧
+      - 中转•台湾100•高速 - 飞翔吧
+      - 中转•台湾91•原生 - 飞翔吧
+      - 中转•德国302•GPT - 飞翔吧
+      - 中转•德国303•GPT - 飞翔吧
+      - 中转•德国304•GPT - 飞翔吧
+      - 中转•德国305•GPT - 飞翔吧
+      - 中转•德国306•GPT - 飞翔吧
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - 中转•新加坡83•高速 - 飞翔吧
+      - 中转•日本298•高速 - 飞翔吧
+      - 中转•日本300•原生 - 飞翔吧
+      - 中转•美国295•高速 - 飞翔吧
+      - 中转•美国296•高速 - 飞翔吧
+      - 中转•美国308•高速 - 飞翔吧
+      - 中转•美国40•高速 - 飞翔吧
+      - 中转•美国41•原生 - 飞翔吧
+      - 中转•美国46•原生 - 飞翔吧
+      - 中转•美国61•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港307•高速 - 飞翔吧
+      - 广港•台湾261•高速 - 飞翔吧
+      - 广港•台湾262•高速 - 飞翔吧
+      - 广港•美国266•高速 - 飞翔吧
+      - 广港•美国288•高速 - 飞翔吧
+      - 广港•韩国263•高速 - 飞翔吧
+      - 广港•韩国264•高速 - 飞翔吧
+      - 新加坡•高速129•高速 - 飞翔吧
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 日本•高速114•高速 - 飞翔吧
+      - 日本•高速115•高速 - 飞翔吧
+      - 日本•高速139•铂金 - 飞翔吧
+      - 日本•高速140•铂金 - 飞翔吧
+      - 日本•高速141•铂金 - 飞翔吧
+      - 日本•高速142•原生 - 飞翔吧
+      - 日本•高速59•青铜 - 飞翔吧
+      - 日本•高速71•高速 - 飞翔吧
+      - 日本•高速76•高速 - 飞翔吧
+      - ℹ️ 官网-2022.pet - 飞翔吧
+      - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
+      - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
+      - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡-0 - 飞啦机场
-      - 香港-0 - 飞啦机场
-      - 🇨🇳台湾-0 - 飞啦机场
-      - 日本-0 - 飞啦机场
-      - 美国-0 - 飞啦机场
-      - 英国-0 - 飞啦机场
-      - 🇨🇳台湾-防失联 - 飞啦机场
-      - 南极洲-0 - 飞啦机场
-      - 韩国-0 - 飞啦机场
-      - 朝鲜-0 - 飞啦机场
-      - 香港-CN2 - 飞啦机场
-      - 免费-日本 - bee.sulepay.com
-      - 免费-新加坡 - bee.sulepay.com
-      - 免费-美国 - bee.sulepay.com
-      - 中转•香港301•高速 - 飞翔吧
-      - 广港•香港143•高速 - 飞翔吧
-      - 广港•香港269•高速 - 飞翔吧
-      - 广港•香港294•高速 - 飞翔吧
-      - 中转•香港102•高速 - 飞翔吧
-      - 广港•香港259•高速 - 飞翔吧
-      - 广港•香港278•高速 - 飞翔吧
-      - 广港•香港279•高速 - 飞翔吧
-      - 中转•台湾100•高速 - 飞翔吧
-      - 中转•台湾91•原生 - 飞翔吧
-      - 中转•德国302•GPT - 飞翔吧
-      - 中转•德国303•GPT - 飞翔吧
-      - 中转•德国304•GPT - 飞翔吧
-      - 中转•德国305•GPT - 飞翔吧
-      - 中转•德国306•GPT - 飞翔吧
-      - 中转•新加坡299•高速 - 飞翔吧
-      - 中转•新加坡65•青铜 - 飞翔吧
-      - 中转•新加坡83•高速 - 飞翔吧
-      - 中转•日本298•高速 - 飞翔吧
-      - 中转•日本300•原生 - 飞翔吧
-      - 中转•美国295•高速 - 飞翔吧
-      - 中转•美国296•高速 - 飞翔吧
-      - 中转•美国308•高速 - 飞翔吧
-      - 中转•美国40•高速 - 飞翔吧
-      - 中转•美国41•原生 - 飞翔吧
-      - 中转•美国46•原生 - 飞翔吧
-      - 中转•美国61•高速 - 飞翔吧
-      - 中转•英国267•高速 - 飞翔吧
-      - 中转•英国268•高速 - 飞翔吧
-      - 中转•香港307•高速 - 飞翔吧
-      - 广港•台湾261•高速 - 飞翔吧
-      - 广港•台湾262•高速 - 飞翔吧
-      - 广港•美国266•高速 - 飞翔吧
-      - 广港•美国288•高速 - 飞翔吧
-      - 广港•韩国263•高速 - 飞翔吧
-      - 广港•韩国264•高速 - 飞翔吧
-      - 新加坡•高速129•高速 - 飞翔吧
-      - 新加坡•高速130•铂金 - 飞翔吧
-      - 日本•高速114•高速 - 飞翔吧
-      - 日本•高速115•高速 - 飞翔吧
-      - 日本•高速139•铂金 - 飞翔吧
-      - 日本•高速140•铂金 - 飞翔吧
-      - 日本•高速141•铂金 - 飞翔吧
-      - 日本•高速142•原生 - 飞翔吧
-      - 日本•高速59•青铜 - 飞翔吧
-      - 日本•高速71•高速 - 飞翔吧
-      - 日本•高速76•高速 - 飞翔吧
-      - ℹ️ 官网-2022.pet - 飞翔吧
-      - AliHK - FlyCatPie
-      - VulUK - FlyCatPie
-      - AliHK01 - FlyCatPie
-      - WacHK01 - FlyCatPie
-      - 美国CERA - 海陆空
-      - 香港QW - 海陆空
-      - 土耳其 - 海陆空
-      - CF-WORK-美国CERA - 海陆空
-      - 日本IIJ2 - 海陆空
-      - 韩国首尔 - 海陆空
-      - 德国 法兰克福101 - 墙了个墙
-      - 德国 法兰克福102 - 墙了个墙
-      - 德国 法兰克福103 - 墙了个墙
-      - 德国 法兰克福104 - 墙了个墙
-      - 德国 法兰克福105 - 墙了个墙
-      - 新加坡 101 - 墙了个墙
-      - 新加坡 102 - 墙了个墙
-      - 新加坡 103 - 墙了个墙
-      - 新加坡 104 - 墙了个墙
-      - 新加坡 105 - 墙了个墙
-      - 日本 101 - 墙了个墙
-      - 日本 102 - 墙了个墙
-      - 日本 103 - 墙了个墙
-      - 日本 104 - 墙了个墙
-      - 日本 105 - 墙了个墙
-      - 美国 洛杉矶101 - 墙了个墙
-      - 美国 洛杉矶102 - 墙了个墙
-      - 美国 洛杉矶103 - 墙了个墙
-      - 香港 101 - 墙了个墙
-      - 香港 102 - 墙了个墙
-      - 香港 103 - 墙了个墙
-      - 香港 104 - 墙了个墙
-      - 香港 105 - 墙了个墙
-      - 香港 106 - 墙了个墙
-      - 香港 107 - 墙了个墙
-      - 香港 108 - 墙了个墙
-      - 香港 109 - 墙了个墙
-      - 香港 110 - 墙了个墙
-      - "[vmess]公益机场 xqc.best - XQC Retard"
-      - "[vmess]🇭🇰 HK | 香港 LB - XQC Retard"
-      - "[vmess]🇯🇵 JP | 日本 LB - XQC Retard"
-      - "[vmess]🇸🇬 SG | 新加坡 LB - XQC Retard"
-      - 邀请好友返利65% - 十元一年
-      - go.shiyuanyinian.xyz - 十元一年
-      - 香港1-未解锁 - 十元一年
-      - 香港2-未解锁 - 十元一年
-      - 香港3-未解锁 - 十元一年
-      - 香港4-未解锁 - 十元一年
-      - 香港5-未解锁 - 十元一年
-      - 香港6-未解锁 - 十元一年
-      - 随机1-未解锁 - 十元一年
-      - 随机2-未解锁 - 十元一年
-      - 随机3-未解锁 - 十元一年
-      - 随机4-未解锁 - 十元一年
-      - 随机5-未解锁 - 十元一年
-      - 随机6-未解锁 - 十元一年
-      - 美国 🌐「达拉斯」 - 北方航空
       - 美国圣克拉拉 - ClashX.app
       - 美国圣何塞1 - ClashX.app
       - 美国圣何塞2 - ClashX.app
@@ -679,6 +560,81 @@ proxy-groups:
       - SS美国圣何塞8 - ClashX.app
       - SS美国圣何塞9 - ClashX.app
       - SS美国圣克拉拉 - ClashX.app
+      - 美国CERA - 海陆空
+      - 香港QW - 海陆空
+      - 土耳其 - 海陆空
+      - CF-WORK-美国CERA - 海陆空
+      - 日本IIJ2 - 海陆空
+      - 韩国首尔 - 海陆空
+      - 德国 法兰克福101 - 墙了个墙
+      - 德国 法兰克福102 - 墙了个墙
+      - 德国 法兰克福103 - 墙了个墙
+      - 德国 法兰克福104 - 墙了个墙
+      - 德国 法兰克福105 - 墙了个墙
+      - 新加坡 101 - 墙了个墙
+      - 新加坡 102 - 墙了个墙
+      - 新加坡 103 - 墙了个墙
+      - 新加坡 104 - 墙了个墙
+      - 新加坡 105 - 墙了个墙
+      - 日本 101 - 墙了个墙
+      - 日本 102 - 墙了个墙
+      - 日本 103 - 墙了个墙
+      - 日本 104 - 墙了个墙
+      - 日本 105 - 墙了个墙
+      - 美国 洛杉矶101 - 墙了个墙
+      - 美国 洛杉矶102 - 墙了个墙
+      - 美国 洛杉矶103 - 墙了个墙
+      - 香港 101 - 墙了个墙
+      - 香港 102 - 墙了个墙
+      - 香港 103 - 墙了个墙
+      - 香港 104 - 墙了个墙
+      - 香港 105 - 墙了个墙
+      - 香港 106 - 墙了个墙
+      - 香港 107 - 墙了个墙
+      - 香港 108 - 墙了个墙
+      - 香港 109 - 墙了个墙
+      - 香港 110 - 墙了个墙
+      - 免费-日本 - bee.sulepay.com
+      - 免费-新加坡 - bee.sulepay.com
+      - 免费-美国 - bee.sulepay.com
+      - 香港|【免费领1TB流量】前往-注册|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
+      - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+      - 美国2 - vip666.xyz
+      - 美国（用前更新订阅） - vip666.xyz
+      - 新加坡 - vip666.xyz
+      - 香港-https://new.vip666.xyz - vip666.xyz
+      - 荷兰 - vip666.xyz
+      - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+      - 中国香港2 - vip666.xyz
+      - "[vmess]公益机场 xqc.best - XQC Retard"
+      - "[vmess]🇭🇰 HK | 香港 LB - XQC Retard"
+      - "[vmess]🇯🇵 JP | 日本 LB - XQC Retard"
+      - "[vmess]🇸🇬 SG | 新加坡 LB - XQC Retard"
+      - AliHK - FlyCatPie
+      - VulUK - FlyCatPie
+      - AliHK01 - FlyCatPie
+      - WacHK01 - FlyCatPie
+      - 邀请好友返利65% - 十元一年
+      - go.shiyuanyinian.xyz - 十元一年
+      - 香港1-未解锁 - 十元一年
+      - 香港2-未解锁 - 十元一年
+      - 香港3-未解锁 - 十元一年
+      - 香港4-未解锁 - 十元一年
+      - 香港5-未解锁 - 十元一年
+      - 香港6-未解锁 - 十元一年
+      - 随机1-未解锁 - 十元一年
+      - 随机2-未解锁 - 十元一年
+      - 随机3-未解锁 - 十元一年
+      - 随机4-未解锁 - 十元一年
+      - 随机5-未解锁 - 十元一年
+      - 随机6-未解锁 - 十元一年
       - ℹ️ 官网:cooc.wiki - 小白云
       - 香港 / A｜HK - 小白云
       - 香港 / B｜HK - 小白云
@@ -701,17 +657,17 @@ proxy-groups:
       - 俄罗斯 / RU｜BIZ - 小白云
       - 马来西亚 / MY | BIZ - 小白云
       - TW｜海外用户 - 小白云
-      - 香港|【免费领1TB流量】前往-注册|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-      - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
-      - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
-      - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
+      - 新加坡-0 - 飞啦机场
+      - 香港-0 - 飞啦机场
+      - 🇨🇳台湾-0 - 飞啦机场
+      - 日本-0 - 飞啦机场
+      - 美国-0 - 飞啦机场
+      - 英国-0 - 飞啦机场
+      - 🇨🇳台湾-防失联 - 飞啦机场
+      - 南极洲-0 - 飞啦机场
+      - 韩国-0 - 飞啦机场
+      - 朝鲜-0 - 飞啦机场
+      - 香港-CN2 - 飞啦机场
       - "[vip①]德国1 - MG Network"
       - "[vip①]德国2 - MG Network"
       - "[vip①]新加坡1 - MG Network"
@@ -723,14 +679,6 @@ proxy-groups:
       - "[vip①]英国1 - MG Network"
       - "[vip①]英国2 - MG Network"
       - "[vip①]韩国1 - MG Network"
-      - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
-      - 美国2 - vip666.xyz
-      - 美国（用前更新订阅） - vip666.xyz
-      - 新加坡 - vip666.xyz
-      - 香港-https://new.vip666.xyz - vip666.xyz
-      - 荷兰 - vip666.xyz
-      - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
-      - 中国香港2 - vip666.xyz
       - ℹ️ 🔰 TG客服@uucocc - 共享流量
       - 美国(ipv4)鸡仔V6转 - 共享流量
       - 台湾(ipv4)BV BGP直连 - 共享流量
@@ -750,6 +698,58 @@ proxy-groups:
       - 美国(ipv6)AC - 共享流量
       - 日本(ipv6)wawo - 共享流量
       - 香港(ipv6)wawo2 - 共享流量
+      - 美国 🌐「达拉斯」 - 北方航空
+      - 中转•香港301•高速 - 飞翔吧
+      - 广港•香港143•高速 - 飞翔吧
+      - 广港•香港269•高速 - 飞翔吧
+      - 广港•香港294•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 广港•香港259•高速 - 飞翔吧
+      - 广港•香港278•高速 - 飞翔吧
+      - 广港•香港279•高速 - 飞翔吧
+      - 中转•台湾100•高速 - 飞翔吧
+      - 中转•台湾91•原生 - 飞翔吧
+      - 中转•德国302•GPT - 飞翔吧
+      - 中转•德国303•GPT - 飞翔吧
+      - 中转•德国304•GPT - 飞翔吧
+      - 中转•德国305•GPT - 飞翔吧
+      - 中转•德国306•GPT - 飞翔吧
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - 中转•新加坡83•高速 - 飞翔吧
+      - 中转•日本298•高速 - 飞翔吧
+      - 中转•日本300•原生 - 飞翔吧
+      - 中转•美国295•高速 - 飞翔吧
+      - 中转•美国296•高速 - 飞翔吧
+      - 中转•美国308•高速 - 飞翔吧
+      - 中转•美国40•高速 - 飞翔吧
+      - 中转•美国41•原生 - 飞翔吧
+      - 中转•美国46•原生 - 飞翔吧
+      - 中转•美国61•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港307•高速 - 飞翔吧
+      - 广港•台湾261•高速 - 飞翔吧
+      - 广港•台湾262•高速 - 飞翔吧
+      - 广港•美国266•高速 - 飞翔吧
+      - 广港•美国288•高速 - 飞翔吧
+      - 广港•韩国263•高速 - 飞翔吧
+      - 广港•韩国264•高速 - 飞翔吧
+      - 新加坡•高速129•高速 - 飞翔吧
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 日本•高速114•高速 - 飞翔吧
+      - 日本•高速115•高速 - 飞翔吧
+      - 日本•高速139•铂金 - 飞翔吧
+      - 日本•高速140•铂金 - 飞翔吧
+      - 日本•高速141•铂金 - 飞翔吧
+      - 日本•高速142•原生 - 飞翔吧
+      - 日本•高速59•青铜 - 飞翔吧
+      - 日本•高速71•高速 - 飞翔吧
+      - 日本•高速76•高速 - 飞翔吧
+      - ℹ️ 官网-2022.pet - 飞翔吧
+      - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
+      - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
+      - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -757,125 +757,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡-0 - 飞啦机场
-      - 香港-0 - 飞啦机场
-      - 🇨🇳台湾-0 - 飞啦机场
-      - 日本-0 - 飞啦机场
-      - 美国-0 - 飞啦机场
-      - 英国-0 - 飞啦机场
-      - 🇨🇳台湾-防失联 - 飞啦机场
-      - 南极洲-0 - 飞啦机场
-      - 韩国-0 - 飞啦机场
-      - 朝鲜-0 - 飞啦机场
-      - 香港-CN2 - 飞啦机场
-      - 免费-日本 - bee.sulepay.com
-      - 免费-新加坡 - bee.sulepay.com
-      - 免费-美国 - bee.sulepay.com
-      - 中转•香港301•高速 - 飞翔吧
-      - 广港•香港143•高速 - 飞翔吧
-      - 广港•香港269•高速 - 飞翔吧
-      - 广港•香港294•高速 - 飞翔吧
-      - 中转•香港102•高速 - 飞翔吧
-      - 广港•香港259•高速 - 飞翔吧
-      - 广港•香港278•高速 - 飞翔吧
-      - 广港•香港279•高速 - 飞翔吧
-      - 中转•台湾100•高速 - 飞翔吧
-      - 中转•台湾91•原生 - 飞翔吧
-      - 中转•德国302•GPT - 飞翔吧
-      - 中转•德国303•GPT - 飞翔吧
-      - 中转•德国304•GPT - 飞翔吧
-      - 中转•德国305•GPT - 飞翔吧
-      - 中转•德国306•GPT - 飞翔吧
-      - 中转•新加坡299•高速 - 飞翔吧
-      - 中转•新加坡65•青铜 - 飞翔吧
-      - 中转•新加坡83•高速 - 飞翔吧
-      - 中转•日本298•高速 - 飞翔吧
-      - 中转•日本300•原生 - 飞翔吧
-      - 中转•美国295•高速 - 飞翔吧
-      - 中转•美国296•高速 - 飞翔吧
-      - 中转•美国308•高速 - 飞翔吧
-      - 中转•美国40•高速 - 飞翔吧
-      - 中转•美国41•原生 - 飞翔吧
-      - 中转•美国46•原生 - 飞翔吧
-      - 中转•美国61•高速 - 飞翔吧
-      - 中转•英国267•高速 - 飞翔吧
-      - 中转•英国268•高速 - 飞翔吧
-      - 中转•香港307•高速 - 飞翔吧
-      - 广港•台湾261•高速 - 飞翔吧
-      - 广港•台湾262•高速 - 飞翔吧
-      - 广港•美国266•高速 - 飞翔吧
-      - 广港•美国288•高速 - 飞翔吧
-      - 广港•韩国263•高速 - 飞翔吧
-      - 广港•韩国264•高速 - 飞翔吧
-      - 新加坡•高速129•高速 - 飞翔吧
-      - 新加坡•高速130•铂金 - 飞翔吧
-      - 日本•高速114•高速 - 飞翔吧
-      - 日本•高速115•高速 - 飞翔吧
-      - 日本•高速139•铂金 - 飞翔吧
-      - 日本•高速140•铂金 - 飞翔吧
-      - 日本•高速141•铂金 - 飞翔吧
-      - 日本•高速142•原生 - 飞翔吧
-      - 日本•高速59•青铜 - 飞翔吧
-      - 日本•高速71•高速 - 飞翔吧
-      - 日本•高速76•高速 - 飞翔吧
-      - ℹ️ 官网-2022.pet - 飞翔吧
-      - AliHK - FlyCatPie
-      - VulUK - FlyCatPie
-      - AliHK01 - FlyCatPie
-      - WacHK01 - FlyCatPie
-      - 美国CERA - 海陆空
-      - 香港QW - 海陆空
-      - 土耳其 - 海陆空
-      - CF-WORK-美国CERA - 海陆空
-      - 日本IIJ2 - 海陆空
-      - 韩国首尔 - 海陆空
-      - 德国 法兰克福101 - 墙了个墙
-      - 德国 法兰克福102 - 墙了个墙
-      - 德国 法兰克福103 - 墙了个墙
-      - 德国 法兰克福104 - 墙了个墙
-      - 德国 法兰克福105 - 墙了个墙
-      - 新加坡 101 - 墙了个墙
-      - 新加坡 102 - 墙了个墙
-      - 新加坡 103 - 墙了个墙
-      - 新加坡 104 - 墙了个墙
-      - 新加坡 105 - 墙了个墙
-      - 日本 101 - 墙了个墙
-      - 日本 102 - 墙了个墙
-      - 日本 103 - 墙了个墙
-      - 日本 104 - 墙了个墙
-      - 日本 105 - 墙了个墙
-      - 美国 洛杉矶101 - 墙了个墙
-      - 美国 洛杉矶102 - 墙了个墙
-      - 美国 洛杉矶103 - 墙了个墙
-      - 香港 101 - 墙了个墙
-      - 香港 102 - 墙了个墙
-      - 香港 103 - 墙了个墙
-      - 香港 104 - 墙了个墙
-      - 香港 105 - 墙了个墙
-      - 香港 106 - 墙了个墙
-      - 香港 107 - 墙了个墙
-      - 香港 108 - 墙了个墙
-      - 香港 109 - 墙了个墙
-      - 香港 110 - 墙了个墙
-      - "[vmess]公益机场 xqc.best - XQC Retard"
-      - "[vmess]🇭🇰 HK | 香港 LB - XQC Retard"
-      - "[vmess]🇯🇵 JP | 日本 LB - XQC Retard"
-      - "[vmess]🇸🇬 SG | 新加坡 LB - XQC Retard"
-      - 邀请好友返利65% - 十元一年
-      - go.shiyuanyinian.xyz - 十元一年
-      - 香港1-未解锁 - 十元一年
-      - 香港2-未解锁 - 十元一年
-      - 香港3-未解锁 - 十元一年
-      - 香港4-未解锁 - 十元一年
-      - 香港5-未解锁 - 十元一年
-      - 香港6-未解锁 - 十元一年
-      - 随机1-未解锁 - 十元一年
-      - 随机2-未解锁 - 十元一年
-      - 随机3-未解锁 - 十元一年
-      - 随机4-未解锁 - 十元一年
-      - 随机5-未解锁 - 十元一年
-      - 随机6-未解锁 - 十元一年
-      - 美国 🌐「达拉斯」 - 北方航空
       - 美国圣克拉拉 - ClashX.app
       - 美国圣何塞1 - ClashX.app
       - 美国圣何塞2 - ClashX.app
@@ -931,6 +812,81 @@ proxy-groups:
       - SS美国圣何塞8 - ClashX.app
       - SS美国圣何塞9 - ClashX.app
       - SS美国圣克拉拉 - ClashX.app
+      - 美国CERA - 海陆空
+      - 香港QW - 海陆空
+      - 土耳其 - 海陆空
+      - CF-WORK-美国CERA - 海陆空
+      - 日本IIJ2 - 海陆空
+      - 韩国首尔 - 海陆空
+      - 德国 法兰克福101 - 墙了个墙
+      - 德国 法兰克福102 - 墙了个墙
+      - 德国 法兰克福103 - 墙了个墙
+      - 德国 法兰克福104 - 墙了个墙
+      - 德国 法兰克福105 - 墙了个墙
+      - 新加坡 101 - 墙了个墙
+      - 新加坡 102 - 墙了个墙
+      - 新加坡 103 - 墙了个墙
+      - 新加坡 104 - 墙了个墙
+      - 新加坡 105 - 墙了个墙
+      - 日本 101 - 墙了个墙
+      - 日本 102 - 墙了个墙
+      - 日本 103 - 墙了个墙
+      - 日本 104 - 墙了个墙
+      - 日本 105 - 墙了个墙
+      - 美国 洛杉矶101 - 墙了个墙
+      - 美国 洛杉矶102 - 墙了个墙
+      - 美国 洛杉矶103 - 墙了个墙
+      - 香港 101 - 墙了个墙
+      - 香港 102 - 墙了个墙
+      - 香港 103 - 墙了个墙
+      - 香港 104 - 墙了个墙
+      - 香港 105 - 墙了个墙
+      - 香港 106 - 墙了个墙
+      - 香港 107 - 墙了个墙
+      - 香港 108 - 墙了个墙
+      - 香港 109 - 墙了个墙
+      - 香港 110 - 墙了个墙
+      - 免费-日本 - bee.sulepay.com
+      - 免费-新加坡 - bee.sulepay.com
+      - 免费-美国 - bee.sulepay.com
+      - 香港|【免费领1TB流量】前往-注册|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
+      - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
+      - 美国2 - vip666.xyz
+      - 美国（用前更新订阅） - vip666.xyz
+      - 新加坡 - vip666.xyz
+      - 香港-https://new.vip666.xyz - vip666.xyz
+      - 荷兰 - vip666.xyz
+      - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
+      - 中国香港2 - vip666.xyz
+      - "[vmess]公益机场 xqc.best - XQC Retard"
+      - "[vmess]🇭🇰 HK | 香港 LB - XQC Retard"
+      - "[vmess]🇯🇵 JP | 日本 LB - XQC Retard"
+      - "[vmess]🇸🇬 SG | 新加坡 LB - XQC Retard"
+      - AliHK - FlyCatPie
+      - VulUK - FlyCatPie
+      - AliHK01 - FlyCatPie
+      - WacHK01 - FlyCatPie
+      - 邀请好友返利65% - 十元一年
+      - go.shiyuanyinian.xyz - 十元一年
+      - 香港1-未解锁 - 十元一年
+      - 香港2-未解锁 - 十元一年
+      - 香港3-未解锁 - 十元一年
+      - 香港4-未解锁 - 十元一年
+      - 香港5-未解锁 - 十元一年
+      - 香港6-未解锁 - 十元一年
+      - 随机1-未解锁 - 十元一年
+      - 随机2-未解锁 - 十元一年
+      - 随机3-未解锁 - 十元一年
+      - 随机4-未解锁 - 十元一年
+      - 随机5-未解锁 - 十元一年
+      - 随机6-未解锁 - 十元一年
       - ℹ️ 官网:cooc.wiki - 小白云
       - 香港 / A｜HK - 小白云
       - 香港 / B｜HK - 小白云
@@ -953,17 +909,17 @@ proxy-groups:
       - 俄罗斯 / RU｜BIZ - 小白云
       - 马来西亚 / MY | BIZ - 小白云
       - TW｜海外用户 - 小白云
-      - 香港|【免费领1TB流量】前往-注册|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
-      - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
-      - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
-      - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
+      - 新加坡-0 - 飞啦机场
+      - 香港-0 - 飞啦机场
+      - 🇨🇳台湾-0 - 飞啦机场
+      - 日本-0 - 飞啦机场
+      - 美国-0 - 飞啦机场
+      - 英国-0 - 飞啦机场
+      - 🇨🇳台湾-防失联 - 飞啦机场
+      - 南极洲-0 - 飞啦机场
+      - 韩国-0 - 飞啦机场
+      - 朝鲜-0 - 飞啦机场
+      - 香港-CN2 - 飞啦机场
       - "[vip①]德国1 - MG Network"
       - "[vip①]德国2 - MG Network"
       - "[vip①]新加坡1 - MG Network"
@@ -975,14 +931,6 @@ proxy-groups:
       - "[vip①]英国1 - MG Network"
       - "[vip①]英国2 - MG Network"
       - "[vip①]韩国1 - MG Network"
-      - ℹ️ 官网 https://help.vip666.xyz - vip666.xyz
-      - 美国2 - vip666.xyz
-      - 美国（用前更新订阅） - vip666.xyz
-      - 新加坡 - vip666.xyz
-      - 香港-https://new.vip666.xyz - vip666.xyz
-      - 荷兰 - vip666.xyz
-      - 韩国（最新地址：help.vip666.xyz） - vip666.xyz
-      - 中国香港2 - vip666.xyz
       - ℹ️ 🔰 TG客服@uucocc - 共享流量
       - 美国(ipv4)鸡仔V6转 - 共享流量
       - 台湾(ipv4)BV BGP直连 - 共享流量
@@ -1002,13 +950,108 @@ proxy-groups:
       - 美国(ipv6)AC - 共享流量
       - 日本(ipv6)wawo - 共享流量
       - 香港(ipv6)wawo2 - 共享流量
+      - 美国 🌐「达拉斯」 - 北方航空
+      - 中转•香港301•高速 - 飞翔吧
+      - 广港•香港143•高速 - 飞翔吧
+      - 广港•香港269•高速 - 飞翔吧
+      - 广港•香港294•高速 - 飞翔吧
+      - 中转•香港102•高速 - 飞翔吧
+      - 广港•香港259•高速 - 飞翔吧
+      - 广港•香港278•高速 - 飞翔吧
+      - 广港•香港279•高速 - 飞翔吧
+      - 中转•台湾100•高速 - 飞翔吧
+      - 中转•台湾91•原生 - 飞翔吧
+      - 中转•德国302•GPT - 飞翔吧
+      - 中转•德国303•GPT - 飞翔吧
+      - 中转•德国304•GPT - 飞翔吧
+      - 中转•德国305•GPT - 飞翔吧
+      - 中转•德国306•GPT - 飞翔吧
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - 中转•新加坡83•高速 - 飞翔吧
+      - 中转•日本298•高速 - 飞翔吧
+      - 中转•日本300•原生 - 飞翔吧
+      - 中转•美国295•高速 - 飞翔吧
+      - 中转•美国296•高速 - 飞翔吧
+      - 中转•美国308•高速 - 飞翔吧
+      - 中转•美国40•高速 - 飞翔吧
+      - 中转•美国41•原生 - 飞翔吧
+      - 中转•美国46•原生 - 飞翔吧
+      - 中转•美国61•高速 - 飞翔吧
+      - 中转•英国267•高速 - 飞翔吧
+      - 中转•英国268•高速 - 飞翔吧
+      - 中转•香港307•高速 - 飞翔吧
+      - 广港•台湾261•高速 - 飞翔吧
+      - 广港•台湾262•高速 - 飞翔吧
+      - 广港•美国266•高速 - 飞翔吧
+      - 广港•美国288•高速 - 飞翔吧
+      - 广港•韩国263•高速 - 飞翔吧
+      - 广港•韩国264•高速 - 飞翔吧
+      - 新加坡•高速129•高速 - 飞翔吧
+      - 新加坡•高速130•铂金 - 飞翔吧
+      - 日本•高速114•高速 - 飞翔吧
+      - 日本•高速115•高速 - 飞翔吧
+      - 日本•高速139•铂金 - 飞翔吧
+      - 日本•高速140•铂金 - 飞翔吧
+      - 日本•高速141•铂金 - 飞翔吧
+      - 日本•高速142•原生 - 飞翔吧
+      - 日本•高速59•青铜 - 飞翔吧
+      - 日本•高速71•高速 - 飞翔吧
+      - 日本•高速76•高速 - 飞翔吧
+      - ℹ️ 官网-2022.pet - 飞翔吧
+      - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
+      - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
+      - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - name: 中国节点
     type: select
     proxies:
+      - 香港1 - ClashX.app
+      - 香港2 - ClashX.app
+      - 香港QW - 海陆空
+      - 香港 101 - 墙了个墙
+      - 香港 102 - 墙了个墙
+      - 香港 103 - 墙了个墙
+      - 香港 104 - 墙了个墙
+      - 香港 105 - 墙了个墙
+      - 香港 106 - 墙了个墙
+      - 香港 107 - 墙了个墙
+      - 香港 108 - 墙了个墙
+      - 香港 109 - 墙了个墙
+      - 香港 110 - 墙了个墙
+      - 香港|【免费领1TB流量】前往-注册|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
+      - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
+      - 香港-https://new.vip666.xyz - vip666.xyz
+      - 中国香港2 - vip666.xyz
+      - "[vmess]🇭🇰 HK | 香港 LB - XQC Retard"
+      - AliHK - FlyCatPie
+      - AliHK01 - FlyCatPie
+      - WacHK01 - FlyCatPie
+      - 香港1-未解锁 - 十元一年
+      - 香港2-未解锁 - 十元一年
+      - 香港3-未解锁 - 十元一年
+      - 香港4-未解锁 - 十元一年
+      - 香港5-未解锁 - 十元一年
+      - 香港6-未解锁 - 十元一年
+      - 香港 / A｜HK - 小白云
+      - 香港 / B｜HK - 小白云
+      - 台湾 / A｜TW - 小白云
+      - 台湾 / B｜TW - 小白云
+      - TW｜海外用户 - 小白云
       - 香港-0 - 飞啦机场
       - 🇨🇳台湾-0 - 飞啦机场
       - 🇨🇳台湾-防失联 - 飞啦机场
       - 香港-CN2 - 飞啦机场
+      - 台湾(ipv4)BV BGP直连 - 共享流量
+      - 香港(ipv6)duocloud - 共享流量
+      - 台湾(ipv6)wawo - 共享流量
+      - 香港(ipv6)wawo - 共享流量
+      - 香港(ipv6)wawo2 - 共享流量
       - 中转•香港301•高速 - 飞翔吧
       - 广港•香港143•高速 - 飞翔吧
       - 广港•香港269•高速 - 飞翔吧
@@ -1022,73 +1065,10 @@ proxy-groups:
       - 中转•香港307•高速 - 飞翔吧
       - 广港•台湾261•高速 - 飞翔吧
       - 广港•台湾262•高速 - 飞翔吧
-      - AliHK - FlyCatPie
-      - AliHK01 - FlyCatPie
-      - WacHK01 - FlyCatPie
-      - 香港QW - 海陆空
-      - 香港 101 - 墙了个墙
-      - 香港 102 - 墙了个墙
-      - 香港 103 - 墙了个墙
-      - 香港 104 - 墙了个墙
-      - 香港 105 - 墙了个墙
-      - 香港 106 - 墙了个墙
-      - 香港 107 - 墙了个墙
-      - 香港 108 - 墙了个墙
-      - 香港 109 - 墙了个墙
-      - 香港 110 - 墙了个墙
-      - "[vmess]🇭🇰 HK | 香港 LB - XQC Retard"
-      - 香港1-未解锁 - 十元一年
-      - 香港2-未解锁 - 十元一年
-      - 香港3-未解锁 - 十元一年
-      - 香港4-未解锁 - 十元一年
-      - 香港5-未解锁 - 十元一年
-      - 香港6-未解锁 - 十元一年
-      - 香港1 - ClashX.app
-      - 香港2 - ClashX.app
-      - 香港 / A｜HK - 小白云
-      - 香港 / B｜HK - 小白云
-      - 台湾 / A｜TW - 小白云
-      - 台湾 / B｜TW - 小白云
-      - TW｜海外用户 - 小白云
-      - 香港|【免费领1TB流量】前往-注册|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【dabai.in】<<前往官网|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【db01.in】<<前往官网|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【付费用户】油管秒开4K/8K|更多地区接入|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【免费用户】油管稳2K@30/限速稳720P|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【提供套餐】免费/按量不限时/不按量限时|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%|公益 - 大白
-      - 香港|专线2G|GPT+流媒体|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|公益 - 大白
       - 香港HGC-1000M可奈飞 迪士尼 油管 - Littleqqq
-      - 香港-https://new.vip666.xyz - vip666.xyz
-      - 中国香港2 - vip666.xyz
-      - 台湾(ipv4)BV BGP直连 - 共享流量
-      - 香港(ipv6)duocloud - 共享流量
-      - 台湾(ipv6)wawo - 共享流量
-      - 香港(ipv6)wawo - 共享流量
-      - 香港(ipv6)wawo2 - 共享流量
   - name: 日本节点
     type: select
     proxies:
-      - 日本-0 - 飞啦机场
-      - 免费-日本 - bee.sulepay.com
-      - 中转•日本298•高速 - 飞翔吧
-      - 中转•日本300•原生 - 飞翔吧
-      - 日本•高速114•高速 - 飞翔吧
-      - 日本•高速115•高速 - 飞翔吧
-      - 日本•高速139•铂金 - 飞翔吧
-      - 日本•高速140•铂金 - 飞翔吧
-      - 日本•高速141•铂金 - 飞翔吧
-      - 日本•高速142•原生 - 飞翔吧
-      - 日本•高速59•青铜 - 飞翔吧
-      - 日本•高速71•高速 - 飞翔吧
-      - 日本•高速76•高速 - 飞翔吧
-      - 日本IIJ2 - 海陆空
-      - 日本 101 - 墙了个墙
-      - 日本 102 - 墙了个墙
-      - 日本 103 - 墙了个墙
-      - 日本 104 - 墙了个墙
-      - 日本 105 - 墙了个墙
-      - "[vmess]🇯🇵 JP | 日本 LB - XQC Retard"
       - 日本大阪 - ClashX.app
       - 日本东京1 - ClashX.app
       - 日本东京2 - ClashX.app
@@ -1102,29 +1082,36 @@ proxy-groups:
       - SS日本东京4 - ClashX.app
       - SS日本东京5 - ClashX.app
       - SS日本东京6 - ClashX.app
+      - 日本IIJ2 - 海陆空
+      - 日本 101 - 墙了个墙
+      - 日本 102 - 墙了个墙
+      - 日本 103 - 墙了个墙
+      - 日本 104 - 墙了个墙
+      - 日本 105 - 墙了个墙
+      - 免费-日本 - bee.sulepay.com
+      - "[vmess]🇯🇵 JP | 日本 LB - XQC Retard"
       - 日本 / A｜JP - 小白云
       - 日本 / B｜JP - 小白云
-      - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
+      - 日本-0 - 飞啦机场
       - "[vip①]日本1 - MG Network"
       - "[vip①]日本2 - MG Network"
       - 日本(ipv4)DCI NAT直连 - 共享流量
       - 日本(ipv6)wawo - 共享流量
+      - 中转•日本298•高速 - 飞翔吧
+      - 中转•日本300•原生 - 飞翔吧
+      - 日本•高速114•高速 - 飞翔吧
+      - 日本•高速115•高速 - 飞翔吧
+      - 日本•高速139•铂金 - 飞翔吧
+      - 日本•高速140•铂金 - 飞翔吧
+      - 日本•高速141•铂金 - 飞翔吧
+      - 日本•高速142•原生 - 飞翔吧
+      - 日本•高速59•青铜 - 飞翔吧
+      - 日本•高速71•高速 - 飞翔吧
+      - 日本•高速76•高速 - 飞翔吧
+      - 日本-直连 不可奈飞 迪士尼 可油管 - Littleqqq
   - name: 新加坡节点
     type: select
     proxies:
-      - 新加坡-0 - 飞啦机场
-      - 免费-新加坡 - bee.sulepay.com
-      - 中转•新加坡299•高速 - 飞翔吧
-      - 中转•新加坡65•青铜 - 飞翔吧
-      - 中转•新加坡83•高速 - 飞翔吧
-      - 新加坡•高速129•高速 - 飞翔吧
-      - 新加坡•高速130•铂金 - 飞翔吧
-      - 新加坡 101 - 墙了个墙
-      - 新加坡 102 - 墙了个墙
-      - 新加坡 103 - 墙了个墙
-      - 新加坡 104 - 墙了个墙
-      - 新加坡 105 - 墙了个墙
-      - "[vmess]🇸🇬 SG | 新加坡 LB - XQC Retard"
       - 新加坡1 - ClashX.app
       - 新加坡2(国际线路) - ClashX.app
       - 新加坡3 - ClashX.app
@@ -1140,35 +1127,31 @@ proxy-groups:
       - SS新加坡4 - ClashX.app
       - SS新加坡5 - ClashX.app
       - SS新加坡6 - ClashX.app
+      - 新加坡 101 - 墙了个墙
+      - 新加坡 102 - 墙了个墙
+      - 新加坡 103 - 墙了个墙
+      - 新加坡 104 - 墙了个墙
+      - 新加坡 105 - 墙了个墙
+      - 免费-新加坡 - bee.sulepay.com
+      - 新加坡 - vip666.xyz
+      - "[vmess]🇸🇬 SG | 新加坡 LB - XQC Retard"
       - 新加坡 / A｜SG - 小白云
       - 新加坡 / B｜SG - 小白云
+      - 新加坡-0 - 飞啦机场
       - "[vip①]新加坡1 - MG Network"
       - "[vip①]新加坡2 - MG Network"
-      - 新加坡 - vip666.xyz
       - 新加坡(ipv4)DCI NAT直连 - 共享流量
+      - 中转•新加坡299•高速 - 飞翔吧
+      - 中转•新加坡65•青铜 - 飞翔吧
+      - 中转•新加坡83•高速 - 飞翔吧
+      - 新加坡•高速129•高速 - 飞翔吧
+      - 新加坡•高速130•铂金 - 飞翔吧
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 150
     proxies:
-      - 美国-0 - 飞啦机场
-      - 免费-美国 - bee.sulepay.com
-      - 中转•美国295•高速 - 飞翔吧
-      - 中转•美国296•高速 - 飞翔吧
-      - 中转•美国308•高速 - 飞翔吧
-      - 中转•美国40•高速 - 飞翔吧
-      - 中转•美国41•原生 - 飞翔吧
-      - 中转•美国46•原生 - 飞翔吧
-      - 中转•美国61•高速 - 飞翔吧
-      - 广港•美国266•高速 - 飞翔吧
-      - 广港•美国288•高速 - 飞翔吧
-      - 美国CERA - 海陆空
-      - CF-WORK-美国CERA - 海陆空
-      - 美国 洛杉矶101 - 墙了个墙
-      - 美国 洛杉矶102 - 墙了个墙
-      - 美国 洛杉矶103 - 墙了个墙
-      - 美国 🌐「达拉斯」 - 北方航空
       - 美国圣克拉拉 - ClashX.app
       - 美国圣何塞1 - ClashX.app
       - 美国圣何塞2 - ClashX.app
@@ -1190,16 +1173,33 @@ proxy-groups:
       - SS美国圣何塞8 - ClashX.app
       - SS美国圣何塞9 - ClashX.app
       - SS美国圣克拉拉 - ClashX.app
+      - 美国CERA - 海陆空
+      - CF-WORK-美国CERA - 海陆空
+      - 美国 洛杉矶101 - 墙了个墙
+      - 美国 洛杉矶102 - 墙了个墙
+      - 美国 洛杉矶103 - 墙了个墙
+      - 免费-美国 - bee.sulepay.com
+      - 美国2 - vip666.xyz
+      - 美国（用前更新订阅） - vip666.xyz
       - 美国 / A｜US - 小白云
       - 美国 / B｜US - 小白云
       - 美国 / US｜BIZ - 小白云
-      - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
+      - 美国-0 - 飞啦机场
       - "[vip①]美国1 - MG Network"
       - "[vip①]美国2 - MG Network"
-      - 美国2 - vip666.xyz
-      - 美国（用前更新订阅） - vip666.xyz
       - 美国(ipv4)鸡仔V6转 - 共享流量
       - 美国(ipv6)小埋 - 共享流量
       - 美国(ipv6)AC - 共享流量
+      - 美国 🌐「达拉斯」 - 北方航空
+      - 中转•美国295•高速 - 飞翔吧
+      - 中转•美国296•高速 - 飞翔吧
+      - 中转•美国308•高速 - 飞翔吧
+      - 中转•美国40•高速 - 飞翔吧
+      - 中转•美国41•原生 - 飞翔吧
+      - 中转•美国46•原生 - 飞翔吧
+      - 中转•美国61•高速 - 飞翔吧
+      - 广港•美国266•高速 - 飞翔吧
+      - 广港•美国288•高速 - 飞翔吧
+      - 美国-直连 不可奈飞 迪士尼 可油管 - Littleqqq
 rules:
   - MATCH,手动切换
