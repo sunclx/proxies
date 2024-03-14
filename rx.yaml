@@ -5,76 +5,52 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1.--_US_美国+6, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
-  - {name: 2.--_US_美国+7, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
-  - {name: 3.--_US_美国+10, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
-  - {name: 4.--_CA_加拿大, server: 134.122.41.160, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: 5.--_US_美国+9, server: 129.146.31.240, port: 25314, type: vmess, uuid: bffbeb1e-b2ec-4b87-bd19-11f609fc4ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /victorias, headers: {Host: 129.146.31.240}}, udp: true}
-  - {name: 6.--_US_美国+31, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 7.--_DE_德国, server: 3.77.70.24, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 8.--_LU_卢森堡, server: 78.111.102.232, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: 9.--_AR_阿根廷, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 10.--YouTube面具人哈乐_日本_23, server: 2jp003d49d788f-0651-da9d-bccb-9a4b16401436.233235.xyz, port: 6994, type: trojan, password: 8f8c8cef-f86f-4dd6-a979-d5f73e5a115b, sni: 2jp003d49d788f-0651-da9d-bccb-9a4b16401436.233235.xyz, skip-cert-verify: true, udp: true}
-  - {name: 11.--美国 003, server: 147.135.3.3, port: 28630, type: vmess, uuid: dc5205dd-c871-4b2a-9d7d-63a50beebf85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12.--⛔15@oneclickvpnkeys, server: muriel.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: muriel.makeup}}, udp: true}
-  - {name: 13.--⛔14@oneclickvpnkeys, server: 172.67.152.200, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
-  - {name: 14.--⛔19@oneclickvpnkeys, server: backend.app-browser.org, port: 2087, type: vmess, uuid: 520a5f45-d354-42f4-a658-18dbc3754645, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fws, headers: {Host: backend.app-browser.org}}, udp: true}
-  - {name: 15.--美国 CloudFlare节点+15, server: cloudflare.b4a-devs.org, port: 2083, type: vmess, uuid: 0a40bceb-6a30-4da2-b90b-2ae5ed018e98, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cloudflare, headers: {Host: cloudflare.b4a-devs.org}}, udp: true}
-  - {name: 16.--YouTube面具人哈乐_美国_336, server: 2usmax01.170203.xyz, port: 7454, type: trojan, password: 7e5f9c76-bda8-4f0c-8113-36078efec3c9, sni: 2usmax01.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: 17.--⛔10@oneclickvpnkeys, server: 104.26.9.202, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: vip2323.cfd}}, udp: true}
-  - {name: 18.--|US|美国|@wxgqlfx|322, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
-  - {name: 19.--⛔16@oneclickvpnkeys, server: 104.21.32.223, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: muriel.makeup}}, udp: true}
-  - {name: 20.--_US_美国+69, server: zula.ir, port: 443, type: vmess, uuid: 36ae64b0-2fe1-4915-a50e-9108fcf6d84c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: be3-vmess.sshmax.xyz}}, udp: true}
+  - {name: 1.--_CA_加拿大, server: 134.122.41.160, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 2.--_FR_法国, server: 51.159.155.52, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 3.--_US_美国+15, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 4.--_LU_卢森堡, server: 78.111.102.232, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 5.--14@oneclickvpnkeys, server: 104.24.0.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: vip2323.cfd}}, udp: true}
+  - {name: 6.--美国, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
+  - {name: 7.--|US|美国|@wxgqlfx|322, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
+  - {name: 8.--加拿大 018, server: 104.21.21.35, port: 443, type: vmess, uuid: 757dc1d3-c0fd-456e-9426-2e9221584d40, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hu2.xv2ray.net}}, udp: true}
+  - {name: 9.--3@oneclickvpnkeys, server: 45.14.244.133, port: 2024, type: vmess, uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.14.244.133}}, udp: true}
+  - {name: 10.--9@oneclickvpnkeys, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
+  - {name: 11.--7@oneclickvpnkeys, server: 194.87.71.23, port: 23742, type: vmess, uuid: e8706bdb-335e-4631-a2af-3052ad93b10d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wp-admin, headers: {Host: 194.87.71.23}}, udp: true}
+  - {name: 12.--美国 CloudFlare节点+6, server: cf.openxai.link, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 1.--_US_美国+6
-      - 2.--_US_美国+7
-      - 3.--_US_美国+10
-      - 4.--_CA_加拿大
-      - 5.--_US_美国+9
-      - 6.--_US_美国+31
-      - 7.--_DE_德国
-      - 8.--_LU_卢森堡
-      - 9.--_AR_阿根廷
-      - 10.--YouTube面具人哈乐_日本_23
-      - 11.--美国 003
-      - 12.--⛔15@oneclickvpnkeys
-      - 13.--⛔14@oneclickvpnkeys
-      - 14.--⛔19@oneclickvpnkeys
-      - 15.--美国 CloudFlare节点+15
-      - 16.--YouTube面具人哈乐_美国_336
-      - 17.--⛔10@oneclickvpnkeys
-      - 18.--|US|美国|@wxgqlfx|322
-      - 19.--⛔16@oneclickvpnkeys
-      - 20.--_US_美国+69
+      - 1.--_CA_加拿大
+      - 2.--_FR_法国
+      - 3.--_US_美国+15
+      - 4.--_LU_卢森堡
+      - 5.--14@oneclickvpnkeys
+      - 6.--美国
+      - 7.--|US|美国|@wxgqlfx|322
+      - 8.--加拿大 018
+      - 9.--3@oneclickvpnkeys
+      - 10.--9@oneclickvpnkeys
+      - 11.--7@oneclickvpnkeys
+      - 12.--美国 CloudFlare节点+6
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国+6
-      - 2.--_US_美国+7
-      - 3.--_US_美国+10
-      - 4.--_CA_加拿大
-      - 5.--_US_美国+9
-      - 6.--_US_美国+31
-      - 7.--_DE_德国
-      - 8.--_LU_卢森堡
-      - 9.--_AR_阿根廷
-      - 10.--YouTube面具人哈乐_日本_23
-      - 11.--美国 003
-      - 12.--⛔15@oneclickvpnkeys
-      - 13.--⛔14@oneclickvpnkeys
-      - 14.--⛔19@oneclickvpnkeys
-      - 15.--美国 CloudFlare节点+15
-      - 16.--YouTube面具人哈乐_美国_336
-      - 17.--⛔10@oneclickvpnkeys
-      - 18.--|US|美国|@wxgqlfx|322
-      - 19.--⛔16@oneclickvpnkeys
-      - 20.--_US_美国+69
+      - 1.--_CA_加拿大
+      - 2.--_FR_法国
+      - 3.--_US_美国+15
+      - 4.--_LU_卢森堡
+      - 5.--14@oneclickvpnkeys
+      - 6.--美国
+      - 7.--|US|美国|@wxgqlfx|322
+      - 8.--加拿大 018
+      - 9.--3@oneclickvpnkeys
+      - 10.--9@oneclickvpnkeys
+      - 11.--7@oneclickvpnkeys
+      - 12.--美国 CloudFlare节点+6
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -82,26 +58,18 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1.--_US_美国+6
-      - 2.--_US_美国+7
-      - 3.--_US_美国+10
-      - 4.--_CA_加拿大
-      - 5.--_US_美国+9
-      - 6.--_US_美国+31
-      - 7.--_DE_德国
-      - 8.--_LU_卢森堡
-      - 9.--_AR_阿根廷
-      - 10.--YouTube面具人哈乐_日本_23
-      - 11.--美国 003
-      - 12.--⛔15@oneclickvpnkeys
-      - 13.--⛔14@oneclickvpnkeys
-      - 14.--⛔19@oneclickvpnkeys
-      - 15.--美国 CloudFlare节点+15
-      - 16.--YouTube面具人哈乐_美国_336
-      - 17.--⛔10@oneclickvpnkeys
-      - 18.--|US|美国|@wxgqlfx|322
-      - 19.--⛔16@oneclickvpnkeys
-      - 20.--_US_美国+69
+      - 1.--_CA_加拿大
+      - 2.--_FR_法国
+      - 3.--_US_美国+15
+      - 4.--_LU_卢森堡
+      - 5.--14@oneclickvpnkeys
+      - 6.--美国
+      - 7.--|US|美国|@wxgqlfx|322
+      - 8.--加拿大 018
+      - 9.--3@oneclickvpnkeys
+      - 10.--9@oneclickvpnkeys
+      - 11.--7@oneclickvpnkeys
+      - 12.--美国 CloudFlare节点+6
   - name: 中国节点
     type: select
     proxies:
@@ -109,7 +77,7 @@ proxy-groups:
   - name: 日本节点
     type: select
     proxies:
-      - 10.--YouTube面具人哈乐_日本_23
+      - DIRECT
   - name: 新加坡节点
     type: select
     proxies:
@@ -120,15 +88,9 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 1.--_US_美国+6
-      - 2.--_US_美国+7
-      - 3.--_US_美国+10
-      - 5.--_US_美国+9
-      - 6.--_US_美国+31
-      - 11.--美国 003
-      - 15.--美国 CloudFlare节点+15
-      - 16.--YouTube面具人哈乐_美国_336
-      - 18.--|US|美国|@wxgqlfx|322
-      - 20.--_US_美国+69
+      - 3.--_US_美国+15
+      - 6.--美国
+      - 7.--|US|美国|@wxgqlfx|322
+      - 12.--美国 CloudFlare节点+6
 rules:
   - MATCH,手动切换
