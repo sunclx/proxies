@@ -9,7 +9,7 @@ proxies:
   server: clara.sfrae.net
   port: 33475
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -24,7 +24,7 @@ proxies:
   server: sjc001.sfrae.net
   port: 33441
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -39,7 +39,22 @@ proxies:
   server: sjc002.sfrae.net
   port: 33442
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /negotiate
+    headers:
+      Host: sjc002.sfrae.net
+  udp: true
+- name: 美国圣何塞2 - ClashX.app 2
+  server: sjc002.sfrae.net
+  port: 33442
+  type: vmess
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -54,7 +69,7 @@ proxies:
   server: sjc003.sfrae.net
   port: 33443
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -69,7 +84,7 @@ proxies:
   server: sjc004.sfrae.net
   port: 33444
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -84,7 +99,7 @@ proxies:
   server: sjc005.sfrae.net
   port: 33445
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -99,7 +114,7 @@ proxies:
   server: sjc006.sfrae.net
   port: 33446
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -111,10 +126,10 @@ proxies:
       Host: sjc006.sfrae.net
   udp: true
 - name: 美国圣何塞7 - ClashX.app
-  server: curcoyn.sfrae.net
+  server: sjc007.sfrae.net
   port: 33447
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -123,13 +138,13 @@ proxies:
   ws-opts:
     path: /negotiate
     headers:
-      Host: curcoyn.sfrae.net
+      Host: sjc007.sfrae.net
   udp: true
 - name: 美国圣何塞8 - ClashX.app
-  server: curcoyn.sfrae.net
+  server: sjc008.sfrae.net
   port: 33448
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -138,13 +153,13 @@ proxies:
   ws-opts:
     path: /negotiate
     headers:
-      Host: curcoyn.sfrae.net
+      Host: sjc008.sfrae.net
   udp: true
 - name: 美国圣何塞9 - ClashX.app
-  server: curcoyn.sfrae.net
+  server: sjc009.sfrae.net
   port: 33449
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -153,13 +168,13 @@ proxies:
   ws-opts:
     path: /negotiate
     headers:
-      Host: curcoyn.sfrae.net
+      Host: sjc009.sfrae.net
   udp: true
 - name: 南非 - ClashX.app
   server: za001.sfrae.net
   port: 33453
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -174,7 +189,7 @@ proxies:
   server: de001.sfrae.net
   port: 33461
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -189,7 +204,7 @@ proxies:
   server: hk001.sfrae.net
   port: 33454
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -204,7 +219,7 @@ proxies:
   server: hk002.sfrae.net
   port: 33455
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -219,7 +234,7 @@ proxies:
   server: tw001.sfrae.net
   port: 33456
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -234,7 +249,7 @@ proxies:
   server: curcoyn.sfrae.net
   port: 33458
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -249,7 +264,7 @@ proxies:
   server: sw001.sfrae.net
   port: 33462
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -264,7 +279,7 @@ proxies:
   server: sg007.sfrae.net
   port: 33450
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -279,7 +294,7 @@ proxies:
   server: sg008.sfrae.net
   port: 33451
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -294,7 +309,7 @@ proxies:
   server: sg009.sfrae.net
   port: 33452
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -309,7 +324,7 @@ proxies:
   server: sg001.sfrae.net
   port: 33464
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -324,7 +339,7 @@ proxies:
   server: sg002.sfrae.net
   port: 33465
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -339,7 +354,7 @@ proxies:
   server: sg003.sfrae.net
   port: 33466
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -354,7 +369,7 @@ proxies:
   server: sg004.sfrae.net
   port: 33467
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -369,7 +384,7 @@ proxies:
   server: sg005.sfrae.net
   port: 33468
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -384,7 +399,7 @@ proxies:
   server: sg006.sfrae.net
   port: 33469
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -399,7 +414,7 @@ proxies:
   server: curcoyn.sfrae.net
   port: 33463
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -414,7 +429,7 @@ proxies:
   server: jp001.sfrae.net
   port: 33459
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -429,7 +444,7 @@ proxies:
   server: jp002.sfrae.net
   port: 33470
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -444,7 +459,7 @@ proxies:
   server: jp003.sfrae.net
   port: 33471
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -459,7 +474,7 @@ proxies:
   server: jp004.sfrae.net
   port: 33472
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -474,7 +489,7 @@ proxies:
   server: jp005.sfrae.net
   port: 33473
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -489,7 +504,7 @@ proxies:
   server: jp006.sfrae.net
   port: 33474
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   alterId: 0
   cipher: auto
   tls: true
@@ -501,158 +516,158 @@ proxies:
       Host: jp006.sfrae.net
   udp: true
 - name: SS日本东京1 - ClashX.app
-  server: jp001.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44201
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS日本东京2 - ClashX.app
-  server: jp002.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44202
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS日本东京3 - ClashX.app
-  server: jp003.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44203
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS日本东京4 - ClashX.app
-  server: jp004.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44204
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS日本东京5 - ClashX.app
-  server: jp005.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44205
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS日本东京6 - ClashX.app
-  server: jp006.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44206
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS新加坡1 - ClashX.app
-  server: sg001.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44207
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS新加坡2 - ClashX.app
-  server: sg002.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44208
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS新加坡3 - ClashX.app
-  server: sg003.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44209
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS新加坡4 - ClashX.app
-  server: sg004.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44210
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS新加坡5 - ClashX.app
-  server: sg005.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44211
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS新加坡6 - ClashX.app
-  server: sg006.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44212
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣何塞1 - ClashX.app
-  server: sjc001.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44213
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣何塞2 - ClashX.app
-  server: sjc002.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44214
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣何塞3 - ClashX.app
-  server: sjc003.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44215
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣何塞4 - ClashX.app
-  server: sjc004.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44216
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣何塞5 - ClashX.app
-  server: sjc005.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44217
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣何塞6 - ClashX.app
-  server: sjc006.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44218
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣何塞7 - ClashX.app
-  server: sjc006.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44219
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣何塞8 - ClashX.app
-  server: sjc006.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44220
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣何塞9 - ClashX.app
-  server: sjc006.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44221
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: SS美国圣克拉拉 - ClashX.app
-  server: clara.sfrae.net
+  server: curcoyn.sfrae.net
   port: 44207
   type: ss
   cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+  password: 4a68304e-32e5-46ca-b298-52acb5c54f3b
   udp: true
 - name: 德国 法兰克福101 - 墙了个墙
   server: fkvip101.qlgq1.pw
@@ -912,8 +927,8 @@ proxies:
   obfs-param: 313bf20211.microsoft.com
   udp: true
 - name: 香港|【3.8活动7折进行中】前往网站订购|公益 - 大白
-  server: 36.139.239.223
-  port: 54355
+  server: 64.110.65.177
+  port: 25856
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -927,8 +942,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|【dabai.in】<<前往官网|专线2G|GPT+流媒体|公益 - 大白
-  server: 130.162.151.122
-  port: 32453
+  server: 36.139.239.223
+  port: 54355
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -957,8 +972,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|【付费用户】油管秒开4K/8K|更多地区接入|专线2G|GPT+流媒体|公益 - 大白
-  server: 36.139.161.137
-  port: 25521
+  server: 47.243.227.209
+  port: 62001
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -972,8 +987,8 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|【注册免费领1TB流量】前往-注册|公益 - 大白
-  server: 64.110.78.246
-  port: 21203
+  server: 130.162.151.122
+  port: 32453
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -987,8 +1002,8 @@ proxies:
       Host: data-hk-3.cn-db.top
   udp: true
 - name: 香港|【提供套餐】免费/按量不限时/不按量限时|专线2G|GPT+流媒体|公益 - 大白
-  server: 47.243.227.209
-  port: 62001
+  server: 36.137.123.71
+  port: 25521
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1002,8 +1017,8 @@ proxies:
       Host: cache-hk-2.cn-db.top
   udp: true
 - name: 香港|【邀请用户】|最高返还40%|专线2G|GPT+流媒体|公益 - 大白
-  server: 130.162.151.122
-  port: 52407
+  server: 64.110.78.246
+  port: 45703
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1017,8 +1032,8 @@ proxies:
       Host: cache-hk-1.cn-db.top
   udp: true
 - name: 香港|【节点优先级】[按量]>[不限量]>[免费]>[公共订阅]|专线2G|GPT+流媒体|公益 - 大白
-  server: 64.110.65.177
-  port: 25857
+  server: 36.137.232.228
+  port: 25521
   type: vmess
   uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
   alterId: 0
@@ -1035,7 +1050,7 @@ proxies:
   server: www.a.com
   port: 80
   type: vmess
-  uuid: a34a56de-cf1f-4181-b752-a4752a63e136
+  uuid: d630cfce-6214-485c-8eb4-34e09123086e
   alterId: 0
   cipher: auto
   tls: false
@@ -1051,56 +1066,56 @@ proxies:
   port: 20032
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a34a56de-cf1f-4181-b752-a4752a63e136
+  password: d630cfce-6214-485c-8eb4-34e09123086e
   udp: true
 - name: 美国（用前更新订阅） - vip666.xyz
   server: aa.websitea.xyz
   port: 20031
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a34a56de-cf1f-4181-b752-a4752a63e136
+  password: d630cfce-6214-485c-8eb4-34e09123086e
   udp: true
 - name: 新加坡 - vip666.xyz
   server: aa.websitea.xyz
   port: 20035
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a34a56de-cf1f-4181-b752-a4752a63e136
+  password: d630cfce-6214-485c-8eb4-34e09123086e
   udp: true
 - name: 香港-https://new.vip666.xyz - vip666.xyz
   server: aa.websitea.xyz
   port: 20036
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a34a56de-cf1f-4181-b752-a4752a63e136
+  password: d630cfce-6214-485c-8eb4-34e09123086e
   udp: true
 - name: 荷兰 - vip666.xyz
   server: aa.websitea.xyz
   port: 20037
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a34a56de-cf1f-4181-b752-a4752a63e136
+  password: d630cfce-6214-485c-8eb4-34e09123086e
   udp: true
 - name: 香港-VIP - vip666.xyz
   server: aa.websitea.xyz
   port: 20038
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a34a56de-cf1f-4181-b752-a4752a63e136
+  password: d630cfce-6214-485c-8eb4-34e09123086e
   udp: true
 - name: 韩国（最新地址：help.vip666.xyz） - vip666.xyz
   server: aa.websitea.xyz
   port: 20039
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a34a56de-cf1f-4181-b752-a4752a63e136
+  password: d630cfce-6214-485c-8eb4-34e09123086e
   udp: true
 - name: 中国香港2 - vip666.xyz
   server: aa.websitea.xyz
   port: 20041
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a34a56de-cf1f-4181-b752-a4752a63e136
+  password: d630cfce-6214-485c-8eb4-34e09123086e
   udp: true
 - name: '[vmess]公益机场 xqc.best - XQC Retard'
   server: hkcft01.xqc.best
@@ -1166,7 +1181,7 @@ proxies:
   server: aliyunhk.caliburnonline.work
   port: 443
   type: vmess
-  uuid: 2ac6d282-3ce0-4bf0-9494-0b938edbfac6
+  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
   alterId: 0
   cipher: auto
   tls: true
@@ -1181,7 +1196,7 @@ proxies:
   server: vultruk.caliburnonline.work
   port: 8443
   type: vmess
-  uuid: 2ac6d282-3ce0-4bf0-9494-0b938edbfac6
+  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
   alterId: 0
   cipher: auto
   tls: true
@@ -1196,7 +1211,7 @@ proxies:
   server: aliyunhk01.caliburnonline.work
   port: 443
   type: vmess
-  uuid: 2ac6d282-3ce0-4bf0-9494-0b938edbfac6
+  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
   alterId: 0
   cipher: auto
   tls: true
@@ -1211,7 +1226,7 @@ proxies:
   server: wachk01.caliburnonline.work
   port: 443
   type: vmess
-  uuid: 2ac6d282-3ce0-4bf0-9494-0b938edbfac6
+  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
   alterId: 0
   cipher: auto
   tls: true
@@ -1233,9 +1248,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /SY
+    path: /gcicjm6lcb0mSY
     headers:
-      Host: www.jumpshare.com
+      Host: www.bing.com
   udp: true
 - name: go.shiyuanyinian.xyz - 十元一年
   server: lv5l7gl0q481ge0mbnxurn6weo5m6c.fly64jfgwhale.xyz
@@ -1248,9 +1263,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /SY
+    path: /gcicjm6lcb0mSY
     headers:
-      Host: www.jumpshare.com
+      Host: www.bing.com
   udp: true
 - name: 【0x测试节点】-请帮我使劲用 - 十元一年
   server: lv5l7gl0q481ge0mbnxurn6weo5m6c.fly64jfgwhale.xyz
@@ -1263,9 +1278,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /SY
+    path: /gcicjm6lcb0mSY
     headers:
-      Host: www.jumpshare.com
+      Host: www.bing.com
   udp: true
 - name: 香港1-未解锁 - 十元一年
   server: td7yw12kkj0w4cli2oe2hpu879gbcq.fly64jfgwhale.xyz
@@ -1447,231 +1462,159 @@ proxies:
     headers:
       Host: bing.com
   udp: true
-- name: TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  server: b12.ntbq.dynu.net
-  port: 9755
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b12.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  server: b13.ntbq.dynu.net
-  port: 9489
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b13.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  server: b22.ntbq.dynu.net
-  port: 19489
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b22.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  server: b23.ntbq.dynu.net
-  port: 18701
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b23.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  server: b24.ntbq.dynu.net
-  port: 3271
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: b24.ntbq.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  server: ty11t.twty.dynu.net
-  port: 13761
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: ty11t.twty.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  server: ty12t.twty.dynu.net
-  port: 18912
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: ty12t.twty.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  server: c11.twtc.dynu.net
-  port: 13989
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: c11.twtc.dynu.net
-  skip-cert-verify: true
-  udp: true
-- name: TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
-  server: nc12.twtc.dynu.net
-  port: 14656
-  type: trojan
-  password: 08c8768a-31ee-447e-81aa-845399553dbf
-  sni: nc12.twtc.dynu.net
-  skip-cert-verify: true
-  udp: true
 - name: ℹ️ 官网:cooc.wiki - 小白云
   server: hk1.iepl.cooc.icu
   port: 21881
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 香港 / A｜HK - 小白云
   server: hk1.iepl.cooc.icu
   port: 21881
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 香港 / B｜HK - 小白云
   server: hk2.iepl.cooc.icu
   port: 22881
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 日本 / A｜JP - 小白云
   server: jp1.iepl.cooc.icu
   port: 47100
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 日本 / B｜JP - 小白云
   server: jp2.iepl.cooc.icu
   port: 47101
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 美国 / A｜US - 小白云
   server: usa1.iepl.cooc.icu
   port: 31881
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 美国 / B｜US - 小白云
   server: usa2.iepl.cooc.icu
   port: 32881
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 韩国 / A｜KR - 小白云
   server: kr1.iepl.cooc.icu
   port: 35101
   type: ss
   cipher: aes-128-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 韩国 / B｜KR - 小白云
   server: kr2.iepl.cooc.icu
   port: 35102
   type: ss
   cipher: aes-128-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 台湾 / A｜TW - 小白云
   server: tw1.iepl.cooc.icu
   port: 35109
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 台湾 / B｜TW - 小白云
   server: tw2.iepl.cooc.icu
   port: 35110
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 新加坡 / A｜SG - 小白云
   server: sg1.iepl.cooc.icu
   port: 35105
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 新加坡 / B｜SG - 小白云
   server: sg2.iepl.cooc.icu
   port: 35106
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 美国 / US｜BIZ - 小白云
   server: usa4.iepl.cooc.icu
   port: 34881
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 泰国 / TH｜BIZ - 小白云
   server: th.iepl.cooc.icu
   port: 35613
   type: ss
   cipher: aes-128-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 越南 / VN | BIZ - 小白云
   server: vn1.iepl.cooc.icu
   port: 35601
   type: ss
   cipher: aes-128-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 英国 / UK | BIZ - 小白云
   server: uk1.iepl.cooc.icu
   port: 35605
   type: ss
   cipher: aes-128-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 德国 / DE | BIZ - 小白云
   server: ger1.iepl.cooc.icu
   port: 35607
   type: ss
   cipher: aes-128-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 法国 / FR｜BIZ - 小白云
   server: fr1.iepl.cooc.icu
   port: 35611
   type: ss
   cipher: aes-128-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 俄罗斯 / RU｜BIZ - 小白云
   server: ru.iepl.cooc.icu
   port: 35612
   type: ss
   cipher: aes-128-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 马来西亚 / MY | BIZ - 小白云
   server: mas1.iepl.cooc.icu
   port: 35603
   type: ss
   cipher: aes-128-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: TW｜海外用户 - 小白云
   server: tw.cooc.icu
   port: 36881
   type: ss
   cipher: aes-256-gcm
-  password: 46a18cb7-bde4-4302-9a96-e5432aa99be5
+  password: 2ca5d20b-b348-4f21-8941-5ecf7e190d6e
   udp: true
 - name: 新加坡-0 - 飞啦机场
   server: cu1.guguyun.xyz
@@ -1842,7 +1785,7 @@ proxies:
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1857,7 +1800,7 @@ proxies:
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1872,7 +1815,7 @@ proxies:
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1887,7 +1830,7 @@ proxies:
   server: 17.v2-ray.cyou
   port: 23617
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1902,7 +1845,7 @@ proxies:
   server: 8.v2-ray.cyou
   port: 23608
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1912,7 +1855,7 @@ proxies:
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1927,7 +1870,7 @@ proxies:
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1942,7 +1885,7 @@ proxies:
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1957,7 +1900,7 @@ proxies:
   server: 5.v2-ray.cyou
   port: 23605
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1972,7 +1915,7 @@ proxies:
   server: 13.v2-ray.cyou
   port: 23613
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -1987,7 +1930,7 @@ proxies:
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: 5d1919d9-c178-3406-8268-5bcd764947b6
+  uuid: 39935b11-73fb-3e81-a6ab-993df216e3ea
   alterId: 2
   cipher: auto
   tls: false
@@ -2002,7 +1945,7 @@ proxies:
   server: 112.29.200.93
   port: 29711
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2015,7 +1958,7 @@ proxies:
   server: jzyd.12ip.cc
   port: 24252
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2030,7 +1973,7 @@ proxies:
   server: 188.253.6.35
   port: 20009
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2043,7 +1986,7 @@ proxies:
   server: jp-osaka-oracle-d9311f.ip1.shop
   port: 64702
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2058,7 +2001,7 @@ proxies:
   server: sg-singapore-oracle-4f34e8.ip1.shop
   port: 64952
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2073,7 +2016,7 @@ proxies:
   server: it-milan-oracle-2b2d63.ip1.shop
   port: 54252
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2088,7 +2031,7 @@ proxies:
   server: in-mumbai-oracle-2de5d7.ip1.shop
   port: 21152
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2103,7 +2046,7 @@ proxies:
   server: uk-london-oracle-51b798.ip1.shop
   port: 36902
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2118,7 +2061,7 @@ proxies:
   server: duocloudhkv6.12ip.cc
   port: 443
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2133,7 +2076,7 @@ proxies:
   server: wawotwv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2148,7 +2091,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2163,7 +2106,7 @@ proxies:
   server: wawonlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2178,7 +2121,7 @@ proxies:
   server: akdev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2193,7 +2136,7 @@ proxies:
   server: xmusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2208,7 +2151,7 @@ proxies:
   server: hoyoversenlv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2223,7 +2166,7 @@ proxies:
   server: hoyoversedev6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2238,7 +2181,7 @@ proxies:
   server: acusv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2253,7 +2196,7 @@ proxies:
   server: wawojpv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2268,7 +2211,7 @@ proxies:
   server: wawohkv6.12ip.cc
   port: 20001
   type: vmess
-  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8
   alterId: 0
   cipher: auto
   tls: false
@@ -2681,7 +2624,7 @@ proxies:
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: 11249ecc-7834-45bd-87a0-186b6b8d01be
+  uuid: f654c428-dc1d-47b9-b9ba-7c5fac15eeed
   alterId: 0
   cipher: auto
   tls: false
@@ -2696,7 +2639,7 @@ proxies:
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: 11249ecc-7834-45bd-87a0-186b6b8d01be
+  uuid: f654c428-dc1d-47b9-b9ba-7c5fac15eeed
   alterId: 0
   cipher: auto
   tls: false
@@ -2711,7 +2654,7 @@ proxies:
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: 11249ecc-7834-45bd-87a0-186b6b8d01be
+  uuid: f654c428-dc1d-47b9-b9ba-7c5fac15eeed
   alterId: 0
   cipher: auto
   tls: false
@@ -2732,6 +2675,7 @@ proxy-groups:
   - 美国圣克拉拉 - ClashX.app
   - 美国圣何塞1 - ClashX.app
   - 美国圣何塞2 - ClashX.app
+  - 美国圣何塞2 - ClashX.app 2
   - 美国圣何塞3 - ClashX.app
   - 美国圣何塞4 - ClashX.app
   - 美国圣何塞5 - ClashX.app
@@ -2855,15 +2799,6 @@ proxy-groups:
   - 随机4-未解锁 - 十元一年
   - 随机5-未解锁 - 十元一年
   - 随机6-未解锁 - 十元一年
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
   - 香港 / B｜HK - 小白云
@@ -2987,6 +2922,7 @@ proxy-groups:
   - 美国圣克拉拉 - ClashX.app
   - 美国圣何塞1 - ClashX.app
   - 美国圣何塞2 - ClashX.app
+  - 美国圣何塞2 - ClashX.app 2
   - 美国圣何塞3 - ClashX.app
   - 美国圣何塞4 - ClashX.app
   - 美国圣何塞5 - ClashX.app
@@ -3110,15 +3046,6 @@ proxy-groups:
   - 随机4-未解锁 - 十元一年
   - 随机5-未解锁 - 十元一年
   - 随机6-未解锁 - 十元一年
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
   - 香港 / B｜HK - 小白云
@@ -3244,6 +3171,7 @@ proxy-groups:
   - 美国圣克拉拉 - ClashX.app
   - 美国圣何塞1 - ClashX.app
   - 美国圣何塞2 - ClashX.app
+  - 美国圣何塞2 - ClashX.app 2
   - 美国圣何塞3 - ClashX.app
   - 美国圣何塞4 - ClashX.app
   - 美国圣何塞5 - ClashX.app
@@ -3367,15 +3295,6 @@ proxy-groups:
   - 随机4-未解锁 - 十元一年
   - 随机5-未解锁 - 十元一年
   - 随机6-未解锁 - 十元一年
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
   - 香港 / B｜HK - 小白云
@@ -3500,6 +3419,7 @@ proxy-groups:
   - 美国圣克拉拉 - ClashX.app
   - 美国圣何塞1 - ClashX.app
   - 美国圣何塞2 - ClashX.app
+  - 美国圣何塞2 - ClashX.app 2
   - 美国圣何塞3 - ClashX.app
   - 美国圣何塞4 - ClashX.app
   - 美国圣何塞5 - ClashX.app
@@ -3623,15 +3543,6 @@ proxy-groups:
   - 随机4-未解锁 - 十元一年
   - 随机5-未解锁 - 十元一年
   - 随机6-未解锁 - 十元一年
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
   - 香港 / B｜HK - 小白云
@@ -3785,15 +3696,6 @@ proxy-groups:
   - 香港4-未解锁 - 十元一年
   - 香港5-未解锁 - 十元一年
   - 香港6-未解锁 - 十元一年
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - 香港 / A｜HK - 小白云
   - 香港 / B｜HK - 小白云
   - 台湾 / A｜TW - 小白云
@@ -3830,6 +3732,7 @@ proxy-groups:
   - 美国圣克拉拉 - ClashX.app
   - 美国圣何塞1 - ClashX.app
   - 美国圣何塞2 - ClashX.app
+  - 美国圣何塞2 - ClashX.app 2
   - 美国圣何塞3 - ClashX.app
   - 美国圣何塞4 - ClashX.app
   - 美国圣何塞5 - ClashX.app
@@ -3953,15 +3856,6 @@ proxy-groups:
   - 随机4-未解锁 - 十元一年
   - 随机5-未解锁 - 十元一年
   - 随机6-未解锁 - 十元一年
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
   - 香港 / B｜HK - 小白云
@@ -4085,6 +3979,7 @@ proxy-groups:
   - 美国圣克拉拉 - ClashX.app
   - 美国圣何塞1 - ClashX.app
   - 美国圣何塞2 - ClashX.app
+  - 美国圣何塞2 - ClashX.app 2
   - 美国圣何塞3 - ClashX.app
   - 美国圣何塞4 - ClashX.app
   - 美国圣何塞5 - ClashX.app
@@ -4208,15 +4103,6 @@ proxy-groups:
   - 随机4-未解锁 - 十元一年
   - 随机5-未解锁 - 十元一年
   - 随机6-未解锁 - 十元一年
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
   - 香港 / B｜HK - 小白云
@@ -4341,6 +4227,7 @@ proxy-groups:
   - 美国圣克拉拉 - ClashX.app
   - 美国圣何塞1 - ClashX.app
   - 美国圣何塞2 - ClashX.app
+  - 美国圣何塞2 - ClashX.app 2
   - 美国圣何塞3 - ClashX.app
   - 美国圣何塞4 - ClashX.app
   - 美国圣何塞5 - ClashX.app
@@ -4464,15 +4351,6 @@ proxy-groups:
   - 随机4-未解锁 - 十元一年
   - 随机5-未解锁 - 十元一年
   - 随机6-未解锁 - 十元一年
-  - TW-板桥1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥1-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-3(Trojan) - 麻雀加速器 Sparrow
-  - TW-板桥2-4(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-桃园1-2(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-1(Trojan) - 麻雀加速器 Sparrow
-  - TW-台中1-2(Trojan) - 麻雀加速器 Sparrow
   - ℹ️ 官网:cooc.wiki - 小白云
   - 香港 / A｜HK - 小白云
   - 香港 / B｜HK - 小白云
