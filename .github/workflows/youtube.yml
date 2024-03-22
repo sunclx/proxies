@@ -1,0 +1,42 @@
+# This workflow will upload a Python Package using Twine when a release is created
+# For more information see: https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
+
+name: Node Spider
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: 00 01/12 * * *
+  watch:
+    types: [started]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests googledrivedownloader pytz lxml
+    - name: Build and publish
+      run: |
+        python ./src/youtube.py
+    - name: commit
+      run: |
+        git config --global user.email sunclx@gmail.com
+        git config --global user.name sunclx
+        git add .
+        git status | grep -q "nothing to commit" && echo "没有更新内容，无需commit" || git commit -m "cargo run auto" 
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
