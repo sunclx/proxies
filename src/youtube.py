@@ -39,10 +39,6 @@ def getIDs(url, headers):
 def getSubLink(url, headers):
     r = requests.get(url, headers=headers, timeout=None, verify=False)
     r.encoding = "utf-8"
-    print(len(r.text))
-    with open("./sub.html", "w", encoding="utf-8") as f:
-        f.write(r.text)
-
     links = re.findall(
         r"(skill-note\.blogspot\.com.*\.html)\042,",
         r.text,
