@@ -5,43 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  新加坡01, server: 8.222.137.166, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: s1c.v2.v001sss.xyz}, udp: true}
-  - {name: Youtube顺丰资源  US0058, server: 205.234.233.22, port: 5129, type: vmess, uuid: 2e504818-e2e2-4183-eb75-0d1175a947de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  US00224, server: yh1.dtku41.xyz, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm, ws-headers: {Host: technological-mel-fill-decide.trycloudflare.com}, udp: true}
-  - {name: Youtube顺丰资源  US00262, server: jpc.flha.ru, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jpc.flha.ru}, udp: true}
-  - {name: Youtube顺丰资源  新加坡0170, server: 47.245.102.156, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: s1c.v2.v001sss.xyz}, udp: true}
+  - {name: Youtube顺丰资源  US0099, server: dl.game.RezashoppaRIVATe.sbS, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /muriel.makeup/linkvws, ws-headers: {Host: dl.game.RezashoppaRIVATe.sbS}, udp: true}
+  - {name: Youtube顺丰资源  US00120, server: 154.44.0.112, port: 14276, type: vmess, uuid: 8d69f684-1d9c-4325-8f17-d86562add1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  US00185, server: 38.75.137.42, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Youtube顺丰资源  US00222, server: 38.75.137.42, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  新加坡01
-      - Youtube顺丰资源  US0058
-      - Youtube顺丰资源  US00224
-      - Youtube顺丰资源  US00262
-      - Youtube顺丰资源  新加坡0170
+      - Youtube顺丰资源  US0099
+      - Youtube顺丰资源  US00120
+      - Youtube顺丰资源  US00185
+      - Youtube顺丰资源  US00222
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源  新加坡01
-      - Youtube顺丰资源  US0058
-      - Youtube顺丰资源  US00224
-      - Youtube顺丰资源  US00262
-      - Youtube顺丰资源  新加坡0170
+      - Youtube顺丰资源  US0099
+      - Youtube顺丰资源  US00120
+      - Youtube顺丰资源  US00185
+      - Youtube顺丰资源  US00222
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  新加坡01
-      - Youtube顺丰资源  US0058
-      - Youtube顺丰资源  US00224
-      - Youtube顺丰资源  US00262
-      - Youtube顺丰资源  新加坡0170
+      - Youtube顺丰资源  US0099
+      - Youtube顺丰资源  US00120
+      - Youtube顺丰资源  US00185
+      - Youtube顺丰资源  US00222
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,11 +56,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  新加坡01
-      - Youtube顺丰资源  US0058
-      - Youtube顺丰资源  US00224
-      - Youtube顺丰资源  US00262
-      - Youtube顺丰资源  新加坡0170
+      - Youtube顺丰资源  US0099
+      - Youtube顺丰资源  US00120
+      - Youtube顺丰资源  US00185
+      - Youtube顺丰资源  US00222
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,32 +70,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源  新加坡01
-      - Youtube顺丰资源  US0058
-      - Youtube顺丰资源  US00224
-      - Youtube顺丰资源  US00262
-      - Youtube顺丰资源  新加坡0170
+      - Youtube顺丰资源  US0099
+      - Youtube顺丰资源  US00120
+      - Youtube顺丰资源  US00185
+      - Youtube顺丰资源  US00222
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  新加坡01
-      - Youtube顺丰资源  US0058
-      - Youtube顺丰资源  US00224
-      - Youtube顺丰资源  US00262
-      - Youtube顺丰资源  新加坡0170
+      - Youtube顺丰资源  US0099
+      - Youtube顺丰资源  US00120
+      - Youtube顺丰资源  US00185
+      - Youtube顺丰资源  US00222
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  新加坡01
-      - Youtube顺丰资源  US0058
-      - Youtube顺丰资源  US00224
-      - Youtube顺丰资源  US00262
-      - Youtube顺丰资源  新加坡0170
+      - Youtube顺丰资源  US0099
+      - Youtube顺丰资源  US00120
+      - Youtube顺丰资源  US00185
+      - Youtube顺丰资源  US00222
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +108,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  新加坡01
-      - Youtube顺丰资源  US0058
-      - Youtube顺丰资源  US00224
-      - Youtube顺丰资源  US00262
-      - Youtube顺丰资源  新加坡0170
+      - Youtube顺丰资源  US0099
+      - Youtube顺丰资源  US00120
+      - Youtube顺丰资源  US00185
+      - Youtube顺丰资源  US00222
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
