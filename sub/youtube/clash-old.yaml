@@ -5,27 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  US7, server: u03.tk3322.com, port: 2053, type: vmess, uuid: 003f7e2a-04ef-4e21-841b-17823cb95894, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /u03, ws-headers: {Host: u03.tk3322.com}, udp: true}
+  - {name: Youtube顺丰资源  US12, server: us-b.sbyt01.shop, port: 443, type: vmess, uuid: 9c9afd21-e3cf-4e6b-a342-51e4eb52f227, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: us-b.sbyt01.shop}, udp: true}
+  - {name: Youtube顺丰资源  美国3, server: 104.27.5.157, port: 80, type: vmess, uuid: 218b2320-f993-11ee-b737-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /o4zfk5ud, ws-headers: {Host: us-23.hihu.net}, udp: true}
+  - {name: Youtube顺丰资源  US00212, server: mizban.arzonhost.ir, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mizban.arzonhost.ir}, udp: true}
+  - {name: Youtube顺丰资源  US203, server: 108.61.158.122, port: 80, type: vmess, uuid: 06efd46e-25f1-4ff9-b6f0-e459ad2354d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /link, ws-headers: {Host: 108.61.158.122}, udp: true}
+  - {name: Youtube顺丰资源  US290, server: cdn.vds-server.ir, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn.vds-server.ir}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US7
+      - Youtube顺丰资源  US12
+      - Youtube顺丰资源  美国3
+      - Youtube顺丰资源  US00212
+      - Youtube顺丰资源  US203
+      - Youtube顺丰资源  US290
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源  US7
+      - Youtube顺丰资源  US12
+      - Youtube顺丰资源  美国3
+      - Youtube顺丰资源  US00212
+      - Youtube顺丰资源  US203
+      - Youtube顺丰资源  US290
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US7
+      - Youtube顺丰资源  US12
+      - Youtube顺丰资源  美国3
+      - Youtube顺丰资源  US00212
+      - Youtube顺丰资源  US203
+      - Youtube顺丰资源  US290
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -44,7 +60,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US7
+      - Youtube顺丰资源  US12
+      - Youtube顺丰资源  美国3
+      - Youtube顺丰资源  US00212
+      - Youtube顺丰资源  US203
+      - Youtube顺丰资源  US290
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -55,20 +75,32 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源  US7
+      - Youtube顺丰资源  US12
+      - Youtube顺丰资源  美国3
+      - Youtube顺丰资源  US00212
+      - Youtube顺丰资源  US203
+      - Youtube顺丰资源  US290
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US7
+      - Youtube顺丰资源  US12
+      - Youtube顺丰资源  美国3
+      - Youtube顺丰资源  US00212
+      - Youtube顺丰资源  US203
+      - Youtube顺丰资源  US290
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  US7
+      - Youtube顺丰资源  US12
+      - Youtube顺丰资源  美国3
+      - Youtube顺丰资源  US00212
+      - Youtube顺丰资源  US203
+      - Youtube顺丰资源  US290
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,7 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  US7
+      - Youtube顺丰资源  US12
+      - Youtube顺丰资源  美国3
+      - Youtube顺丰资源  US00212
+      - Youtube顺丰资源  US203
+      - Youtube顺丰资源  US290
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
