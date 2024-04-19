@@ -5,14 +5,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  US241, server: 38.110.1.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtube顺丰资源  US182, server: 152.42.216.240, port: 80, type: vmess, uuid: 714e44f9-ff62-4a4c-cb2e-3f2a7dbc444c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源  US236, server: 38.110.1.197, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube顺丰资源  US239, server: 38.110.1.107, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtube顺丰资源  RU120, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 4497d7ad-aa31-4e73-8183-80e0c4db88c4, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  RU167, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 78e56e35-b9b8-4ad6-85b4-0f12431db62b, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  US243, server: 38.110.1.107, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Youtube顺丰资源  RU141, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 4f10e74d-51cb-472a-8c2d-0ee36ccf0ff3, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  RU101, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: b2d5d770-7242-4f3c-a6f9-f05514070149, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  US96, server: 152.42.218.53, port: 80, type: vmess, uuid: 48a16dc9-40e7-4270-925e-b7fcef9bc4c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  US115, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 50e701c6-a7f1-41f0-9255-28e95c57d49c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/GQ2qE5Us9g, ws-headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}, udp: true}
+  - {name: Youtube顺丰资源  KR90, server: kr01.freeflyingcloud.xyz, port: 24852, type: trojan, password: 904dd222-2514-4a68-9185-32f89113afd9, sni: kr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  US241, server: 38.110.1.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtube顺丰资源  US246, server: 38.110.1.197, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Youtube顺丰资源  US151, server: 38.110.1.111, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US138, server: 38.110.1.122, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube顺丰资源  US122, server: 38.110.1.197, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtube顺丰资源  US170, server: 38.110.1.51, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: Youtube顺丰资源  RU139, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 68dc22fb-e7f3-4806-acd7-b4182d80981e, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -20,28 +24,36 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US182
       - Youtube顺丰资源  US236
-      - Youtube顺丰资源  US239
-      - Youtube顺丰资源  RU120
-      - Youtube顺丰资源  RU167
-      - Youtube顺丰资源  US243
       - Youtube顺丰资源  RU141
-      - Youtube顺丰资源  RU101
+      - Youtube顺丰资源  US96
+      - Youtube顺丰资源  US115
+      - Youtube顺丰资源  KR90
+      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US246
+      - Youtube顺丰资源  US151
+      - Youtube顺丰资源  US138
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US170
       - Youtube顺丰资源  RU139
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US182
       - Youtube顺丰资源  US236
-      - Youtube顺丰资源  US239
-      - Youtube顺丰资源  RU120
-      - Youtube顺丰资源  RU167
-      - Youtube顺丰资源  US243
       - Youtube顺丰资源  RU141
-      - Youtube顺丰资源  RU101
+      - Youtube顺丰资源  US96
+      - Youtube顺丰资源  US115
+      - Youtube顺丰资源  KR90
+      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US246
+      - Youtube顺丰资源  US151
+      - Youtube顺丰资源  US138
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US170
       - Youtube顺丰资源  RU139
   - name: 🎥 NETFLIX
     type: select
@@ -49,14 +61,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US182
       - Youtube顺丰资源  US236
-      - Youtube顺丰资源  US239
-      - Youtube顺丰资源  RU120
-      - Youtube顺丰资源  RU167
-      - Youtube顺丰资源  US243
       - Youtube顺丰资源  RU141
-      - Youtube顺丰资源  RU101
+      - Youtube顺丰资源  US96
+      - Youtube顺丰资源  US115
+      - Youtube顺丰资源  KR90
+      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US246
+      - Youtube顺丰资源  US151
+      - Youtube顺丰资源  US138
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US170
       - Youtube顺丰资源  RU139
   - name: ⛔️ 广告拦截
     type: select
@@ -76,14 +92,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US182
       - Youtube顺丰资源  US236
-      - Youtube顺丰资源  US239
-      - Youtube顺丰资源  RU120
-      - Youtube顺丰资源  RU167
-      - Youtube顺丰资源  US243
       - Youtube顺丰资源  RU141
-      - Youtube顺丰资源  RU101
+      - Youtube顺丰资源  US96
+      - Youtube顺丰资源  US115
+      - Youtube顺丰资源  KR90
+      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US246
+      - Youtube顺丰资源  US151
+      - Youtube顺丰资源  US138
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US170
       - Youtube顺丰资源  RU139
   - name: 🌏 国内媒体
     type: select
@@ -95,28 +115,36 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US182
       - Youtube顺丰资源  US236
-      - Youtube顺丰资源  US239
-      - Youtube顺丰资源  RU120
-      - Youtube顺丰资源  RU167
-      - Youtube顺丰资源  US243
       - Youtube顺丰资源  RU141
-      - Youtube顺丰资源  RU101
+      - Youtube顺丰资源  US96
+      - Youtube顺丰资源  US115
+      - Youtube顺丰资源  KR90
+      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US246
+      - Youtube顺丰资源  US151
+      - Youtube顺丰资源  US138
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US170
       - Youtube顺丰资源  RU139
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US182
       - Youtube顺丰资源  US236
-      - Youtube顺丰资源  US239
-      - Youtube顺丰资源  RU120
-      - Youtube顺丰资源  RU167
-      - Youtube顺丰资源  US243
       - Youtube顺丰资源  RU141
-      - Youtube顺丰资源  RU101
+      - Youtube顺丰资源  US96
+      - Youtube顺丰资源  US115
+      - Youtube顺丰资源  KR90
+      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US246
+      - Youtube顺丰资源  US151
+      - Youtube顺丰资源  US138
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US170
       - Youtube顺丰资源  RU139
   - name: 🍎 苹果服务
     type: select
@@ -124,14 +152,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US182
       - Youtube顺丰资源  US236
-      - Youtube顺丰资源  US239
-      - Youtube顺丰资源  RU120
-      - Youtube顺丰资源  RU167
-      - Youtube顺丰资源  US243
       - Youtube顺丰资源  RU141
-      - Youtube顺丰资源  RU101
+      - Youtube顺丰资源  US96
+      - Youtube顺丰资源  US115
+      - Youtube顺丰资源  KR90
+      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US246
+      - Youtube顺丰资源  US151
+      - Youtube顺丰资源  US138
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US170
       - Youtube顺丰资源  RU139
   - name: 🎯 全球直连
     type: select
@@ -148,14 +180,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US182
       - Youtube顺丰资源  US236
-      - Youtube顺丰资源  US239
-      - Youtube顺丰资源  RU120
-      - Youtube顺丰资源  RU167
-      - Youtube顺丰资源  US243
       - Youtube顺丰资源  RU141
-      - Youtube顺丰资源  RU101
+      - Youtube顺丰资源  US96
+      - Youtube顺丰资源  US115
+      - Youtube顺丰资源  KR90
+      - Youtube顺丰资源  US241
+      - Youtube顺丰资源  US246
+      - Youtube顺丰资源  US151
+      - Youtube顺丰资源  US138
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US170
       - Youtube顺丰资源  RU139
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
