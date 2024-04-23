@@ -5,275 +5,399 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  US179, server: 23.157.40.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube顺丰资源  US180, server: 23.157.40.47, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US85, server: 23.157.40.47, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US115, server: 23.157.40.24, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube顺丰资源  US140, server: 23.157.40.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: Youtube顺丰资源  US173, server: 23.157.40.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtube顺丰资源  US199, server: 23.157.40.6, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Youtube顺丰资源  US135, server: 23.157.40.20, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube顺丰资源  US201, server: 23.157.40.6, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US123, server: 23.157.40.44, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US100, server: 23.157.40.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtube顺丰资源  US117, server: 23.157.40.44, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Youtube顺丰资源  US114, server: 23.157.40.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtube顺丰资源  US113, server: 23.157.40.26, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Youtube顺丰资源  US67, server: 23.157.40.24, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Youtube顺丰资源  US88, server: 15.204.87.225, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Youtube顺丰资源  US63, server: 15.204.87.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube顺丰资源  US60, server: 15.204.87.217, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US136, server: 23.157.40.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Youtube顺丰资源  US204, server: 23.157.40.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US154, server: 23.157.40.66, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Youtube顺丰资源  US174, server: 23.157.40.24, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Youtube顺丰资源  US195, server: 23.157.40.29, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US152, server: 23.157.40.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube顺丰资源  US193, server: 23.157.40.26, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US216, server: 23.157.40.16, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Youtube顺丰资源  US212, server: 23.157.40.26, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Youtube顺丰资源  US140 2, server: 23.157.40.19, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US168, server: 23.157.40.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Youtube顺丰资源  US154, server: 23.157.40.66, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
-  - {name: Youtube顺丰资源  US166, server: 23.157.40.19, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Youtube顺丰资源  US198, server: 23.157.40.16, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Youtube顺丰资源  US146, server: 23.157.40.19, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Youtube顺丰资源  US173, server: 23.157.40.16, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube顺丰资源  US189, server: 23.157.40.16, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US175, server: 23.157.40.44, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Youtube顺丰资源  US192, server: 23.157.40.19, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Youtube顺丰资源  US209, server: 23.157.40.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Youtube顺丰资源  US114, server: 23.157.40.29, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US181, server: 23.157.40.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Youtube顺丰资源  US143, server: 23.157.40.29, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US141, server: 23.157.40.16, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Youtube顺丰资源  US167, server: 23.157.40.19, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Youtube顺丰资源  US169, server: 23.157.40.29, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube顺丰资源  US188, server: 23.157.40.24, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube顺丰资源  US190, server: 23.157.40.47, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Youtube顺丰资源  US126, server: 23.157.40.24, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Youtube顺丰资源  US258, server: 23.157.40.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Youtube顺丰资源  US179, server: 23.157.40.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube顺丰资源  US180, server: 23.157.40.26, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtube顺丰资源  US82, server: 23.157.40.16, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtube顺丰资源  US83, server: 23.157.40.29, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: Youtube顺丰资源  US1151, server: 23.157.40.24, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube顺丰资源  US1202, server: 23.157.40.6, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US2132, server: 23.157.40.66, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube顺丰资源  US157, server: 23.157.40.29, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Youtube顺丰资源  US260, server: 15.204.87.217, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: Youtube顺丰资源  US59, server: 23.157.40.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Youtube顺丰资源  US195, server: 23.157.40.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube顺丰资源  US193, server: 23.157.40.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Youtube顺丰资源  US155, server: 23.157.40.24, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Youtube顺丰资源  US176, server: 23.157.40.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtube顺丰资源  US191, server: 23.157.40.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Youtube顺丰资源  US207, server: 23.157.40.19, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
-  - {name: Youtube顺丰资源  US104, server: 23.157.40.24, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube顺丰资源  US214, server: 23.157.40.66, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US1822, server: 23.157.40.26, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube顺丰资源  US1871, server: 15.204.87.217, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US199, server: 23.157.40.6, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtube顺丰资源  US61, server: 23.157.40.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源  US211, server: 23.157.40.19, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtube顺丰资源  US224, server: 23.157.40.66, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US47, server: 23.157.40.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源  US54, server: 23.157.40.19, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US77, server: 23.157.40.26, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: Youtube顺丰资源  US103, server: 23.157.40.20, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US193, server: 23.157.40.26, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US1131, server: 23.157.40.26, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US1361, server: 23.157.40.6, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US2201, server: 23.157.40.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US272, server: 23.157.40.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US100, server: 23.157.40.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtube顺丰资源  US2372, server: 23.157.40.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Youtube顺丰资源  US249, server: 23.157.40.24, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Youtube顺丰资源  US68, server: 23.157.40.29, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtube顺丰资源  US1411, server: 23.157.40.16, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US1791, server: 23.157.40.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube顺丰资源  US204, server: 23.157.40.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US251, server: 23.157.40.6, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US154, server: 23.157.40.66, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: Youtube顺丰资源  US2581, server: 23.157.40.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube顺丰资源  US2272, server: 23.157.40.44, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US132, server: 23.157.40.24, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Youtube顺丰资源  US265, server: 23.157.40.44, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Youtube顺丰资源  US65, server: 23.157.40.44, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube顺丰资源  US206, server: 23.157.40.26, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Youtube顺丰资源  US2582, server: 23.157.40.29, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US125, server: 23.157.40.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Youtube顺丰资源  US89, server: 23.157.40.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Youtube顺丰资源  US120, server: 23.157.40.29, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Youtube顺丰资源  US157, server: 23.157.40.29, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Youtube顺丰资源  DE5, server: 199.247.3.99, port: 3583, type: vmess, uuid: ecbba2dc-c910-48dc-d799-374170ffbdc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  DE8, server: 199.247.3.99, port: 3387, type: vmess, uuid: 1a143dec-add4-4be5-87da-019878850727, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  US191, server: 23.157.40.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtube顺丰资源  US131, server: 23.157.40.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US1701, server: 23.157.40.20, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtube顺丰资源  US166, server: 23.157.40.19, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Youtube顺丰资源  US197, server: 15.204.87.217, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: Youtube顺丰资源  US180, server: 23.157.40.26, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtube顺丰资源  US174, server: 23.157.40.24, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtube顺丰资源  US152, server: 23.157.40.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube顺丰资源  US191 2, server: 23.157.40.29, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtube顺丰资源  US2121, server: 23.157.40.26, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube顺丰资源  US135, server: 23.157.40.20, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Youtube顺丰资源  US146, server: 23.157.40.19, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Youtube顺丰资源  US104, server: 23.157.40.24, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube顺丰资源  US58, server: 23.157.40.47, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Youtube顺丰资源  US128, server: 23.157.40.6, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Youtube顺丰资源  US207, server: 23.157.40.19, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: Youtube顺丰资源  US232, server: 23.157.40.39, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: Youtube顺丰资源  US187, server: 23.157.40.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube顺丰资源  US98, server: 23.157.40.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtube顺丰资源  US163, server: 23.157.40.19, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtube顺丰资源  US66, server: 23.157.40.66, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US1401, server: 23.157.40.19, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US195, server: 23.157.40.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube顺丰资源  US161, server: 23.157.40.44, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US262, server: 23.157.40.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube顺丰资源  US1431, server: 23.157.40.29, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US128 2, server: 15.204.87.217, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US192, server: 23.157.40.19, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Youtube顺丰资源  US130, server: 23.157.40.44, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Youtube顺丰资源  US1951, server: 23.157.40.29, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US122, server: 23.157.40.47, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Youtube顺丰资源  US148, server: 23.157.40.44, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtube顺丰资源  US253, server: 23.157.40.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtube顺丰资源  US142, server: 23.157.40.26, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源  US2091, server: 23.157.40.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube顺丰资源  US71, server: 23.157.40.16, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtube顺丰资源  US60, server: 15.204.87.217, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US168, server: 23.157.40.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Youtube顺丰资源  US85, server: 23.157.40.47, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US99, server: 23.157.40.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtube顺丰资源  US165, server: 23.157.40.24, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源  US193 2, server: 23.157.40.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube顺丰资源  US198, server: 23.157.40.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube顺丰资源  US67, server: 23.157.40.24, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtube顺丰资源  US2092, server: 23.157.40.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  US268, server: 23.157.40.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Youtube顺丰资源  US95, server: 23.157.40.26, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  US1051, server: 23.157.40.47, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtube顺丰资源  US116, server: 23.157.40.16, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Youtube顺丰资源  US155, server: 23.157.40.24, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtube顺丰资源  US154 2, server: 23.157.40.66, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Youtube顺丰资源  US139, server: 23.157.40.20, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US85
-      - Youtube顺丰资源  US115
-      - Youtube顺丰资源  US140
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US199
-      - Youtube顺丰资源  US135
-      - Youtube顺丰资源  US201
-      - Youtube顺丰资源  US123
-      - Youtube顺丰资源  US100
-      - Youtube顺丰资源  US117
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US113
-      - Youtube顺丰资源  US67
-      - Youtube顺丰资源  US88
-      - Youtube顺丰资源  US63
-      - Youtube顺丰资源  US60
-      - Youtube顺丰资源  US136
-      - Youtube顺丰资源  US204
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US174
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US152
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US216
-      - Youtube顺丰资源  US212
-      - Youtube顺丰资源  US140 2
-      - Youtube顺丰资源  US168
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US166
-      - Youtube顺丰资源  US198
-      - Youtube顺丰资源  US146
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US189
-      - Youtube顺丰资源  US175
-      - Youtube顺丰资源  US192
-      - Youtube顺丰资源  US209
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US181
-      - Youtube顺丰资源  US143
-      - Youtube顺丰资源  US141
-      - Youtube顺丰资源  US167
-      - Youtube顺丰资源  US169
-      - Youtube顺丰资源  US188
-      - Youtube顺丰资源  US190
-      - Youtube顺丰资源  US126
-      - Youtube顺丰资源  US258
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US59
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US155
-      - Youtube顺丰资源  US176
-      - Youtube顺丰资源  US191
-      - Youtube顺丰资源  US207
-      - Youtube顺丰资源  US104
-      - Youtube顺丰资源  US89
-      - Youtube顺丰资源  US120
+      - Youtube顺丰资源  US82
+      - Youtube顺丰资源  US83
+      - Youtube顺丰资源  US1151
+      - Youtube顺丰资源  US1202
+      - Youtube顺丰资源  US2132
       - Youtube顺丰资源  US157
-      - Youtube顺丰资源  DE5
-      - Youtube顺丰资源  DE8
+      - Youtube顺丰资源  US260
+      - Youtube顺丰资源  US59
+      - Youtube顺丰资源  US214
+      - Youtube顺丰资源  US1822
+      - Youtube顺丰资源  US1871
+      - Youtube顺丰资源  US199
+      - Youtube顺丰资源  US61
+      - Youtube顺丰资源  US211
+      - Youtube顺丰资源  US224
+      - Youtube顺丰资源  US47
+      - Youtube顺丰资源  US54
+      - Youtube顺丰资源  US77
+      - Youtube顺丰资源  US103
+      - Youtube顺丰资源  US193
+      - Youtube顺丰资源  US1131
+      - Youtube顺丰资源  US1361
+      - Youtube顺丰资源  US2201
+      - Youtube顺丰资源  US272
+      - Youtube顺丰资源  US100
+      - Youtube顺丰资源  US2372
+      - Youtube顺丰资源  US249
+      - Youtube顺丰资源  US68
+      - Youtube顺丰资源  US1411
+      - Youtube顺丰资源  US1791
+      - Youtube顺丰资源  US204
+      - Youtube顺丰资源  US251
+      - Youtube顺丰资源  US154
+      - Youtube顺丰资源  US2581
+      - Youtube顺丰资源  US2272
+      - Youtube顺丰资源  US132
+      - Youtube顺丰资源  US265
+      - Youtube顺丰资源  US65
+      - Youtube顺丰资源  US206
+      - Youtube顺丰资源  US2582
+      - Youtube顺丰资源  US125
+      - Youtube顺丰资源  US89
+      - Youtube顺丰资源  US191
+      - Youtube顺丰资源  US131
+      - Youtube顺丰资源  US1701
+      - Youtube顺丰资源  US166
+      - Youtube顺丰资源  US197
+      - Youtube顺丰资源  US180
+      - Youtube顺丰资源  US174
+      - Youtube顺丰资源  US152
+      - Youtube顺丰资源  US191 2
+      - Youtube顺丰资源  US2121
+      - Youtube顺丰资源  US135
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  US104
+      - Youtube顺丰资源  US58
+      - Youtube顺丰资源  US128
+      - Youtube顺丰资源  US207
+      - Youtube顺丰资源  US232
+      - Youtube顺丰资源  US187
+      - Youtube顺丰资源  US98
+      - Youtube顺丰资源  US163
+      - Youtube顺丰资源  US66
+      - Youtube顺丰资源  US1401
+      - Youtube顺丰资源  US195
+      - Youtube顺丰资源  US161
+      - Youtube顺丰资源  US262
+      - Youtube顺丰资源  US1431
+      - Youtube顺丰资源  US128 2
+      - Youtube顺丰资源  US192
+      - Youtube顺丰资源  US130
+      - Youtube顺丰资源  US1951
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US148
+      - Youtube顺丰资源  US253
+      - Youtube顺丰资源  US142
+      - Youtube顺丰资源  US2091
+      - Youtube顺丰资源  US71
+      - Youtube顺丰资源  US60
+      - Youtube顺丰资源  US168
+      - Youtube顺丰资源  US85
+      - Youtube顺丰资源  US99
+      - Youtube顺丰资源  US165
+      - Youtube顺丰资源  US193 2
+      - Youtube顺丰资源  US198
+      - Youtube顺丰资源  US67
+      - Youtube顺丰资源  US2092
+      - Youtube顺丰资源  US268
+      - Youtube顺丰资源  US95
+      - Youtube顺丰资源  US1051
+      - Youtube顺丰资源  US116
+      - Youtube顺丰资源  US155
+      - Youtube顺丰资源  US154 2
+      - Youtube顺丰资源  US139
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US85
-      - Youtube顺丰资源  US115
-      - Youtube顺丰资源  US140
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US199
-      - Youtube顺丰资源  US135
-      - Youtube顺丰资源  US201
-      - Youtube顺丰资源  US123
-      - Youtube顺丰资源  US100
-      - Youtube顺丰资源  US117
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US113
-      - Youtube顺丰资源  US67
-      - Youtube顺丰资源  US88
-      - Youtube顺丰资源  US63
-      - Youtube顺丰资源  US60
-      - Youtube顺丰资源  US136
-      - Youtube顺丰资源  US204
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US174
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US152
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US216
-      - Youtube顺丰资源  US212
-      - Youtube顺丰资源  US140 2
-      - Youtube顺丰资源  US168
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US166
-      - Youtube顺丰资源  US198
-      - Youtube顺丰资源  US146
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US189
-      - Youtube顺丰资源  US175
-      - Youtube顺丰资源  US192
-      - Youtube顺丰资源  US209
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US181
-      - Youtube顺丰资源  US143
-      - Youtube顺丰资源  US141
-      - Youtube顺丰资源  US167
-      - Youtube顺丰资源  US169
-      - Youtube顺丰资源  US188
-      - Youtube顺丰资源  US190
-      - Youtube顺丰资源  US126
-      - Youtube顺丰资源  US258
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US59
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US155
-      - Youtube顺丰资源  US176
-      - Youtube顺丰资源  US191
-      - Youtube顺丰资源  US207
-      - Youtube顺丰资源  US104
-      - Youtube顺丰资源  US89
-      - Youtube顺丰资源  US120
+      - Youtube顺丰资源  US82
+      - Youtube顺丰资源  US83
+      - Youtube顺丰资源  US1151
+      - Youtube顺丰资源  US1202
+      - Youtube顺丰资源  US2132
       - Youtube顺丰资源  US157
-      - Youtube顺丰资源  DE5
-      - Youtube顺丰资源  DE8
+      - Youtube顺丰资源  US260
+      - Youtube顺丰资源  US59
+      - Youtube顺丰资源  US214
+      - Youtube顺丰资源  US1822
+      - Youtube顺丰资源  US1871
+      - Youtube顺丰资源  US199
+      - Youtube顺丰资源  US61
+      - Youtube顺丰资源  US211
+      - Youtube顺丰资源  US224
+      - Youtube顺丰资源  US47
+      - Youtube顺丰资源  US54
+      - Youtube顺丰资源  US77
+      - Youtube顺丰资源  US103
+      - Youtube顺丰资源  US193
+      - Youtube顺丰资源  US1131
+      - Youtube顺丰资源  US1361
+      - Youtube顺丰资源  US2201
+      - Youtube顺丰资源  US272
+      - Youtube顺丰资源  US100
+      - Youtube顺丰资源  US2372
+      - Youtube顺丰资源  US249
+      - Youtube顺丰资源  US68
+      - Youtube顺丰资源  US1411
+      - Youtube顺丰资源  US1791
+      - Youtube顺丰资源  US204
+      - Youtube顺丰资源  US251
+      - Youtube顺丰资源  US154
+      - Youtube顺丰资源  US2581
+      - Youtube顺丰资源  US2272
+      - Youtube顺丰资源  US132
+      - Youtube顺丰资源  US265
+      - Youtube顺丰资源  US65
+      - Youtube顺丰资源  US206
+      - Youtube顺丰资源  US2582
+      - Youtube顺丰资源  US125
+      - Youtube顺丰资源  US89
+      - Youtube顺丰资源  US191
+      - Youtube顺丰资源  US131
+      - Youtube顺丰资源  US1701
+      - Youtube顺丰资源  US166
+      - Youtube顺丰资源  US197
+      - Youtube顺丰资源  US180
+      - Youtube顺丰资源  US174
+      - Youtube顺丰资源  US152
+      - Youtube顺丰资源  US191 2
+      - Youtube顺丰资源  US2121
+      - Youtube顺丰资源  US135
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  US104
+      - Youtube顺丰资源  US58
+      - Youtube顺丰资源  US128
+      - Youtube顺丰资源  US207
+      - Youtube顺丰资源  US232
+      - Youtube顺丰资源  US187
+      - Youtube顺丰资源  US98
+      - Youtube顺丰资源  US163
+      - Youtube顺丰资源  US66
+      - Youtube顺丰资源  US1401
+      - Youtube顺丰资源  US195
+      - Youtube顺丰资源  US161
+      - Youtube顺丰资源  US262
+      - Youtube顺丰资源  US1431
+      - Youtube顺丰资源  US128 2
+      - Youtube顺丰资源  US192
+      - Youtube顺丰资源  US130
+      - Youtube顺丰资源  US1951
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US148
+      - Youtube顺丰资源  US253
+      - Youtube顺丰资源  US142
+      - Youtube顺丰资源  US2091
+      - Youtube顺丰资源  US71
+      - Youtube顺丰资源  US60
+      - Youtube顺丰资源  US168
+      - Youtube顺丰资源  US85
+      - Youtube顺丰资源  US99
+      - Youtube顺丰资源  US165
+      - Youtube顺丰资源  US193 2
+      - Youtube顺丰资源  US198
+      - Youtube顺丰资源  US67
+      - Youtube顺丰资源  US2092
+      - Youtube顺丰资源  US268
+      - Youtube顺丰资源  US95
+      - Youtube顺丰资源  US1051
+      - Youtube顺丰资源  US116
+      - Youtube顺丰资源  US155
+      - Youtube顺丰资源  US154 2
+      - Youtube顺丰资源  US139
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US85
-      - Youtube顺丰资源  US115
-      - Youtube顺丰资源  US140
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US199
-      - Youtube顺丰资源  US135
-      - Youtube顺丰资源  US201
-      - Youtube顺丰资源  US123
-      - Youtube顺丰资源  US100
-      - Youtube顺丰资源  US117
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US113
-      - Youtube顺丰资源  US67
-      - Youtube顺丰资源  US88
-      - Youtube顺丰资源  US63
-      - Youtube顺丰资源  US60
-      - Youtube顺丰资源  US136
-      - Youtube顺丰资源  US204
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US174
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US152
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US216
-      - Youtube顺丰资源  US212
-      - Youtube顺丰资源  US140 2
-      - Youtube顺丰资源  US168
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US166
-      - Youtube顺丰资源  US198
-      - Youtube顺丰资源  US146
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US189
-      - Youtube顺丰资源  US175
-      - Youtube顺丰资源  US192
-      - Youtube顺丰资源  US209
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US181
-      - Youtube顺丰资源  US143
-      - Youtube顺丰资源  US141
-      - Youtube顺丰资源  US167
-      - Youtube顺丰资源  US169
-      - Youtube顺丰资源  US188
-      - Youtube顺丰资源  US190
-      - Youtube顺丰资源  US126
-      - Youtube顺丰资源  US258
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US59
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US155
-      - Youtube顺丰资源  US176
-      - Youtube顺丰资源  US191
-      - Youtube顺丰资源  US207
-      - Youtube顺丰资源  US104
-      - Youtube顺丰资源  US89
-      - Youtube顺丰资源  US120
+      - Youtube顺丰资源  US82
+      - Youtube顺丰资源  US83
+      - Youtube顺丰资源  US1151
+      - Youtube顺丰资源  US1202
+      - Youtube顺丰资源  US2132
       - Youtube顺丰资源  US157
-      - Youtube顺丰资源  DE5
-      - Youtube顺丰资源  DE8
+      - Youtube顺丰资源  US260
+      - Youtube顺丰资源  US59
+      - Youtube顺丰资源  US214
+      - Youtube顺丰资源  US1822
+      - Youtube顺丰资源  US1871
+      - Youtube顺丰资源  US199
+      - Youtube顺丰资源  US61
+      - Youtube顺丰资源  US211
+      - Youtube顺丰资源  US224
+      - Youtube顺丰资源  US47
+      - Youtube顺丰资源  US54
+      - Youtube顺丰资源  US77
+      - Youtube顺丰资源  US103
+      - Youtube顺丰资源  US193
+      - Youtube顺丰资源  US1131
+      - Youtube顺丰资源  US1361
+      - Youtube顺丰资源  US2201
+      - Youtube顺丰资源  US272
+      - Youtube顺丰资源  US100
+      - Youtube顺丰资源  US2372
+      - Youtube顺丰资源  US249
+      - Youtube顺丰资源  US68
+      - Youtube顺丰资源  US1411
+      - Youtube顺丰资源  US1791
+      - Youtube顺丰资源  US204
+      - Youtube顺丰资源  US251
+      - Youtube顺丰资源  US154
+      - Youtube顺丰资源  US2581
+      - Youtube顺丰资源  US2272
+      - Youtube顺丰资源  US132
+      - Youtube顺丰资源  US265
+      - Youtube顺丰资源  US65
+      - Youtube顺丰资源  US206
+      - Youtube顺丰资源  US2582
+      - Youtube顺丰资源  US125
+      - Youtube顺丰资源  US89
+      - Youtube顺丰资源  US191
+      - Youtube顺丰资源  US131
+      - Youtube顺丰资源  US1701
+      - Youtube顺丰资源  US166
+      - Youtube顺丰资源  US197
+      - Youtube顺丰资源  US180
+      - Youtube顺丰资源  US174
+      - Youtube顺丰资源  US152
+      - Youtube顺丰资源  US191 2
+      - Youtube顺丰资源  US2121
+      - Youtube顺丰资源  US135
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  US104
+      - Youtube顺丰资源  US58
+      - Youtube顺丰资源  US128
+      - Youtube顺丰资源  US207
+      - Youtube顺丰资源  US232
+      - Youtube顺丰资源  US187
+      - Youtube顺丰资源  US98
+      - Youtube顺丰资源  US163
+      - Youtube顺丰资源  US66
+      - Youtube顺丰资源  US1401
+      - Youtube顺丰资源  US195
+      - Youtube顺丰资源  US161
+      - Youtube顺丰资源  US262
+      - Youtube顺丰资源  US1431
+      - Youtube顺丰资源  US128 2
+      - Youtube顺丰资源  US192
+      - Youtube顺丰资源  US130
+      - Youtube顺丰资源  US1951
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US148
+      - Youtube顺丰资源  US253
+      - Youtube顺丰资源  US142
+      - Youtube顺丰资源  US2091
+      - Youtube顺丰资源  US71
+      - Youtube顺丰资源  US60
+      - Youtube顺丰资源  US168
+      - Youtube顺丰资源  US85
+      - Youtube顺丰资源  US99
+      - Youtube顺丰资源  US165
+      - Youtube顺丰资源  US193 2
+      - Youtube顺丰资源  US198
+      - Youtube顺丰资源  US67
+      - Youtube顺丰资源  US2092
+      - Youtube顺丰资源  US268
+      - Youtube顺丰资源  US95
+      - Youtube顺丰资源  US1051
+      - Youtube顺丰资源  US116
+      - Youtube顺丰资源  US155
+      - Youtube顺丰资源  US154 2
+      - Youtube顺丰资源  US139
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -292,69 +416,100 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US85
-      - Youtube顺丰资源  US115
-      - Youtube顺丰资源  US140
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US199
-      - Youtube顺丰资源  US135
-      - Youtube顺丰资源  US201
-      - Youtube顺丰资源  US123
-      - Youtube顺丰资源  US100
-      - Youtube顺丰资源  US117
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US113
-      - Youtube顺丰资源  US67
-      - Youtube顺丰资源  US88
-      - Youtube顺丰资源  US63
-      - Youtube顺丰资源  US60
-      - Youtube顺丰资源  US136
-      - Youtube顺丰资源  US204
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US174
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US152
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US216
-      - Youtube顺丰资源  US212
-      - Youtube顺丰资源  US140 2
-      - Youtube顺丰资源  US168
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US166
-      - Youtube顺丰资源  US198
-      - Youtube顺丰资源  US146
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US189
-      - Youtube顺丰资源  US175
-      - Youtube顺丰资源  US192
-      - Youtube顺丰资源  US209
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US181
-      - Youtube顺丰资源  US143
-      - Youtube顺丰资源  US141
-      - Youtube顺丰资源  US167
-      - Youtube顺丰资源  US169
-      - Youtube顺丰资源  US188
-      - Youtube顺丰资源  US190
-      - Youtube顺丰资源  US126
-      - Youtube顺丰资源  US258
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US59
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US155
-      - Youtube顺丰资源  US176
-      - Youtube顺丰资源  US191
-      - Youtube顺丰资源  US207
-      - Youtube顺丰资源  US104
-      - Youtube顺丰资源  US89
-      - Youtube顺丰资源  US120
+      - Youtube顺丰资源  US82
+      - Youtube顺丰资源  US83
+      - Youtube顺丰资源  US1151
+      - Youtube顺丰资源  US1202
+      - Youtube顺丰资源  US2132
       - Youtube顺丰资源  US157
-      - Youtube顺丰资源  DE5
-      - Youtube顺丰资源  DE8
+      - Youtube顺丰资源  US260
+      - Youtube顺丰资源  US59
+      - Youtube顺丰资源  US214
+      - Youtube顺丰资源  US1822
+      - Youtube顺丰资源  US1871
+      - Youtube顺丰资源  US199
+      - Youtube顺丰资源  US61
+      - Youtube顺丰资源  US211
+      - Youtube顺丰资源  US224
+      - Youtube顺丰资源  US47
+      - Youtube顺丰资源  US54
+      - Youtube顺丰资源  US77
+      - Youtube顺丰资源  US103
+      - Youtube顺丰资源  US193
+      - Youtube顺丰资源  US1131
+      - Youtube顺丰资源  US1361
+      - Youtube顺丰资源  US2201
+      - Youtube顺丰资源  US272
+      - Youtube顺丰资源  US100
+      - Youtube顺丰资源  US2372
+      - Youtube顺丰资源  US249
+      - Youtube顺丰资源  US68
+      - Youtube顺丰资源  US1411
+      - Youtube顺丰资源  US1791
+      - Youtube顺丰资源  US204
+      - Youtube顺丰资源  US251
+      - Youtube顺丰资源  US154
+      - Youtube顺丰资源  US2581
+      - Youtube顺丰资源  US2272
+      - Youtube顺丰资源  US132
+      - Youtube顺丰资源  US265
+      - Youtube顺丰资源  US65
+      - Youtube顺丰资源  US206
+      - Youtube顺丰资源  US2582
+      - Youtube顺丰资源  US125
+      - Youtube顺丰资源  US89
+      - Youtube顺丰资源  US191
+      - Youtube顺丰资源  US131
+      - Youtube顺丰资源  US1701
+      - Youtube顺丰资源  US166
+      - Youtube顺丰资源  US197
+      - Youtube顺丰资源  US180
+      - Youtube顺丰资源  US174
+      - Youtube顺丰资源  US152
+      - Youtube顺丰资源  US191 2
+      - Youtube顺丰资源  US2121
+      - Youtube顺丰资源  US135
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  US104
+      - Youtube顺丰资源  US58
+      - Youtube顺丰资源  US128
+      - Youtube顺丰资源  US207
+      - Youtube顺丰资源  US232
+      - Youtube顺丰资源  US187
+      - Youtube顺丰资源  US98
+      - Youtube顺丰资源  US163
+      - Youtube顺丰资源  US66
+      - Youtube顺丰资源  US1401
+      - Youtube顺丰资源  US195
+      - Youtube顺丰资源  US161
+      - Youtube顺丰资源  US262
+      - Youtube顺丰资源  US1431
+      - Youtube顺丰资源  US128 2
+      - Youtube顺丰资源  US192
+      - Youtube顺丰资源  US130
+      - Youtube顺丰资源  US1951
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US148
+      - Youtube顺丰资源  US253
+      - Youtube顺丰资源  US142
+      - Youtube顺丰资源  US2091
+      - Youtube顺丰资源  US71
+      - Youtube顺丰资源  US60
+      - Youtube顺丰资源  US168
+      - Youtube顺丰资源  US85
+      - Youtube顺丰资源  US99
+      - Youtube顺丰资源  US165
+      - Youtube顺丰资源  US193 2
+      - Youtube顺丰资源  US198
+      - Youtube顺丰资源  US67
+      - Youtube顺丰资源  US2092
+      - Youtube顺丰资源  US268
+      - Youtube顺丰资源  US95
+      - Youtube顺丰资源  US1051
+      - Youtube顺丰资源  US116
+      - Youtube顺丰资源  US155
+      - Youtube顺丰资源  US154 2
+      - Youtube顺丰资源  US139
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -365,206 +520,299 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US85
-      - Youtube顺丰资源  US115
-      - Youtube顺丰资源  US140
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US199
-      - Youtube顺丰资源  US135
-      - Youtube顺丰资源  US201
-      - Youtube顺丰资源  US123
-      - Youtube顺丰资源  US100
-      - Youtube顺丰资源  US117
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US113
-      - Youtube顺丰资源  US67
-      - Youtube顺丰资源  US88
-      - Youtube顺丰资源  US63
-      - Youtube顺丰资源  US60
-      - Youtube顺丰资源  US136
-      - Youtube顺丰资源  US204
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US174
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US152
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US216
-      - Youtube顺丰资源  US212
-      - Youtube顺丰资源  US140 2
-      - Youtube顺丰资源  US168
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US166
-      - Youtube顺丰资源  US198
-      - Youtube顺丰资源  US146
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US189
-      - Youtube顺丰资源  US175
-      - Youtube顺丰资源  US192
-      - Youtube顺丰资源  US209
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US181
-      - Youtube顺丰资源  US143
-      - Youtube顺丰资源  US141
-      - Youtube顺丰资源  US167
-      - Youtube顺丰资源  US169
-      - Youtube顺丰资源  US188
-      - Youtube顺丰资源  US190
-      - Youtube顺丰资源  US126
-      - Youtube顺丰资源  US258
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US59
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US155
-      - Youtube顺丰资源  US176
-      - Youtube顺丰资源  US191
-      - Youtube顺丰资源  US207
-      - Youtube顺丰资源  US104
-      - Youtube顺丰资源  US89
-      - Youtube顺丰资源  US120
+      - Youtube顺丰资源  US82
+      - Youtube顺丰资源  US83
+      - Youtube顺丰资源  US1151
+      - Youtube顺丰资源  US1202
+      - Youtube顺丰资源  US2132
       - Youtube顺丰资源  US157
-      - Youtube顺丰资源  DE5
-      - Youtube顺丰资源  DE8
+      - Youtube顺丰资源  US260
+      - Youtube顺丰资源  US59
+      - Youtube顺丰资源  US214
+      - Youtube顺丰资源  US1822
+      - Youtube顺丰资源  US1871
+      - Youtube顺丰资源  US199
+      - Youtube顺丰资源  US61
+      - Youtube顺丰资源  US211
+      - Youtube顺丰资源  US224
+      - Youtube顺丰资源  US47
+      - Youtube顺丰资源  US54
+      - Youtube顺丰资源  US77
+      - Youtube顺丰资源  US103
+      - Youtube顺丰资源  US193
+      - Youtube顺丰资源  US1131
+      - Youtube顺丰资源  US1361
+      - Youtube顺丰资源  US2201
+      - Youtube顺丰资源  US272
+      - Youtube顺丰资源  US100
+      - Youtube顺丰资源  US2372
+      - Youtube顺丰资源  US249
+      - Youtube顺丰资源  US68
+      - Youtube顺丰资源  US1411
+      - Youtube顺丰资源  US1791
+      - Youtube顺丰资源  US204
+      - Youtube顺丰资源  US251
+      - Youtube顺丰资源  US154
+      - Youtube顺丰资源  US2581
+      - Youtube顺丰资源  US2272
+      - Youtube顺丰资源  US132
+      - Youtube顺丰资源  US265
+      - Youtube顺丰资源  US65
+      - Youtube顺丰资源  US206
+      - Youtube顺丰资源  US2582
+      - Youtube顺丰资源  US125
+      - Youtube顺丰资源  US89
+      - Youtube顺丰资源  US191
+      - Youtube顺丰资源  US131
+      - Youtube顺丰资源  US1701
+      - Youtube顺丰资源  US166
+      - Youtube顺丰资源  US197
+      - Youtube顺丰资源  US180
+      - Youtube顺丰资源  US174
+      - Youtube顺丰资源  US152
+      - Youtube顺丰资源  US191 2
+      - Youtube顺丰资源  US2121
+      - Youtube顺丰资源  US135
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  US104
+      - Youtube顺丰资源  US58
+      - Youtube顺丰资源  US128
+      - Youtube顺丰资源  US207
+      - Youtube顺丰资源  US232
+      - Youtube顺丰资源  US187
+      - Youtube顺丰资源  US98
+      - Youtube顺丰资源  US163
+      - Youtube顺丰资源  US66
+      - Youtube顺丰资源  US1401
+      - Youtube顺丰资源  US195
+      - Youtube顺丰资源  US161
+      - Youtube顺丰资源  US262
+      - Youtube顺丰资源  US1431
+      - Youtube顺丰资源  US128 2
+      - Youtube顺丰资源  US192
+      - Youtube顺丰资源  US130
+      - Youtube顺丰资源  US1951
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US148
+      - Youtube顺丰资源  US253
+      - Youtube顺丰资源  US142
+      - Youtube顺丰资源  US2091
+      - Youtube顺丰资源  US71
+      - Youtube顺丰资源  US60
+      - Youtube顺丰资源  US168
+      - Youtube顺丰资源  US85
+      - Youtube顺丰资源  US99
+      - Youtube顺丰资源  US165
+      - Youtube顺丰资源  US193 2
+      - Youtube顺丰资源  US198
+      - Youtube顺丰资源  US67
+      - Youtube顺丰资源  US2092
+      - Youtube顺丰资源  US268
+      - Youtube顺丰资源  US95
+      - Youtube顺丰资源  US1051
+      - Youtube顺丰资源  US116
+      - Youtube顺丰资源  US155
+      - Youtube顺丰资源  US154 2
+      - Youtube顺丰资源  US139
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US85
-      - Youtube顺丰资源  US115
-      - Youtube顺丰资源  US140
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US199
-      - Youtube顺丰资源  US135
-      - Youtube顺丰资源  US201
-      - Youtube顺丰资源  US123
-      - Youtube顺丰资源  US100
-      - Youtube顺丰资源  US117
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US113
-      - Youtube顺丰资源  US67
-      - Youtube顺丰资源  US88
-      - Youtube顺丰资源  US63
-      - Youtube顺丰资源  US60
-      - Youtube顺丰资源  US136
-      - Youtube顺丰资源  US204
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US174
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US152
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US216
-      - Youtube顺丰资源  US212
-      - Youtube顺丰资源  US140 2
-      - Youtube顺丰资源  US168
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US166
-      - Youtube顺丰资源  US198
-      - Youtube顺丰资源  US146
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US189
-      - Youtube顺丰资源  US175
-      - Youtube顺丰资源  US192
-      - Youtube顺丰资源  US209
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US181
-      - Youtube顺丰资源  US143
-      - Youtube顺丰资源  US141
-      - Youtube顺丰资源  US167
-      - Youtube顺丰资源  US169
-      - Youtube顺丰资源  US188
-      - Youtube顺丰资源  US190
-      - Youtube顺丰资源  US126
-      - Youtube顺丰资源  US258
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US59
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US155
-      - Youtube顺丰资源  US176
-      - Youtube顺丰资源  US191
-      - Youtube顺丰资源  US207
-      - Youtube顺丰资源  US104
-      - Youtube顺丰资源  US89
-      - Youtube顺丰资源  US120
+      - Youtube顺丰资源  US82
+      - Youtube顺丰资源  US83
+      - Youtube顺丰资源  US1151
+      - Youtube顺丰资源  US1202
+      - Youtube顺丰资源  US2132
       - Youtube顺丰资源  US157
-      - Youtube顺丰资源  DE5
-      - Youtube顺丰资源  DE8
+      - Youtube顺丰资源  US260
+      - Youtube顺丰资源  US59
+      - Youtube顺丰资源  US214
+      - Youtube顺丰资源  US1822
+      - Youtube顺丰资源  US1871
+      - Youtube顺丰资源  US199
+      - Youtube顺丰资源  US61
+      - Youtube顺丰资源  US211
+      - Youtube顺丰资源  US224
+      - Youtube顺丰资源  US47
+      - Youtube顺丰资源  US54
+      - Youtube顺丰资源  US77
+      - Youtube顺丰资源  US103
+      - Youtube顺丰资源  US193
+      - Youtube顺丰资源  US1131
+      - Youtube顺丰资源  US1361
+      - Youtube顺丰资源  US2201
+      - Youtube顺丰资源  US272
+      - Youtube顺丰资源  US100
+      - Youtube顺丰资源  US2372
+      - Youtube顺丰资源  US249
+      - Youtube顺丰资源  US68
+      - Youtube顺丰资源  US1411
+      - Youtube顺丰资源  US1791
+      - Youtube顺丰资源  US204
+      - Youtube顺丰资源  US251
+      - Youtube顺丰资源  US154
+      - Youtube顺丰资源  US2581
+      - Youtube顺丰资源  US2272
+      - Youtube顺丰资源  US132
+      - Youtube顺丰资源  US265
+      - Youtube顺丰资源  US65
+      - Youtube顺丰资源  US206
+      - Youtube顺丰资源  US2582
+      - Youtube顺丰资源  US125
+      - Youtube顺丰资源  US89
+      - Youtube顺丰资源  US191
+      - Youtube顺丰资源  US131
+      - Youtube顺丰资源  US1701
+      - Youtube顺丰资源  US166
+      - Youtube顺丰资源  US197
+      - Youtube顺丰资源  US180
+      - Youtube顺丰资源  US174
+      - Youtube顺丰资源  US152
+      - Youtube顺丰资源  US191 2
+      - Youtube顺丰资源  US2121
+      - Youtube顺丰资源  US135
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  US104
+      - Youtube顺丰资源  US58
+      - Youtube顺丰资源  US128
+      - Youtube顺丰资源  US207
+      - Youtube顺丰资源  US232
+      - Youtube顺丰资源  US187
+      - Youtube顺丰资源  US98
+      - Youtube顺丰资源  US163
+      - Youtube顺丰资源  US66
+      - Youtube顺丰资源  US1401
+      - Youtube顺丰资源  US195
+      - Youtube顺丰资源  US161
+      - Youtube顺丰资源  US262
+      - Youtube顺丰资源  US1431
+      - Youtube顺丰资源  US128 2
+      - Youtube顺丰资源  US192
+      - Youtube顺丰资源  US130
+      - Youtube顺丰资源  US1951
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US148
+      - Youtube顺丰资源  US253
+      - Youtube顺丰资源  US142
+      - Youtube顺丰资源  US2091
+      - Youtube顺丰资源  US71
+      - Youtube顺丰资源  US60
+      - Youtube顺丰资源  US168
+      - Youtube顺丰资源  US85
+      - Youtube顺丰资源  US99
+      - Youtube顺丰资源  US165
+      - Youtube顺丰资源  US193 2
+      - Youtube顺丰资源  US198
+      - Youtube顺丰资源  US67
+      - Youtube顺丰资源  US2092
+      - Youtube顺丰资源  US268
+      - Youtube顺丰资源  US95
+      - Youtube顺丰资源  US1051
+      - Youtube顺丰资源  US116
+      - Youtube顺丰资源  US155
+      - Youtube顺丰资源  US154 2
+      - Youtube顺丰资源  US139
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US85
-      - Youtube顺丰资源  US115
-      - Youtube顺丰资源  US140
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US199
-      - Youtube顺丰资源  US135
-      - Youtube顺丰资源  US201
-      - Youtube顺丰资源  US123
-      - Youtube顺丰资源  US100
-      - Youtube顺丰资源  US117
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US113
-      - Youtube顺丰资源  US67
-      - Youtube顺丰资源  US88
-      - Youtube顺丰资源  US63
-      - Youtube顺丰资源  US60
-      - Youtube顺丰资源  US136
-      - Youtube顺丰资源  US204
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US174
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US152
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US216
-      - Youtube顺丰资源  US212
-      - Youtube顺丰资源  US140 2
-      - Youtube顺丰资源  US168
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US166
-      - Youtube顺丰资源  US198
-      - Youtube顺丰资源  US146
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US189
-      - Youtube顺丰资源  US175
-      - Youtube顺丰资源  US192
-      - Youtube顺丰资源  US209
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US181
-      - Youtube顺丰资源  US143
-      - Youtube顺丰资源  US141
-      - Youtube顺丰资源  US167
-      - Youtube顺丰资源  US169
-      - Youtube顺丰资源  US188
-      - Youtube顺丰资源  US190
-      - Youtube顺丰资源  US126
-      - Youtube顺丰资源  US258
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US59
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US155
-      - Youtube顺丰资源  US176
-      - Youtube顺丰资源  US191
-      - Youtube顺丰资源  US207
-      - Youtube顺丰资源  US104
-      - Youtube顺丰资源  US89
-      - Youtube顺丰资源  US120
+      - Youtube顺丰资源  US82
+      - Youtube顺丰资源  US83
+      - Youtube顺丰资源  US1151
+      - Youtube顺丰资源  US1202
+      - Youtube顺丰资源  US2132
       - Youtube顺丰资源  US157
-      - Youtube顺丰资源  DE5
-      - Youtube顺丰资源  DE8
+      - Youtube顺丰资源  US260
+      - Youtube顺丰资源  US59
+      - Youtube顺丰资源  US214
+      - Youtube顺丰资源  US1822
+      - Youtube顺丰资源  US1871
+      - Youtube顺丰资源  US199
+      - Youtube顺丰资源  US61
+      - Youtube顺丰资源  US211
+      - Youtube顺丰资源  US224
+      - Youtube顺丰资源  US47
+      - Youtube顺丰资源  US54
+      - Youtube顺丰资源  US77
+      - Youtube顺丰资源  US103
+      - Youtube顺丰资源  US193
+      - Youtube顺丰资源  US1131
+      - Youtube顺丰资源  US1361
+      - Youtube顺丰资源  US2201
+      - Youtube顺丰资源  US272
+      - Youtube顺丰资源  US100
+      - Youtube顺丰资源  US2372
+      - Youtube顺丰资源  US249
+      - Youtube顺丰资源  US68
+      - Youtube顺丰资源  US1411
+      - Youtube顺丰资源  US1791
+      - Youtube顺丰资源  US204
+      - Youtube顺丰资源  US251
+      - Youtube顺丰资源  US154
+      - Youtube顺丰资源  US2581
+      - Youtube顺丰资源  US2272
+      - Youtube顺丰资源  US132
+      - Youtube顺丰资源  US265
+      - Youtube顺丰资源  US65
+      - Youtube顺丰资源  US206
+      - Youtube顺丰资源  US2582
+      - Youtube顺丰资源  US125
+      - Youtube顺丰资源  US89
+      - Youtube顺丰资源  US191
+      - Youtube顺丰资源  US131
+      - Youtube顺丰资源  US1701
+      - Youtube顺丰资源  US166
+      - Youtube顺丰资源  US197
+      - Youtube顺丰资源  US180
+      - Youtube顺丰资源  US174
+      - Youtube顺丰资源  US152
+      - Youtube顺丰资源  US191 2
+      - Youtube顺丰资源  US2121
+      - Youtube顺丰资源  US135
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  US104
+      - Youtube顺丰资源  US58
+      - Youtube顺丰资源  US128
+      - Youtube顺丰资源  US207
+      - Youtube顺丰资源  US232
+      - Youtube顺丰资源  US187
+      - Youtube顺丰资源  US98
+      - Youtube顺丰资源  US163
+      - Youtube顺丰资源  US66
+      - Youtube顺丰资源  US1401
+      - Youtube顺丰资源  US195
+      - Youtube顺丰资源  US161
+      - Youtube顺丰资源  US262
+      - Youtube顺丰资源  US1431
+      - Youtube顺丰资源  US128 2
+      - Youtube顺丰资源  US192
+      - Youtube顺丰资源  US130
+      - Youtube顺丰资源  US1951
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US148
+      - Youtube顺丰资源  US253
+      - Youtube顺丰资源  US142
+      - Youtube顺丰资源  US2091
+      - Youtube顺丰资源  US71
+      - Youtube顺丰资源  US60
+      - Youtube顺丰资源  US168
+      - Youtube顺丰资源  US85
+      - Youtube顺丰资源  US99
+      - Youtube顺丰资源  US165
+      - Youtube顺丰资源  US193 2
+      - Youtube顺丰资源  US198
+      - Youtube顺丰资源  US67
+      - Youtube顺丰资源  US2092
+      - Youtube顺丰资源  US268
+      - Youtube顺丰资源  US95
+      - Youtube顺丰资源  US1051
+      - Youtube顺丰资源  US116
+      - Youtube顺丰资源  US155
+      - Youtube顺丰资源  US154 2
+      - Youtube顺丰资源  US139
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -580,69 +828,100 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US85
-      - Youtube顺丰资源  US115
-      - Youtube顺丰资源  US140
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US199
-      - Youtube顺丰资源  US135
-      - Youtube顺丰资源  US201
-      - Youtube顺丰资源  US123
-      - Youtube顺丰资源  US100
-      - Youtube顺丰资源  US117
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US113
-      - Youtube顺丰资源  US67
-      - Youtube顺丰资源  US88
-      - Youtube顺丰资源  US63
-      - Youtube顺丰资源  US60
-      - Youtube顺丰资源  US136
-      - Youtube顺丰资源  US204
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US174
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US152
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US216
-      - Youtube顺丰资源  US212
-      - Youtube顺丰资源  US140 2
-      - Youtube顺丰资源  US168
-      - Youtube顺丰资源  US154
-      - Youtube顺丰资源  US166
-      - Youtube顺丰资源  US198
-      - Youtube顺丰资源  US146
-      - Youtube顺丰资源  US173
-      - Youtube顺丰资源  US189
-      - Youtube顺丰资源  US175
-      - Youtube顺丰资源  US192
-      - Youtube顺丰资源  US209
-      - Youtube顺丰资源  US114
-      - Youtube顺丰资源  US181
-      - Youtube顺丰资源  US143
-      - Youtube顺丰资源  US141
-      - Youtube顺丰资源  US167
-      - Youtube顺丰资源  US169
-      - Youtube顺丰资源  US188
-      - Youtube顺丰资源  US190
-      - Youtube顺丰资源  US126
-      - Youtube顺丰资源  US258
-      - Youtube顺丰资源  US179
-      - Youtube顺丰资源  US180
-      - Youtube顺丰资源  US59
-      - Youtube顺丰资源  US195
-      - Youtube顺丰资源  US193
-      - Youtube顺丰资源  US155
-      - Youtube顺丰资源  US176
-      - Youtube顺丰资源  US191
-      - Youtube顺丰资源  US207
-      - Youtube顺丰资源  US104
-      - Youtube顺丰资源  US89
-      - Youtube顺丰资源  US120
+      - Youtube顺丰资源  US82
+      - Youtube顺丰资源  US83
+      - Youtube顺丰资源  US1151
+      - Youtube顺丰资源  US1202
+      - Youtube顺丰资源  US2132
       - Youtube顺丰资源  US157
-      - Youtube顺丰资源  DE5
-      - Youtube顺丰资源  DE8
+      - Youtube顺丰资源  US260
+      - Youtube顺丰资源  US59
+      - Youtube顺丰资源  US214
+      - Youtube顺丰资源  US1822
+      - Youtube顺丰资源  US1871
+      - Youtube顺丰资源  US199
+      - Youtube顺丰资源  US61
+      - Youtube顺丰资源  US211
+      - Youtube顺丰资源  US224
+      - Youtube顺丰资源  US47
+      - Youtube顺丰资源  US54
+      - Youtube顺丰资源  US77
+      - Youtube顺丰资源  US103
+      - Youtube顺丰资源  US193
+      - Youtube顺丰资源  US1131
+      - Youtube顺丰资源  US1361
+      - Youtube顺丰资源  US2201
+      - Youtube顺丰资源  US272
+      - Youtube顺丰资源  US100
+      - Youtube顺丰资源  US2372
+      - Youtube顺丰资源  US249
+      - Youtube顺丰资源  US68
+      - Youtube顺丰资源  US1411
+      - Youtube顺丰资源  US1791
+      - Youtube顺丰资源  US204
+      - Youtube顺丰资源  US251
+      - Youtube顺丰资源  US154
+      - Youtube顺丰资源  US2581
+      - Youtube顺丰资源  US2272
+      - Youtube顺丰资源  US132
+      - Youtube顺丰资源  US265
+      - Youtube顺丰资源  US65
+      - Youtube顺丰资源  US206
+      - Youtube顺丰资源  US2582
+      - Youtube顺丰资源  US125
+      - Youtube顺丰资源  US89
+      - Youtube顺丰资源  US191
+      - Youtube顺丰资源  US131
+      - Youtube顺丰资源  US1701
+      - Youtube顺丰资源  US166
+      - Youtube顺丰资源  US197
+      - Youtube顺丰资源  US180
+      - Youtube顺丰资源  US174
+      - Youtube顺丰资源  US152
+      - Youtube顺丰资源  US191 2
+      - Youtube顺丰资源  US2121
+      - Youtube顺丰资源  US135
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  US104
+      - Youtube顺丰资源  US58
+      - Youtube顺丰资源  US128
+      - Youtube顺丰资源  US207
+      - Youtube顺丰资源  US232
+      - Youtube顺丰资源  US187
+      - Youtube顺丰资源  US98
+      - Youtube顺丰资源  US163
+      - Youtube顺丰资源  US66
+      - Youtube顺丰资源  US1401
+      - Youtube顺丰资源  US195
+      - Youtube顺丰资源  US161
+      - Youtube顺丰资源  US262
+      - Youtube顺丰资源  US1431
+      - Youtube顺丰资源  US128 2
+      - Youtube顺丰资源  US192
+      - Youtube顺丰资源  US130
+      - Youtube顺丰资源  US1951
+      - Youtube顺丰资源  US122
+      - Youtube顺丰资源  US148
+      - Youtube顺丰资源  US253
+      - Youtube顺丰资源  US142
+      - Youtube顺丰资源  US2091
+      - Youtube顺丰资源  US71
+      - Youtube顺丰资源  US60
+      - Youtube顺丰资源  US168
+      - Youtube顺丰资源  US85
+      - Youtube顺丰资源  US99
+      - Youtube顺丰资源  US165
+      - Youtube顺丰资源  US193 2
+      - Youtube顺丰资源  US198
+      - Youtube顺丰资源  US67
+      - Youtube顺丰资源  US2092
+      - Youtube顺丰资源  US268
+      - Youtube顺丰资源  US95
+      - Youtube顺丰资源  US1051
+      - Youtube顺丰资源  US116
+      - Youtube顺丰资源  US155
+      - Youtube顺丰资源  US154 2
+      - Youtube顺丰资源  US139
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
