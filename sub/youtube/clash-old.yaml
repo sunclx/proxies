@@ -5,399 +5,239 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  CN113, server: 183.240.179.207, port: 30112, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN81, server: gz8.wefe66.cc, port: 41454, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN11, server: 120.238.122.212, port: 35008, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN66, server: 120.238.122.212, port: 35016, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN5, server: 183.240.179.207, port: 30053, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  新加坡, server: 8.219.124.227, port: 2053, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源  CN244, server: 183.232.199.61, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN3, server: gz8.wefe66.cc, port: 41455, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN201, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 757b6db0-be90-40b1-8980-664bba40ae46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a3846d6e62ad9e8554f3399a6e361105.mobgslb.tbcache.com}, udp: true}
-  - {name: Youtube顺丰资源  CN65, server: lt4.wefe66.cc, port: 37810, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN167, server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN73, server: gz7.wefe66.cc, port: 34581, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN1, server: 183.240.179.207, port: 30055, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN12, server: 08.websetn.men, port: 21008, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 08.websetn.men, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN7, server: lt3.wefe66.cc, port: 37809, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN100, server: 183.232.199.28, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN241, server: 183.240.179.207, port: 30127, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  FR205, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtube顺丰资源  CN81, server: gz8.wefe66.cc, port: 41454, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源  CN57, server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN45, server: 17.websetn.men, port: 21017, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 17.websetn.men, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN27, server: lt3.wefe66.cc, port: 37810, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN200, server: 183.232.199.28, port: 43002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN21, server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN77, server: 183.232.199.28, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN6, server: 116.162.172.160, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}, udp: true}
-  - {name: Youtube顺丰资源  CN159, server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN20, server: lt4.wefe66.cc, port: 37812, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN1483, server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN58, server: 18.websetn.men, port: 21018, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 18.websetn.men, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN42, server: lt4.wefe66.cc, port: 37815, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN995, server: 183.232.142.179, port: 61002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN83, server: 120.238.122.212, port: 35045, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN60, server: 120.238.122.212, port: 35009, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源++CN96, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
-  - {name: Youtube顺丰资源  CN19, server: lt3.wefe66.cc, port: 37815, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN34, server: 120.238.122.212, port: 35004, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN74, server: gz5.wefe66.cc, port: 34581, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN202, server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN191, server: 120.233.42.83, port: 20206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /debian, ws-headers: {Host: data-hk-v1.usabooks.com.cn}, udp: true}
-  - {name: Youtube顺丰资源  CN59, server: 10.websetn.men, port: 21010, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 10.websetn.men, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN115, server: 120.233.42.83, port: 20207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /debian, ws-headers: {Host: 120.233.42.83}, udp: true}
-  - {name: Youtube顺丰资源  CN56, server: 120.233.204.107, port: 35048, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN174, server: 120.233.42.83, port: 20207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /debian, ws-headers: {Host: data-hk-v1.shwjfkw.cn}, udp: true}
-  - {name: Youtube顺丰资源  CN52, server: 120.233.204.107, port: 35013, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN44, server: 120.233.204.107, port: 35014, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  新加坡 2, server: 8.219.83.201, port: 2083, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN22, server: 15.websetn.men, port: 21015, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 15.websetn.men, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN72, server: lt2.wefe66.cc, port: 37810, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN98, server: gz1.wefe66.cc, port: 34581, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  新加坡 3, server: 8.219.177.205, port: 2083, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN17, server: 22.websetn.men, port: 21022, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 22.websetn.men, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN43, server: 120.233.204.107, port: 35049, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN26, server: 120.238.122.212, port: 35073, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN38, server: lt1.wefe66.cc, port: 37809, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN33, server: lt2.wefe66.cc, port: 37809, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN8, server: lt1.wefe66.cc, port: 37810, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN131, server: 120.238.122.212, port: 35005, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN130, server: 120.238.122.212, port: 35006, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN35, server: 01.websetn.men, port: 21001, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 01.websetn.men, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN110, server: 36.140.180.31, port: 25618, type: ss, cipher: aes-128-gcm, password: 8958d8d4-56e2-4643-9a17-d92a231683d9, udp: true}
-  - {name: Youtube顺丰资源  CN6 2, server: gz2.wefe66.cc, port: 34572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN21 2, server: gz7.wefe66.cc, port: 34572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  新加坡 4, server: 8.219.77.222, port: 2083, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN10, server: gz7.wefe66.cc, port: 37571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN49, server: 23.websetn.men, port: 21023, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 23.websetn.men, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国, server: ip.sb, port: 443, type: trojan, password: NISHIKUITAN222, sni: ip.sb, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN41, server: gz2.wefe66.cc, port: 37572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN75, server: gz6.wefe66.cc, port: 34581, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN63, server: 26.websetn.men, port: 21026, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 26.websetn.men, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN86, server: gz7.wefe66.cc, port: 41454, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN25, server: gz7.wefe66.cc, port: 34571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 2, server: ip.sb, port: 2053, type: trojan, password: NISHIKUITAN222, sni: ip.sb, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN67, server: gz2.wefe66.cc, port: 41454, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN40, server: lt2.wefe66.cc, port: 37812, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN18, server: gz7.wefe66.cc, port: 41455, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN37, server: lt1.wefe66.cc, port: 37812, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN87, server: gz5.wefe66.cc, port: 37572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN22 2, server: m.cnmjin.net, port: 16632, type: vmess, uuid: d9a9d508-67e1-4929-8bea-8733d5a30c93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com}, udp: true}
-  - {name: Youtube顺丰资源  CN82, server: 120.238.122.212, port: 35067, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN30, server: gz3.wefe66.cc, port: 37571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN48, server: gz3.wefe66.cc, port: 37572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN227, server: 183.240.179.207, port: 30058, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN15, server: gz3.wefe66.cc, port: 34571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN225, server: 183.232.199.28, port: 40001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN91, server: gz1.wefe66.cc, port: 37572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN107, server: 183.240.15.199, port: 40396, type: vmess, uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: Youtube顺丰资源  CN27 2, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}, udp: true}
-  - {name: Youtube顺丰资源  CN132, server: gz1.wefe66.cc, port: 34572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN9, server: gz5.wefe66.cc, port: 34571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN129, server: 120.238.122.212, port: 35019, type: vmess, uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN92, server: gz1.wefe66.cc, port: 37571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN204, server: 183.240.179.207, port: 30131, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN5, server: 183.240.179.207, port: 30053, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN101, server: 183.232.199.61, port: 61001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源  CN31, server: gz5.wefe66.cc, port: 34572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN68, server: 04.websetn.men, port: 21004, type: trojan, password: 9ed92694-94ab-4cd0-8eac-be6c5bcbeb3c, sni: 04.websetn.men, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN87, server: gz5.wefe66.cc, port: 37572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN98, server: 183.232.142.179, port: 62001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN113, server: 183.240.179.207, port: 30112, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  新加坡, server: 8.219.6.150, port: 2083, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  GB128, server: 51.145.96.134, port: 18869, type: ss, cipher: chacha20-ietf-poly1305, password: V8QywnpW9gaAwJfzkStkVp, udp: true}
+  - {name: Youtube顺丰资源  CN30, server: gz3.wefe66.cc, port: 37571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN1, server: 183.240.179.207, port: 30055, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN200, server: 183.232.199.28, port: 43002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  美国, server: 47.236.202.91, port: 2053, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  新加坡 2, server: 8.219.124.227, port: 2083, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN15, server: gz3.wefe66.cc, port: 34571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN48, server: gz3.wefe66.cc, port: 37572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN67, server: 120.233.204.126, port: 16632, type: vmess, uuid: d9a9d508-67e1-4929-8bea-8733d5a30c93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com}, udp: true}
+  - {name: Youtube顺丰资源  CN174, server: 120.233.42.83, port: 20207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /debian, ws-headers: {Host: data-hk-v1.shwjfkw.cn}, udp: true}
+  - {name: Youtube顺丰资源  CN190, server: 116.162.172.161, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}, udp: true}
+  - {name: Youtube顺丰资源  CN33, server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN176, server: 116.162.172.120, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}, udp: true}
+  - {name: Youtube顺丰资源  CN19, server: 120.233.204.126, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}, udp: true}
+  - {name: Youtube顺丰资源  CN46, server: gz4.wefe66.cc, port: 34571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN70, server: gz4.wefe66.cc, port: 37572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN55, server: gz4.wefe66.cc, port: 37571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN237, server: 183.240.179.207, port: 30038, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源  CN97, server: gz3.wefe66.cc, port: 41454, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  CN32, server: gz2.wefe66.cc, port: 41460, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  FR112, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源  GB36, server: 51.145.101.254, port: 19054, type: ss, cipher: chacha20-ietf-poly1305, password: mGUCxJURD8yHfXexvivQhJ, udp: true}
+  - {name: Youtube顺丰资源  CN110, server: 36.140.180.31, port: 25618, type: ss, cipher: aes-128-gcm, password: 8958d8d4-56e2-4643-9a17-d92a231683d9, udp: true}
+  - {name: Youtube顺丰资源  美国 2, server: "[2606:4700:3035::6815:4cc3]", port: 443, type: trojan, password: NISHIKUITAN222, sni: "[2606:4700:3035::6815:4cc3]", skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN100, server: 183.232.199.28, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN13, server: gz4.wefe66.cc, port: 41460, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN4, server: gz8.wefe66.cc, port: 34572, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN132, server: 183.232.142.179, port: 48001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN47, server: 183.232.199.61, port: 61002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN995, server: 183.232.142.179, port: 61002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN24, server: gz3.wefe66.cc, port: 41460, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  德国, server: 47.237.95.156, port: 2053, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  US269, server: 38.114.114.207, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube顺丰资源  CN202, server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  US146, server: 38.114.114.207, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源  新加坡 3, server: "[2606:4700:3030::ac43:c7e9]", port: 443, type: trojan, password: NISHIKUITAN222, sni: "[2606:4700:3030::ac43:c7e9]", skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  FR106, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Youtube顺丰资源  新加坡 4, server: 8.222.225.193, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN159, server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  新加坡 5, server: 8.219.191.110, port: 2053, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源++CN96, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
+  - {name: Youtube顺丰资源  CN9, server: gz5.wefe66.cc, port: 34571, type: vmess, uuid: 7e30cb58-91a5-4c26-8351-4dc5a4b9de2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN227, server: 183.240.179.207, port: 30058, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN113
-      - Youtube顺丰资源  CN81
-      - Youtube顺丰资源  CN11
-      - Youtube顺丰资源  CN66
-      - Youtube顺丰资源  CN5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  CN244
-      - Youtube顺丰资源  CN3
-      - Youtube顺丰资源  CN201
-      - Youtube顺丰资源  CN65
-      - Youtube顺丰资源  CN167
-      - Youtube顺丰资源  CN73
-      - Youtube顺丰资源  CN1
-      - Youtube顺丰资源  CN12
-      - Youtube顺丰资源  CN7
-      - Youtube顺丰资源  CN100
-      - Youtube顺丰资源  CN241
+      - Youtube顺丰资源  FR205
+      - Youtube顺丰资源  CN81
       - Youtube顺丰资源  CN57
-      - Youtube顺丰资源  CN45
-      - Youtube顺丰资源  CN27
-      - Youtube顺丰资源  CN200
-      - Youtube顺丰资源  CN21
-      - Youtube顺丰资源  CN77
-      - Youtube顺丰资源  CN6
-      - Youtube顺丰资源  CN159
-      - Youtube顺丰资源  CN20
-      - Youtube顺丰资源  CN1483
-      - Youtube顺丰资源  CN58
-      - Youtube顺丰资源  CN42
-      - Youtube顺丰资源  CN995
-      - Youtube顺丰资源  CN83
-      - Youtube顺丰资源  CN60
-      - Youtube顺丰资源++CN96
-      - Youtube顺丰资源  CN19
-      - Youtube顺丰资源  CN34
-      - Youtube顺丰资源  CN74
-      - Youtube顺丰资源  CN202
-      - Youtube顺丰资源  CN191
-      - Youtube顺丰资源  CN59
-      - Youtube顺丰资源  CN115
-      - Youtube顺丰资源  CN56
-      - Youtube顺丰资源  CN174
-      - Youtube顺丰资源  CN52
-      - Youtube顺丰资源  CN44
-      - Youtube顺丰资源  新加坡 2
-      - Youtube顺丰资源  CN22
-      - Youtube顺丰资源  CN72
-      - Youtube顺丰资源  CN98
-      - Youtube顺丰资源  新加坡 3
-      - Youtube顺丰资源  CN17
-      - Youtube顺丰资源  CN43
-      - Youtube顺丰资源  CN26
-      - Youtube顺丰资源  CN38
-      - Youtube顺丰资源  CN33
-      - Youtube顺丰资源  CN8
-      - Youtube顺丰资源  CN131
-      - Youtube顺丰资源  CN130
-      - Youtube顺丰资源  CN35
-      - Youtube顺丰资源  CN110
-      - Youtube顺丰资源  CN6 2
-      - Youtube顺丰资源  CN21 2
-      - Youtube顺丰资源  新加坡 4
-      - Youtube顺丰资源  CN10
-      - Youtube顺丰资源  CN49
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  CN41
-      - Youtube顺丰资源  CN75
-      - Youtube顺丰资源  CN63
-      - Youtube顺丰资源  CN86
-      - Youtube顺丰资源  CN25
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  CN67
-      - Youtube顺丰资源  CN40
-      - Youtube顺丰资源  CN18
-      - Youtube顺丰资源  CN37
-      - Youtube顺丰资源  CN87
-      - Youtube顺丰资源  CN22 2
-      - Youtube顺丰资源  CN82
-      - Youtube顺丰资源  CN30
-      - Youtube顺丰资源  CN48
-      - Youtube顺丰资源  CN227
-      - Youtube顺丰资源  CN15
-      - Youtube顺丰资源  CN225
-      - Youtube顺丰资源  CN91
-      - Youtube顺丰资源  CN107
-      - Youtube顺丰资源  CN27 2
-      - Youtube顺丰资源  CN132
-      - Youtube顺丰资源  CN9
-      - Youtube顺丰资源  CN129
-      - Youtube顺丰资源  CN92
+      - Youtube顺丰资源  CN204
+      - Youtube顺丰资源  CN5
+      - Youtube顺丰资源  CN101
       - Youtube顺丰资源  CN31
-      - Youtube顺丰资源  CN68
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN113
+      - Youtube顺丰资源  新加坡
+      - Youtube顺丰资源  GB128
+      - Youtube顺丰资源  CN30
+      - Youtube顺丰资源  CN1
+      - Youtube顺丰资源  CN200
+      - Youtube顺丰资源  美国
+      - Youtube顺丰资源  新加坡 2
+      - Youtube顺丰资源  CN15
+      - Youtube顺丰资源  CN48
+      - Youtube顺丰资源  CN67
+      - Youtube顺丰资源  CN174
+      - Youtube顺丰资源  CN190
+      - Youtube顺丰资源  CN33
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN19
+      - Youtube顺丰资源  CN46
+      - Youtube顺丰资源  CN70
+      - Youtube顺丰资源  CN55
+      - Youtube顺丰资源  CN237
       - Youtube顺丰资源  CN97
-      - Youtube顺丰资源  CN32
+      - Youtube顺丰资源  FR112
+      - Youtube顺丰资源  GB36
+      - Youtube顺丰资源  CN110
+      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN100
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN4
+      - Youtube顺丰资源  CN132
+      - Youtube顺丰资源  CN47
+      - Youtube顺丰资源  CN995
+      - Youtube顺丰资源  CN24
+      - Youtube顺丰资源  德国
+      - Youtube顺丰资源  US269
+      - Youtube顺丰资源  CN202
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  新加坡 3
+      - Youtube顺丰资源  FR106
+      - Youtube顺丰资源  新加坡 4
+      - Youtube顺丰资源  CN159
+      - Youtube顺丰资源  新加坡 5
+      - Youtube顺丰资源++CN96
+      - Youtube顺丰资源  CN9
+      - Youtube顺丰资源  CN227
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源  CN113
-      - Youtube顺丰资源  CN81
-      - Youtube顺丰资源  CN11
-      - Youtube顺丰资源  CN66
-      - Youtube顺丰资源  CN5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  CN244
-      - Youtube顺丰资源  CN3
-      - Youtube顺丰资源  CN201
-      - Youtube顺丰资源  CN65
-      - Youtube顺丰资源  CN167
-      - Youtube顺丰资源  CN73
-      - Youtube顺丰资源  CN1
-      - Youtube顺丰资源  CN12
-      - Youtube顺丰资源  CN7
-      - Youtube顺丰资源  CN100
-      - Youtube顺丰资源  CN241
+      - Youtube顺丰资源  FR205
+      - Youtube顺丰资源  CN81
       - Youtube顺丰资源  CN57
-      - Youtube顺丰资源  CN45
-      - Youtube顺丰资源  CN27
-      - Youtube顺丰资源  CN200
-      - Youtube顺丰资源  CN21
-      - Youtube顺丰资源  CN77
-      - Youtube顺丰资源  CN6
-      - Youtube顺丰资源  CN159
-      - Youtube顺丰资源  CN20
-      - Youtube顺丰资源  CN1483
-      - Youtube顺丰资源  CN58
-      - Youtube顺丰资源  CN42
-      - Youtube顺丰资源  CN995
-      - Youtube顺丰资源  CN83
-      - Youtube顺丰资源  CN60
-      - Youtube顺丰资源++CN96
-      - Youtube顺丰资源  CN19
-      - Youtube顺丰资源  CN34
-      - Youtube顺丰资源  CN74
-      - Youtube顺丰资源  CN202
-      - Youtube顺丰资源  CN191
-      - Youtube顺丰资源  CN59
-      - Youtube顺丰资源  CN115
-      - Youtube顺丰资源  CN56
-      - Youtube顺丰资源  CN174
-      - Youtube顺丰资源  CN52
-      - Youtube顺丰资源  CN44
-      - Youtube顺丰资源  新加坡 2
-      - Youtube顺丰资源  CN22
-      - Youtube顺丰资源  CN72
-      - Youtube顺丰资源  CN98
-      - Youtube顺丰资源  新加坡 3
-      - Youtube顺丰资源  CN17
-      - Youtube顺丰资源  CN43
-      - Youtube顺丰资源  CN26
-      - Youtube顺丰资源  CN38
-      - Youtube顺丰资源  CN33
-      - Youtube顺丰资源  CN8
-      - Youtube顺丰资源  CN131
-      - Youtube顺丰资源  CN130
-      - Youtube顺丰资源  CN35
-      - Youtube顺丰资源  CN110
-      - Youtube顺丰资源  CN6 2
-      - Youtube顺丰资源  CN21 2
-      - Youtube顺丰资源  新加坡 4
-      - Youtube顺丰资源  CN10
-      - Youtube顺丰资源  CN49
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  CN41
-      - Youtube顺丰资源  CN75
-      - Youtube顺丰资源  CN63
-      - Youtube顺丰资源  CN86
-      - Youtube顺丰资源  CN25
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  CN67
-      - Youtube顺丰资源  CN40
-      - Youtube顺丰资源  CN18
-      - Youtube顺丰资源  CN37
-      - Youtube顺丰资源  CN87
-      - Youtube顺丰资源  CN22 2
-      - Youtube顺丰资源  CN82
-      - Youtube顺丰资源  CN30
-      - Youtube顺丰资源  CN48
-      - Youtube顺丰资源  CN227
-      - Youtube顺丰资源  CN15
-      - Youtube顺丰资源  CN225
-      - Youtube顺丰资源  CN91
-      - Youtube顺丰资源  CN107
-      - Youtube顺丰资源  CN27 2
-      - Youtube顺丰资源  CN132
-      - Youtube顺丰资源  CN9
-      - Youtube顺丰资源  CN129
-      - Youtube顺丰资源  CN92
+      - Youtube顺丰资源  CN204
+      - Youtube顺丰资源  CN5
+      - Youtube顺丰资源  CN101
       - Youtube顺丰资源  CN31
-      - Youtube顺丰资源  CN68
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN113
+      - Youtube顺丰资源  新加坡
+      - Youtube顺丰资源  GB128
+      - Youtube顺丰资源  CN30
+      - Youtube顺丰资源  CN1
+      - Youtube顺丰资源  CN200
+      - Youtube顺丰资源  美国
+      - Youtube顺丰资源  新加坡 2
+      - Youtube顺丰资源  CN15
+      - Youtube顺丰资源  CN48
+      - Youtube顺丰资源  CN67
+      - Youtube顺丰资源  CN174
+      - Youtube顺丰资源  CN190
+      - Youtube顺丰资源  CN33
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN19
+      - Youtube顺丰资源  CN46
+      - Youtube顺丰资源  CN70
+      - Youtube顺丰资源  CN55
+      - Youtube顺丰资源  CN237
       - Youtube顺丰资源  CN97
-      - Youtube顺丰资源  CN32
+      - Youtube顺丰资源  FR112
+      - Youtube顺丰资源  GB36
+      - Youtube顺丰资源  CN110
+      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN100
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN4
+      - Youtube顺丰资源  CN132
+      - Youtube顺丰资源  CN47
+      - Youtube顺丰资源  CN995
+      - Youtube顺丰资源  CN24
+      - Youtube顺丰资源  德国
+      - Youtube顺丰资源  US269
+      - Youtube顺丰资源  CN202
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  新加坡 3
+      - Youtube顺丰资源  FR106
+      - Youtube顺丰资源  新加坡 4
+      - Youtube顺丰资源  CN159
+      - Youtube顺丰资源  新加坡 5
+      - Youtube顺丰资源++CN96
+      - Youtube顺丰资源  CN9
+      - Youtube顺丰资源  CN227
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN113
-      - Youtube顺丰资源  CN81
-      - Youtube顺丰资源  CN11
-      - Youtube顺丰资源  CN66
-      - Youtube顺丰资源  CN5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  CN244
-      - Youtube顺丰资源  CN3
-      - Youtube顺丰资源  CN201
-      - Youtube顺丰资源  CN65
-      - Youtube顺丰资源  CN167
-      - Youtube顺丰资源  CN73
-      - Youtube顺丰资源  CN1
-      - Youtube顺丰资源  CN12
-      - Youtube顺丰资源  CN7
-      - Youtube顺丰资源  CN100
-      - Youtube顺丰资源  CN241
+      - Youtube顺丰资源  FR205
+      - Youtube顺丰资源  CN81
       - Youtube顺丰资源  CN57
-      - Youtube顺丰资源  CN45
-      - Youtube顺丰资源  CN27
-      - Youtube顺丰资源  CN200
-      - Youtube顺丰资源  CN21
-      - Youtube顺丰资源  CN77
-      - Youtube顺丰资源  CN6
-      - Youtube顺丰资源  CN159
-      - Youtube顺丰资源  CN20
-      - Youtube顺丰资源  CN1483
-      - Youtube顺丰资源  CN58
-      - Youtube顺丰资源  CN42
-      - Youtube顺丰资源  CN995
-      - Youtube顺丰资源  CN83
-      - Youtube顺丰资源  CN60
-      - Youtube顺丰资源++CN96
-      - Youtube顺丰资源  CN19
-      - Youtube顺丰资源  CN34
-      - Youtube顺丰资源  CN74
-      - Youtube顺丰资源  CN202
-      - Youtube顺丰资源  CN191
-      - Youtube顺丰资源  CN59
-      - Youtube顺丰资源  CN115
-      - Youtube顺丰资源  CN56
-      - Youtube顺丰资源  CN174
-      - Youtube顺丰资源  CN52
-      - Youtube顺丰资源  CN44
-      - Youtube顺丰资源  新加坡 2
-      - Youtube顺丰资源  CN22
-      - Youtube顺丰资源  CN72
-      - Youtube顺丰资源  CN98
-      - Youtube顺丰资源  新加坡 3
-      - Youtube顺丰资源  CN17
-      - Youtube顺丰资源  CN43
-      - Youtube顺丰资源  CN26
-      - Youtube顺丰资源  CN38
-      - Youtube顺丰资源  CN33
-      - Youtube顺丰资源  CN8
-      - Youtube顺丰资源  CN131
-      - Youtube顺丰资源  CN130
-      - Youtube顺丰资源  CN35
-      - Youtube顺丰资源  CN110
-      - Youtube顺丰资源  CN6 2
-      - Youtube顺丰资源  CN21 2
-      - Youtube顺丰资源  新加坡 4
-      - Youtube顺丰资源  CN10
-      - Youtube顺丰资源  CN49
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  CN41
-      - Youtube顺丰资源  CN75
-      - Youtube顺丰资源  CN63
-      - Youtube顺丰资源  CN86
-      - Youtube顺丰资源  CN25
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  CN67
-      - Youtube顺丰资源  CN40
-      - Youtube顺丰资源  CN18
-      - Youtube顺丰资源  CN37
-      - Youtube顺丰资源  CN87
-      - Youtube顺丰资源  CN22 2
-      - Youtube顺丰资源  CN82
-      - Youtube顺丰资源  CN30
-      - Youtube顺丰资源  CN48
-      - Youtube顺丰资源  CN227
-      - Youtube顺丰资源  CN15
-      - Youtube顺丰资源  CN225
-      - Youtube顺丰资源  CN91
-      - Youtube顺丰资源  CN107
-      - Youtube顺丰资源  CN27 2
-      - Youtube顺丰资源  CN132
-      - Youtube顺丰资源  CN9
-      - Youtube顺丰资源  CN129
-      - Youtube顺丰资源  CN92
+      - Youtube顺丰资源  CN204
+      - Youtube顺丰资源  CN5
+      - Youtube顺丰资源  CN101
       - Youtube顺丰资源  CN31
-      - Youtube顺丰资源  CN68
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN113
+      - Youtube顺丰资源  新加坡
+      - Youtube顺丰资源  GB128
+      - Youtube顺丰资源  CN30
+      - Youtube顺丰资源  CN1
+      - Youtube顺丰资源  CN200
+      - Youtube顺丰资源  美国
+      - Youtube顺丰资源  新加坡 2
+      - Youtube顺丰资源  CN15
+      - Youtube顺丰资源  CN48
+      - Youtube顺丰资源  CN67
+      - Youtube顺丰资源  CN174
+      - Youtube顺丰资源  CN190
+      - Youtube顺丰资源  CN33
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN19
+      - Youtube顺丰资源  CN46
+      - Youtube顺丰资源  CN70
+      - Youtube顺丰资源  CN55
+      - Youtube顺丰资源  CN237
       - Youtube顺丰资源  CN97
-      - Youtube顺丰资源  CN32
+      - Youtube顺丰资源  FR112
+      - Youtube顺丰资源  GB36
+      - Youtube顺丰资源  CN110
+      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN100
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN4
+      - Youtube顺丰资源  CN132
+      - Youtube顺丰资源  CN47
+      - Youtube顺丰资源  CN995
+      - Youtube顺丰资源  CN24
+      - Youtube顺丰资源  德国
+      - Youtube顺丰资源  US269
+      - Youtube顺丰资源  CN202
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  新加坡 3
+      - Youtube顺丰资源  FR106
+      - Youtube顺丰资源  新加坡 4
+      - Youtube顺丰资源  CN159
+      - Youtube顺丰资源  新加坡 5
+      - Youtube顺丰资源++CN96
+      - Youtube顺丰资源  CN9
+      - Youtube顺丰资源  CN227
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -416,100 +256,60 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN113
-      - Youtube顺丰资源  CN81
-      - Youtube顺丰资源  CN11
-      - Youtube顺丰资源  CN66
-      - Youtube顺丰资源  CN5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  CN244
-      - Youtube顺丰资源  CN3
-      - Youtube顺丰资源  CN201
-      - Youtube顺丰资源  CN65
-      - Youtube顺丰资源  CN167
-      - Youtube顺丰资源  CN73
-      - Youtube顺丰资源  CN1
-      - Youtube顺丰资源  CN12
-      - Youtube顺丰资源  CN7
-      - Youtube顺丰资源  CN100
-      - Youtube顺丰资源  CN241
+      - Youtube顺丰资源  FR205
+      - Youtube顺丰资源  CN81
       - Youtube顺丰资源  CN57
-      - Youtube顺丰资源  CN45
-      - Youtube顺丰资源  CN27
-      - Youtube顺丰资源  CN200
-      - Youtube顺丰资源  CN21
-      - Youtube顺丰资源  CN77
-      - Youtube顺丰资源  CN6
-      - Youtube顺丰资源  CN159
-      - Youtube顺丰资源  CN20
-      - Youtube顺丰资源  CN1483
-      - Youtube顺丰资源  CN58
-      - Youtube顺丰资源  CN42
-      - Youtube顺丰资源  CN995
-      - Youtube顺丰资源  CN83
-      - Youtube顺丰资源  CN60
-      - Youtube顺丰资源++CN96
-      - Youtube顺丰资源  CN19
-      - Youtube顺丰资源  CN34
-      - Youtube顺丰资源  CN74
-      - Youtube顺丰资源  CN202
-      - Youtube顺丰资源  CN191
-      - Youtube顺丰资源  CN59
-      - Youtube顺丰资源  CN115
-      - Youtube顺丰资源  CN56
-      - Youtube顺丰资源  CN174
-      - Youtube顺丰资源  CN52
-      - Youtube顺丰资源  CN44
-      - Youtube顺丰资源  新加坡 2
-      - Youtube顺丰资源  CN22
-      - Youtube顺丰资源  CN72
-      - Youtube顺丰资源  CN98
-      - Youtube顺丰资源  新加坡 3
-      - Youtube顺丰资源  CN17
-      - Youtube顺丰资源  CN43
-      - Youtube顺丰资源  CN26
-      - Youtube顺丰资源  CN38
-      - Youtube顺丰资源  CN33
-      - Youtube顺丰资源  CN8
-      - Youtube顺丰资源  CN131
-      - Youtube顺丰资源  CN130
-      - Youtube顺丰资源  CN35
-      - Youtube顺丰资源  CN110
-      - Youtube顺丰资源  CN6 2
-      - Youtube顺丰资源  CN21 2
-      - Youtube顺丰资源  新加坡 4
-      - Youtube顺丰资源  CN10
-      - Youtube顺丰资源  CN49
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  CN41
-      - Youtube顺丰资源  CN75
-      - Youtube顺丰资源  CN63
-      - Youtube顺丰资源  CN86
-      - Youtube顺丰资源  CN25
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  CN67
-      - Youtube顺丰资源  CN40
-      - Youtube顺丰资源  CN18
-      - Youtube顺丰资源  CN37
-      - Youtube顺丰资源  CN87
-      - Youtube顺丰资源  CN22 2
-      - Youtube顺丰资源  CN82
-      - Youtube顺丰资源  CN30
-      - Youtube顺丰资源  CN48
-      - Youtube顺丰资源  CN227
-      - Youtube顺丰资源  CN15
-      - Youtube顺丰资源  CN225
-      - Youtube顺丰资源  CN91
-      - Youtube顺丰资源  CN107
-      - Youtube顺丰资源  CN27 2
-      - Youtube顺丰资源  CN132
-      - Youtube顺丰资源  CN9
-      - Youtube顺丰资源  CN129
-      - Youtube顺丰资源  CN92
+      - Youtube顺丰资源  CN204
+      - Youtube顺丰资源  CN5
+      - Youtube顺丰资源  CN101
       - Youtube顺丰资源  CN31
-      - Youtube顺丰资源  CN68
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN113
+      - Youtube顺丰资源  新加坡
+      - Youtube顺丰资源  GB128
+      - Youtube顺丰资源  CN30
+      - Youtube顺丰资源  CN1
+      - Youtube顺丰资源  CN200
+      - Youtube顺丰资源  美国
+      - Youtube顺丰资源  新加坡 2
+      - Youtube顺丰资源  CN15
+      - Youtube顺丰资源  CN48
+      - Youtube顺丰资源  CN67
+      - Youtube顺丰资源  CN174
+      - Youtube顺丰资源  CN190
+      - Youtube顺丰资源  CN33
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN19
+      - Youtube顺丰资源  CN46
+      - Youtube顺丰资源  CN70
+      - Youtube顺丰资源  CN55
+      - Youtube顺丰资源  CN237
       - Youtube顺丰资源  CN97
-      - Youtube顺丰资源  CN32
+      - Youtube顺丰资源  FR112
+      - Youtube顺丰资源  GB36
+      - Youtube顺丰资源  CN110
+      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN100
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN4
+      - Youtube顺丰资源  CN132
+      - Youtube顺丰资源  CN47
+      - Youtube顺丰资源  CN995
+      - Youtube顺丰资源  CN24
+      - Youtube顺丰资源  德国
+      - Youtube顺丰资源  US269
+      - Youtube顺丰资源  CN202
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  新加坡 3
+      - Youtube顺丰资源  FR106
+      - Youtube顺丰资源  新加坡 4
+      - Youtube顺丰资源  CN159
+      - Youtube顺丰资源  新加坡 5
+      - Youtube顺丰资源++CN96
+      - Youtube顺丰资源  CN9
+      - Youtube顺丰资源  CN227
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -520,299 +320,179 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源  CN113
-      - Youtube顺丰资源  CN81
-      - Youtube顺丰资源  CN11
-      - Youtube顺丰资源  CN66
-      - Youtube顺丰资源  CN5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  CN244
-      - Youtube顺丰资源  CN3
-      - Youtube顺丰资源  CN201
-      - Youtube顺丰资源  CN65
-      - Youtube顺丰资源  CN167
-      - Youtube顺丰资源  CN73
-      - Youtube顺丰资源  CN1
-      - Youtube顺丰资源  CN12
-      - Youtube顺丰资源  CN7
-      - Youtube顺丰资源  CN100
-      - Youtube顺丰资源  CN241
+      - Youtube顺丰资源  FR205
+      - Youtube顺丰资源  CN81
       - Youtube顺丰资源  CN57
-      - Youtube顺丰资源  CN45
-      - Youtube顺丰资源  CN27
-      - Youtube顺丰资源  CN200
-      - Youtube顺丰资源  CN21
-      - Youtube顺丰资源  CN77
-      - Youtube顺丰资源  CN6
-      - Youtube顺丰资源  CN159
-      - Youtube顺丰资源  CN20
-      - Youtube顺丰资源  CN1483
-      - Youtube顺丰资源  CN58
-      - Youtube顺丰资源  CN42
-      - Youtube顺丰资源  CN995
-      - Youtube顺丰资源  CN83
-      - Youtube顺丰资源  CN60
-      - Youtube顺丰资源++CN96
-      - Youtube顺丰资源  CN19
-      - Youtube顺丰资源  CN34
-      - Youtube顺丰资源  CN74
-      - Youtube顺丰资源  CN202
-      - Youtube顺丰资源  CN191
-      - Youtube顺丰资源  CN59
-      - Youtube顺丰资源  CN115
-      - Youtube顺丰资源  CN56
-      - Youtube顺丰资源  CN174
-      - Youtube顺丰资源  CN52
-      - Youtube顺丰资源  CN44
-      - Youtube顺丰资源  新加坡 2
-      - Youtube顺丰资源  CN22
-      - Youtube顺丰资源  CN72
-      - Youtube顺丰资源  CN98
-      - Youtube顺丰资源  新加坡 3
-      - Youtube顺丰资源  CN17
-      - Youtube顺丰资源  CN43
-      - Youtube顺丰资源  CN26
-      - Youtube顺丰资源  CN38
-      - Youtube顺丰资源  CN33
-      - Youtube顺丰资源  CN8
-      - Youtube顺丰资源  CN131
-      - Youtube顺丰资源  CN130
-      - Youtube顺丰资源  CN35
-      - Youtube顺丰资源  CN110
-      - Youtube顺丰资源  CN6 2
-      - Youtube顺丰资源  CN21 2
-      - Youtube顺丰资源  新加坡 4
-      - Youtube顺丰资源  CN10
-      - Youtube顺丰资源  CN49
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  CN41
-      - Youtube顺丰资源  CN75
-      - Youtube顺丰资源  CN63
-      - Youtube顺丰资源  CN86
-      - Youtube顺丰资源  CN25
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  CN67
-      - Youtube顺丰资源  CN40
-      - Youtube顺丰资源  CN18
-      - Youtube顺丰资源  CN37
-      - Youtube顺丰资源  CN87
-      - Youtube顺丰资源  CN22 2
-      - Youtube顺丰资源  CN82
-      - Youtube顺丰资源  CN30
-      - Youtube顺丰资源  CN48
-      - Youtube顺丰资源  CN227
-      - Youtube顺丰资源  CN15
-      - Youtube顺丰资源  CN225
-      - Youtube顺丰资源  CN91
-      - Youtube顺丰资源  CN107
-      - Youtube顺丰资源  CN27 2
-      - Youtube顺丰资源  CN132
-      - Youtube顺丰资源  CN9
-      - Youtube顺丰资源  CN129
-      - Youtube顺丰资源  CN92
+      - Youtube顺丰资源  CN204
+      - Youtube顺丰资源  CN5
+      - Youtube顺丰资源  CN101
       - Youtube顺丰资源  CN31
-      - Youtube顺丰资源  CN68
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN113
+      - Youtube顺丰资源  新加坡
+      - Youtube顺丰资源  GB128
+      - Youtube顺丰资源  CN30
+      - Youtube顺丰资源  CN1
+      - Youtube顺丰资源  CN200
+      - Youtube顺丰资源  美国
+      - Youtube顺丰资源  新加坡 2
+      - Youtube顺丰资源  CN15
+      - Youtube顺丰资源  CN48
+      - Youtube顺丰资源  CN67
+      - Youtube顺丰资源  CN174
+      - Youtube顺丰资源  CN190
+      - Youtube顺丰资源  CN33
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN19
+      - Youtube顺丰资源  CN46
+      - Youtube顺丰资源  CN70
+      - Youtube顺丰资源  CN55
+      - Youtube顺丰资源  CN237
       - Youtube顺丰资源  CN97
-      - Youtube顺丰资源  CN32
+      - Youtube顺丰资源  FR112
+      - Youtube顺丰资源  GB36
+      - Youtube顺丰资源  CN110
+      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN100
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN4
+      - Youtube顺丰资源  CN132
+      - Youtube顺丰资源  CN47
+      - Youtube顺丰资源  CN995
+      - Youtube顺丰资源  CN24
+      - Youtube顺丰资源  德国
+      - Youtube顺丰资源  US269
+      - Youtube顺丰资源  CN202
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  新加坡 3
+      - Youtube顺丰资源  FR106
+      - Youtube顺丰资源  新加坡 4
+      - Youtube顺丰资源  CN159
+      - Youtube顺丰资源  新加坡 5
+      - Youtube顺丰资源++CN96
+      - Youtube顺丰资源  CN9
+      - Youtube顺丰资源  CN227
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN113
-      - Youtube顺丰资源  CN81
-      - Youtube顺丰资源  CN11
-      - Youtube顺丰资源  CN66
-      - Youtube顺丰资源  CN5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  CN244
-      - Youtube顺丰资源  CN3
-      - Youtube顺丰资源  CN201
-      - Youtube顺丰资源  CN65
-      - Youtube顺丰资源  CN167
-      - Youtube顺丰资源  CN73
-      - Youtube顺丰资源  CN1
-      - Youtube顺丰资源  CN12
-      - Youtube顺丰资源  CN7
-      - Youtube顺丰资源  CN100
-      - Youtube顺丰资源  CN241
+      - Youtube顺丰资源  FR205
+      - Youtube顺丰资源  CN81
       - Youtube顺丰资源  CN57
-      - Youtube顺丰资源  CN45
-      - Youtube顺丰资源  CN27
-      - Youtube顺丰资源  CN200
-      - Youtube顺丰资源  CN21
-      - Youtube顺丰资源  CN77
-      - Youtube顺丰资源  CN6
-      - Youtube顺丰资源  CN159
-      - Youtube顺丰资源  CN20
-      - Youtube顺丰资源  CN1483
-      - Youtube顺丰资源  CN58
-      - Youtube顺丰资源  CN42
-      - Youtube顺丰资源  CN995
-      - Youtube顺丰资源  CN83
-      - Youtube顺丰资源  CN60
-      - Youtube顺丰资源++CN96
-      - Youtube顺丰资源  CN19
-      - Youtube顺丰资源  CN34
-      - Youtube顺丰资源  CN74
-      - Youtube顺丰资源  CN202
-      - Youtube顺丰资源  CN191
-      - Youtube顺丰资源  CN59
-      - Youtube顺丰资源  CN115
-      - Youtube顺丰资源  CN56
-      - Youtube顺丰资源  CN174
-      - Youtube顺丰资源  CN52
-      - Youtube顺丰资源  CN44
-      - Youtube顺丰资源  新加坡 2
-      - Youtube顺丰资源  CN22
-      - Youtube顺丰资源  CN72
-      - Youtube顺丰资源  CN98
-      - Youtube顺丰资源  新加坡 3
-      - Youtube顺丰资源  CN17
-      - Youtube顺丰资源  CN43
-      - Youtube顺丰资源  CN26
-      - Youtube顺丰资源  CN38
-      - Youtube顺丰资源  CN33
-      - Youtube顺丰资源  CN8
-      - Youtube顺丰资源  CN131
-      - Youtube顺丰资源  CN130
-      - Youtube顺丰资源  CN35
-      - Youtube顺丰资源  CN110
-      - Youtube顺丰资源  CN6 2
-      - Youtube顺丰资源  CN21 2
-      - Youtube顺丰资源  新加坡 4
-      - Youtube顺丰资源  CN10
-      - Youtube顺丰资源  CN49
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  CN41
-      - Youtube顺丰资源  CN75
-      - Youtube顺丰资源  CN63
-      - Youtube顺丰资源  CN86
-      - Youtube顺丰资源  CN25
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  CN67
-      - Youtube顺丰资源  CN40
-      - Youtube顺丰资源  CN18
-      - Youtube顺丰资源  CN37
-      - Youtube顺丰资源  CN87
-      - Youtube顺丰资源  CN22 2
-      - Youtube顺丰资源  CN82
-      - Youtube顺丰资源  CN30
-      - Youtube顺丰资源  CN48
-      - Youtube顺丰资源  CN227
-      - Youtube顺丰资源  CN15
-      - Youtube顺丰资源  CN225
-      - Youtube顺丰资源  CN91
-      - Youtube顺丰资源  CN107
-      - Youtube顺丰资源  CN27 2
-      - Youtube顺丰资源  CN132
-      - Youtube顺丰资源  CN9
-      - Youtube顺丰资源  CN129
-      - Youtube顺丰资源  CN92
+      - Youtube顺丰资源  CN204
+      - Youtube顺丰资源  CN5
+      - Youtube顺丰资源  CN101
       - Youtube顺丰资源  CN31
-      - Youtube顺丰资源  CN68
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN113
+      - Youtube顺丰资源  新加坡
+      - Youtube顺丰资源  GB128
+      - Youtube顺丰资源  CN30
+      - Youtube顺丰资源  CN1
+      - Youtube顺丰资源  CN200
+      - Youtube顺丰资源  美国
+      - Youtube顺丰资源  新加坡 2
+      - Youtube顺丰资源  CN15
+      - Youtube顺丰资源  CN48
+      - Youtube顺丰资源  CN67
+      - Youtube顺丰资源  CN174
+      - Youtube顺丰资源  CN190
+      - Youtube顺丰资源  CN33
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN19
+      - Youtube顺丰资源  CN46
+      - Youtube顺丰资源  CN70
+      - Youtube顺丰资源  CN55
+      - Youtube顺丰资源  CN237
       - Youtube顺丰资源  CN97
-      - Youtube顺丰资源  CN32
+      - Youtube顺丰资源  FR112
+      - Youtube顺丰资源  GB36
+      - Youtube顺丰资源  CN110
+      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN100
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN4
+      - Youtube顺丰资源  CN132
+      - Youtube顺丰资源  CN47
+      - Youtube顺丰资源  CN995
+      - Youtube顺丰资源  CN24
+      - Youtube顺丰资源  德国
+      - Youtube顺丰资源  US269
+      - Youtube顺丰资源  CN202
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  新加坡 3
+      - Youtube顺丰资源  FR106
+      - Youtube顺丰资源  新加坡 4
+      - Youtube顺丰资源  CN159
+      - Youtube顺丰资源  新加坡 5
+      - Youtube顺丰资源++CN96
+      - Youtube顺丰资源  CN9
+      - Youtube顺丰资源  CN227
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  CN113
-      - Youtube顺丰资源  CN81
-      - Youtube顺丰资源  CN11
-      - Youtube顺丰资源  CN66
-      - Youtube顺丰资源  CN5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  CN244
-      - Youtube顺丰资源  CN3
-      - Youtube顺丰资源  CN201
-      - Youtube顺丰资源  CN65
-      - Youtube顺丰资源  CN167
-      - Youtube顺丰资源  CN73
-      - Youtube顺丰资源  CN1
-      - Youtube顺丰资源  CN12
-      - Youtube顺丰资源  CN7
-      - Youtube顺丰资源  CN100
-      - Youtube顺丰资源  CN241
+      - Youtube顺丰资源  FR205
+      - Youtube顺丰资源  CN81
       - Youtube顺丰资源  CN57
-      - Youtube顺丰资源  CN45
-      - Youtube顺丰资源  CN27
-      - Youtube顺丰资源  CN200
-      - Youtube顺丰资源  CN21
-      - Youtube顺丰资源  CN77
-      - Youtube顺丰资源  CN6
-      - Youtube顺丰资源  CN159
-      - Youtube顺丰资源  CN20
-      - Youtube顺丰资源  CN1483
-      - Youtube顺丰资源  CN58
-      - Youtube顺丰资源  CN42
-      - Youtube顺丰资源  CN995
-      - Youtube顺丰资源  CN83
-      - Youtube顺丰资源  CN60
-      - Youtube顺丰资源++CN96
-      - Youtube顺丰资源  CN19
-      - Youtube顺丰资源  CN34
-      - Youtube顺丰资源  CN74
-      - Youtube顺丰资源  CN202
-      - Youtube顺丰资源  CN191
-      - Youtube顺丰资源  CN59
-      - Youtube顺丰资源  CN115
-      - Youtube顺丰资源  CN56
-      - Youtube顺丰资源  CN174
-      - Youtube顺丰资源  CN52
-      - Youtube顺丰资源  CN44
-      - Youtube顺丰资源  新加坡 2
-      - Youtube顺丰资源  CN22
-      - Youtube顺丰资源  CN72
-      - Youtube顺丰资源  CN98
-      - Youtube顺丰资源  新加坡 3
-      - Youtube顺丰资源  CN17
-      - Youtube顺丰资源  CN43
-      - Youtube顺丰资源  CN26
-      - Youtube顺丰资源  CN38
-      - Youtube顺丰资源  CN33
-      - Youtube顺丰资源  CN8
-      - Youtube顺丰资源  CN131
-      - Youtube顺丰资源  CN130
-      - Youtube顺丰资源  CN35
-      - Youtube顺丰资源  CN110
-      - Youtube顺丰资源  CN6 2
-      - Youtube顺丰资源  CN21 2
-      - Youtube顺丰资源  新加坡 4
-      - Youtube顺丰资源  CN10
-      - Youtube顺丰资源  CN49
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  CN41
-      - Youtube顺丰资源  CN75
-      - Youtube顺丰资源  CN63
-      - Youtube顺丰资源  CN86
-      - Youtube顺丰资源  CN25
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  CN67
-      - Youtube顺丰资源  CN40
-      - Youtube顺丰资源  CN18
-      - Youtube顺丰资源  CN37
-      - Youtube顺丰资源  CN87
-      - Youtube顺丰资源  CN22 2
-      - Youtube顺丰资源  CN82
-      - Youtube顺丰资源  CN30
-      - Youtube顺丰资源  CN48
-      - Youtube顺丰资源  CN227
-      - Youtube顺丰资源  CN15
-      - Youtube顺丰资源  CN225
-      - Youtube顺丰资源  CN91
-      - Youtube顺丰资源  CN107
-      - Youtube顺丰资源  CN27 2
-      - Youtube顺丰资源  CN132
-      - Youtube顺丰资源  CN9
-      - Youtube顺丰资源  CN129
-      - Youtube顺丰资源  CN92
+      - Youtube顺丰资源  CN204
+      - Youtube顺丰资源  CN5
+      - Youtube顺丰资源  CN101
       - Youtube顺丰资源  CN31
-      - Youtube顺丰资源  CN68
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN113
+      - Youtube顺丰资源  新加坡
+      - Youtube顺丰资源  GB128
+      - Youtube顺丰资源  CN30
+      - Youtube顺丰资源  CN1
+      - Youtube顺丰资源  CN200
+      - Youtube顺丰资源  美国
+      - Youtube顺丰资源  新加坡 2
+      - Youtube顺丰资源  CN15
+      - Youtube顺丰资源  CN48
+      - Youtube顺丰资源  CN67
+      - Youtube顺丰资源  CN174
+      - Youtube顺丰资源  CN190
+      - Youtube顺丰资源  CN33
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN19
+      - Youtube顺丰资源  CN46
+      - Youtube顺丰资源  CN70
+      - Youtube顺丰资源  CN55
+      - Youtube顺丰资源  CN237
       - Youtube顺丰资源  CN97
-      - Youtube顺丰资源  CN32
+      - Youtube顺丰资源  FR112
+      - Youtube顺丰资源  GB36
+      - Youtube顺丰资源  CN110
+      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN100
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN4
+      - Youtube顺丰资源  CN132
+      - Youtube顺丰资源  CN47
+      - Youtube顺丰资源  CN995
+      - Youtube顺丰资源  CN24
+      - Youtube顺丰资源  德国
+      - Youtube顺丰资源  US269
+      - Youtube顺丰资源  CN202
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  新加坡 3
+      - Youtube顺丰资源  FR106
+      - Youtube顺丰资源  新加坡 4
+      - Youtube顺丰资源  CN159
+      - Youtube顺丰资源  新加坡 5
+      - Youtube顺丰资源++CN96
+      - Youtube顺丰资源  CN9
+      - Youtube顺丰资源  CN227
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -828,100 +508,60 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  CN113
-      - Youtube顺丰资源  CN81
-      - Youtube顺丰资源  CN11
-      - Youtube顺丰资源  CN66
-      - Youtube顺丰资源  CN5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  CN244
-      - Youtube顺丰资源  CN3
-      - Youtube顺丰资源  CN201
-      - Youtube顺丰资源  CN65
-      - Youtube顺丰资源  CN167
-      - Youtube顺丰资源  CN73
-      - Youtube顺丰资源  CN1
-      - Youtube顺丰资源  CN12
-      - Youtube顺丰资源  CN7
-      - Youtube顺丰资源  CN100
-      - Youtube顺丰资源  CN241
+      - Youtube顺丰资源  FR205
+      - Youtube顺丰资源  CN81
       - Youtube顺丰资源  CN57
-      - Youtube顺丰资源  CN45
-      - Youtube顺丰资源  CN27
-      - Youtube顺丰资源  CN200
-      - Youtube顺丰资源  CN21
-      - Youtube顺丰资源  CN77
-      - Youtube顺丰资源  CN6
-      - Youtube顺丰资源  CN159
-      - Youtube顺丰资源  CN20
-      - Youtube顺丰资源  CN1483
-      - Youtube顺丰资源  CN58
-      - Youtube顺丰资源  CN42
-      - Youtube顺丰资源  CN995
-      - Youtube顺丰资源  CN83
-      - Youtube顺丰资源  CN60
-      - Youtube顺丰资源++CN96
-      - Youtube顺丰资源  CN19
-      - Youtube顺丰资源  CN34
-      - Youtube顺丰资源  CN74
-      - Youtube顺丰资源  CN202
-      - Youtube顺丰资源  CN191
-      - Youtube顺丰资源  CN59
-      - Youtube顺丰资源  CN115
-      - Youtube顺丰资源  CN56
-      - Youtube顺丰资源  CN174
-      - Youtube顺丰资源  CN52
-      - Youtube顺丰资源  CN44
-      - Youtube顺丰资源  新加坡 2
-      - Youtube顺丰资源  CN22
-      - Youtube顺丰资源  CN72
-      - Youtube顺丰资源  CN98
-      - Youtube顺丰资源  新加坡 3
-      - Youtube顺丰资源  CN17
-      - Youtube顺丰资源  CN43
-      - Youtube顺丰资源  CN26
-      - Youtube顺丰资源  CN38
-      - Youtube顺丰资源  CN33
-      - Youtube顺丰资源  CN8
-      - Youtube顺丰资源  CN131
-      - Youtube顺丰资源  CN130
-      - Youtube顺丰资源  CN35
-      - Youtube顺丰资源  CN110
-      - Youtube顺丰资源  CN6 2
-      - Youtube顺丰资源  CN21 2
-      - Youtube顺丰资源  新加坡 4
-      - Youtube顺丰资源  CN10
-      - Youtube顺丰资源  CN49
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  CN41
-      - Youtube顺丰资源  CN75
-      - Youtube顺丰资源  CN63
-      - Youtube顺丰资源  CN86
-      - Youtube顺丰资源  CN25
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  CN67
-      - Youtube顺丰资源  CN40
-      - Youtube顺丰资源  CN18
-      - Youtube顺丰资源  CN37
-      - Youtube顺丰资源  CN87
-      - Youtube顺丰资源  CN22 2
-      - Youtube顺丰资源  CN82
-      - Youtube顺丰资源  CN30
-      - Youtube顺丰资源  CN48
-      - Youtube顺丰资源  CN227
-      - Youtube顺丰资源  CN15
-      - Youtube顺丰资源  CN225
-      - Youtube顺丰资源  CN91
-      - Youtube顺丰资源  CN107
-      - Youtube顺丰资源  CN27 2
-      - Youtube顺丰资源  CN132
-      - Youtube顺丰资源  CN9
-      - Youtube顺丰资源  CN129
-      - Youtube顺丰资源  CN92
+      - Youtube顺丰资源  CN204
+      - Youtube顺丰资源  CN5
+      - Youtube顺丰资源  CN101
       - Youtube顺丰资源  CN31
-      - Youtube顺丰资源  CN68
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN113
+      - Youtube顺丰资源  新加坡
+      - Youtube顺丰资源  GB128
+      - Youtube顺丰资源  CN30
+      - Youtube顺丰资源  CN1
+      - Youtube顺丰资源  CN200
+      - Youtube顺丰资源  美国
+      - Youtube顺丰资源  新加坡 2
+      - Youtube顺丰资源  CN15
+      - Youtube顺丰资源  CN48
+      - Youtube顺丰资源  CN67
+      - Youtube顺丰资源  CN174
+      - Youtube顺丰资源  CN190
+      - Youtube顺丰资源  CN33
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN19
+      - Youtube顺丰资源  CN46
+      - Youtube顺丰资源  CN70
+      - Youtube顺丰资源  CN55
+      - Youtube顺丰资源  CN237
       - Youtube顺丰资源  CN97
-      - Youtube顺丰资源  CN32
+      - Youtube顺丰资源  FR112
+      - Youtube顺丰资源  GB36
+      - Youtube顺丰资源  CN110
+      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN100
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN4
+      - Youtube顺丰资源  CN132
+      - Youtube顺丰资源  CN47
+      - Youtube顺丰资源  CN995
+      - Youtube顺丰资源  CN24
+      - Youtube顺丰资源  德国
+      - Youtube顺丰资源  US269
+      - Youtube顺丰资源  CN202
+      - Youtube顺丰资源  US146
+      - Youtube顺丰资源  新加坡 3
+      - Youtube顺丰资源  FR106
+      - Youtube顺丰资源  新加坡 4
+      - Youtube顺丰资源  CN159
+      - Youtube顺丰资源  新加坡 5
+      - Youtube顺丰资源++CN96
+      - Youtube顺丰资源  CN9
+      - Youtube顺丰资源  CN227
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
