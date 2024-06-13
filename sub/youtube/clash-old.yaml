@@ -5,17 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  美国, server: 168.138.171.185, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 2, server: 8.219.104.37, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 3, server: "[2606:4700:3035::6815:4cc3]", port: 443, type: trojan, password: NISHIKUITAN222, sni: "[2606:4700:3035::6815:4cc3]", skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  VN51, server: 103.72.69.192, port: 80, type: vmess, uuid: 0a49904d-abfa-4cdc-ad4d-d083f2761960, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpngiangon.com, ws-headers: {Host: dl.kgvn.garenanow.com}, udp: true}
-  - {name: Youtube顺丰资源  美国 4, server: 8.222.164.209, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 5, server: 8.222.191.138, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  新加坡, server: 43.153.80.208, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 6, server: 8.219.174.142, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 7, server: 47.236.17.193, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  美国, server: 47.236.93.176, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN34, server: 183.232.199.28, port: 43002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  美国 2, server: 47.236.180.24, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  FR260, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源  韩国, server: 61.247.83.116, port: 39308, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  ZA6, server: 206.238.236.36, port: 80, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /gwdef.sbs/linkws, ws-headers: {Host: mysan2.jaquay22.workers.dev}, udp: true}
+  - {name: Youtube顺丰资源  GB241, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: Youtube顺丰资源  美国 3, server: 47.236.174.206, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  美国 4, server: 8.219.177.205, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  美国 5, server: 8.219.194.170, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  美国 6, server: 47.237.84.173, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  美国 7, server: 8.219.199.220, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源  FR97, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: Youtube顺丰资源  SG2, server: 139.162.30.154, port: 80, type: vmess, uuid: 0a49904d-abfa-4cdc-ad4d-d083f2761960, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpngiangon.com, ws-headers: {Host: dl.kgvn.garenanow.com}, udp: true}
+  - {name: Youtube顺丰资源  美国 8, server: 8.219.142.191, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  韩国 2, server: 125.139.249.241, port: 17057, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  PL103, server: 51.77.53.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtube顺丰资源  美国 9, server: 47.236.180.51, port: 8443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -23,32 +29,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Youtube顺丰资源  美国
+      - Youtube顺丰资源  CN34
       - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  FR260
+      - Youtube顺丰资源  韩国
+      - Youtube顺丰资源  ZA6
+      - Youtube顺丰资源  GB241
       - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  VN51
       - Youtube顺丰资源  美国 4
       - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  美国 6
       - Youtube顺丰资源  美国 7
       - Youtube顺丰资源  FR97
-      - Youtube顺丰资源  SG2
+      - Youtube顺丰资源  美国 8
+      - Youtube顺丰资源  韩国 2
+      - Youtube顺丰资源  PL103
+      - Youtube顺丰资源  美国 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - Youtube顺丰资源  美国
+      - Youtube顺丰资源  CN34
       - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  FR260
+      - Youtube顺丰资源  韩国
+      - Youtube顺丰资源  ZA6
+      - Youtube顺丰资源  GB241
       - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  VN51
       - Youtube顺丰资源  美国 4
       - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  美国 6
       - Youtube顺丰资源  美国 7
       - Youtube顺丰资源  FR97
-      - Youtube顺丰资源  SG2
+      - Youtube顺丰资源  美国 8
+      - Youtube顺丰资源  韩国 2
+      - Youtube顺丰资源  PL103
+      - Youtube顺丰资源  美国 9
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -56,16 +74,22 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Youtube顺丰资源  美国
+      - Youtube顺丰资源  CN34
       - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  FR260
+      - Youtube顺丰资源  韩国
+      - Youtube顺丰资源  ZA6
+      - Youtube顺丰资源  GB241
       - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  VN51
       - Youtube顺丰资源  美国 4
       - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  美国 6
       - Youtube顺丰资源  美国 7
       - Youtube顺丰资源  FR97
-      - Youtube顺丰资源  SG2
+      - Youtube顺丰资源  美国 8
+      - Youtube顺丰资源  韩国 2
+      - Youtube顺丰资源  PL103
+      - Youtube顺丰资源  美国 9
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -85,16 +109,22 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Youtube顺丰资源  美国
+      - Youtube顺丰资源  CN34
       - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  FR260
+      - Youtube顺丰资源  韩国
+      - Youtube顺丰资源  ZA6
+      - Youtube顺丰资源  GB241
       - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  VN51
       - Youtube顺丰资源  美国 4
       - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  美国 6
       - Youtube顺丰资源  美国 7
       - Youtube顺丰资源  FR97
-      - Youtube顺丰资源  SG2
+      - Youtube顺丰资源  美国 8
+      - Youtube顺丰资源  韩国 2
+      - Youtube顺丰资源  PL103
+      - Youtube顺丰资源  美国 9
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -106,32 +136,44 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - Youtube顺丰资源  美国
+      - Youtube顺丰资源  CN34
       - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  FR260
+      - Youtube顺丰资源  韩国
+      - Youtube顺丰资源  ZA6
+      - Youtube顺丰资源  GB241
       - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  VN51
       - Youtube顺丰资源  美国 4
       - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  美国 6
       - Youtube顺丰资源  美国 7
       - Youtube顺丰资源  FR97
-      - Youtube顺丰资源  SG2
+      - Youtube顺丰资源  美国 8
+      - Youtube顺丰资源  韩国 2
+      - Youtube顺丰资源  PL103
+      - Youtube顺丰资源  美国 9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - Youtube顺丰资源  美国
+      - Youtube顺丰资源  CN34
       - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  FR260
+      - Youtube顺丰资源  韩国
+      - Youtube顺丰资源  ZA6
+      - Youtube顺丰资源  GB241
       - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  VN51
       - Youtube顺丰资源  美国 4
       - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  美国 6
       - Youtube顺丰资源  美国 7
       - Youtube顺丰资源  FR97
-      - Youtube顺丰资源  SG2
+      - Youtube顺丰资源  美国 8
+      - Youtube顺丰资源  韩国 2
+      - Youtube顺丰资源  PL103
+      - Youtube顺丰资源  美国 9
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -139,16 +181,22 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Youtube顺丰资源  美国
+      - Youtube顺丰资源  CN34
       - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  FR260
+      - Youtube顺丰资源  韩国
+      - Youtube顺丰资源  ZA6
+      - Youtube顺丰资源  GB241
       - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  VN51
       - Youtube顺丰资源  美国 4
       - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  美国 6
       - Youtube顺丰资源  美国 7
       - Youtube顺丰资源  FR97
-      - Youtube顺丰资源  SG2
+      - Youtube顺丰资源  美国 8
+      - Youtube顺丰资源  韩国 2
+      - Youtube顺丰资源  PL103
+      - Youtube顺丰资源  美国 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,16 +213,22 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Youtube顺丰资源  美国
+      - Youtube顺丰资源  CN34
       - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  FR260
+      - Youtube顺丰资源  韩国
+      - Youtube顺丰资源  ZA6
+      - Youtube顺丰资源  GB241
       - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  VN51
       - Youtube顺丰资源  美国 4
       - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  新加坡
       - Youtube顺丰资源  美国 6
       - Youtube顺丰资源  美国 7
       - Youtube顺丰资源  FR97
-      - Youtube顺丰资源  SG2
+      - Youtube顺丰资源  美国 8
+      - Youtube顺丰资源  韩国 2
+      - Youtube顺丰资源  PL103
+      - Youtube顺丰资源  美国 9
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
