@@ -5,51 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  美国, server: 172.93.188.140, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 2, server: 43.156.116.194, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 3, server: 138.2.104.102, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 4, server: 47.236.146.249, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 5, server: 138.2.99.97, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  FR202, server: 149.202.82.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube顺丰资源  美国 6, server: 47.236.145.85, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN135, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  美国 4
-      - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  FR202
-      - Youtube顺丰资源  美国 6
+      - Youtube顺丰资源  CN135
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  美国 4
-      - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  FR202
-      - Youtube顺丰资源  美国 6
+      - Youtube顺丰资源  CN135
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  美国 4
-      - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  FR202
-      - Youtube顺丰资源  美国 6
+      - Youtube顺丰资源  CN135
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,13 +44,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  美国 4
-      - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  FR202
-      - Youtube顺丰资源  美国 6
+      - Youtube顺丰资源  CN135
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -85,38 +55,20 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  美国 4
-      - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  FR202
-      - Youtube顺丰资源  美国 6
+      - Youtube顺丰资源  CN135
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  美国 4
-      - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  FR202
-      - Youtube顺丰资源  美国 6
+      - Youtube顺丰资源  CN135
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  美国 4
-      - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  FR202
-      - Youtube顺丰资源  美国 6
+      - Youtube顺丰资源  CN135
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,13 +84,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
-      - Youtube顺丰资源  美国 3
-      - Youtube顺丰资源  美国 4
-      - Youtube顺丰资源  美国 5
-      - Youtube顺丰资源  FR202
-      - Youtube顺丰资源  美国 6
+      - Youtube顺丰资源  CN135
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
