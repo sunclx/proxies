@@ -5,27 +5,31 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  CN135, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
+  - {name: Youtube顺丰资源  PL233, server: 51.77.53.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtube顺丰资源  CN6, server: 116.162.172.160, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN135
+      - Youtube顺丰资源  PL233
+      - Youtube顺丰资源  CN6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源  CN135
+      - Youtube顺丰资源  PL233
+      - Youtube顺丰资源  CN6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN135
+      - Youtube顺丰资源  PL233
+      - Youtube顺丰资源  CN6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -44,7 +48,8 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN135
+      - Youtube顺丰资源  PL233
+      - Youtube顺丰资源  CN6
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -55,20 +60,23 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源  CN135
+      - Youtube顺丰资源  PL233
+      - Youtube顺丰资源  CN6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN135
+      - Youtube顺丰资源  PL233
+      - Youtube顺丰资源  CN6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  CN135
+      - Youtube顺丰资源  PL233
+      - Youtube顺丰资源  CN6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,7 +92,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  CN135
+      - Youtube顺丰资源  PL233
+      - Youtube顺丰资源  CN6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
