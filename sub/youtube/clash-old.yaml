@@ -5,6 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Youtube顺丰资源  美国125, server: 23.157.40.102, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: Youtube顺丰资源  中国76, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 120.232.240.56}, udp: true}
+  - {name: Youtube顺丰资源  美国79, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip11.freegradely.xyz}, udp: true}
   - {name: Youtube顺丰资源  CN46, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -12,12 +15,18 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Youtube顺丰资源  美国125
+      - Youtube顺丰资源  中国76
+      - Youtube顺丰资源  美国79
       - Youtube顺丰资源  CN46
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Youtube顺丰资源  美国125
+      - Youtube顺丰资源  中国76
+      - Youtube顺丰资源  美国79
       - Youtube顺丰资源  CN46
   - name: 🎥 NETFLIX
     type: select
@@ -25,6 +34,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Youtube顺丰资源  美国125
+      - Youtube顺丰资源  中国76
+      - Youtube顺丰资源  美国79
       - Youtube顺丰资源  CN46
   - name: ⛔️ 广告拦截
     type: select
@@ -44,6 +56,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Youtube顺丰资源  美国125
+      - Youtube顺丰资源  中国76
+      - Youtube顺丰资源  美国79
       - Youtube顺丰资源  CN46
   - name: 🌏 国内媒体
     type: select
@@ -55,12 +70,18 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Youtube顺丰资源  美国125
+      - Youtube顺丰资源  中国76
+      - Youtube顺丰资源  美国79
       - Youtube顺丰资源  CN46
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Youtube顺丰资源  美国125
+      - Youtube顺丰资源  中国76
+      - Youtube顺丰资源  美国79
       - Youtube顺丰资源  CN46
   - name: 🍎 苹果服务
     type: select
@@ -68,6 +89,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Youtube顺丰资源  美国125
+      - Youtube顺丰资源  中国76
+      - Youtube顺丰资源  美国79
       - Youtube顺丰资源  CN46
   - name: 🎯 全球直连
     type: select
@@ -84,6 +108,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Youtube顺丰资源  美国125
+      - Youtube顺丰资源  中国76
+      - Youtube顺丰资源  美国79
       - Youtube顺丰资源  CN46
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
