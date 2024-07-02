@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  美国, server: 34.48.100.4, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  美国, server: 34.82.76.253, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
