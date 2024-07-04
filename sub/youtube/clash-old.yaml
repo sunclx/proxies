@@ -5,31 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源  美国, server: 34.147.231.33, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源  美国 2, server: 34.135.226.181, port: 443, type: trojan, password: NISHIKUITAN222, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN45, server: scm.zarelayv1.com, port: 59000, type: trojan, password: 2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2, sni: scm.zarelayv1.com, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN95, server: ydyh1.nanbeicloud.top, port: 26904, type: ss, cipher: chacha20-ietf-poly1305, password: ac832954-90e6-4930-b52f-31e18ff9fa8e, udp: true}
+  - {name: Youtube顺丰资源  CN176, server: ecu.zarelay.com, port: 42658, type: trojan, password: 2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2, sni: ecu.zarelay.com, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN85, server: ydyh1.nanbeicloud.top, port: 26909, type: ss, cipher: chacha20-ietf-poly1305, password: ac832954-90e6-4930-b52f-31e18ff9fa8e, udp: true}
+  - {name: Youtube顺丰资源  CN63, server: ydyh1.nanbeicloud.top, port: 26901, type: ss, cipher: chacha20-ietf-poly1305, password: ac832954-90e6-4930-b52f-31e18ff9fa8e, udp: true}
+  - {name: Youtube顺丰资源  CN155, server: scm.zarelayv1.com, port: 53000, type: trojan, password: 2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2, sni: scm.zarelayv1.com, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN87, server: ecu.zarelay.com, port: 46882, type: trojan, password: 2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2, sni: ecu.zarelay.com, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN13, server: ecu.zarelay.com, port: 40804, type: trojan, password: 2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2, sni: ecu.zarelay.com, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN130, server: ydyh1.nanbeicloud.top, port: 26912, type: ss, cipher: chacha20-ietf-poly1305, password: ac832954-90e6-4930-b52f-31e18ff9fa8e, udp: true}
+  - {name: Youtube顺丰资源  CN81, server: ydyh1.nanbeicloud.top, port: 26908, type: ss, cipher: chacha20-ietf-poly1305, password: ac832954-90e6-4930-b52f-31e18ff9fa8e, udp: true}
+  - {name: Youtube顺丰资源  CN98, server: ydyh1.nanbeicloud.top, port: 26902, type: ss, cipher: chacha20-ietf-poly1305, password: ac832954-90e6-4930-b52f-31e18ff9fa8e, udp: true}
+  - {name: Youtube顺丰资源  CN90, server: ecu.zarelay.com, port: 43699, type: trojan, password: 2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2, sni: ecu.zarelay.com, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN198, server: ecu.zarelay.com, port: 30800, type: trojan, password: 2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2, sni: ecu.zarelay.com, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN7, server: ydyh1.nanbeicloud.top, port: 26913, type: ss, cipher: chacha20-ietf-poly1305, password: ac832954-90e6-4930-b52f-31e18ff9fa8e, udp: true}
+  - {name: Youtube顺丰资源  CN248, server: scm.zarelayv1.com, port: 39874, type: trojan, password: 2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2, sni: scm.zarelayv1.com, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  CN109, server: ecu.zarelay.com, port: 30801, type: trojan, password: 2baa2d43-b564-3b1f-92c7-c6fa1ff7e0a2, sni: ecu.zarelay.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN45
+      - Youtube顺丰资源  CN95
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN85
+      - Youtube顺丰资源  CN63
+      - Youtube顺丰资源  CN155
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN130
+      - Youtube顺丰资源  CN81
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN90
+      - Youtube顺丰资源  CN198
+      - Youtube顺丰资源  CN7
+      - Youtube顺丰资源  CN248
+      - Youtube顺丰资源  CN109
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN45
+      - Youtube顺丰资源  CN95
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN85
+      - Youtube顺丰资源  CN63
+      - Youtube顺丰资源  CN155
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN130
+      - Youtube顺丰资源  CN81
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN90
+      - Youtube顺丰资源  CN198
+      - Youtube顺丰资源  CN7
+      - Youtube顺丰资源  CN248
+      - Youtube顺丰资源  CN109
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN45
+      - Youtube顺丰资源  CN95
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN85
+      - Youtube顺丰资源  CN63
+      - Youtube顺丰资源  CN155
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN130
+      - Youtube顺丰资源  CN81
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN90
+      - Youtube顺丰资源  CN198
+      - Youtube顺丰资源  CN7
+      - Youtube顺丰资源  CN248
+      - Youtube顺丰资源  CN109
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -48,8 +104,22 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN45
+      - Youtube顺丰资源  CN95
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN85
+      - Youtube顺丰资源  CN63
+      - Youtube顺丰资源  CN155
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN130
+      - Youtube顺丰资源  CN81
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN90
+      - Youtube顺丰资源  CN198
+      - Youtube顺丰资源  CN7
+      - Youtube顺丰资源  CN248
+      - Youtube顺丰资源  CN109
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -60,23 +130,65 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN45
+      - Youtube顺丰资源  CN95
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN85
+      - Youtube顺丰资源  CN63
+      - Youtube顺丰资源  CN155
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN130
+      - Youtube顺丰资源  CN81
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN90
+      - Youtube顺丰资源  CN198
+      - Youtube顺丰资源  CN7
+      - Youtube顺丰资源  CN248
+      - Youtube顺丰资源  CN109
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN45
+      - Youtube顺丰资源  CN95
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN85
+      - Youtube顺丰资源  CN63
+      - Youtube顺丰资源  CN155
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN130
+      - Youtube顺丰资源  CN81
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN90
+      - Youtube顺丰资源  CN198
+      - Youtube顺丰资源  CN7
+      - Youtube顺丰资源  CN248
+      - Youtube顺丰资源  CN109
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN45
+      - Youtube顺丰资源  CN95
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN85
+      - Youtube顺丰资源  CN63
+      - Youtube顺丰资源  CN155
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN130
+      - Youtube顺丰资源  CN81
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN90
+      - Youtube顺丰资源  CN198
+      - Youtube顺丰资源  CN7
+      - Youtube顺丰资源  CN248
+      - Youtube顺丰资源  CN109
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -92,8 +204,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  美国
-      - Youtube顺丰资源  美国 2
+      - Youtube顺丰资源  CN45
+      - Youtube顺丰资源  CN95
+      - Youtube顺丰资源  CN176
+      - Youtube顺丰资源  CN85
+      - Youtube顺丰资源  CN63
+      - Youtube顺丰资源  CN155
+      - Youtube顺丰资源  CN87
+      - Youtube顺丰资源  CN13
+      - Youtube顺丰资源  CN130
+      - Youtube顺丰资源  CN81
+      - Youtube顺丰资源  CN98
+      - Youtube顺丰资源  CN90
+      - Youtube顺丰资源  CN198
+      - Youtube顺丰资源  CN7
+      - Youtube顺丰资源  CN248
+      - Youtube顺丰资源  CN109
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
